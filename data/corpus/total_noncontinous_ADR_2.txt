@@ -1,0 +1,1002 @@
+T1	ADR 55 59;60 68	body swelling
+T8	ADR 60 68;70 74	swelling face
+T9	ADR 60 68;76 82	swelling wrists
+T10	ADR 60 68;84 91	swelling abdomen
+T11	ADR 60 68;93 99	swelling thighs
+T3	ADR 58 73;98 123	uterine, cramps (menopausal for 20 years)
+T7	ADR 78 97;98 123	pain in the ovaries (menopausal for 20 years)
+T3	ADR 169 178;191 214	affecting my stomach(acid reflux)
+T1	ADR 169 178;179 189	affecting my kidneys
+T7	ADR 60 73;93 100	ulceration of stomach
+T5	ADR 60 73;74 88	ulceration of the osophragus
+T9	ADR 385 392;407 416	feeling depressed
+T8	ADR 385 392;393 401	feeling exausted
+T2	ADR 310 322;323 328	couldnt pass urine
+T6	ADR 323 328;357 370	urine full of blood
+T6	ADR 168 184;193 197;209 225	menstrual cramps with vaginal bleeding
+T7	ADR 168 184;201 208;209 225	menstrual cramps without vaginal bleeding
+T1	ADR 35 49;75 92	blood pressure slightly elevated
+T3	ADR 126 132;175 182	period another
+T10	ADR 509 515;522 526	muscle pain
+T15	ADR 516 521;522 526	joint pain
+T8	ADR 135 165;87 129	bleeding several times a month menstrual cycle is completely out of whack
+T1	ADR 39 53;63 67	intense pelvic pain
+T2	ADR 58 62;63 67	back pain
+T6	ADR 152 161;166 181	abdominal cramps and pain
+T4	ADR 152 161;162 165	abdominal gas
+T13	ADR 466 475;480 486	abdominal cramps
+T17	ADR 466 475;491 501	abdominal discomfort
+T12	ADR 466 475;476 479	abdominal gas
+T3	ADR 311 315;329 339	pain unbearable
+T1	ADR 43 49;60 67;68 76	severe uterine cramping
+T4	ADR 43 49;50 55;68 76	severe colon cramping
+T1	ADR 10 25;41 74	post-menopausal and have now had a six day period
+T9	ADR 180 184;191 197	pain severe
+T2	ADR 115 123;91 95	swelling feet
+T6	ADR 100 106;115 123	ankles swelling
+T7	ADR 411 415;432 440	renal failure
+T1	ADR 0 8;29 33	Shoulder pain
+T2	ADR 10 14;29 33	knee pain
+T3	ADR 16 21;29 33	elbow pain
+T3	ADR 18 25;39 46	loss of stamina
+T2	ADR 18 25;26 34	loss of strength
+T9	ADR 724 742;743 747	muscle aches in my neck
+T10	ADR 724 742;752 761	muscle aches in my shoulders
+T11	ADR 724 742;766 776	muscle aches in my lower back
+T14	ADR 86 96;110 118	Difficulty speaking
+T15	ADR 86 96;97 105	Difficulty thinking
+T12	ADR 40 47;62 69	pain in muscles
+T4	ADR 40 47;48 57	pain in my joints
+T3	ADR 104 108;119 123	back pain
+T2	ADR 113 118;119 123	chest pain
+T8	ADR 595 598;599 601	low bp
+T9	ADR 595 598;606 611	low pulse
+T7	ADR 25 42;56 62	severe leg muscle cramps
+T8	ADR 47 55;56 62	buttocks cramps
+T4	ADR 44 53;54 66	decreased testosterone
+T5	ADR 44 53;71 77	decreased libido
+T7	ADR 125 133;144 149	tingling hands
+T8	ADR 138 143;144 149	itchy hands
+T4	ADR 116 126;131 135	changes in mood
+T6	ADR 116 126;140 157	changes in physical activity
+T6	ADR 49 55;64 76	hardly lift my arms
+T5	ADR 49 55;56 60	hardly walk
+T3	ADR 136 142;143 147	muscle pain
+T4	ADR 136 142;152 159	muscle wasting
+T1	ADR 131 135;147 151	bone pain
+T2	ADR 140 146;147 151	muscle pain
+T11	ADR 753 761;772 779	physical changes
+T10	ADR 762 771;772 779	emotional changes
+T10	ADR 222 227;233 243	sight gets tired
+T11	ADR 196 205;211 216	Could not sleep
+T10	ADR 196 205;206 209	Could not eat
+T4	ADR 119 128;143 149	inflammed bursae
+T5	ADR 119 128;129 138	inflammed ligaments
+T15	ADR 241 251;266 272	burning of ankles
+T6	ADR 241 251;252 261	burning of shoulders
+T2	ADR 21 28;50 54	pain in neck
+T1	ADR 21 28;37 45	pain in shoulder
+T4	ADR 289 307;314 322	Major stiffness in shoulder
+T1	ADR 0 6;31 35;7 15	Severe pain shoulder
+T2	ADR 0 6;20 30;31 35	Severe upper body pain
+T11	ADR 137 147;164 168	pinches in skin
+T10	ADR 137 147;148 159	pinches in the fingers
+T14	ADR 860 866;872 876	muscle pain
+T7	ADR 860 866;867 871	muscle ache
+T5	ADR 51 56;84 91	elbow painful
+T1	ADR 20 33;44 50	pain in every muscle
+T2	ADR 20 33;34 39	pain in every joint
+T1	ADR 23 27;8 15	feet numbing
+T1	ADR 0 7;15 22	Pain in muscles
+T2	ADR 0 7;27 33	Pain in joints
+T3	ADR 0 7;38 52	Pain in bottom of feet
+T1	ADR 0 15;25 30	Muscle aches in chest
+T2	ADR 0 15;16 20	Muscle aches in arms
+T13	ADR 222 241;257 262	aches and stiffness knees
+T7	ADR 222 241;248 252	aches and stiffness hips
+T3	ADR 221 235;242 247	sore and stiff knees
+T4	ADR 221 235;249 255	sore and stiff ankles
+T5	ADR 221 235;260 264	sore and stiff feet
+T2	ADR 221 235;236 240	sore and stiff hips
+T2	ADR 36 44;48 52	swelling feet
+T9	ADR 36 44;57 62	swelling hands
+T13	ADR 377 382;391 416	can't do anything with my hands
+T12	ADR 377 382;383 387	can't walk
+T11	ADR 29 46;53 59	charley horses in calves
+T8	ADR 29 46;61 68	charley horses in abdomen
+T1	ADR 29 46;70 77	charley horses in breasts
+T9	ADR 29 46;79 88	charley horses in shoulders
+T20	ADR 29 46;93 98	charley horses in sides
+T10	ADR 29 46;47 51	charley horses in feet
+T15	ADR 283 300;304 308	charley horses in feet
+T2	ADR 283 300;310 314	charley horses in legs
+T16	ADR 283 300;316 323	charley horses in abdomen
+T17	ADR 283 300;325 332	charley horses in breasts
+T18	ADR 283 300;334 343	charley horses in shoulders
+T19	ADR 283 300;345 350	charley horses in sides
+T20	ADR 287 294;304 308	pain in neck
+T7	ADR 287 294;298 302	pain in back
+T2	ADR 61 81;95 102	pain traveling to my stomach
+T3	ADR 61 81;82 90	pain traveling to my buddocks
+T5	ADR 114 121;134 142	Pain in forearms
+T6	ADR 114 121;152 160	Pain in shoulder
+T2	ADR 114 121;122 132	Pain in lower back
+T9	ADR 193 201;218 222	couldn't walk
+T8	ADR 193 201;202 214	couldn't climb stairs
+T10	ADR 301 309;318 322	shoulder pain
+T6	ADR 314 317;318 322	hip pain
+T3	ADR 119 124;136 140	joint pain
+T4	ADR 129 135;136 140	muscle pain
+T13	ADR 275 292;305 317	limits my ability climb stairs
+T14	ADR 275 292;322 335	limits my ability lift anything
+T12	ADR 275 292;293 300	limits my ability to walk
+T6	ADR 175 190;202 208	permanent liver damage
+T7	ADR 195 201;202 208	kidney damage
+T5	ADR 244 257;267 279	problems with coordination
+T4	ADR 244 257;258 264	problems with memory
+T12	ADR 0 7;21 25	Pain in arms
+T13	ADR 0 7;30 35	Pain in hands
+T1	ADR 0 7;8 16	Pain in shoulder
+T2	ADR 37 42;53 57	Hands numb
+T3	ADR 37 42;62 71	Hands very weak
+T1	ADR 0 21;22 26	severe muscle pain in hips
+T2	ADR 0 21;37 43	severe muscle pain in ankles
+T3	ADR 0 21;28 32	severe muscle pain in legs
+T7	ADR 226 233;243 248	pain in hands
+T8	ADR 226 233;257 261	pain in back
+T9	ADR 226 233;268 278	pain in upper legs
+T2	ADR 226 233;234 241	pain in my arms
+T5	ADR 96 110;126 129	severe pain in arm
+T12	ADR 96 110;135 139	severe pain in hand
+T11	ADR 96 110;111 125	severe pain in left shoulder,
+T7	ADR 95 116;129 139	SEVERE muscle pain in hip joints
+T8	ADR 95 116;117 124	SEVERE muscle pain in sholder
+T7	ADR 18 29;39 43	cramping in back
+T2	ADR 18 29;30 34	cramping in legs
+T8	ADR 45 53;67 80	Problems concentrating
+T3	ADR 45 53;54 62	Problems sleeping
+T1	ADR 105 117;81 85	in both legs pain
+T2	ADR 105 117;90 98	in both legs weakness
+T24	ADR 425 443;454 459	decreased sense of taste
+T23	ADR 425 443;444 449	decreased sense of smell
+T35	ADR 890 896;907 911	muscle pain
+T33	ADR 901 906;907 911	joint pain
+T2	ADR 19 24;25 29	joint pain
+T5	ADR 66 77;78 82	tingling in feet
+T6	ADR 356 361;362 367	joint pains
+T1	ADR 25 29;8 14	pain muscle
+T4	ADR 66 77;84 89	tingling in hands
+T17	ADR 103 107;66 77	legs tingling in
+T18	ADR 112 116;66 77	arms tingling in
+T7	ADR 345 351;362 367	muscle pains
+T12	ADR 933 939;940 944	muscle pain
+T23	ADR 924 928;940 944	neck pain
+T13	ADR 955 962;963 975;976 986	pain in every tendon in my body
+T24	ADR 1005 1020;955 962	Achilles tendon pain in
+T25	ADR 1031 1054;955 962;963 975	on the back of the head pain in every tendon
+T6	ADR 91 100;113 118	aching in knees
+T7	ADR 91 100;120 124	aching in hips
+T8	ADR 91 100;127 131	aching in toes
+T2	ADR 91 100;101 111	aching in my fingers
+T12	ADR 299 305;323 331	muscle knots up
+T11	ADR 0 3;27 32	Jaw pains
+T10	ADR 4 8;27 32	neck pains
+T8	ADR 10 18;27 32	low back pains
+T1	ADR 23 26;27 32	hip pains
+T10	ADR 48 51;66 70	Hip pain
+T4	ADR 53 57;66 70	back pain
+T9	ADR 62 65;66 70	leg pain
+T6	ADR 36 45;65 69	Unable to walk
+T7	ADR 36 45;77 80	Unable to sit
+T5	ADR 36 45;46 60	Unable to get out of bed
+T7	ADR 0 7;21 24	pain in arm
+T1	ADR 0 7;8 16	pain in shoulder
+T8	ADR 227 232;244 248	joint pain
+T7	ADR 237 243;244 248	muscle pain
+T22	ADR 711 733;744 748	loss of muscle mass in arms
+T31	ADR 711 733;734 739	loss of muscle mass in chest
+T5	ADR 167 174;185 189	loss of hair
+T4	ADR 167 174;175 184	loss of sex drive
+T10	ADR 101 116;150 154	extreme pain in neck
+T2	ADR 101 116;117 131	extreme pain in both shoulders
+T6	ADR 218 221;227 234	HDL dropped
+T1	ADR 0 13;24 28	Severe muscle pain
+T2	ADR 18 23;24 28	joint pain
+T1	ADR 0 6;17 22	muscle pains
+T2	ADR 11 16;17 22	joint pains
+T8	ADR 423 428;439 443	JOINT PAIN
+T9	ADR 432 438;439 443	MUSCLE PAIN
+T6	ADR 134 138;151 157	sore joints
+T5	ADR 134 138;139 146	sore muscles
+T7	ADR 230 241;253 263	muscle pain in the leg
+T8	ADR 230 241;264 273	muscle pain calf area
+T9	ADR 230 241;282 292	muscle pain lower back
+T3	ADR 12 16;30 34	back pain
+T2	ADR 21 29;30 34	shoulder pain
+T8	ADR 82 90;101 107	Edema of ankles
+T7	ADR 82 90;91 96	Edema of hands
+T13	ADR 178 190;224 238	could barely walk up stairs
+T12	ADR 178 190;191 220	could barely get out of bed in the morning
+T2	ADR 74 88;95 99	severe pain in hips
+T6	ADR 74 88;101 105	severe pain in legs
+T7	ADR 74 88;111 115	severe pain in feet
+T1	ADR 74 88;89 93	severe pain in back
+T2	ADR 0 18;26 40	muscle weakness in plantar muscle
+T3	ADR 0 18;42 46	muscle weakness in back
+T1	ADR 0 18;19 24	muscle weakness in ankle
+T3	ADR 74 77;87 95	CPK elevated
+T8	ADR 20 31;41 45	Severe knee pain
+T7	ADR 36 40;41 45	back pain
+T5	ADR 79 85;111 120	ankles seized up
+T4	ADR 87 91;111 120	feet seized up
+T3	ADR 93 99;111 120	wrists seized up
+T2	ADR 105 110;111 120	knees seized up
+T8	ADR 478 492;536 541	senistivity in scalp
+T9	ADR 478 492;493 523	senistivity in the palms and soles of my feet
+T5	ADR 227 239;253 262	Stiffness in Leg Joint
+T4	ADR 227 239;240 247	Stiffness in my feet
+T6	ADR 212 215;240 257	leg buzzing sensation
+T8	ADR 300 307;323 332	muscles quivering
+T7	ADR 243 248;278 287	urine corrosive
+T9	ADR 400 415;422 426	muscle problems legs
+T1	ADR 0 11;21 26	Severe back pains
+T2	ADR 16 20;21 26	neck pains
+T3	ADR 18 29;39 43	weakness in arms
+T2	ADR 18 29;30 34	weakness in legs
+T17	ADR 242 247;265 269	joint pain
+T15	ADR 285 291;303 320	muscle in my angles hurt
+T16	ADR 296 302;303 320	joints in my angles hurt
+T2	ADR 39 49;66 70	lower legs hurt
+T12	ADR 22 47;64 68	very painful muscle aches back
+T11	ADR 22 47;48 59	very painful muscle aches in the neck
+T2	ADR 47 65;77 80	Muscle cramping in leg
+T8	ADR 507 512;522 526	hands numb
+T9	ADR 507 512;531 539	hands tingling
+T14	ADR 877 883;889 898	memory confusion
+T10	ADR 877 883;884 888	memory loss
+T11	ADR 448 471;483 493	severe polyathralgia in leg joints
+T10	ADR 448 471;472 478	severe polyathralgia in ankles
+T12	ADR 718 722;765 769	pain neck
+T3	ADR 168 173;183 189	Hands tender
+T4	ADR 168 173;194 200	Hands tingle
+T7	ADR 378 391;401 410	constant pain shoulders
+T8	ADR 378 391;412 417	constant pain knees
+T2	ADR 0 28;41 45	Intense and constant pain in arms
+T1	ADR 0 28;32 36	Intense and constant pain in legs
+T3	ADR 47 51;67 87	Legs painful to the touch
+T1	ADR 239 249;275 289	joint pain very arthritic
+T9	ADR 1464 1492;1503 1513	severe arthritis symptoms in hip joints
+T8	ADR 1464 1492;1493 1498	severe arthritis symptoms in knees
+T6	ADR 443 446;456 460	hip hurt
+T2	ADR 26 30;57 66;8 20	hurt exploding arm and neck
+T3	ADR 11 17;29 36	aching muscles
+T2	ADR 11 17;18 24	aching joints
+T8	ADR 0 8;18 29	Shoulder muscle pain
+T7	ADR 13 17;18 29	neck muscle pain
+T8	ADR 171 178;188 192	pain in legs
+T7	ADR 171 178;179 183	pain in arms
+T2	ADR 25 39;51 55	MUSCLE PAIN IN NECK
+T3	ADR 25 39;60 63	MUSCLE PAIN IN HIP
+T1	ADR 25 39;40 49	MUSCLE PAIN IN SHOULDERS
+T6	ADR 147 156;169 174	cramps in hands
+T5	ADR 147 156;157 164	cramps in my feet
+T8	ADR 176 183;196 201	pain in chest
+T7	ADR 176 183;184 191	pain in my arms
+T6	ADR 141 149;159 171	sense of eye drooping
+T9	ADR 185 193;199 202	elevated BUN
+T10	ADR 185 193;204 214	elevated Creatinine
+T11	ADR 185 193;216 229	elevated urine albumin
+T8	ADR 185 193;194 197	elevated CRP
+T19	ADR 641 646;666 672	heart damage
+T18	ADR 648 654;666 672	kidney damage
+T17	ADR 659 665;666 672	muscle damage
+T7	ADR 154 158;167 171	back pain
+T8	ADR 163 166;167 171	hip pain
+T4	ADR 65 73;92 96	couldn't walk
+T3	ADR 65 73;74 88	couldn't get out of bed
+T5	ADR 164 171;181 184	pain in leg
+T3	ADR 22 38;53 57	charlie horse in feet
+T2	ADR 22 38;39 48	charlie horse in my calves
+T9	ADR 251 264;282 288	tendonitis in elbows
+T8	ADR 251 264;265 277	tendonitis in my shoulders
+T11	ADR 321 325;335 339	sore legs
+T12	ADR 330 334;335 339	weak legs
+T2	ADR 0 7;35 41	pain in joints
+T1	ADR 0 7;8 19	pain in my left leg
+T6	ADR 103 117;80 91	in the triceps arm fatigue
+T5	ADR 132 139;145 157	muscles deteriorated
+T1	ADR 0 5;6 15	stiff upper leg
+T2	ADR 0 5;17 26	stiff quad area
+T7	ADR 107 114;124 136	loss of productivity
+T6	ADR 107 114;115 121	loss of energy
+T10	ADR 434 438;454 458	neck pain
+T11	ADR 434 438;475 482	neck swollen
+T1	ADR 0 11;21 25	Severe neck pain
+T2	ADR 12 20;21 25	shoulder pain
+T5	ADR 212 216;227 236	legs twitching
+T2	ADR 54 65;72 80	Soreness in shoulder
+T3	ADR 28 52;63 67	peripheral neuropathy in arms
+T4	ADR 28 52;69 82	peripheral neuropathy in feet and legs
+T1	ADR 28 52;53 61	peripheral neuropathy in my hands
+T8	ADR 284 291;307 312	muscles stiff
+T9	ADR 284 291;317 330	muscles slightly sore
+T3	ADR 220 238;245 251	vision close up is blurry
+T2	ADR 13 24;42 46	swelling in knee
+T1	ADR 13 24;25 34	swelling in one ankle
+T6	ADR 62 66;87 91	Neck pain
+T5	ADR 68 76;87 91	shoulder pain
+T4	ADR 81 86;87 91	elbow pain
+T3	ADR 34 46;59 63	gas pains in back
+T2	ADR 34 46;47 54	gas pains in abdomen
+T6	ADR 532 541;567 571	gas pains back
+T7	ADR 532 541;542 559	gas pains around my abdomen
+T3	ADR 17 21;45 63	eyes spaced out feeling
+T2	ADR 17 21;22 41	eyes feeling of pressure
+T5	ADR 124 135;164 172	Blood sugar elevated
+T6	ADR 140 154;164 172	blood pressure elevated
+T1	ADR 10 24;31 39	severe pain in shoulder
+T8	ADR 601 608;658 663	muscles cramp
+T7	ADR 601 608;609 648	muscles in my lower abdomen started to contract
+T10	ADR 760 772;781 784	tiredness in leg
+T3	ADR 71 75;81 85	sore arms
+T2	ADR 71 75;76 80	sore neck
+T1	ADR 104 109;123 127	ankle pain
+T2	ADR 110 114;123 127	knee pain
+T3	ADR 115 118;123 127	leg pain
+T4	ADR 119 122;123 127	hip pain
+T5	ADR 34 41;62 66	pain in neck
+T6	ADR 34 41;71 80	pain in shoulders
+T2	ADR 34 41;42 60	pain in the knees and feet
+T4	ADR 52 56;66 74	head pressure
+T3	ADR 52 56;57 61	head pain
+T2	ADR 112 119;46 53	painful muscles
+T3	ADR 112 119;58 64	painful joints
+T4	ADR 124 128;136 140	arms weak
+T4	ADR 193 197;215 219	knee hurt
+T5	ADR 211 214;215 219	hip hurt
+T2	ADR 32 48;58 73	Liver blood test mildly elevated
+T3	ADR 153 159;170 174	muscle pain
+T4	ADR 164 169;170 174	joint pain
+T6	ADR 176 197;203 212	Burning sensations in shoulders
+T7	ADR 176 197;217 228	Burning sensations in upper chest
+T5	ADR 176 197;198 202	Burning sensations in neck
+T1	ADR 106 113;118 132	pain in shoulder joint
+T1	ADR 11 17;24 28	muscle pain
+T2	ADR 18 23;24 28	joint pain
+T3	ADR 43 47;62 69	arms painful
+T14	ADR 198 207;245 256	tightness in the neck
+T16	ADR 221 244;245 256	stimuly type of feeling in the neck
+T3	ADR 16 22;32 40	muscle weakness
+T2	ADR 16 22;23 27	muscle pain
+T1	ADR 60 64;73 81	hair thinning
+T7	ADR 454 461;491 495	muscles weak
+T4	ADR 80 87;103 113	Pain in lower back
+T3	ADR 80 87;88 98	Pain in lower legs
+T6	ADR 404 413;440 447	went down stamina
+T7	ADR 404 413;428 435	went down muscles
+T1	ADR 0 3;12 20	Leg cramping
+T2	ADR 8 11;12 20	toe cramping
+T8	ADR 151 163;173 185	Difficult to keep balance
+T7	ADR 151 163;164 168	Difficult to walk
+T5	ADR 383 397;407 410	severe pain in leg
+T3	ADR 221 228;238 241	pain in hip
+T4	ADR 221 228;252 263	pain in calf muscle
+T3	ADR 13 19;34 38	muscle pain
+T2	ADR 13 19;20 29	muscle twitching
+T4	ADR 143 163;179 182	buzzing sensation in leg
+T1	ADR 24 41;5 12	tire very quickly muscles
+T6	ADR 380 384;393 397	back pain
+T7	ADR 389 392;393 397	hip pain
+T3	ADR 30 32;33 41;8 17	in forearms tightness
+T4	ADR 8 17;30 32;46 50	tightness in legs
+T2	ADR 22 29;30 32;46 50	fatigue in legs
+T1	ADR 22 29;30 32;33 41	fatigue in forearms
+T3	ADR 146 165;183 190	right hand has been hurting
+T2	ADR 146 165;166 178	right hand has been getting numb
+T1	ADR 0 7;21 29;8 13	serious cramping hands
+T2	ADR 0 7;16 20;21 29	serious feet cramping
+T4	ADR 41 63;64 70	painful inflamation of joints
+T5	ADR 41 63;71 79	painful inflamation of knuckles
+T3	ADR 61 72;87 93	cramping in calves
+T4	ADR 61 72;98 108	cramping in hamstrings
+T2	ADR 61 72;73 85	cramping in back muscles
+T3	ADR 66 103;121 130	left leg, below the knee, experienced stiffness
+T2	ADR 66 103;104 116	left leg, below the knee, experienced intense pain
+T2	ADR 37 58;68 73	burning sensations in hands
+T1	ADR 37 58;59 63	burning sensations in legs
+T3	ADR 30 33;48 52	leg pain
+T4	ADR 35 38;48 52	arm pain
+T5	ADR 43 47;48 52	back pain
+T5	ADR 55 69;78 82	muscle atrophy Arms
+T4	ADR 55 69;71 75	muscle atrophy legs
+T15	ADR 315 320;332 345	crave carbohydrates
+T14	ADR 315 320;321 327	crave sweets
+T3	ADR 25 38;49 56	left shoulder tingles
+T2	ADR 25 38;39 44	left shoulder aches
+T3	ADR 92 110;121 125	muscle pain in the arms
+T4	ADR 92 110;127 131	muscle pain in the legs
+T2	ADR 92 110;111 119	muscle pain in the shoulder
+T2	ADR 182 198;206 210	joint pain in my hips
+T3	ADR 182 198;212 222	joint pain in my lower back
+T4	ADR 182 198;228 237	joint pain in my shoulders
+T1	ADR 182 198;199 204	joint pain in my knees
+T8	ADR 461 469;480 487	shoulder painful
+T3	ADR 9 26;36 40	aching muscles in back
+T2	ADR 9 26;27 31	aching muscles in legs
+T3	ADR 254 300;307 311	intense muscle pain with intense burning in my neck
+T4	ADR 254 300;329 333	intense muscle pain with intense burning in my legs
+T2	ADR 254 300;301 305	intense muscle pain with intense burning in my arms
+T5	ADR 231 238;248 253	swollen hands
+T4	ADR 231 238;239 243	swollen feet
+T2	ADR 0 14;20 24	imence pain in calf
+T3	ADR 0 14;25 29	imence pain in feet
+T1	ADR 0 14;15 19	imence pain in legs
+T5	ADR 30 41;51 55	cramping in feet
+T6	ADR 30 41;61 65	cramping in toes
+T4	ADR 30 41;42 46	cramping in legs
+T5	ADR 355 363;377 386	soreness in thighs
+T6	ADR 368 376;377 386	weakness in thighs
+T3	ADR 17 24;25 35;3 7	started going numb legs
+T1	ADR 3 7;17 24;40 48	legs started tingling
+T4	ADR 12 16;17 24;40 48	arms started tingling
+T2	ADR 12 16;17 24;25 35	arms started going numb
+T5	ADR 70 87;94 99	sever swelling of hands
+T6	ADR 70 87;104 110	sever swelling of ankles
+T4	ADR 70 87;88 92	sever swelling of feet
+T1	ADR 0 24;25 30;41 49	Severe (burning) pain in upper left arm
+T2	ADR 0 24;35 40;41 49	Severe (burning) pain in lower left arm
+T3	ADR 0 24;54 63	Severe (burning) pain in left hand
+T4	ADR 65 74;84 97	stiffness in both knees
+T5	ADR 79 83;84 97	pain in both knees
+T1	ADR 0 14;15 23	Muscle Pain in left arm
+T2	ADR 0 14;28 38	Muscle Pain in upper back
+T3	ADR 40 44;67 71	Hair loss
+T6	ADR 158 162;163 170	hair dryness
+T7	ADR 158 162;172 180	hair breakage
+T8	ADR 158 162;185 189	hair loss
+T9	ADR 40 44;54 62	Hair breakage
+T1	ADR 0 6;17 25;26 30	Muscle aches in arms
+T3	ADR 0 6;17 25;32 38	Muscle aches in elbows
+T4	ADR 0 6;17 25;44 50	Muscle aches in calves
+T5	ADR 11 16;17 25;32 38	joint aches in elbows
+T6	ADR 11 16;17 25;44 50	joint aches in calves
+T2	ADR 11 16;17 25;26 30	joint aches in arms
+T1	ADR 109 115;59 70;94 100	calves muscle pain in the
+T2	ADR 120 126;59 70;94 100	thighs muscle pain in the
+T3	ADR 143 147;59 70;94 100	back muscle pain in the
+T4	ADR 152 156;59 70;94 100	neck muscle pain in the
+T5	ADR 101 107;59 70;94 100	glutes muscle pain in the
+T4	ADR 22 30;44 46;47 64	Numbness on left side of face
+T5	ADR 22 30;44 46;69 77	Numbness on left arm
+T3	ADR 35 43;44 46;69 77	tingling on left arm
+T2	ADR 35 43;44 46;47 64	tingling on left side of face
+T9	ADR 457 463;474 488	aching (like the flu)
+T8	ADR 336 342;349 353	yellow eyes
+T7	ADR 336 342;343 347	yellow skin
+T4	ADR 44 48;59 63	feet pain
+T5	ADR 53 58;59 63	ankle pain
+T3	ADR 72 79;89 95	swollen ankles
+T2	ADR 72 79;80 84	swollen legs
+T3	ADR 72 79;89 95	swollen ankles
+T2	ADR 72 79;80 84	swollen legs
+T2	ADR 0 7;13 23	Pain in lower back
+T3	ADR 0 7;25 30	Pain in knees
+T4	ADR 0 7;33 38	Pain in elbow
+T5	ADR 40 52;53 63	Stiffness in lower back
+T6	ADR 40 52;68 72	Stiffness in legs
+T11	ADR 0 7;8 11	Pain in hip
+T6	ADR 100 114;123 128	Weak & wobbley knees
+T7	ADR 100 114;131 137	Weak & wobbley wrists
+T5	ADR 100 114;115 121	Weak & wobbley ankles
+T33	ADR 2232 2243;2254 2258	weakness in back
+T32	ADR 2232 2243;2244 2251	weakness in my legs
+T7	ADR 441 452;464 469	very severe pains
+T6	ADR 441 452;453 459	very severe cramps
+T2	ADR 70 74;102 106	foot pain
+T3	ADR 76 80;102 106	shin pain
+T4	ADR 82 86;102 106	knee pain
+T5	ADR 88 93;102 106	thigh pain
+T6	ADR 98 101;102 106	hip pain
+T7	ADR 108 116;131 135	shoulder pain
+T8	ADR 118 121;131 135	arm pain
+T9	ADR 126 130;131 135	hand pain
+T2	ADR 67 70;80 84	hip pain
+T3	ADR 71 74;80 84	leg pain
+T4	ADR 75 79;80 84	foot pain
+T2	ADR 74 79;93 97	ANKLE PAIN
+T3	ADR 81 85;93 97	CALF PAIN
+T4	ADR 87 92;93 97	THIGH PAIN
+T7	ADR 440 458;459 487	severe pain in the muscles in the shoulder area
+T8	ADR 440 458;489 499	severe pain in the upper back
+T9	ADR 440 458;504 508	severe pain in the neck
+T10	ADR 514 518;539 543	pain neck
+T11	ADR 523 532;539 543	stiffness neck
+T14	ADR 838 842;866 870	pain neck
+T15	ADR 847 856;866 870	stiffness neck
+T16	ADR 875 886;887 895	pain in the shoulder
+T17	ADR 875 886;900 904	pain in the back
+T3	ADR 116 127;141 145	extreme leg pain
+T2	ADR 116 127;128 136	extreme leg weakness
+T2	ADR 64 69;76 82	stiff joints
+T3	ADR 71 75;76 82	achy joints
+T4	ADR 101 117;137 146	horrible pain in left knee
+T3	ADR 101 117;118 132	horrible pain in both shoulders
+T6	ADR 374 378;409 429	pain around the hipjoints
+T11	ADR 159 176;186 194	muscle spasmns in left arm
+T10	ADR 159 176;177 181	muscle spasmns in legs
+T13	ADR 209 213;221 231;232 251	felt like I had a veil over my head
+T14	ADR 209 213;221 231;256 271	felt like I had lead in my legs
+T1	ADR 37 54;55 59	terrible pains in knee
+T2	ADR 37 54;61 66	terrible pains in ankle
+T3	ADR 37 54;68 75	terrible pains in big toe
+T4	ADR 105 116;77 85;86 90	comfortably Couldn't walk
+T5	ADR 105 116;77 85;99 104	comfortably Couldn't sleep
+T10	ADR 401 432;433 437	weird symptoms (eg. popping) in knee
+T11	ADR 401 432;446 460	weird symptoms (eg. popping) in big toe joints
+T12	ADR 401 432;439 444	weird symptoms (eg. popping) in ankle
+T2	ADR 0 7;17 21	pain in foot
+T1	ADR 0 7;8 12	pain in knee
+T2	ADR 0 16;26 35	Terrible pain in shoulders
+T1	ADR 0 16;17 21	Terrible pain in hips
+T6	ADR 217 221;228 231	pain bad
+T1	ADR 24 26;27 31;7 15	in arms Tingling
+T3	ADR 7 15;24 26;36 40	Tingling in legs
+T12	ADR 7 15;24 26;45 57	Tingling in back of neck
+T5	ADR 16 23;24 26;36 40	burning in legs
+T6	ADR 16 23;24 26;45 57	burning in back of neck
+T2	ADR 16 23;24 26;27 31	burning in arms
+T3	ADR 45 53;63 79	Tingling in toes and feet
+T4	ADR 58 62;63 79	pain in toes and feet
+T3	ADR 28 34;46 52	mussel cramps
+T2	ADR 28 34;35 41	mussel spasms
+T1	ADR 0 8;23 41	Cramping of the leg muscles
+T2	ADR 13 22;23 41	weariness of the leg muscles
+T2	ADR 0 8;26 35	Aches in hip joint
+T1	ADR 0 8;9 21	Aches in calf muscles
+T6	ADR 118 122;134 145	legs ache so bad
+T7	ADR 127 133;134 145	ankles ache so bad
+T7	ADR 448 452;461 467	Hand cramps
+T8	ADR 457 460;461 467	leg cramps
+T11	ADR 625 643;661 667	inflammation of my joints
+T10	ADR 625 643;644 656	inflammation of my foot muscles
+T16	ADR 789 811;818 824	General weakness in my calves
+T17	ADR 789 811;830 835	General weakness in my hands
+T15	ADR 789 811;812 816	General weakness in my feet
+T18	ADR 840 848;861 884	tingling in the soles of my feet
+T19	ADR 853 860;861 884	burning in the soles of my feet
+T4	ADR 29 35;46 50	muscle pain
+T5	ADR 40 45;46 50	joint pain
+T16	ADR 245 262;273 278	tingly feeling in scalp
+T15	ADR 245 262;263 268	tingly feeling in hands
+T1	ADR 0 6;15 19	Muscle pain
+T2	ADR 9 14;15 19	joint pain
+T2	ADR 75 81;97 105	speech problems
+T3	ADR 86 96;97 105	swallowing problems
+T5	ADR 202 208;229 235	speech so bad
+T6	ADR 213 223;229 235	swallowing so bad
+T11	ADR 620 626;642 650	speech problems
+T12	ADR 631 641;642 650	swallowing problems
+T8	ADR 0 6;18 22	muscle pain
+T1	ADR 0 6;7 13	muscle spasms
+T9	ADR 138 144;155 159	muscle pain
+T10	ADR 149 154;155 159	joint pain
+T4	ADR 207 226;236 242	terrible pain in my ankles
+T3	ADR 207 226;227 231	terrible pain in my feet
+T10	ADR 683 687;699 703	sore legs
+T9	ADR 683 687;688 694	sore ankles
+T1	ADR 63 69;76 80;89 91;92 96	muscle pain in legs
+T2	ADR 70 75;76 80;89 91;92 96	joint pain in legs
+T3	ADR 63 69;76 80;89 91;98 104	muscle pain in thighs
+T4	ADR 106 112;63 69;76 80;89 91	calves muscle pain in
+T5	ADR 70 75;76 80;89 91;98 104	joint pain in thighs
+T6	ADR 106 112;70 75;76 80;89 91	calves joint pain in
+T1	ADR 215 219;231 235	pain back
+T9	ADR 631 648;690 722	couldn't remember who I had dinner with last night
+T5	ADR 631 648;649 686	couldn't remember where I left my dog 10 minutes before
+T4	ADR 41 45;46 51	feet pains
+T5	ADR 46 51;52 56	pains hips
+T6	ADR 46 51;57 61	pains neck
+T8	ADR 71 78;100 104	fingers hurt
+T9	ADR 79 83;100 104	toes hurt
+T10	ADR 84 88;100 104	head hurt
+T11	ADR 89 94;100 104	chest hurt
+T12	ADR 95 99;100 104	ribs hurt
+T4	ADR 41 45;46 51	feet pains
+T5	ADR 46 51;52 56	pains hips
+T6	ADR 46 51;57 61	pains neck
+T8	ADR 71 78;100 104	fingers hurt
+T9	ADR 79 83;100 104	toes hurt
+T10	ADR 84 88;100 104	head hurt
+T11	ADR 89 94;100 104	chest hurt
+T12	ADR 95 99;100 104	ribs hurt
+T1	ADR 0 25;37 39;40 46	Very painful muscle aches in calves
+T2	ADR 0 25;37 39;51 61	Very painful muscle aches in lower back
+T2	ADR 0 15;27 33	muscle aches in thighs
+T1	ADR 0 15;16 22	muscle aches in calves
+T6	ADR 136 152;160 162;163 169	Muscle twitching on calves
+T7	ADR 136 152;160 162;174 188	Muscle twitching on bottom of feet
+T10	ADR 190 215;240 250	Deeper muscle twitches on arms sides
+T11	ADR 190 215;251 255	Deeper muscle twitches on butt
+T9	ADR 190 215;216 222	Deeper muscle twitches on thighs
+T1	ADR 12 17;22 26	joint pain
+T9	ADR 354 376;383 388	loss of muscle mass in hands
+T10	ADR 354 376;393 397	loss of muscle mass in face
+T8	ADR 354 376;377 381	loss of muscle mass in arms
+T3	ADR 27 51;63 82	loss of muscle structure in the calf muscles
+T5	ADR 321 338;348 373	excrutiation pain throughout my entire body
+T3	ADR 119 125;92 96	wrists pain
+T4	ADR 130 134;92 96	hips pain
+T4	ADR 211 215;225 229	back pain
+T5	ADR 220 224;225 229	neck pain
+T4	ADR 100 106;84 95	severe joint pains
+T7	ADR 186 196;214 219	fingertips scaly
+T6	ADR 186 196;197 206	fingertips got puffy
+T2	ADR 0 21;35 39	severe muscle pain in neck
+T3	ADR 0 21;44 49	severe muscle pain in elbow
+T1	ADR 0 21;22 30	severe muscle pain in left arm
+T15	ADR 233 239;252 256	joints hurt
+T16	ADR 244 251;252 256	muscles hurt
+T8	ADR 213 218;227 238	wrist joints sore
+T5	ADR 223 226;227 238	arm joints sore
+T14	ADR 1241 1251;1260 1266	pain in my calves
+T15	ADR 1241 1251;1271 1279	pain in my buttocks
+T13	ADR 1241 1251;1252 1258	pain in my thighs
+T2	ADR 20 26;37 41	muscle pain
+T3	ADR 31 36;37 41	joint pain
+T5	ADR 193 198;215 224	Can't bend over
+T4	ADR 193 198;199 213	Can't walk up stairs
+T2	ADR 15 19;47 51	back ache
+T3	ADR 24 28;47 51	neck ache
+T2	ADR 0 19;26 31	Very severe pain in knees
+T3	ADR 0 19;33 38	Very severe pain in hands
+T1	ADR 0 19;20 24	Very severe pain in arms
+T8	ADR 611 633;653 661	impaired my ability to exercise
+T7	ADR 611 633;634 649	impaired my ability to take long walks
+T5	ADR 113 117;127 136	neck stiffness
+T4	ADR 113 117;118 122	neck pain
+T2	ADR 0 22;32 41	extreme muscle pain in shoulders
+T1	ADR 0 22;23 27	extreme muscle pain in arms
+T3	ADR 12 26;38 42	muscle pain in hips
+T4	ADR 12 26;47 51	muscle pain in feet
+T2	ADR 12 26;27 36	muscle pain in shoulders
+T3	ADR 92 100;107 111	pains in legs
+T4	ADR 92 100;113 118	pains in hands
+T2	ADR 92 100;101 105	pains in hips
+T5	ADR 123 127;132 149	Lost muscular strength
+T8	ADR 180 193;207 213	problems with memory
+T7	ADR 180 193;194 202	problems with tinnitus
+T3	ADR 304 308;321 360	Pain in both quads (above knee, back of leg)
+T4	ADR 312 320;321 360	cramping in both quads (above knee, back of leg)
+T12	ADR 600 607;618 622	pain in neck
+T13	ADR 600 607;628 643	pain in both upper legs
+T11	ADR 600 607;608 616	pain in knuckles
+T18	ADR 1189 1197;1204 1208	legs are sore
+T2	ADR 65 71;72 79;89 103	muscle fatigue in my forearms
+T3	ADR 65 71;80 88;89 103	muscle soreness in my forearms
+T1	ADR 0 8;17 19;20 28	Numbness in left toe
+T2	ADR 0 8;17 19;39 48	Numbness in right toe
+T3	ADR 0 8;17 19;62 70	Numbness in all toes
+T2	ADR 0 22;34 41	Chronic pain in all my muscles
+T1	ADR 0 22;23 29	Chronic pain in all my joints
+T5	ADR 195 200;212 216	joint pain
+T6	ADR 205 211;212 216	muscle pain
+T11	ADR 295 301;318 322	thighs sore
+T6	ADR 152 159;169 173	Pain in back
+T5	ADR 152 159;160 164	Pain in neck
+T1	ADR 20 26;36 44	muscle problems
+T2	ADR 30 35;36 44	joint problems
+T3	ADR 63 93;100 104	debilitating muscle pain in my legs
+T4	ADR 63 93;109 113	debilitating muscle pain in my back
+T2	ADR 63 93;94 98	debilitating muscle pain in my arms
+T6	ADR 148 169;179 183	severe cramping in my back
+T5	ADR 148 169;170 174	severe cramping in my legs
+T1	ADR 0 13;23 29	aching joints elbows
+T4	ADR 0 13;15 21	aching joints wrists
+T5	ADR 0 13;31 40	aching joints shoulders
+T6	ADR 0 13;42 47	aching joints knees
+T2	ADR 0 25;35 39	Slight muscle soreness in legs
+T1	ADR 0 25;26 30	Slight muscle soreness in arms
+T4	ADR 41 57;68 74	Major sorness in elbows
+T3	ADR 41 57;58 63	Major sorness in knees
+T11	ADR 496 500;515 534	knee throbbing with pain
+T4	ADR 24 28;34 38	sore legs
+T3	ADR 24 28;29 33	sore feet
+T2	ADR 9 16;32 36	stomach pain
+T1	ADR 9 16;17 27	stomach discomfort
+T2	ADR 102 113;80 88	very blurry eyesight
+T1	ADR 215 219;232 246	pain in right thigh
+T2	ADR 0 22;32 41	aches and pain in both shoulders
+T1	ADR 0 22;23 27	aches and pain in both arms
+T1	ADR 56 59;71 75	hip pain
+T2	ADR 60 64;71 75	knee pain
+T3	ADR 65 70;71 75	ankle pain
+T3	ADR 113 130;140 147	Right knee always swollen
+T4	ADR 113 130;131 135	Right knee always sore
+T3	ADR 99 105;111 117	joints aching
+T2	ADR 20 24;29 35	calf cramps
+T3	ADR 25 28;29 35	toe cramps
+T2	ADR 0 21;28 32	extremly bad pains in arms
+T3	ADR 0 21;33 42	extremly bad pains in shoulders
+T1	ADR 0 21;22 27	extremly bad pains in hands
+T6	ADR 159 176;183 187	very bad pains in arms
+T7	ADR 159 176;192 201	very bad pains in shoulders
+T5	ADR 159 176;177 182	very bad pains in hands
+T1	ADR 0 6;17 21	Muscle pain
+T2	ADR 11 16;17 21	joint pain
+T2	ADR 0 9;20 24	Eczema on feet
+T1	ADR 0 9;10 15	Eczema on hands
+T10	ADR 187 191;204 219	pain behind the knee
+T9	ADR 187 191;192 199	pain in back
+T1	ADR 42 46;60 73	pain in my fingers
+T2	ADR 51 59;60 73	tingling in my fingers
+T6	ADR 381 389;413 431	hurts to get out of a chair
+T7	ADR 381 389;433 445	hurts to go up stairs
+T5	ADR 381 389;390 411	hurts to get up in the morning
+T8	ADR 481 491;520 525	right foot hurts
+T9	ADR 558 578;579 595	bottom of my foot is extremely tender
+T10	ADR 579 595;606 612	extremely tender calves
+T1	ADR 0 12;31 35	Severe elbow pain
+T2	ADR 14 17;31 35	arm pain
+T3	ADR 22 30;31 35	shoulder pain
+T5	ADR 209 219;229 237	pain in my shoulder
+T4	ADR 209 219;220 224	pain in my arms
+T8	ADR 399 402;411 415	arm pain
+T9	ADR 405 410;411 415	elbow pain
+T1	ADR 0 6;16 18;19 23	Aching in legs
+T3	ADR 0 6;16 18;24 28	Aching in back
+T4	ADR 0 6;16 18;33 42	Aching in shoulders
+T6	ADR 16 18;24 28;7 15	in back weakness
+T7	ADR 16 18;33 42;7 15	in shoulders weakness
+T5	ADR 16 18;19 23;7 15	in legs weakness
+T1	ADR 0 4;5 10	Body aches
+T2	ADR 12 17;5 10	knees aches
+T3	ADR 19 23;5 10	back aches
+T4	ADR 39 44;5 10	chest aches
+T9	ADR 408 416;436 468	thinning at the back and sides of my head
+T2	ADR 63 69;70 73;83 88	SEVERE leg pains
+T3	ADR 63 69;78 82;83 88	SEVERE foot pains
+T5	ADR 102 109;122 130	balance problems
+T6	ADR 114 121;122 130	memeory problems
+T8	ADR 163 167;195 209	Pain trying to walk
+T3	ADR 0 4;22 26	Back pain
+T2	ADR 6 15;22 26	hip thigh pain
+T1	ADR 17 21;22 26	knee pain
+T7	ADR 95 100;112 116	Joint Pain
+T8	ADR 105 111;112 116	Muscle Pain
+T2	ADR 33 37;38 69	feet joint pain similar to arthritis
+T4	ADR 22 28;38 69	finger joint pain similar to arthritis
+T5	ADR 18 21;38 69	Leg joint pain similar to arthritis
+T2	ADR 54 68;75 84	muscle pain in right hip
+T1	ADR 54 68;69 73	muscle pain in legs
+T9	ADR 289 293;302 324	arms have little or no grip
+T8	ADR 295 301;302 324	hands, have little or no grip
+T2	ADR 0 15;25 34	EXTREME PAIN IN SHOULDERS
+T1	ADR 0 15;16 20	EXTREME PAIN IN NECK
+T8	ADR 441 452;462 467	weakness in knees
+T7	ADR 441 452;453 457	weakness in legs
+T2	ADR 3 10;26 30	fingers hurt
+T1	ADR 3 10;11 21	fingers swelled up
+T7	ADR 702 713;726 752	muscle pain just below shoulder blades
+T6	ADR 702 713;714 721	muscle pain in back
+T2	ADR 0 20;35 39	EXCRUCIATING PAIN IN NECK
+T1	ADR 0 20;21 30	EXCRUCIATING PAIN IN SHOULDERS
+T3	ADR 38 47;58 65	Legs feel swollen
+T2	ADR 38 47;48 53	Legs feel tired
+T5	ADR 67 85;95 116	Neck and shoulders are sore all the time
+T4	ADR 67 85;86 90	Neck and shoulders ache
+T9	ADR 733 742;763 774	destroyed my sex life
+T8	ADR 733 742;743 761	destroyed my self-confidence
+T3	ADR 52 60;75 80	tingling hands
+T4	ADR 65 73;75 80	numbness hands
+T5	ADR 52 60;82 86	tingling legs
+T6	ADR 52 60;88 92	tingling face
+T7	ADR 65 73;82 86	numbness legs
+T8	ADR 65 73;88 92	numbness face
+T12	ADR 249 256;266 292	thought that I was having a stroke
+T2	ADR 20 24;38 42	neck pain
+T3	ADR 29 37;38 42	shoulder pain
+T4	ADR 175 181;192 201	muscle stiffness
+T5	ADR 186 191;192 201	joint stiffness
+T3	ADR 13 37;52 57	Severe joint pain in the knees
+T2	ADR 13 37;38 47	Severe joint pain in the shoulders
+T4	ADR 59 63;77 82;83 88	Pain in my hands
+T6	ADR 59 63;77 82;93 103	Pain in my lower legs
+T7	ADR 68 76;77 82;93 103	cramping in my lower legs
+T5	ADR 68 76;77 82;83 88	cramping in my hands
+T9	ADR 105 126;143 147	Numbness in all of my toes
+T8	ADR 105 126;127 138	Numbness in all of my finger tips
+T17	ADR 487 493;503 511	finger numbness
+T18	ADR 498 502;503 511	hand numbness
+T1	ADR 0 19;20 25	Severe pain in both calfs
+T2	ADR 0 19;30 36	Severe pain in both thighs
+T3	ADR 47 56;57 69	unable to lift my legs
+T5	ADR 47 56;97 111	unable to get in the car
+T10	ADR 47 56;73 88	unable to put on my pants
+T3	ADR 114 125;91 101	in my knees joint pain
+T12	ADR 680 685;692 696	knees hurt
+T3	ADR 176 182;189 193	muscle pain
+T4	ADR 183 188;189 193	joint pain
+T2	ADR 30 47;57 61	severe pain in my legs
+T1	ADR 30 47;48 52	severe pain in my feet
+T7	ADR 255 272;284 289	severe pain in my knees
+T6	ADR 255 272;273 279	severe pain in my thighs
+T4	ADR 41 54;63 76	problems with concentration
+T3	ADR 41 54;55 61	problems with memory
+T1	ADR 0 5;17 21	Joint Pain
+T3	ADR 10 16;24 33	Muscle Stiffness
+T2	ADR 10 16;17 21	Muscle Pain
+T12	ADR 0 5;24 33	Joint Stiffness
+T2	ADR 39 53;59 63	severe pain in hips
+T3	ADR 39 53;66 70	severe pain in legs
+T5	ADR 197 206;224 226;227 236	stiffness in both legs
+T6	ADR 197 206;224 226;238 242	stiffness in hips
+T8	ADR 208 216;224 226;227 236	weakness in both legs
+T9	ADR 208 216;224 226;238 242	weakness in hips
+T10	ADR 219 223;224 226;238 242	pain in hips
+T7	ADR 219 223;224 226;227 236	pain in both legs
+T3	ADR 80 83;101 109	arm weakness
+T4	ADR 88 100;101 109	total muscel weakness
+T10	ADR 408 421;429 433	Joint pain in hips
+T11	ADR 408 421;438 444	Joint pain in elbows
+T9	ADR 408 421;422 427	Joint pain in spine
+T3	ADR 28 32;41 46	sore knees
+T4	ADR 28 32;51 58	sore fingers
+T2	ADR 28 32;33 39	sore ankles
+T7	ADR 329 342;350 354	Joint pain in hips
+T8	ADR 329 342;359 365	Joint pain in elbows
+T6	ADR 329 342;343 348	Joint pain in spine
+T2	ADR 65 72;78 94	burning feet in toe area
+T1	ADR 73 77;78 94	numb feet in toe area
+T2	ADR 17 22;34 38	joint pain
+T3	ADR 27 33;34 38	muscle pain
+T8	ADR 160 169;187 201	unable to get out of bed
+T7	ADR 160 169;170 174	unable to walk
+T1	ADR 0 8;22 27	tingling hands
+T2	ADR 13 21;22 27	aches in hands
+T2	ADR 55 61;71 79	muscle soreness
+T3	ADR 66 70;71 79	back soreness
+T4	ADR 182 201;209 212	Neuropothy in right arm
+T3	ADR 182 201;202 206	Neuropothy in right hand
+T2	ADR 0 14;28 36	severe pain in left leg
+T1	ADR 0 14;15 23	severe pain in buttocks
+T9	ADR 607 617;632 640	leg muscle inflamed
+T12	ADR 814 820;831 835	muscle pain
+T13	ADR 825 830;831 835	joint pain
+T2	ADR 7 22;31 35	extreme pain in legs
+T1	ADR 7 22;23 27	extreme pain in back
+T3	ADR 17 23;37 45	tendon ruptures
+T2	ADR 17 23;24 32	tendon weakness
+T10	ADR 322 351;365 411	tore my right Achilles tendon just simply taking off from a sprinters stance
+T11	ADR 420 448;461 489	tore my left Achilles tendon by simply jumping in the air
+T3	ADR 78 93;117 125	extreme ache in left leg
+T2	ADR 78 93;94 102	extreme ache in left arm
+T1	ADR 0 17;18 21	shrinking muscels leg
+T2	ADR 0 17;22 26	shrinking muscels arms
+T4	ADR 0 17;27 31	shrinking muscels neck
+T8	ADR 93 100;110 116	loss of memory
+T7	ADR 93 100;101 109	loss of strength
+T2	ADR 13 24;41 45	severe neck pain
+T3	ADR 26 34;41 45	shoulder pain
+T4	ADR 36 40;41 45	back pain
+T1	ADR 0 3;18 22	Hip pain
+T2	ADR 5 8;18 22	leg pain
+T3	ADR 9 17;18 22	shoulder pain
+T2	ADR 13 22;28 36	stiffness in hands
+T3	ADR 23 27;28 36	pain in hands
+T5	ADR 156 160;175 179	neck pain
+T6	ADR 166 174;175 179	shoulder pain
+T4	ADR 17 28;35 39	weakness in arms
+T5	ADR 17 28;41 50	weakness in shoulders
+T6	ADR 17 28;52 62	weakness in upper back
+T7	ADR 17 28;64 68	weakness in legs
+T2	ADR 17 28;29 33	weakness in neck
+T14	ADR 583 586;596 611	CPK mildly elevated
+T21	ADR 1216 1220;1237 1244	toes painful
+T2	ADR 13 19;29 37	muscle weakness
+T1	ADR 13 19;20 24	muscle pain
+T3	ADR 123 136;148 156	liver enzymes sky-high
+T4	ADR 169 173;181 215	walk was a very painful and a very slow
+T10	ADR 119 127;139 147	Bleeding problems
+T11	ADR 130 138;139 147	bruising problems
+T2	ADR 0 6;16 24	muscle weakness
+T1	ADR 0 6;7 11	muscle pain
+T6	ADR 200 219;220 227	lots of pain in the muscles
+T7	ADR 220 227;235 245	muscles very tight
+T8	ADR 255 259;276 281	neck stiff
+T11	ADR 340 361;375 400	pain has gone into my upper arm on my left side
+T10	ADR 340 361;362 370	pain has gone into my shoulder
+T4	ADR 39 57;67 71	persistent pain in knee
+T3	ADR 39 57;58 62	persistent pain in calf
+T4	ADR 90 104;111 115	tingling in my legs
+T5	ADR 90 104;120 127	tingling in my fingers
+T3	ADR 90 104;105 109	tingling in my arms
+T7	ADR 157 161;175 187	pain in left foot
+T8	ADR 166 174;175 187	numbness in left foot
+T6	ADR 373 394;395 416	acute weakness in the muscles of whole body
+T7	ADR 395 416;427 443	muscles of whole body dilution in size
+T3	ADR 0 7;18 22	Swollen feet
+T4	ADR 0 7;27 33	Swollen ankles
+T2	ADR 10 17;27 33	burning ankles
+T1	ADR 10 17;18 22	burning feet
+T7	ADR 90 118;144 152	Constant pins and needles in the toes
+T6	ADR 90 118;119 139	Constant pins and needles in the ball of the foot
+T7	ADR 123 132;146 159	hands are somewhat numb
+T6	ADR 123 132;133 141	hands are tingling
+T1	ADR 0 7;20 37	tremors although the body
+T2	ADR 12 19;20 37	tingles although the body
+T4	ADR 27 45;56 60	joint stiffness in feet
+T3	ADR 27 45;46 51	joint stiffness in hands
+T5	ADR 86 90;159 172	eyes microabrasions
+T4	ADR 86 90;91 101	eyes are so dry
+T3	ADR 32 47;57 61	severe shoulder pain
+T4	ADR 52 56;57 61	knee pain
+T7	ADR 613 618;625 629	Hands sore
+T2	ADR 181 185;190 196	foot cramps
+T3	ADR 186 189;190 196	leg cramps
+T12	ADR 760 768;775 784	legs are very weak
+T2	ADR 0 17;28 32	Joint pain in the hips
+T1	ADR 0 17;18 23	Joint pain in the knees
+T8	ADR 208 212;235 239	legs ache
+T9	ADR 215 224;235 239	shoulders ache
+T10	ADR 230 234;235 239	hips ache
+T11	ADR 250 260;264 275	acute pain in the legs
+T16	ADR 589 592;606 610	leg pain
+T15	ADR 597 605;606 610	shoulder pain
+T3	ADR 22 31;33 38	back pain Lower
+T4	ADR 22 31;43 48	back pain upper
+T10	ADR 226 229;239 243	leg pain
+T11	ADR 234 238;239 243	back pain
+T2	ADR 31 38;48 52	pain in legs
+T1	ADR 31 38;39 43	pain in feet
+T13	ADR 1610 1619;1627 1639	unable to feed himself
+T12	ADR 1610 1619;1620 1625	unable to speak
+T1	ADR 0 6;13 18	Muscle pains
+T2	ADR 7 12;13 18	joint pains
+T1	ADR 0 7;18 23	Swollen knees
+T3	ADR 0 7;28 34	Swollen elbows
+T4	ADR 12 17;28 34	stiff elbows
+T2	ADR 12 17;18 23	stiff knees
+T7	ADR 184 189;227 232	knees stiff
+T9	ADR 184 189;237 241	knees sore
+T8	ADR 194 200;227 232	elbows stiff
+T10	ADR 194 200;237 241	elbows sore
+T7	ADR 84 98;108 112	tingling in my legs
+T6	ADR 84 98;99 103	tingling in my arms
+T2	ADR 310 316;327 331	muscle pain
+T3	ADR 321 326;327 331	joint pain
+T6	ADR 468 488;489 493	blisterey rash on my arms
+T7	ADR 468 488;498 502	blisterey rash on my legs
+T3	ADR 30 46;47 51	muscle cramps in legs
+T4	ADR 30 46;53 57	muscle cramps in feet
+T5	ADR 30 46;59 63	muscle cramps in arms
+T6	ADR 30 46;65 69	muscle cramps in ribs
+T7	ADR 30 46;71 75	muscle cramps in face
+T10	ADR 345 356;376 383	severe pain muscles
+T11	ADR 361 372;376 383	weakness in muscles
+T12	ADR 345 356;400 404	severe pain legs
+T13	ADR 361 372;400 404	weakness in legs
+T1	ADR 0 21;22 31	muscle wasting in the shoulders
+T2	ADR 0 21;36 40	muscle wasting in the arms
+T1	ADR 46 54;68 73;74 78	tingling in my feet
+T2	ADR 46 54;68 73;83 88	tingling in my shins
+T3	ADR 59 67;68 73;74 78	numbness in my feet
+T4	ADR 59 67;68 73;83 88	numbness in my shins
+T11	ADR 299 327;328 332	sensations of tingling in my legs
+T12	ADR 299 327;337 341	sensations of tingling in my feet
+T1	ADR 0 7;8 14	Pain in joints
+T2	ADR 0 7;19 26	Pain in muscles
+T3	ADR 0 7;38 43	Pain in knees
+T4	ADR 0 7;45 51	Pain in ankles
+T5	ADR 0 7;52 56	Pain in feet
+T6	ADR 0 7;63 72	Pain in shoulders
+T7	ADR 0 7;77 83	Pain in elbows
+T8	ADR 0 7;57 62	Pain in wrist
+T3	ADR 364 369;376 387	ulcer lower bowel
+T1	ADR 17 24;5 10	stomach rough
+T5	ADR 232 242;249 257	sharp pain shoulder
+T9	ADR 122 139;144 156	genitals and lips excruciating
+T5	ADR 215 221;249 256	pain in stomach
+T2	ADR 246 255;263 278	skin rash back of my neck
+T10	ADR 348 355;356 363	pain in stomach
+T9	ADR 348 355;366 370	pain in back
+T3	ADR 111 116;98 104	hurts throat

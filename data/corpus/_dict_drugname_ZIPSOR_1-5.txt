@@ -1,0 +1,10 @@
+3|36|muscle
+4|64|fast
+5|360|pain relief
+5|365|relief
+5|475|now
+3|36|muscle
+4|64|fast
+5|360|pain relief
+5|365|relief
+5|475|now
