@@ -1,0 +1,31 @@
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+1|0|nausea
+-------------------
+dictIndex=3443 dictItem=pain throat
+dictIndex=4368 dictItem=sore throat
+dictIndex=4760 dictItem=throat pain
+dictIndex=4762 dictItem=throat sore
+2|98|throat
+2|142|pain
+2|270|sore
+2|275|throat
+-------------------
+dictIndex=2927 dictItem=muscle tightness
+dictIndex=3032 dictItem=neck stiff
+dictIndex=3035 dictItem=neck tightness
+dictIndex=4451 dictItem=stiff neck
+3|0|stiff
+3|6|neck
+3|12|tightness
+-------------------
+-------------------
+dictIndex=537 dictItem=bone pain
+dictIndex=2383 dictItem=joint pain
+dictIndex=3398 dictItem=pain bone
+dictIndex=3416 dictItem=pain joint
+dictIndex=3432 dictItem=pain joint
+5|28|bone
+5|37|joint
+5|43|pain
+-------------------

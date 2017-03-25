@@ -1,0 +1,45 @@
+dictIndex=3335 dictItem=symptom
+1|136|symptoms
+-------------------
+dictIndex=4552 dictItem=swelling foot
+dictIndex=4557 dictItem=swelling leg
+2|21|SWELLING
+2|37|LEGS
+2|46|FEET
+dictIndex=4545 dictItem=swell
+2|130|SWELLING
+-------------------
+dictIndex=563 dictItem=breast bleeding
+dictIndex=581 dictItem=breast pain
+dictIndex=2775 dictItem=menopausal symptom
+dictIndex=3335 dictItem=symptom
+dictIndex=3399 dictItem=pain breast
+dictIndex=4313 dictItem=skin symptom
+dictIndex=5037 dictItem=vaginal pain
+3|142|skin
+3|7|vaginal
+3|15|bleeding
+3|31|vaginal
+3|39|skin
+3|94|breast
+3|101|pain
+3|112|symptoms
+dictIndex=3335 dictItem=symptom
+3|385|symptoms
+dictIndex=4033 dictItem=red
+-------------------
+-------------------
+-------------------
+dictIndex=2615 dictItem=loss
+dictIndex=2618 dictItem=loss
+dictIndex=2619 dictItem=loss memory
+dictIndex=2760 dictItem=memory loss
+dictIndex=2761 dictItem=memory loss
+6|199|memory
+6|206|loss
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+7|7|stomach
+7|15|upset
+-------------------

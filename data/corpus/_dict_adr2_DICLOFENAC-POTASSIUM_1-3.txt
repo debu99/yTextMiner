@@ -1,0 +1,14 @@
+dictIndex=6128 dictItem=pain
+1|21|pain
+-------------------
+dictIndex=1716 dictItem=decrease
+dictIndex=6128 dictItem=pain
+2|12|pain
+-------------------
+dictIndex=6128 dictItem=pain
+dictIndex=6170 dictItem=pain throat
+3|49|throat
+3|56|pain
+dictIndex=5892 dictItem=eat
+dictIndex=5892 dictItem=eat
+-------------------

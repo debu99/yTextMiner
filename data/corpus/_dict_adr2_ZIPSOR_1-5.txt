@@ -1,0 +1,79 @@
+dictIndex=5717 dictItem=nausea
+1|0|nausea
+dictIndex=6128 dictItem=pain
+1|13|pain
+-------------------
+dictIndex=2766 dictItem=experience
+dictIndex=7539 dictItem=side effect
+2|15|experienced
+2|31|side
+2|36|effects
+dictIndex=3911 dictItem=horrible
+dictIndex=3931 dictItem=horrible pain
+dictIndex=3985 dictItem=hurt
+dictIndex=5913 dictItem=tolerable
+dictIndex=6128 dictItem=pain
+dictIndex=6170 dictItem=pain throat
+dictIndex=7822 dictItem=sore throat
+2|98|throat
+2|111|hurts
+2|142|pain
+2|150|tolerable
+2|261|horrible
+2|270|sore
+2|275|throat
+-------------------
+dictIndex=5617 dictItem=muscle pain
+dictIndex=5637 dictItem=muscle tightness
+dictIndex=5760 dictItem=neck pain
+dictIndex=6128 dictItem=pain
+dictIndex=6152 dictItem=pain neck
+dictIndex=6153 dictItem=pain neck shoulder
+dictIndex=7525 dictItem=shoulder pain
+dictIndex=7900 dictItem=stiff muscle
+dictIndex=7901 dictItem=stiff neck
+dictIndex=8468 dictItem=tightness
+dictIndex=8473 dictItem=tightness muscle
+3|0|stiff
+3|6|neck
+3|12|tightness
+3|25|shoulders
+3|36|muscle
+3|43|pain
+-------------------
+dictIndex=6128 dictItem=pain
+dictIndex=6159 dictItem=pain side
+dictIndex=6190 dictItem=pain side
+dictIndex=7539 dictItem=side effect
+dictIndex=7541 dictItem=side pain
+4|17|pain
+4|38|side
+4|43|effects
+-------------------
+dictIndex=960 dictItem=bone pain
+dictIndex=4786 dictItem=joint pain
+dictIndex=5226 dictItem=lupus
+dictIndex=6128 dictItem=pain
+dictIndex=6147 dictItem=pain joint
+5|37|joint
+5|43|pain
+5|64|Lupus
+dictIndex=3835 dictItem=herniate disc
+5|85|herniated
+dictIndex=645 dictItem=back pain
+dictIndex=3835 dictItem=herniate disc
+dictIndex=5226 dictItem=lupus
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+5|241|Lupus
+5|247|pain
+5|294|pain
+5|308|herniated
+5|360|pain
+5|379|back
+dictIndex=6128 dictItem=pain
+5|540|pain
+dictIndex=7539 dictItem=side effect
+5|587|side
+5|592|effects
+-------------------

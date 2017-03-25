@@ -1,0 +1,891 @@
+dictIndex=3767 dictItem=heartburn
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+1|0|Heartburn
+1|14|stomach
+1|22|upset
+dictIndex=6128 dictItem=pain
+1|78|pain
+dictIndex=2315 dictItem=drug
+dictIndex=7539 dictItem=side effect
+1|186|side
+1|191|effects
+dictIndex=2315 dictItem=drug
+dictIndex=3585 dictItem=habit form
+1|343|habit
+-------------------
+dictIndex=1247 dictItem=chest pain
+dictIndex=2202 dictItem=dizzy
+dictIndex=3061 dictItem=feel dizzy
+dictIndex=3068 dictItem=feel die
+dictIndex=3129 dictItem=feel dizzy
+dictIndex=3146 dictItem=feel
+dictIndex=6128 dictItem=pain
+dictIndex=6137 dictItem=pain chest
+dictIndex=6898 dictItem=dizzy
+2|39|felt
+2|44|dizzy
+2|58|chest
+2|64|pain
+2|73|felt
+2|115|die
+dictIndex=7536 dictItem=sicker
+dictIndex=8253 dictItem=symptom
+2|207|symptoms
+2|337|sicker
+-------------------
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+3|8|upset
+3|14|stomach
+dictIndex=5892 dictItem=eat
+dictIndex=1119 dictItem=sleep
+dictIndex=1120 dictItem=sleep
+dictIndex=4929 dictItem=sleep
+dictIndex=5860 dictItem=sleep
+dictIndex=5909 dictItem=sleep
+dictIndex=6128 dictItem=pain
+dictIndex=6747 dictItem=sleep
+dictIndex=7626 dictItem=sleep
+dictIndex=7654 dictItem=sleep night
+dictIndex=7688 dictItem=sleep
+3|82|pain
+3|105|sleep
+3|133|night
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+3|166|upset
+3|175|stomach
+dictIndex=7539 dictItem=side effect
+3|216|side
+3|221|effects
+-------------------
+dictIndex=2326 dictItem=dry mouth
+dictIndex=5565 dictItem=mouth dry
+4|0|dry
+4|4|mouth
+dictIndex=3146 dictItem=feel
+dictIndex=6128 dictItem=pain
+4|148|pain
+dictIndex=3146 dictItem=feel
+dictIndex=6128 dictItem=pain
+4|247|pain
+-------------------
+dictIndex=7539 dictItem=side effect
+5|3|side
+5|8|effects
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+5|203|upset
+5|212|stomach
+dictIndex=131 dictItem=ache
+5|300|ache
+dictIndex=3146 dictItem=feel
+dictIndex=6128 dictItem=pain
+dictIndex=9093 dictItem=wake
+5|398|pain
+-------------------
+dictIndex=7539 dictItem=side effect
+6|9|side
+6|14|effects
+dictIndex=3078 dictItem=feel light head
+dictIndex=3146 dictItem=feel
+dictIndex=4966 dictItem=light head
+dictIndex=5932 dictItem=numb
+6|212|light
+6|218|headed
+dictIndex=1579 dictItem=walk
+6|249|walk
+dictIndex=4557 dictItem=inflammation
+dictIndex=6210 dictItem=panic
+6|367|inflammation
+6|408|panic
+-------------------
+dictIndex=1965 dictItem=diarrhea
+dictIndex=4552 dictItem=infection
+dictIndex=5717 dictItem=nausea
+dictIndex=5723 dictItem=nausea diarrhea
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7564 dictItem=sinus
+dictIndex=7570 dictItem=sinus infection
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+7|9|diarrhea
+7|22|stomach
+7|30|pain
+7|112|sinus
+7|118|infection
+7|151|diarrhea
+7|164|nausea
+dictIndex=6128 dictItem=pain
+7|311|pain
+dictIndex=246 dictItem=afraid
+dictIndex=2315 dictItem=drug
+dictIndex=3797 dictItem=help pain
+dictIndex=4786 dictItem=joint pain
+dictIndex=4822 dictItem=knee pain
+dictIndex=6128 dictItem=pain
+dictIndex=6147 dictItem=pain joint
+7|375|help
+7|384|pain
+7|395|knee
+7|439|afraid
+7|475|pain
+7|513|joints
+dictIndex=5790 dictItem=nervous
+7|564|nervous
+-------------------
+dictIndex=645 dictItem=back pain
+dictIndex=976 dictItem=bp low
+dictIndex=1579 dictItem=walk
+dictIndex=2111 dictItem=disoriented
+dictIndex=3282 dictItem=fever
+dictIndex=3753 dictItem=heart racing
+dictIndex=4550 dictItem=infection skin
+dictIndex=4552 dictItem=infection
+dictIndex=5130 dictItem=loss weight
+dictIndex=5717 dictItem=nausea
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7581 dictItem=skin color
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+dictIndex=7960 dictItem=straight
+dictIndex=8961 dictItem=urination
+dictIndex=9175 dictItem=weight loss
+8|192|BP
+8|204|low
+8|215|fever
+8|239|weight
+8|246|loss
+8|269|color
+8|281|skin
+8|296|walk
+8|301|straight
+8|340|nausea
+8|348|pain
+8|356|stomach
+8|366|back
+8|372|urination
+8|419|racing
+8|427|disoriented
+dictIndex=229 dictItem=adverse reaction
+dictIndex=2315 dictItem=drug
+8|698|reactions
+dictIndex=5063 dictItem=lose
+dictIndex=2315 dictItem=drug
+dictIndex=2315 dictItem=drug
+-------------------
+dictIndex=5449 dictItem=mild sedation
+dictIndex=7236 dictItem=sedation
+9|5|sedation
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+9|127|pain
+dictIndex=7915 dictItem=stomach
+dictIndex=7939 dictItem=stomach problem
+9|200|stomach
+9|208|problems
+-------------------
+dictIndex=7161 dictItem=rough
+dictIndex=7915 dictItem=stomach
+10|5|rough
+10|17|stomach
+-------------------
+dictIndex=277 dictItem=agitate
+dictIndex=2315 dictItem=drug
+dictIndex=4190 dictItem=impatient
+dictIndex=4590 dictItem=insomnia
+dictIndex=5635 dictItem=muscle tension
+dictIndex=7521 dictItem=short temper
+dictIndex=8349 dictItem=tension
+11|22|agitated
+11|32|insomnia
+11|69|tension
+11|84|tempered
+11|94|impatient
+dictIndex=282 dictItem=agitation
+dictIndex=547 dictItem=arm pain
+dictIndex=3629 dictItem=hand pain
+dictIndex=3639 dictItem=hand pain
+dictIndex=3797 dictItem=help pain
+dictIndex=6128 dictItem=pain
+11|115|helped
+11|127|pain
+11|135|hand
+11|155|agitation
+dictIndex=7835 dictItem=spasm
+11|186|spasms
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=4913 dictItem=leg cramp
+12|18|leg
+12|22|cramps
+12|44|leg
+dictIndex=7539 dictItem=side effect
+12|87|side
+12|92|effects
+dictIndex=131 dictItem=ache
+dictIndex=556 dictItem=arthritis
+dictIndex=2082 dictItem=discomfort
+dictIndex=2315 dictItem=drug
+12|161|aches
+12|171|discomfort
+12|191|arthritis
+dictIndex=3238 dictItem=foot pain
+dictIndex=3373 dictItem=foot pain
+dictIndex=6128 dictItem=pain
+12|220|pain
+12|231|foot
+-------------------
+dictIndex=326 dictItem=allergic
+dictIndex=332 dictItem=allergic reaction
+13|9|allergic
+13|18|reaction
+dictIndex=4739 dictItem=itchy skin
+dictIndex=5939 dictItem=numbness
+dictIndex=5952 dictItem=numbness skin
+dictIndex=7819 dictItem=sore gum
+dictIndex=7823 dictItem=sore tongue
+13|50|skin
+13|69|sore
+13|100|numbness
+13|112|tongue
+13|123|gums
+-------------------
+dictIndex=3353 dictItem=focus eye
+dictIndex=6612 dictItem=problem vision
+dictIndex=9044 dictItem=vision problem
+14|0|Eye
+14|321|eye
+14|4|problem
+14|36|vision
+14|217|eye
+14|82|focus
+14|304|focus
+-------------------
+dictIndex=6926 dictItem=red
+dictIndex=7539 dictItem=side effect
+15|51|side
+15|56|effects
+dictIndex=1716 dictItem=decrease
+dictIndex=6128 dictItem=pain
+15|129|pain
+dictIndex=1012 dictItem=break
+15|203|break
+-------------------
+dictIndex=4916 dictItem=leg pain
+dictIndex=6128 dictItem=pain
+dictIndex=6149 dictItem=pain leg
+16|45|pains
+16|81|legs
+dictIndex=3082 dictItem=feel nauseous
+dictIndex=3146 dictItem=feel
+dictIndex=3171 dictItem=feel nauseous
+dictIndex=5749 dictItem=nauseous
+dictIndex=6128 dictItem=pain
+16|125|feel
+16|149|pain
+16|166|feeling
+16|174|nauseous
+dictIndex=3146 dictItem=feel
+dictIndex=3187 dictItem=feel sick
+dictIndex=3260 dictItem=feel sick
+16|299|feel
+16|304|sick
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=7915 dictItem=stomach
+dictIndex=7924 dictItem=stomach cramp
+17|7|stomach
+17|15|cramps
+dictIndex=2275 dictItem=drowsiness
+dictIndex=3695 dictItem=headache
+17|34|Headache
+17|47|drowsiness
+dictIndex=7539 dictItem=side effect
+17|129|side
+17|134|effects
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=3111 dictItem=feel bad
+dictIndex=3146 dictItem=feel
+dictIndex=3179 dictItem=feel bad
+17|143|Cramps
+17|153|bad
+17|164|felt
+-------------------
+dictIndex=1965 dictItem=diarrhea
+dictIndex=2766 dictItem=experience
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7416 dictItem=severe stomach pain
+dictIndex=7915 dictItem=stomach
+dictIndex=7922 dictItem=stomach cramping
+dictIndex=7923 dictItem=stomach cramping pain
+dictIndex=7931 dictItem=stomach pain
+18|50|pain
+18|78|experienced
+18|90|severe
+18|97|stomach
+18|105|cramping
+18|118|diarrhea
+dictIndex=1117 dictItem=control
+18|154|control
+-------------------
+dictIndex=6128 dictItem=pain
+19|123|pain
+dictIndex=6892 dictItem=read side effect
+dictIndex=7539 dictItem=side effect
+19|165|side
+19|170|effects
+dictIndex=3146 dictItem=feel
+dictIndex=556 dictItem=arthritis
+dictIndex=6128 dictItem=pain
+19|313|arthritis
+19|323|pain
+dictIndex=7539 dictItem=side effect
+19|379|side
+19|384|effects
+-------------------
+dictIndex=2766 dictItem=experience
+20|10|experience
+dictIndex=3797 dictItem=help pain
+dictIndex=6128 dictItem=pain
+20|110|pain
+20|129|pain
+dictIndex=2766 dictItem=experience
+dictIndex=7539 dictItem=side effect
+20|279|experience
+20|294|side
+20|299|effects
+dictIndex=7539 dictItem=side effect
+20|345|side
+20|350|effects
+dictIndex=871 dictItem=blood pressure
+dictIndex=1085 dictItem=burn
+dictIndex=1098 dictItem=burn
+dictIndex=3849 dictItem=high blood pressure
+dictIndex=6549 dictItem=pressure
+dictIndex=8720 dictItem=ulcer
+20|401|High
+20|406|blood
+20|412|pressure
+20|449|ulcers
+20|480|burn
+dictIndex=6128 dictItem=pain
+20|557|pain
+dictIndex=2311 dictItem=drug wear
+dictIndex=2315 dictItem=drug
+dictIndex=2452 dictItem=effectiveness
+dictIndex=6128 dictItem=pain
+dictIndex=6159 dictItem=pain side
+dictIndex=6190 dictItem=pain side
+dictIndex=7539 dictItem=side effect
+dictIndex=7541 dictItem=side pain
+dictIndex=9153 dictItem=wear
+dictIndex=9250 dictItem=wear
+20|666|side
+20|671|effects
+20|778|effectiveness
+20|799|pain
+20|820|wear
+-------------------
+dictIndex=4552 dictItem=infection
+dictIndex=2315 dictItem=drug
+dictIndex=3911 dictItem=horrible
+21|81|horrible
+dictIndex=2766 dictItem=experience
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+21|125|experience
+21|152|pain
+21|163|stomach
+dictIndex=6128 dictItem=pain
+dictIndex=7525 dictItem=shoulder pain
+dictIndex=7577 dictItem=sit
+dictIndex=7578 dictItem=sit
+dictIndex=7960 dictItem=straight
+21|238|pain
+21|249|shoulder
+21|274|straight
+dictIndex=6128 dictItem=pain
+dictIndex=3476 dictItem=gastritis
+21|409|gastritis
+dictIndex=229 dictItem=adverse reaction
+dictIndex=2766 dictItem=experience
+dictIndex=2795 dictItem=experience reaction
+21|434|reaction
+21|455|experience
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=1965 dictItem=diarrhea
+dictIndex=7915 dictItem=stomach
+dictIndex=7924 dictItem=stomach cramp
+22|7|stomach
+22|15|cramps
+22|26|diarrhea
+dictIndex=2315 dictItem=drug
+-------------------
+dictIndex=1271 dictItem=chronic
+dictIndex=1290 dictItem=chronic pain
+dictIndex=3797 dictItem=help pain
+dictIndex=6128 dictItem=pain
+23|3|helps
+23|17|chronic
+23|25|pain
+23|63|pain
+dictIndex=884 dictItem=blood stool
+dictIndex=2177 dictItem=diverticulitis
+dictIndex=6128 dictItem=pain
+dictIndex=8253 dictItem=symptom
+23|88|symptoms
+23|108|diverticulitis
+23|133|stool
+23|140|pain
+dictIndex=6128 dictItem=pain
+dictIndex=6301 dictItem=pay attention
+23|172|paying
+23|221|pain
+-------------------
+dictIndex=2179 dictItem=dizziness
+dictIndex=6549 dictItem=pressure
+24|93|pressure
+24|106|dizziness
+dictIndex=3476 dictItem=gastritis
+24|134|gastritis
+dictIndex=871 dictItem=blood pressure
+dictIndex=881 dictItem=blood problem
+dictIndex=6549 dictItem=pressure
+dictIndex=6552 dictItem=pressure stomach
+dictIndex=7915 dictItem=stomach
+dictIndex=7939 dictItem=stomach problem
+24|179|stomach
+24|196|pressure
+24|205|problems
+-------------------
+dictIndex=326 dictItem=allergic
+dictIndex=332 dictItem=allergic reaction
+dictIndex=7319 dictItem=severe allergic
+dictIndex=7321 dictItem=severe allergic reaction
+25|38|severe
+25|45|allergic
+25|54|reaction
+dictIndex=2215 dictItem=itch
+dictIndex=3146 dictItem=feel
+dictIndex=4716 dictItem=itch
+dictIndex=4731 dictItem=itch skin
+25|67|skin
+25|105|itch
+dictIndex=4986 dictItem=lip tongue
+dictIndex=8175 dictItem=swell
+dictIndex=8204 dictItem=swell lip
+dictIndex=8216 dictItem=swell lip
+dictIndex=8219 dictItem=swell tongue
+dictIndex=8230 dictItem=swell tongue
+dictIndex=8541 dictItem=tongue swell
+25|135|lips
+25|177|swell
+25|192|tongue
+dictIndex=556 dictItem=arthritis
+dictIndex=3550 dictItem=gout
+25|319|gout
+25|337|arthritis
+dictIndex=326 dictItem=allergic
+25|410|allergic
+-------------------
+dictIndex=7539 dictItem=side effect
+26|3|side
+26|8|effects
+dictIndex=1064 dictItem=bruise
+dictIndex=1065 dictItem=bruise
+dictIndex=4557 dictItem=inflammation
+26|104|inflammation
+dictIndex=2315 dictItem=drug
+dictIndex=2315 dictItem=drug
+-------------------
+dictIndex=8508 dictItem=tired
+dictIndex=9028 dictItem=tired
+dictIndex=9076 dictItem=vomit
+dictIndex=9077 dictItem=vomit
+dictIndex=3629 dictItem=hand pain
+dictIndex=3639 dictItem=hand pain
+dictIndex=6128 dictItem=pain
+27|148|hands
+27|162|pain
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=1965 dictItem=diarrhea
+dictIndex=3021 dictItem=fatigue
+dictIndex=7915 dictItem=stomach
+dictIndex=7924 dictItem=stomach cramp
+dictIndex=9021 dictItem=fatigue
+28|0|Stomach
+28|8|cramps
+28|16|diarrhea
+28|26|fatigue
+-------------------
+dictIndex=5617 dictItem=muscle pain
+dictIndex=5626 dictItem=muscle spasm
+dictIndex=6128 dictItem=pain
+dictIndex=7835 dictItem=spasm
+29|8|pain
+29|24|spasms
+-------------------
+dictIndex=645 dictItem=back pain
+dictIndex=1039 dictItem=breast pain
+dictIndex=1085 dictItem=burn
+dictIndex=1090 dictItem=burn hand
+dictIndex=1093 dictItem=burn pain
+dictIndex=1098 dictItem=burn
+dictIndex=1965 dictItem=diarrhea
+dictIndex=2337 dictItem=dry skin
+dictIndex=3629 dictItem=hand pain
+dictIndex=3639 dictItem=hand pain
+dictIndex=5152 dictItem=lot pain
+dictIndex=5359 dictItem=menopausal symptom
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+dictIndex=6657 dictItem=pruritus
+dictIndex=8253 dictItem=symptom
+dictIndex=8979 dictItem=vaginal bleeding
+dictIndex=8986 dictItem=vaginal pain
+30|7|vaginal
+30|15|bleeding
+30|31|vaginal
+30|39|skin
+30|44|burns
+30|353|diarrhea
+30|52|lot
+30|70|back
+30|80|menopausal
+30|94|breast
+30|101|pain
+30|112|symptoms
+30|142|skin
+30|182|hands
+30|205|lot
+30|228|pruritus
+dictIndex=8253 dictItem=symptom
+30|385|symptoms
+dictIndex=6128 dictItem=pain
+30|504|pain
+dictIndex=6657 dictItem=pruritus
+dictIndex=6926 dictItem=red
+dictIndex=6943 dictItem=red skin
+dictIndex=8979 dictItem=vaginal bleeding
+30|526|vaginal
+30|553|pruritus
+30|569|skin
+30|582|red
+dictIndex=4552 dictItem=infection
+dictIndex=8985 dictItem=vaginal infection
+30|674|vaginal
+30|698|infections
+dictIndex=7539 dictItem=side effect
+30|847|side
+30|852|effects
+-------------------
+dictIndex=1815 dictItem=dehydration
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+31|0|stomach
+31|8|upset
+31|26|dehydration
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=7915 dictItem=stomach
+dictIndex=7924 dictItem=stomach cramp
+dictIndex=7960 dictItem=straight
+dictIndex=9076 dictItem=vomit
+dictIndex=9077 dictItem=vomit
+32|11|stomach
+32|19|cramps
+32|73|straight
+-------------------
+dictIndex=8979 dictItem=vaginal bleeding
+33|7|vaginal
+-------------------
+dictIndex=7539 dictItem=side effect
+34|60|side
+34|65|effects
+dictIndex=1247 dictItem=chest pain
+dictIndex=6128 dictItem=pain
+dictIndex=6137 dictItem=pain chest
+34|170|chest
+34|176|pains
+dictIndex=4810 dictItem=kidney pain
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+34|215|pain
+34|249|stomach
+dictIndex=4710 dictItem=irritation
+dictIndex=5717 dictItem=nausea
+dictIndex=7592 dictItem=skin irritation
+34|307|nausea
+34|318|skin
+34|323|irritation
+dictIndex=7539 dictItem=side effect
+34|339|side
+34|344|effects
+dictIndex=7915 dictItem=stomach
+34|429|stomach
+dictIndex=7539 dictItem=side effect
+34|476|Side
+34|481|effects
+-------------------
+dictIndex=9193 dictItem=wheeze
+35|19|wheezing
+dictIndex=1119 dictItem=sleep
+dictIndex=1120 dictItem=sleep
+dictIndex=2457 dictItem=effect sleep
+dictIndex=4929 dictItem=sleep
+dictIndex=5851 dictItem=night sleep day
+dictIndex=5860 dictItem=sleep
+dictIndex=5909 dictItem=sleep
+dictIndex=6747 dictItem=sleep
+dictIndex=7539 dictItem=side effect
+dictIndex=7626 dictItem=sleep
+dictIndex=7654 dictItem=sleep night
+dictIndex=7688 dictItem=sleep
+dictIndex=9193 dictItem=wheeze
+35|56|days
+35|65|wheezing
+35|88|side
+35|93|effect
+35|125|night
+35|143|sleep
+dictIndex=9093 dictItem=wake
+dictIndex=9193 dictItem=wheeze
+35|179|wheezing
+dictIndex=6849 dictItem=rash
+dictIndex=7411 dictItem=severe skin rash
+dictIndex=7607 dictItem=skin rash
+35|239|severe
+35|246|skin
+35|251|rash
+dictIndex=326 dictItem=allergic
+dictIndex=332 dictItem=allergic reaction
+dictIndex=2315 dictItem=drug
+dictIndex=6377 dictItem=person
+35|334|person
+35|373|allergic
+35|382|reaction
+-------------------
+dictIndex=3797 dictItem=help pain
+dictIndex=6128 dictItem=pain
+36|228|pain
+-------------------
+dictIndex=1965 dictItem=diarrhea
+dictIndex=2423 dictItem=eat lot
+dictIndex=2424 dictItem=eat lot
+dictIndex=5892 dictItem=eat
+dictIndex=7915 dictItem=stomach
+37|0|Lots
+37|31|eating
+37|128|diarrhea
+dictIndex=1271 dictItem=chronic
+dictIndex=1290 dictItem=chronic pain
+dictIndex=6128 dictItem=pain
+37|264|pain
+37|283|chronic
+37|302|pain
+dictIndex=6128 dictItem=pain
+dictIndex=6156 dictItem=pain reliever
+37|404|pain
+37|409|reliever
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=7915 dictItem=stomach
+dictIndex=7924 dictItem=stomach cramp
+38|0|Stomach
+38|8|cramps
+dictIndex=7539 dictItem=side effect
+38|56|side
+38|61|effects
+38|96|side
+38|101|effects
+-------------------
+dictIndex=8430 dictItem=throat tightness
+dictIndex=8468 dictItem=tightness
+dictIndex=8474 dictItem=tightness throat
+dictIndex=8480 dictItem=tingle
+39|49|tightness
+39|65|throat
+39|73|tingling
+dictIndex=3727 dictItem=heart attack
+dictIndex=8253 dictItem=symptom
+dictIndex=8430 dictItem=throat tightness
+dictIndex=8468 dictItem=tightness
+dictIndex=8474 dictItem=tightness throat
+39|103|symptoms
+39|166|tightness
+39|182|throat
+39|241|heart
+39|247|attack
+-------------------
+dictIndex=7915 dictItem=stomach
+dictIndex=8508 dictItem=tired
+dictIndex=9025 dictItem=moody
+dictIndex=9028 dictItem=tired
+dictIndex=9211 dictItem=wild dream
+40|77|wild
+40|98|stomach
+dictIndex=7955 dictItem=stop heart
+40|136|heart
+40|142|stopped
+dictIndex=4056 dictItem=hypertension
+40|283|hypertension
+dictIndex=556 dictItem=arthritis
+40|325|arthritis
+dictIndex=556 dictItem=arthritis
+dictIndex=6128 dictItem=pain
+40|417|arthritis
+-------------------
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+41|0|cramps
+-------------------
+dictIndex=1427 dictItem=concerned
+dictIndex=7539 dictItem=side effect
+42|40|concerned
+42|112|side
+42|117|effects
+dictIndex=2315 dictItem=drug
+dictIndex=3797 dictItem=help pain
+dictIndex=4822 dictItem=knee pain
+dictIndex=6128 dictItem=pain
+42|214|knee
+42|219|pain
+dictIndex=6128 dictItem=pain
+dictIndex=6171 dictItem=pain trouble
+dictIndex=7577 dictItem=sit
+dictIndex=7578 dictItem=sit
+42|341|Pain
+42|372|trouble
+dictIndex=6128 dictItem=pain
+42|441|pain
+-------------------
+dictIndex=2179 dictItem=dizziness
+dictIndex=2193 dictItem=dizziness nausea
+dictIndex=5446 dictItem=mild nausea
+dictIndex=5717 dictItem=nausea
+dictIndex=5722 dictItem=nausea day
+43|0|dizziness
+43|20|days
+43|26|mild
+43|31|nausea
+-------------------
+dictIndex=6128 dictItem=pain
+44|85|pain
+dictIndex=3146 dictItem=feel
+dictIndex=3695 dictItem=headache
+dictIndex=5438 dictItem=mild headache
+44|128|mild
+44|133|headache
+dictIndex=7539 dictItem=side effect
+44|152|side
+44|157|effects
+dictIndex=8 dictItem=abdominal cramp
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=1965 dictItem=diarrhea
+44|224|cramps
+44|244|diarrhea
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=3467 dictItem=gas
+44|280|gas
+44|300|cramping
+dictIndex=668 dictItem=bad headache
+dictIndex=676 dictItem=bad nausea
+dictIndex=3695 dictItem=headache
+dictIndex=3700 dictItem=headache nausea
+dictIndex=3767 dictItem=heartburn
+dictIndex=5717 dictItem=nausea
+44|364|headache
+44|388|nausea
+44|400|heartburn
+dictIndex=5025 dictItem=live pain
+dictIndex=6128 dictItem=pain
+dictIndex=6159 dictItem=pain side
+dictIndex=6190 dictItem=pain side
+dictIndex=7539 dictItem=side effect
+dictIndex=7541 dictItem=side pain
+44|569|pain
+44|601|side
+44|606|effects
+-------------------
+dictIndex=899 dictItem=bloody diarrhea
+dictIndex=905 dictItem=bloody vomit
+dictIndex=1254 dictItem=chill
+dictIndex=1255 dictItem=chill fever
+dictIndex=1965 dictItem=diarrhea
+dictIndex=2213 dictItem=dizzyness
+dictIndex=2877 dictItem=extreme sweating
+dictIndex=3282 dictItem=fever
+dictIndex=3283 dictItem=fever chill
+dictIndex=9076 dictItem=vomit
+dictIndex=9077 dictItem=vomit
+dictIndex=9079 dictItem=vomit chill
+dictIndex=9129 dictItem=weak
+45|8|diarrhea
+45|18|vomiting
+45|36|sweating
+45|46|dizzyness
+45|62|weak
+45|77|chills
+45|91|fever
+-------------------
+dictIndex=2315 dictItem=drug
+dictIndex=2438 dictItem=edema
+dictIndex=2948 dictItem=face edema
+46|26|edema
+46|47|face
+dictIndex=5886 dictItem=breath
+dictIndex=7523 dictItem=shortness breath
+46|98|shortness
+dictIndex=5617 dictItem=muscle pain
+dictIndex=5626 dictItem=muscle spasm
+dictIndex=6128 dictItem=pain
+dictIndex=7525 dictItem=shoulder pain
+dictIndex=7835 dictItem=spasm
+46|332|pain
+46|349|spasm
+46|358|shoulder
+dictIndex=834 dictItem=bloated
+dictIndex=838 dictItem=bloated time
+dictIndex=5886 dictItem=breath
+dictIndex=6128 dictItem=pain
+dictIndex=7517 dictItem=short breath
+dictIndex=8235 dictItem=swollen
+dictIndex=8236 dictItem=swollen face
+46|449|pain
+46|469|time
+46|486|face
+46|507|swollen
+46|524|short
+46|554|bloated
+-------------------

@@ -1,0 +1,23 @@
+-------------------
+dictIndex=1575 dictItem=breathe
+dictIndex=3146 dictItem=feel
+dictIndex=3194 dictItem=feel tiredness
+dictIndex=3227 dictItem=feeling sadness
+dictIndex=3507 dictItem=feeling tiredness
+dictIndex=7183 dictItem=sadness
+dictIndex=8521 dictItem=tiredness
+dictIndex=9166 dictItem=tiredness
+2|186|feeling
+2|197|sadness
+2|206|tiredness
+dictIndex=7539 dictItem=side effect
+2|324|side
+2|329|effects
+dictIndex=2436 dictItem=eczema
+2|546|eczema
+-------------------
+dictIndex=2984 dictItem=fall
+dictIndex=7539 dictItem=side effect
+3|0|Side
+3|5|effects
+-------------------

@@ -1,0 +1,8 @@
+-------------------
+dictIndex=1134 dictItem=decrease
+-------------------
+dictIndex=3443 dictItem=pain throat
+dictIndex=4760 dictItem=throat pain
+3|49|throat
+3|56|pain
+-------------------

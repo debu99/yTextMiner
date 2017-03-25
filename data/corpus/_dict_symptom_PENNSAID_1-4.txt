@@ -1,0 +1,22 @@
+dictIndex=2383 dictItem=joint pain
+dictIndex=3416 dictItem=pain joint
+dictIndex=3432 dictItem=pain joint
+dictIndex=5202 dictItem=wrist pain
+1|208|joint
+1|214|pain
+1|222|wrist
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+1|344|knee
+1|349|pain
+-------------------
+-------------------
+dictIndex=2416 dictItem=kidney pain
+dictIndex=3433 dictItem=pain kidney
+3|32|kidney
+3|39|pain
+dictIndex=297 dictItem=anxiety
+3|189|anxiety
+-------------------
+-------------------

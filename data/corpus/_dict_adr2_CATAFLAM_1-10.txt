@@ -1,0 +1,114 @@
+dictIndex=6909 dictItem=rectal bleeding
+1|0|rectal
+dictIndex=2315 dictItem=drug
+dictIndex=2766 dictItem=experience
+1|168|experienced
+-------------------
+dictIndex=2326 dictItem=dry mouth
+dictIndex=5565 dictItem=mouth dry
+2|0|Dry
+2|4|mouth
+dictIndex=6128 dictItem=pain
+2|66|pain
+-------------------
+dictIndex=2275 dictItem=drowsiness
+dictIndex=2326 dictItem=dry mouth
+dictIndex=5565 dictItem=mouth dry
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+3|0|Stomach
+3|8|pains
+3|21|dry
+3|25|mouth
+3|35|drowsiness
+dictIndex=2315 dictItem=drug
+-------------------
+dictIndex=2275 dictItem=drowsiness
+dictIndex=2278 dictItem=drowsiness effect
+dictIndex=2326 dictItem=dry mouth
+dictIndex=5565 dictItem=mouth dry
+dictIndex=7539 dictItem=side effect
+4|0|Side
+4|5|effects
+4|22|drowsiness
+4|42|dry
+4|46|mouth
+dictIndex=7915 dictItem=stomach
+dictIndex=7939 dictItem=stomach problem
+4|77|stomach
+4|93|problem
+dictIndex=1119 dictItem=sleep
+dictIndex=1120 dictItem=sleep
+dictIndex=2275 dictItem=drowsiness
+dictIndex=4929 dictItem=sleep
+dictIndex=5860 dictItem=sleep
+dictIndex=5909 dictItem=sleep
+dictIndex=6747 dictItem=sleep
+dictIndex=7626 dictItem=sleep
+dictIndex=7688 dictItem=sleep
+4|106|drowsiness
+4|138|sleep
+dictIndex=2315 dictItem=drug
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+4|292|pain
+dictIndex=131 dictItem=ache
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+dictIndex=6156 dictItem=pain reliever
+4|376|pain
+4|381|reliever
+4|421|aches
+4|431|pains
+-------------------
+-------------------
+dictIndex=6128 dictItem=pain
+6|10|pain
+dictIndex=2315 dictItem=drug
+dictIndex=3489 dictItem=gastrointestinal problem
+6|146|problems
+-------------------
+dictIndex=2766 dictItem=experience
+7|235|experienced
+dictIndex=871 dictItem=blood pressure
+dictIndex=5166 dictItem=low blood pressure
+dictIndex=6549 dictItem=pressure
+dictIndex=7874 dictItem=slight
+7|361|blood
+7|367|pressure
+7|391|pressure
+7|411|low
+-------------------
+dictIndex=4557 dictItem=inflammation
+dictIndex=6128 dictItem=pain
+dictIndex=7287 dictItem=sensitivity sun
+dictIndex=7290 dictItem=sensitivity sun
+dictIndex=8129 dictItem=sun sensitivity
+8|46|sun
+8|50|sensitivity
+8|131|inflammation
+-------------------
+dictIndex=6128 dictItem=pain
+dictIndex=6156 dictItem=pain reliever
+9|110|pain
+9|115|reliever
+dictIndex=6128 dictItem=pain
+9|476|pain
+dictIndex=3727 dictItem=heart attack
+dictIndex=7991 dictItem=stroke
+9|671|heart
+9|677|attacks
+9|689|strokes
+dictIndex=556 dictItem=arthritis
+9|986|arthritis
+-------------------
+dictIndex=2160 dictItem=distress
+dictIndex=8253 dictItem=symptom
+10|29|symptoms
+10|44|distress
+dictIndex=336 dictItem=allergy
+10|227|allergies
+-------------------

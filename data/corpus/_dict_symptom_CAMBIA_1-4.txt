@@ -1,0 +1,13 @@
+-------------------
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+2|15|nausea
+-------------------
+dictIndex=1286 dictItem=dry heave
+dictIndex=1594 dictItem=feel down
+3|35|Felt
+3|85|down
+3|100|heaves
+dictIndex=5103 dictItem=vomit
+-------------------
+-------------------

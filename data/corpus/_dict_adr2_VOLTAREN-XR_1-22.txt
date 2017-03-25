@@ -1,0 +1,288 @@
+dictIndex=357 dictItem=altered taste
+dictIndex=828 dictItem=blister
+dictIndex=831 dictItem=blister
+dictIndex=833 dictItem=blister mouth
+dictIndex=2179 dictItem=dizziness
+dictIndex=3467 dictItem=gas
+dictIndex=7195 dictItem=scalp itchy
+dictIndex=9018 dictItem=vertigo
+1|0|dizziness
+1|10|vertigo
+1|27|taste
+1|34|gas
+1|61|mouth
+1|68|itchy
+1|74|scalp
+dictIndex=7539 dictItem=side effect
+1|189|side
+1|194|effects
+dictIndex=9018 dictItem=vertigo
+1|226|vertigo
+-------------------
+dictIndex=2082 dictItem=discomfort
+dictIndex=7915 dictItem=stomach
+dictIndex=7925 dictItem=stomach discomfort
+2|8|stomach
+2|16|discomfort
+dictIndex=839 dictItem=bloat
+dictIndex=1588 dictItem=cramp
+dictIndex=1589 dictItem=cramp
+dictIndex=3467 dictItem=gas
+2|38|cramps
+2|46|gas
+2|51|bloating
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+2|152|stomach
+2|165|pain
+dictIndex=7539 dictItem=side effect
+2|285|side
+2|290|effects
+-------------------
+dictIndex=2766 dictItem=experience
+3|12|experience
+dictIndex=1965 dictItem=diarrhea
+3|207|diarrhea
+dictIndex=4850 dictItem=lack food
+3|234|lack
+3|251|food
+dictIndex=9 dictItem=abdominal discomfort
+dictIndex=1243 dictItem=chest discomfort
+dictIndex=1249 dictItem=chest pressure
+dictIndex=2082 dictItem=discomfort
+dictIndex=2766 dictItem=experience
+dictIndex=6549 dictItem=pressure
+3|389|experienced
+3|401|chest
+3|407|discomfort
+3|438|pressure
+dictIndex=8253 dictItem=symptom
+3|495|symptoms
+dictIndex=2160 dictItem=distress
+dictIndex=3472 dictItem=gastric distress
+3|604|gastric
+3|612|distress
+3|640|gastric
+dictIndex=8253 dictItem=symptom
+3|925|symptoms
+-------------------
+-------------------
+dictIndex=8508 dictItem=tired
+dictIndex=9028 dictItem=tired
+dictIndex=862 dictItem=blood eye
+dictIndex=7991 dictItem=stroke
+5|110|stroke
+5|157|eye
+dictIndex=2315 dictItem=drug
+dictIndex=3067 dictItem=feel drug
+dictIndex=3146 dictItem=feel
+5|334|drug
+5|372|felt
+dictIndex=5892 dictItem=eat
+dictIndex=1119 dictItem=sleep
+dictIndex=1120 dictItem=sleep
+dictIndex=4929 dictItem=sleep
+dictIndex=5860 dictItem=sleep
+dictIndex=5909 dictItem=sleep
+dictIndex=6747 dictItem=sleep
+dictIndex=7626 dictItem=sleep
+dictIndex=7654 dictItem=sleep night
+dictIndex=7688 dictItem=sleep
+5|460|sleep
+5|479|night
+dictIndex=645 dictItem=back pain
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+5|524|back
+5|529|pain
+-------------------
+-------------------
+-------------------
+dictIndex=839 dictItem=bloat
+dictIndex=7874 dictItem=slight
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+8|7|stomach
+8|15|upset
+8|48|bloating
+dictIndex=6128 dictItem=pain
+8|62|Pain
+-------------------
+-------------------
+-------------------
+-------------------
+dictIndex=2286 dictItem=drowsy
+12|40|drowsy
+-------------------
+-------------------
+dictIndex=7915 dictItem=stomach
+14|28|stomach
+-------------------
+dictIndex=131 dictItem=ache
+dictIndex=645 dictItem=back pain
+dictIndex=4822 dictItem=knee pain
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+dictIndex=7525 dictItem=shoulder pain
+15|144|shoulder
+15|182|aches
+15|192|pains
+15|199|back
+15|205|knees
+-------------------
+dictIndex=2082 dictItem=discomfort
+dictIndex=7915 dictItem=stomach
+dictIndex=7925 dictItem=stomach discomfort
+16|19|stomach
+16|27|discomfort
+dictIndex=7915 dictItem=stomach
+16|125|stomach
+dictIndex=3550 dictItem=gout
+16|248|gout
+dictIndex=3550 dictItem=gout
+dictIndex=8253 dictItem=symptom
+16|303|gout
+16|308|symptoms
+-------------------
+dictIndex=2766 dictItem=experience
+17|9|experienced
+dictIndex=225 dictItem=adverse effect
+dictIndex=7539 dictItem=side effect
+dictIndex=7915 dictItem=stomach
+17|142|stomach
+17|158|adverse
+17|166|side
+17|171|effects
+-------------------
+dictIndex=2202 dictItem=dizzy
+dictIndex=2204 dictItem=dizzy feeling
+dictIndex=5270 dictItem=sleepy
+dictIndex=6898 dictItem=dizzy
+dictIndex=9027 dictItem=sleepy
+18|9|dizzy
+18|23|sleepy
+18|34|feeling
+dictIndex=3442 dictItem=gain weight
+dictIndex=3448 dictItem=gain weight
+dictIndex=3449 dictItem=gain weight
+dictIndex=5130 dictItem=loss weight
+dictIndex=9164 dictItem=weight gain
+dictIndex=9170 dictItem=weight gain loss
+dictIndex=9175 dictItem=weight loss
+18|62|weight
+18|69|gain
+18|77|loss
+dictIndex=1119 dictItem=sleep
+dictIndex=1120 dictItem=sleep
+dictIndex=4929 dictItem=sleep
+dictIndex=5860 dictItem=sleep
+dictIndex=5909 dictItem=sleep
+dictIndex=6747 dictItem=sleep
+dictIndex=7626 dictItem=sleep
+dictIndex=7688 dictItem=sleep
+18|125|sleep
+dictIndex=6128 dictItem=pain
+18|153|pain
+-------------------
+dictIndex=6849 dictItem=rash
+19|65|rash
+dictIndex=834 dictItem=bloated
+dictIndex=2179 dictItem=dizziness
+dictIndex=3467 dictItem=gas
+dictIndex=3468 dictItem=gas stomach
+dictIndex=5646 dictItem=muscle weakness
+dictIndex=7915 dictItem=stomach
+dictIndex=7927 dictItem=stomach gas
+dictIndex=9141 dictItem=weakness
+19|194|dizziness
+19|205|bloated
+19|213|stomach
+19|222|gas
+19|238|weakness
+dictIndex=4810 dictItem=kidney pain
+dictIndex=6128 dictItem=pain
+dictIndex=6159 dictItem=pain side
+dictIndex=6190 dictItem=pain side
+dictIndex=7541 dictItem=side pain
+19|282|pain
+19|300|side
+dictIndex=6849 dictItem=rash
+dictIndex=7607 dictItem=skin rash
+dictIndex=9141 dictItem=weakness
+19|462|weakness
+19|476|rash
+19|501|skin
+-------------------
+dictIndex=645 dictItem=back pain
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+20|46|back
+20|51|pain
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+20|82|pain
+20|223|pain
+dictIndex=804 dictItem=bleed
+20|256|bleeding
+dictIndex=8720 dictItem=ulcer
+20|364|ulcer
+dictIndex=2315 dictItem=drug
+-------------------
+dictIndex=6684 dictItem=psychosis
+dictIndex=6685 dictItem=psychosis
+dictIndex=7480 dictItem=shake
+dictIndex=7491 dictItem=shake
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+21|0|Psychosis
+21|11|stomach
+21|19|upset
+dictIndex=2315 dictItem=drug
+dictIndex=5395 dictItem=mess mood
+dictIndex=5525 dictItem=mood
+dictIndex=5540 dictItem=mood stabilizer
+21|133|messing
+21|179|mood
+21|184|stabilizer
+dictIndex=1012 dictItem=break
+dictIndex=2315 dictItem=drug
+dictIndex=7915 dictItem=stomach
+dictIndex=7939 dictItem=stomach problem
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8937 dictItem=upset stomach
+21|269|stomach
+21|277|problems
+21|300|upset
+21|318|problems
+21|363|break
+dictIndex=5271 dictItem=crazy
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+dictIndex=6156 dictItem=pain reliever
+dictIndex=6159 dictItem=pain side
+dictIndex=6190 dictItem=pain side
+dictIndex=7541 dictItem=side pain
+21|566|pain
+21|571|reliever
+21|596|side
+-------------------
+dictIndex=2315 dictItem=drug
+dictIndex=3727 dictItem=heart attack
+dictIndex=7539 dictItem=side effect
+dictIndex=7915 dictItem=stomach
+dictIndex=7942 dictItem=stomach upset
+dictIndex=7991 dictItem=stroke
+dictIndex=8937 dictItem=upset stomach
+22|253|strokes
+22|265|heart
+22|271|attacks
+22|281|upset
+22|287|stomach
+22|329|side
+22|334|effects
+-------------------

@@ -1,0 +1,7 @@
+-------------------
+-------------------
+dictIndex=3183 dictItem=dry
+dictIndex=1541 dictItem=burning sensation
+3|185|sensation
+-------------------
+-------------------

@@ -1,0 +1,24 @@
+dictIndex=1579 dictItem=walk
+dictIndex=2766 dictItem=experience
+dictIndex=6128 dictItem=pain
+dictIndex=9153 dictItem=wear
+dictIndex=9250 dictItem=wear
+1|309|walking
+1|8|experiencing
+1|21|pain
+1|48|walking
+1|269|wear
+dictIndex=5152 dictItem=lot pain
+dictIndex=6128 dictItem=pain
+dictIndex=8761 dictItem=uncomfortable
+1|334|pain
+1|403|uncomfortable
+1|419|lot
+dictIndex=6128 dictItem=pain
+dictIndex=6705 dictItem=puffiness
+1|833|puffiness
+1|847|pain
+dictIndex=9153 dictItem=wear
+dictIndex=9250 dictItem=wear
+1|1009|wear
+-------------------

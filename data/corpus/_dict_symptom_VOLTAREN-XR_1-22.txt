@@ -1,0 +1,93 @@
+dictIndex=518 dictItem=blister mouth
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=5067 dictItem=vertigo
+1|0|dizziness
+1|10|vertigo
+1|46|blisters
+1|61|mouth
+dictIndex=5067 dictItem=vertigo
+1|226|vertigo
+-------------------
+dictIndex=4476 dictItem=stomach discomfort
+2|8|stomach
+2|16|discomfort
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+2|38|cramps
+-------------------
+dictIndex=18 dictItem=abdominal discomfort
+dictIndex=774 dictItem=chest discomfort
+dictIndex=791 dictItem=chest pressure
+dictIndex=1219 dictItem=discomfort abdominal
+dictIndex=3833 dictItem=pressure chest
+dictIndex=4134 dictItem=upper abdominal discomfort
+dictIndex=4939 dictItem=upper abdominal discomfort
+3|401|chest
+3|407|discomfort
+3|422|upper
+3|428|abdominal
+3|438|pressure
+dictIndex=3335 dictItem=symptom
+3|495|symptoms
+dictIndex=3335 dictItem=symptom
+3|925|symptoms
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+8|7|stomach
+8|15|upset
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+dictIndex=47 dictItem=ache knee
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+15|192|pains
+15|205|knees
+-------------------
+dictIndex=4476 dictItem=stomach discomfort
+16|19|stomach
+16|27|discomfort
+dictIndex=3335 dictItem=symptom
+16|308|symptoms
+-------------------
+-------------------
+dictIndex=1252 dictItem=dizzy
+18|9|dizzy
+dictIndex=2615 dictItem=loss
+dictIndex=2618 dictItem=loss
+18|77|loss
+-------------------
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+19|194|dizziness
+dictIndex=2416 dictItem=kidney pain
+dictIndex=3433 dictItem=pain kidney
+19|275|kidney
+19|282|pain
+-------------------
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+21|11|stomach
+21|19|upset
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+21|269|stomach
+21|300|upset
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+22|281|upset
+22|287|stomach
+-------------------

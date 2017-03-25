@@ -43,9 +43,14 @@ public class ADR_DictSearch {
         long start = Calendar.getInstance().getTimeInMillis();  
 
 		System.out.println("--- START initialize dict---");
-		//ArrayList<String> dictList = Dict2Array();
-		//int dictSize = dictList.size();
-		HashMap dictHashMap = Dict2HashMap();
+		
+		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr1.txt");
+		//String outFileNamePrefix="data/corpus/_dict_adr1_";
+		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr2.txt");
+		//String outFileNamePrefix="data/corpus/_dict_adr2_";
+		HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_symptom.txt");
+		String outFileNamePrefix="data/corpus/_dict_symptom_";
+		
 		int dictSize = dictHashMap.size();
 		System.out.println("dictSize="+dictSize);		
 		System.out.println("--- END initialize dict---");
@@ -54,19 +59,19 @@ public class ADR_DictSearch {
         
         
         start = Calendar.getInstance().getTimeInMillis();  
-		searchDict("ZIPSOR",1,5,dictHashMap);
-		searchDict("VOLTAREN",1,46,dictHashMap);
-		searchDict("VOLTAREN-XR",1,22,dictHashMap);
-        searchDict("SOLARAZE",1,3,dictHashMap);
-        searchDict("PENNSAID",1,4,dictHashMap);
-        searchDict("FLECTOR",1,1,dictHashMap);
-        searchDict("CAMBIA",1,4,dictHashMap);
-        searchDict("CATAFLAM",1,10,dictHashMap);
-        searchDict("DICLOFENAC-POTASSIUM",1,3,dictHashMap);
-        searchDict("DICLOFENAC-SODIUM",1,7,dictHashMap);
+		searchDict("ZIPSOR",1,5,dictHashMap,outFileNamePrefix);
+		searchDict("VOLTAREN",1,46,dictHashMap,outFileNamePrefix);
+		searchDict("VOLTAREN-XR",1,22,dictHashMap,outFileNamePrefix);
+        searchDict("SOLARAZE",1,3,dictHashMap,outFileNamePrefix);
+        searchDict("PENNSAID",1,4,dictHashMap,outFileNamePrefix);
+        searchDict("FLECTOR",1,1,dictHashMap,outFileNamePrefix);
+        searchDict("CAMBIA",1,4,dictHashMap,outFileNamePrefix);
+        searchDict("CATAFLAM",1,10,dictHashMap,outFileNamePrefix);
+        searchDict("DICLOFENAC-POTASSIUM",1,3,dictHashMap,outFileNamePrefix);
+        searchDict("DICLOFENAC-SODIUM",1,7,dictHashMap,outFileNamePrefix);
         
-		searchDict("ARTHROTEC",1,145,dictHashMap);
-        searchDict("LIPITOR",1,1000,dictHashMap);
+		searchDict("ARTHROTEC",1,145,dictHashMap,outFileNamePrefix);
+        searchDict("LIPITOR",1,1000,dictHashMap,outFileNamePrefix);
         end = Calendar.getInstance().getTimeInMillis();
         System.out.println("Time: " + (end - start)/1000+"s"); 
         
@@ -167,19 +172,21 @@ public class ADR_DictSearch {
 	*/
 
 
-	public static HashMap<Integer, String> Dict2HashMap() throws Exception{
-		Scanner dict = new Scanner(new FileReader("data/corpus/_dict_adr.txt"));
+	public static HashMap<Integer, String> Dict2HashMap(String filename) throws Exception{
+		Scanner dict = new Scanner(new FileReader(filename));
 				
-		HashMap dictList = new HashMap();
-		//HashMap dictMap = new HashMap();
+		HashMap<Integer, String> dictList = new HashMap<Integer, String>();
 
 		int lineId=1;
 		while(dict.hasNext()){
 			String text = dict.nextLine();
 			//System.out.println("text:"+text);
+
+			String dictItem = "";
+			
 			Sentence sent = new Sentence(text);
 			sent.preprocess();
-			String dictItem = "";
+			
 			for(Token token : sent){
 				//System.out.print(token.getToken() + "|");
 				//if(!isAlpha(token.getToken())||token.isStopword()){
@@ -239,24 +246,9 @@ public class ADR_DictSearch {
 	}*/
 	
 
-	public static ArrayList<Integer> getIndexOf( String[] strings, String str  ){
-	     ArrayList<Integer> res = new ArrayList<Integer>();
-	     for(int i=0;i<strings.length;i++){
-	    	 if(strings[i]!=null&&str.equals(strings[i])){
-	    		 res.add(i);
-	    	 }
-	     }
-	     
-	     /*if(res!=null&&res.size()>0){
-	    	 System.out.println("res="+res.toString()+" str="+str);
-	     }*/
-	     return res;
-     }
 	
 	
-	private static void searchDict(String drugName,int startNumber, int endNumber,HashMap<Integer, String> dictList) throws FileNotFoundException, Exception {
-		//Scanner s = new Scanner(new FileReader("data/corpus/twitter_stream.txt"));
-		//Scanner s = new Scanner(new FileReader("data/corpus/all_cataflam_original.txt"));
+	private static void searchDict(String drugName,int startNumber, int endNumber,HashMap<Integer, String> dictList, String outFileNamePrefix) throws FileNotFoundException, Exception {
 
 		System.out.println("--- "+drugName+" START ---");
 
@@ -266,13 +258,11 @@ public class ADR_DictSearch {
 			
 			Scanner src = new Scanner(new FileReader("data/corpus/"+drugName+"."+z+".txt"));
 			
-			String fileName="data/corpus/_dict_adr_"+drugName+"_"+startNumber+"-"+endNumber+".txt";
+			String fileName=outFileNamePrefix + drugName+"_"+startNumber+"-"+endNumber+".txt";			
 			BufferedWriter out=new BufferedWriter(new FileWriter(fileName,true));
-			
-			
+						
 			while(src.hasNext()){
 				String text = src.nextLine();
-
 
 				Document doc = new Document(text);
 				doc.preprocess();
@@ -282,6 +272,11 @@ public class ADR_DictSearch {
 					Sentence sent_splitter = doc.get(ss);
 					System.out.println("Sentence # " + (ss+1));
 					System.out.println(sent_splitter.getSentence());	
+
+					if(ss==(doc.size()-1)&&sent_splitter.size()==1){
+						System.out.println("---Last Sentence only punctuation!!---");
+						break;
+					}
 					
 					if(sent_splitter.size()<10&&!isAlpha(sent_splitter.toString())){
 						System.out.println("---length<10 and only punctuation and number??---");
@@ -289,31 +284,25 @@ public class ADR_DictSearch {
 						
 					}
 					
-					if(ss==(doc.size()-1)&&sent_splitter.size()==1){
-						System.out.println("---Last Sentence only punctuation!!---");
-						break;
-					}
 
 
-					//all words in one sentence
-					//HashSet<Object> wordSets = new HashSet<Object>();  	
-					//word and index in every file
 					
+					//index,wordToken in every file					
 					LinkedHashMap<Integer,String> wordSetIndex = new LinkedHashMap<Integer, String>();
+					//all lemma of meaningful words
 					String[] lemmaArray=new String[sent_splitter.size()];
 					
-					String lemmaText="";
-					//for every sentence, get all meaningful words in it
 					int indexNumber=0;
 					int tokenLength=0;
-					
+
+					//for every sentence, get all meaningful words in it
 					for(Token token : sent_splitter){
 						//String[] wordSet = new String[2];
 						String wordToken = token.getToken();			
 						int m = text.indexOf(wordToken,tokenLength);
 						//tokenLength+=token.getToken().length()+1;
 						tokenLength=m+wordToken.length();
-
+						
 						System.out.print(m+"|");			
 						
 						System.out.print(wordToken + "|");						
@@ -347,23 +336,27 @@ public class ADR_DictSearch {
 						//wordSet[1]=lemmaWord;
 						String lemmaWord = token.getLemma().toLowerCase();	
 						lemmaArray[indexNumber]=lemmaWord;
-						wordSetIndex.put(m,wordToken);
-						indexNumber+=1;
-						
+						wordSetIndex.put(m,wordToken);	//record original workToken and its index in Text
+						indexNumber+=1;					
 						
 					}
-					//lemmaText=lemmaText.trim();
-					//String[] firstArray = {"test1","","test2","test4",""};
+					
+
+
+					//remove null value in lemmaArray
 					ArrayList<String> list = new ArrayList<String>();
-					for (String s : lemmaArray)
+					System.out.println("lemmaArray="+Arrays.toString(lemmaArray));
+					for (String s : lemmaArray){
 					    if (s!=null){
 					        list.add(s);
+					    }else{
+					    	//System.out.println("s in lemmaArray is null!!!!!!!!");
 					    }
-					
+					}
 					System.out.println("\nlemmaArray before="+Arrays.toString(lemmaArray));
 					lemmaArray = list.toArray(new String[list.size()]);			
 					
-			        System.out.println("\nlemmaArray="+Arrays.toString(lemmaArray));
+			        System.out.println("\nlemmaArray after="+Arrays.toString(lemmaArray));
 					System.out.println("");
 					
 
@@ -371,13 +364,8 @@ public class ADR_DictSearch {
 
 					ArrayList<Integer> resList = new ArrayList<Integer>();		//all index of words
 					//ArrayList<String> wordnetResList = new ArrayList<String>();
-					HashMap<String,ArrayList<Integer>> wordFound = new HashMap<String,ArrayList<Integer>>();
-					
-
-					//System.out.println("wordFound="+wordFound.toString());
-					
-					
-					
+					HashMap<String,ArrayList<Integer>> wordFound = new HashMap<String,ArrayList<Integer>>();	//cache for speedup
+					//System.out.println("wordFound="+wordFound.toString());	
 					//for (String dictItem : dictList) {	
 					for(Map.Entry<Integer, String> entry : dictList.entrySet()){ 	
 						ArrayList tempList = new ArrayList();	//results for all dict words found in text
@@ -443,7 +431,7 @@ public class ADR_DictSearch {
 								System.out.println("tempList="+tempList.toString());*/
 								if(tempList.size()>0){	
 									resList.addAll(tempList);	
-								}else{					//all words are already found in history, this time not find yet
+								}else{					//all words are already found in cache history, this time not templist yet
 									//List<Integer> foundIndexes = new ArrayList<Integer>(); 
 									//wordSetIndex.values().toArray();"
 									for(String word : dictItemSplit){	
@@ -487,8 +475,8 @@ public class ADR_DictSearch {
 
 								/*System.out.println("tempList.size()="+tempList.size());
 								System.out.println("add to wordFound="+dictItem);*/
-								wordFound.put(dictItem, tempList);
-								resList.addAll(tempList);
+								wordFound.put(dictItem, tempList);		//('sideeffect',ArrayListOfIndex)
+								resList.addAll(tempList);				//add templist of every word to result list
 								out.write("dictIndex="+entry.getKey()+" dictItem="+dictItem+"\r\n");
 								System.out.println("dictIndex="+entry.getKey()+" dictItem="+dictItem);
 							}
@@ -629,4 +617,21 @@ public class ADR_DictSearch {
 		System.out.println("--- "+drugName+" END ---");
 		//end of searchDict
 	}
+	
+
+	public static ArrayList<Integer> getIndexOf( String[] strings, String str  ){
+	     ArrayList<Integer> res = new ArrayList<Integer>();
+	     for(int i=0;i<strings.length;i++){
+	    	 if(strings[i]!=null&&str.equals(strings[i])){
+	    		 res.add(i);
+	    	 }
+	     }
+	     
+	     /*if(res!=null&&res.size()>0){
+	    	 System.out.println("res="+res.toString()+" str="+str);
+	     }*/
+	     return res;
+     }
+	
+	
 }

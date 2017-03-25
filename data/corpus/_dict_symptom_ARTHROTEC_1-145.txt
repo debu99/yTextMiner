@@ -1,0 +1,966 @@
+-------------------
+dictIndex=1975 dictItem=heartburn
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+2|0|heartburn
+2|11|nausea
+-------------------
+dictIndex=2383 dictItem=joint pain
+dictIndex=3416 dictItem=pain joint
+dictIndex=3432 dictItem=pain joint
+3|62|joint
+3|68|pain
+dictIndex=1134 dictItem=decrease
+dictIndex=2839 dictItem=mobility decrease
+3|238|mobility
+dictIndex=3335 dictItem=symptom
+3|602|symptoms
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+4|149|cramps
+-------------------
+-------------------
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+6|39|nausea
+dictIndex=20 dictItem=abdominal symptom
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=3335 dictItem=symptom
+6|130|symptoms
+6|166|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+6|238|cramps
+dictIndex=18 dictItem=abdominal discomfort
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=1219 dictItem=discomfort abdominal
+6|466|abdominal
+6|480|cramps
+6|491|discomfort
+-------------------
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+8|45|upset
+8|54|stomach
+-------------------
+dictIndex=2383 dictItem=joint pain
+dictIndex=3416 dictItem=pain joint
+dictIndex=3432 dictItem=pain joint
+dictIndex=3454 dictItem=painful joint
+9|325|painful
+9|333|joints
+9|368|pain
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+9|505|nausea
+-------------------
+dictIndex=3414 dictItem=pain hip
+10|121|hip
+10|125|pain
+-------------------
+-------------------
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+13|24|stomach
+13|32|upset
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+13|178|cramps
+-------------------
+-------------------
+dictIndex=270 dictItem=ankle swell
+dictIndex=271 dictItem=ankle swell
+dictIndex=3396 dictItem=pain ankle
+dictIndex=3410 dictItem=pain ankle
+dictIndex=4545 dictItem=swell
+15|103|ankle
+15|109|swelling
+15|135|pain
+-------------------
+dictIndex=5037 dictItem=vaginal pain
+16|632|pain
+16|671|vaginal
+-------------------
+dictIndex=1252 dictItem=dizzy
+17|674|dizzy
+-------------------
+-------------------
+dictIndex=3435 dictItem=pain pelvic
+dictIndex=3544 dictItem=pelvic pain
+19|28|pelvic
+19|35|pain
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+20|207|cramps
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=5037 dictItem=vaginal pain
+21|17|pain
+21|88|cramps
+21|105|vaginal
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=5039 dictItem=vaginal reflux
+22|44|cramps
+22|85|reflux
+-------------------
+dictIndex=1252 dictItem=dizzy
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+23|198|dizzy
+23|204|nausea
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+24|127|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+24|260|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+24|420|cramps
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+dictIndex=5037 dictItem=vaginal pain
+25|0|nausea
+25|30|pain
+25|46|pain
+25|52|vaginal
+25|69|cramps
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=2615 dictItem=loss
+dictIndex=2618 dictItem=loss
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+26|70|nausea
+26|78|loss
+26|103|cramps
+dictIndex=3335 dictItem=symptom
+26|126|symptoms
+dictIndex=3335 dictItem=symptom
+26|326|symptoms
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+27|83|cramps
+-------------------
+dictIndex=297 dictItem=anxiety
+28|0|Anxiety
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+28|66|cramp
+-------------------
+dictIndex=2383 dictItem=joint pain
+dictIndex=3416 dictItem=pain joint
+dictIndex=3432 dictItem=pain joint
+29|87|joint
+29|93|pain
+-------------------
+-------------------
+dictIndex=1289 dictItem=dry throat
+dictIndex=1975 dictItem=heartburn
+dictIndex=2341 dictItem=irritable
+dictIndex=4757 dictItem=throat dry
+31|36|heartburn
+31|57|throat
+31|79|dry
+31|133|irritable
+dictIndex=3335 dictItem=symptom
+dictIndex=3679 dictItem=pms
+31|246|PMS
+31|250|symptoms
+-------------------
+dictIndex=618 dictItem=bruise
+32|266|bruises
+-------------------
+-------------------
+-------------------
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+35|167|Nausea
+dictIndex=3414 dictItem=pain hip
+35|283|hip
+35|287|pain
+dictIndex=3018 dictItem=nauseous
+35|394|nauseous
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+36|78|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+36|103|cramps
+-------------------
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+37|338|knee
+37|343|pain
+-------------------
+dictIndex=18 dictItem=abdominal discomfort
+dictIndex=774 dictItem=chest discomfort
+dictIndex=782 dictItem=chest pain
+dictIndex=1219 dictItem=discomfort abdominal
+dictIndex=1657 dictItem=flash hot
+dictIndex=2061 dictItem=hot flash
+dictIndex=2338 dictItem=irritability
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+dictIndex=3009 dictItem=nausea vomit
+dictIndex=3016 dictItem=nausea vomit
+dictIndex=3113 dictItem=night sweat
+dictIndex=3114 dictItem=night sweat
+dictIndex=3331 dictItem=chest pain
+dictIndex=3400 dictItem=pain chest
+dictIndex=4476 dictItem=stomach discomfort
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4532 dictItem=sweat
+dictIndex=4952 dictItem=upset stomach
+dictIndex=5103 dictItem=vomit
+38|0|Upset
+38|6|stomach
+38|15|nausea
+38|23|vomiting
+38|33|abdominal
+38|43|pain
+38|89|hot
+38|93|flashes
+38|105|night
+38|111|sweats
+38|135|irritability
+38|149|chest
+38|155|discomfort
+dictIndex=3413 dictItem=pain elbow
+38|289|elbow
+38|295|pain
+-------------------
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+40|226|cramps
+-------------------
+dictIndex=170 dictItem=air sickness
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+41|0|Dizziness
+41|11|sickness
+41|56|air
+dictIndex=856 dictItem=churn stomach
+41|210|stomach
+41|229|churning
+dictIndex=3414 dictItem=pain hip
+41|410|hip
+41|414|pain
+dictIndex=865 dictItem=clammy
+dictIndex=1570 dictItem=fear
+dictIndex=1576 dictItem=fear fall
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+41|842|clammy
+41|731|fear
+41|739|falling
+41|807|nausea
+dictIndex=3414 dictItem=pain hip
+41|1033|pain
+41|1044|hips
+-------------------
+dictIndex=297 dictItem=anxiety
+dictIndex=782 dictItem=chest pain
+dictIndex=791 dictItem=chest pressure
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+dictIndex=3331 dictItem=chest pain
+dictIndex=3400 dictItem=pain chest
+dictIndex=3833 dictItem=pressure chest
+42|8|pains
+42|15|chest
+42|21|pains
+42|28|anxiety
+42|89|pressure
+42|99|dizziness
+42|110|nausea
+dictIndex=50 dictItem=acid indigestion
+dictIndex=2262 dictItem=indigestion
+dictIndex=2263 dictItem=indigestion acid
+42|361|indigestion
+42|386|acid
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+42|514|dizziness
+42|533|nausea
+42|569|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+42|695|cramps
+dictIndex=782 dictItem=chest pain
+dictIndex=3331 dictItem=chest pain
+dictIndex=3400 dictItem=pain chest
+42|995|chest
+42|1001|pains
+dictIndex=1048 dictItem=cramp
+dictIndex=1051 dictItem=cramp leg
+dictIndex=1054 dictItem=cramp
+dictIndex=1056 dictItem=cramp leg
+dictIndex=1058 dictItem=cramp leg
+dictIndex=1059 dictItem=cramp leg
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=1657 dictItem=flash hot
+dictIndex=2061 dictItem=hot flash
+dictIndex=2507 dictItem=leg cramp
+42|1133|hot
+42|1137|flashes
+42|1146|dizziness
+42|1171|cramps
+42|1198|legs
+-------------------
+dictIndex=2239 dictItem=incontinence
+dictIndex=2246 dictItem=incontinence urinary
+dictIndex=3381 dictItem=urinary incontinence
+dictIndex=4977 dictItem=urinary incontinence
+43|124|urinary
+43|132|incontinence
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+44|170|cramps
+44|181|nausea
+-------------------
+dictIndex=1664 dictItem=flu symptom
+dictIndex=1665 dictItem=flu symptom
+dictIndex=3335 dictItem=symptom
+45|170|symptoms
+45|205|flu
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=2615 dictItem=loss
+dictIndex=2618 dictItem=loss
+dictIndex=5103 dictItem=vomit
+46|18|cramps
+46|36|loss
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1052 dictItem=cramp muscle
+dictIndex=1054 dictItem=cramp
+dictIndex=1055 dictItem=cramp calf
+dictIndex=1057 dictItem=cramp calf
+dictIndex=2903 dictItem=muscle cramp
+dictIndex=2904 dictItem=muscle cramp
+dictIndex=3112 dictItem=night cramp
+47|207|cramps
+47|96|night
+47|111|muscle
+47|118|cramps
+47|131|calf
+47|136|muscles
+-------------------
+-------------------
+dictIndex=3435 dictItem=pain pelvic
+dictIndex=3544 dictItem=pelvic pain
+49|47|pelvic
+49|63|pain
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+49|206|nausea
+-------------------
+-------------------
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+51|7|nausea
+51|14|dizziness
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+52|166|cramps
+-------------------
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=4454 dictItem=stiffness
+53|243|dizziness
+53|105|stiffness
+-------------------
+-------------------
+-------------------
+dictIndex=3414 dictItem=pain hip
+56|17|hip
+56|21|pain
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+56|40|cramps
+56|192|cramps
+-------------------
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=4545 dictItem=swell
+58|59|swelling
+58|93|cramps
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+58|190|knee
+58|195|pain
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+58|303|knee
+58|308|pain
+-------------------
+dictIndex=563 dictItem=breast bleeding
+dictIndex=581 dictItem=breast pain
+dictIndex=2775 dictItem=menopausal symptom
+dictIndex=3335 dictItem=symptom
+dictIndex=3399 dictItem=pain breast
+dictIndex=4313 dictItem=skin symptom
+dictIndex=5037 dictItem=vaginal pain
+59|7|vaginal
+59|15|bleeding
+59|62|breast
+59|69|pain
+59|80|symptoms
+59|110|skin
+dictIndex=3335 dictItem=symptom
+59|353|symptoms
+dictIndex=4033 dictItem=red
+-------------------
+-------------------
+dictIndex=5191 dictItem=worry
+61|130|Worry
+-------------------
+-------------------
+dictIndex=563 dictItem=breast bleeding
+dictIndex=581 dictItem=breast pain
+dictIndex=2775 dictItem=menopausal symptom
+dictIndex=3335 dictItem=symptom
+dictIndex=3399 dictItem=pain breast
+dictIndex=4313 dictItem=skin symptom
+dictIndex=5037 dictItem=vaginal pain
+63|7|vaginal
+63|15|bleeding
+63|62|breast
+63|69|pain
+63|81|symptoms
+63|111|skin
+dictIndex=3335 dictItem=symptom
+63|354|symptoms
+dictIndex=4033 dictItem=red
+-------------------
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+64|204|knee
+64|209|pain
+-------------------
+dictIndex=1657 dictItem=flash hot
+dictIndex=2061 dictItem=hot flash
+dictIndex=4532 dictItem=sweat
+dictIndex=5037 dictItem=vaginal pain
+65|31|pain
+65|56|sweats
+65|65|hot
+65|69|flashes
+65|78|vaginal
+-------------------
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+66|19|nausea
+-------------------
+dictIndex=2338 dictItem=irritability
+67|48|irritability
+-------------------
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+68|132|nausea
+dictIndex=4395 dictItem=spinal pain
+68|432|pain
+68|472|spinal
+68|479|pain
+-------------------
+-------------------
+-------------------
+dictIndex=919 dictItem=cold sweat
+dictIndex=3478 dictItem=palpitation
+dictIndex=3479 dictItem=palpitation
+dictIndex=4532 dictItem=sweat
+71|83|sweat
+71|106|palpitations
+-------------------
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+73|127|cramping
+-------------------
+dictIndex=2189 dictItem=ib
+74|258|IB
+-------------------
+dictIndex=5037 dictItem=vaginal pain
+75|0|Vaginal
+75|69|pain
+-------------------
+dictIndex=4545 dictItem=swell
+76|0|swelling
+dictIndex=5191 dictItem=worry
+76|120|worry
+dictIndex=537 dictItem=bone pain
+dictIndex=3398 dictItem=pain bone
+76|239|bone
+76|299|pain
+dictIndex=2189 dictItem=ib
+76|325|IB
+-------------------
+-------------------
+-------------------
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+80|64|stomach
+80|72|upset
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+80|232|knee
+80|307|pains
+-------------------
+dictIndex=1975 dictItem=heartburn
+81|9|heartburn
+-------------------
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+dictIndex=3009 dictItem=nausea vomit
+dictIndex=3016 dictItem=nausea vomit
+dictIndex=5103 dictItem=vomit
+82|79|vomiting
+82|100|dizziness
+82|111|nausea
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+82|159|cramps
+-------------------
+dictIndex=2430 dictItem=knee pain
+dictIndex=2431 dictItem=knee swell
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+dictIndex=3443 dictItem=pain throat
+dictIndex=4545 dictItem=swell
+dictIndex=4760 dictItem=throat pain
+83|29|pains
+83|82|knees
+83|89|swelling
+83|101|throat
+-------------------
+dictIndex=355 dictItem=arthritic pain
+84|58|arthritic
+84|68|pain
+-------------------
+dictIndex=1228 dictItem=disorientation
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=1543 dictItem=faintness
+85|91|Dizziness
+85|139|faintness
+85|153|disorientation
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+85|232|cramps
+-------------------
+dictIndex=1083 dictItem=cry
+86|209|cry
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+87|10|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+87|45|Cramps
+dictIndex=908 dictItem=coccyx pain
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+87|125|coccyx
+87|132|pain
+87|145|cramps
+-------------------
+-------------------
+-------------------
+dictIndex=3414 dictItem=pain hip
+90|24|pain
+90|42|hip
+-------------------
+-------------------
+-------------------
+dictIndex=1570 dictItem=fear
+93|327|fear
+-------------------
+dictIndex=3478 dictItem=palpitation
+dictIndex=3479 dictItem=palpitation
+dictIndex=5037 dictItem=vaginal pain
+94|157|palpitations
+94|174|vaginal
+94|44|pain
+94|81|pain
+-------------------
+dictIndex=270 dictItem=ankle swell
+dictIndex=271 dictItem=ankle swell
+dictIndex=4545 dictItem=swell
+95|100|ankles
+95|115|swelling
+dictIndex=4545 dictItem=swell
+95|306|swelling
+-------------------
+dictIndex=3335 dictItem=symptom
+96|378|symptoms
+dictIndex=3335 dictItem=symptom
+96|816|symptoms
+-------------------
+dictIndex=3335 dictItem=symptom
+97|4|symptoms
+dictIndex=1048 dictItem=cramp
+dictIndex=1052 dictItem=cramp muscle
+dictIndex=1054 dictItem=cramp
+dictIndex=2903 dictItem=muscle cramp
+dictIndex=2904 dictItem=muscle cramp
+97|88|muscle
+97|101|cramps
+-------------------
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+98|73|KNEE
+98|78|PAIN
+98|117|KNEE
+-------------------
+dictIndex=1541 dictItem=faint
+dictIndex=1542 dictItem=faint
+99|52|faint
+dictIndex=1541 dictItem=faint
+dictIndex=1542 dictItem=faint
+99|94|faint
+dictIndex=3335 dictItem=symptom
+99|199|symptoms
+-------------------
+-------------------
+-------------------
+-------------------
+dictIndex=4454 dictItem=stiffness
+103|155|stiffness
+dictIndex=1541 dictItem=faint
+dictIndex=1542 dictItem=faint
+dictIndex=1609 dictItem=feel faint
+103|285|feel
+103|306|fainted
+-------------------
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+104|190|knees
+104|243|pain
+-------------------
+dictIndex=4545 dictItem=swell
+105|60|swelling
+-------------------
+-------------------
+-------------------
+dictIndex=521 dictItem=blood clot urine
+108|31|blood
+108|37|clots
+108|46|urine
+108|79|urine
+dictIndex=3335 dictItem=symptom
+108|151|symptoms
+-------------------
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+109|0|Upset
+109|6|stomach
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+110|44|cramps
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+110|131|nausea
+-------------------
+dictIndex=4545 dictItem=swell
+111|26|swelling
+dictIndex=4545 dictItem=swell
+111|199|swelling
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+112|67|cramps
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+113|71|cramps
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+dictIndex=4385 dictItem=spasm
+113|233|nausea
+-------------------
+dictIndex=270 dictItem=ankle swell
+dictIndex=271 dictItem=ankle swell
+dictIndex=4545 dictItem=swell
+114|265|ankle
+114|271|swelling
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+115|8|cramps
+-------------------
+-------------------
+-------------------
+dictIndex=5191 dictItem=worry
+118|98|worries
+-------------------
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+119|10|dizziness
+-------------------
+dictIndex=919 dictItem=cold sweat
+dictIndex=3017 dictItem=nauseated
+dictIndex=4532 dictItem=sweat
+120|133|sweat
+120|164|nauseated
+dictIndex=5037 dictItem=vaginal pain
+120|300|pain
+120|373|vaginal
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=1228 dictItem=disorientation
+121|25|cramps
+121|32|disorientation
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+122|166|cramps
+dictIndex=3335 dictItem=symptom
+122|504|symptoms
+-------------------
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1051 dictItem=cramp leg
+dictIndex=1052 dictItem=cramp muscle
+dictIndex=1054 dictItem=cramp
+dictIndex=1056 dictItem=cramp leg
+dictIndex=1058 dictItem=cramp leg
+dictIndex=1059 dictItem=cramp leg
+dictIndex=2507 dictItem=leg cramp
+dictIndex=2903 dictItem=muscle cramp
+dictIndex=2904 dictItem=muscle cramp
+124|30|cramps
+124|98|muscles
+124|117|leg
+-------------------
+dictIndex=5037 dictItem=vaginal pain
+dictIndex=5103 dictItem=vomit
+125|8|pains
+125|58|pain
+125|82|vaginal
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+126|61|cramps
+126|82|nausea
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+126|197|knee
+126|202|pain
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+126|666|knee
+126|671|pain
+126|747|knee
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+127|21|cramps
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+127|299|cramps
+127|325|nausea
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+128|19|cramps
+-------------------
+-------------------
+dictIndex=4545 dictItem=swell
+130|5|swelling
+dictIndex=537 dictItem=bone pain
+dictIndex=3398 dictItem=pain bone
+130|67|pain
+130|97|bone
+dictIndex=355 dictItem=arthritic pain
+dictIndex=2430 dictItem=knee pain
+dictIndex=3396 dictItem=pain ankle
+dictIndex=3410 dictItem=pain ankle
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+130|349|arthritic
+130|359|pain
+130|377|knees
+130|390|ankle
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+131|85|cramps
+131|93|nausea
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+131|433|cramps
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+132|335|cramps
+-------------------
+dictIndex=3985 dictItem=queasy
+133|8|queasy
+dictIndex=3414 dictItem=pain hip
+133|233|pain
+133|285|hip
+dictIndex=3414 dictItem=pain hip
+dictIndex=3429 dictItem=pain spine
+133|290|Spine
+133|298|hip
+133|302|pain
+-------------------
+dictIndex=1048 dictItem=cramp
+dictIndex=1054 dictItem=cramp
+134|116|cramps
+dictIndex=297 dictItem=anxiety
+134|181|anxiety
+-------------------
+dictIndex=2430 dictItem=knee pain
+dictIndex=2922 dictItem=muscle spasm
+dictIndex=2923 dictItem=muscle spasm
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+dictIndex=4379 dictItem=spasm muscle
+dictIndex=4381 dictItem=spasm muscle
+dictIndex=4385 dictItem=spasm
+135|26|pain
+135|112|muscle
+135|119|spasms
+135|142|knee
+dictIndex=4385 dictItem=spasm
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+135|237|pain
+135|261|knee
+135|266|pain
+135|284|knee
+135|289|pain
+-------------------
+dictIndex=2383 dictItem=joint pain
+dictIndex=3416 dictItem=pain joint
+dictIndex=3432 dictItem=pain joint
+136|245|joint
+136|251|pain
+-------------------
+dictIndex=919 dictItem=cold sweat
+dictIndex=1657 dictItem=flash hot
+dictIndex=2061 dictItem=hot flash
+dictIndex=3113 dictItem=night sweat
+dictIndex=3114 dictItem=night sweat
+dictIndex=4532 dictItem=sweat
+137|306|hot
+137|310|flashes
+137|322|sweated
+137|339|sweat
+137|405|night
+dictIndex=1594 dictItem=feel down
+137|163|felt
+137|445|down
+dictIndex=4481 dictItem=stomach upset
+dictIndex=4952 dictItem=upset stomach
+137|602|stomach
+137|617|upset
+dictIndex=537 dictItem=bone pain
+dictIndex=1594 dictItem=feel down
+dictIndex=3398 dictItem=pain bone
+137|695|pain
+137|717|down
+137|734|felt
+137|751|bones
+-------------------
+-------------------
+-------------------
+-------------------
+dictIndex=1244 dictItem=dizziness
+dictIndex=1249 dictItem=dizziness
+dictIndex=2383 dictItem=joint pain
+dictIndex=2430 dictItem=knee pain
+dictIndex=3005 dictItem=nausea
+dictIndex=3008 dictItem=nausea
+dictIndex=3413 dictItem=pain elbow
+dictIndex=3414 dictItem=pain hip
+dictIndex=3416 dictItem=pain joint
+dictIndex=3427 dictItem=pain knee
+dictIndex=3432 dictItem=pain joint
+dictIndex=3434 dictItem=pain knee
+141|157|pain
+141|171|joints
+141|179|knees
+141|186|hips
+141|203|elbows
+141|77|dizziness
+141|88|nausea
+141|108|pain
+dictIndex=3478 dictItem=palpitation
+dictIndex=3479 dictItem=palpitation
+141|253|palpitations
+dictIndex=1252 dictItem=dizzy
+141|287|dizzy
+dictIndex=3335 dictItem=symptom
+141|403|symptoms
+-------------------
+dictIndex=1962 dictItem=head pressure
+142|45|pressure
+dictIndex=2430 dictItem=knee pain
+dictIndex=3427 dictItem=pain knee
+dictIndex=3434 dictItem=pain knee
+142|558|pain
+142|605|knees
+-------------------
+-------------------
+dictIndex=3018 dictItem=nauseous
+144|35|nauseous
+dictIndex=3335 dictItem=symptom
+144|67|symptoms
+-------------------
+-------------------

@@ -1,0 +1,283 @@
+T5	Disease 179 188	arthritis
+T7	Disease 161 189;200 205	severe osteoarthritis in the hands
+T5	Disease 161 189;190 195	severe osteoarthritis in the knees
+T6	Disease 332 346	osteoarthritis
+T12	Disease 627 636	arthritis
+T1	Disease 130 158	post traumaic osteoarthritis
+T4	Disease 97 115	bone marrow biopsy
+T6	Disease 203 205	OA
+T12	Disease 495 497	RA
+T2	Disease 0 15	Lower Back Pain
+T2	Disease 215 240	acute shoulder tendonitis
+T5	Disease 83 103	pulled my lower back
+T6	Disease 490 519	chronic arthritic type issues
+T7	Disease 183 196	endometriosis
+T8	Disease 201 212	adenomyosis
+T9	Disease 271 274	EDS
+T2	Disease 104 113	arthritis
+T8	Disease 227 240	endometriosis
+T6	Disease 311 323	fibromyalgia
+T2	Disease 30 40	heel spurs
+T5	Disease 308 317	arthritis
+T1	Disease 305 314	arthritis
+T4	Disease 333 348	rematoid arthro
+T5	Disease 524 534	arthritice
+T6	Disease 614 636	infection in her lungs
+T6	Disease 228 237	arthritis
+T3	Disease 97 105	migraine
+T5	Disease 348 357	migraines
+T2	Disease 97 106	migraines
+T3	Disease 201 214	Endometriosis
+T8	Disease 973 995	lower lumbar arthritis
+T10	Disease 294 306	Sciatic Endo
+T3	Disease 240 249	arthritis
+T2	Disease 164 181	plantar fasciitis
+T6	Disease 186 199	torn maniscus
+T7	Disease 251 260	arthritis
+T9	Disease 429 450	Myocardial Infarction
+T9	Disease 23 35	fibromyalgia
+T4	Disease 199 213	blood pressure
+T5	Disease 215 226	cholesterol
+T6	Disease 229 237	diabetes
+T13	Disease 143 145	MS
+T14	Disease 1239 1248	diabetics
+T14	Disease 133 151	tore a calf muscle
+T15	Disease 286 302	coronary disease
+T16	Disease 449 465	coronary disease
+T6	Disease 805 821	high cholesterol
+T4	Disease 376 392	high cholesterol
+T8	Disease 84 109	cholesterol was very high
+T2	Disease 32 48	high cholesterol
+T5	Disease 493 516	coronary artery disease
+T9	Disease 529 537	diabetic
+T18	Disease 926 942	inflammed bursae
+T13	Disease 1387 1407	elevated cholesterol
+T9	Disease 292 307	frozen shoulder
+T6	Disease 290 294	GERD
+T7	Disease 296 305	pneumonia
+T9	Disease 283 288	heart
+T5	Disease 102 116	mental illness
+T15	Disease 204 222	kidney malfunction
+T3	Disease 316 331	type 2 diabetes
+T4	Disease 436 449	Heart disease
+T5	Disease 493 504	bp problems
+T6	Disease 513 521	diabetes
+T12	Disease 229 243	blood pressure
+T14	Disease 212 222	depression
+T16	Disease 1225 1227	MS
+T6	Disease 135 147	heart attack
+T10	Disease 235 242	allergy
+T11	Disease 243 249	asthma
+T4	Disease 576 599	urinery tract infection
+T8	Disease 267 291	chronic fatigue syndrome
+T9	Disease 296 317	restless leg syndrome
+T10	Disease 0 12	Heart attack
+T6	Disease 237 245	diabetic
+T7	Disease 222 228	Bypass
+T9	Disease 437 445	diabetes
+T14	Disease 859 867	High LDL
+T11	Disease 653 671	Metabolic syndrome
+T12	Disease 454 456	MS
+T13	Disease 457 462	Lupus
+T14	Disease 463 475	Fibromyalgia
+T21	Disease 1137 1147	depression
+T1	Disease 189 199	depression
+T8	Disease 455 475	massive heart attack
+T19	Disease 785 807	cardiovascular disease
+T1	Disease 46 52	stroke
+T9	Disease 586 598	arch problem
+T28	Disease 512 525	Bell's Palsey
+T12	Disease 455 467	mini-strokes
+T1	Disease 38 56	ulcerative colitis
+T21	Disease 797 808;824 828	cholesterol high
+T4	Disease 441 450	arthritis
+T5	Disease 452 464	fibromyalgia
+T6	Disease 466 483	plantar fasciitis
+T10	Disease 572 583	fatty liver
+T7	Disease 186 189	PAD
+T11	Disease 306 322	high cholesterol
+T14	Disease 340 343	MND
+T12	Disease 546 555	Arthritis
+T13	Disease 556 566	Tendonitis
+T14	Disease 567 575	Sciatica
+T9	Disease 362 370	diabetes
+T9	Disease 535 560	cholesterol was very high
+T3	Disease 59 70	fibromalgia
+T13	Disease 254 261	colitis
+T4	Disease 107 129	carpal tunnel syndrome
+T2	Disease 0 13	Spleen Cancer
+T3	Disease 18 21	ALS
+T4	Disease 183 186	ALS
+T2	Disease 0 15	Thyroid disease
+T9	Disease 163 165	bp
+T10	Disease 467 476	arthritis
+T11	Disease 498 516	sorgren's syndrome
+T18	Disease 553 563	alzheimers
+T5	Disease 225 239	osteoarthritis
+T14	Disease 188 200	kidney stone
+T15	Disease 201 211	bronchitis
+T17	Disease 230 248	abdominal hematoma
+T27	Disease 506 539	decreased progesterone production
+T28	Disease 551 562	tooth decay
+T30	Disease 571 577	anemia
+T11	Disease 148 160	fibromyalgia
+T6	Disease 238 256	incipient dementia
+T3	Disease 189 198	arthritis
+T9	Disease 221 230	arthritis
+T5	Disease 335 344	arthritis
+T8	Disease 167 178	hypotension
+T8	Disease 189 196	flu bug
+T12	Disease 657 669	HEART ATTACK
+T5	Disease 128 142	Rhabdomyolosis
+T9	Disease 456 468	heart attack
+T7	Disease 475 477	MS
+T9	Disease 338 347	arthritis
+T6	Disease 229 241	FIBROMYALGIA
+T17	Disease 601 612	sore throat
+T8	Disease 244 256	HEART ATTACH
+T15	Disease 92 108	major depression
+T14	Disease 343 359	major depression
+T16	Disease 451 461	depression
+T1	Disease 41 54	calcification
+T11	Disease 493 502	arthritis
+T15	Disease 344 357	HEART DISEASE
+T26	Disease 785 798	CARPAL TUNNAL
+T2	Disease 50 61	sinus colds
+T1	Disease 7 27	Rhuematoid Arthritis
+T2	Disease 61 70	arthritis
+T12	Disease 623 632	arthritis
+T6	Disease 190 193	ALS
+T7	Disease 195 197	MS
+T8	Disease 199 204	Lupus
+T9	Disease 206 218	Lyme Disease
+T10	Disease 220 232	Fibromyalgia
+T11	Disease 291 304	Hyprochondria
+T5	Disease 381 393	heart attack
+T3	Disease 722 734	heart attack
+T13	Disease 406 414	artritic
+T19	Disease 746 755	arthrites
+T3	Disease 139 151	Heart attack
+T5	Disease 246 258	fibromyalgia
+T6	Disease 260 271	brain tumor
+T15	Disease 1155 1168	Heart desease
+T16	Disease 1170 1178	diabetes
+T17	Disease 1184 1203	high blood pressure
+T13	Disease 972 982	tendonitis
+T10	Disease 485 495	Parkinsons
+T7	Disease 243 248	Lupus
+T5	Disease 850 863	heart attacks
+T11	Disease 1658 1666	high LDL
+T13	Disease 1853 1865	heart attack
+T10	Disease 817 830	hypochondriac
+T4	Disease 273 288	chronic problem
+T1	Disease 59 71	heart attack
+T2	Disease 76 82	stroke
+T4	Disease 258 277	blockage of the LAD
+T1	Disease 78 90	Bell's palsy
+T2	Disease 113 119	Bell's
+T3	Disease 184 190	Bell's
+T8	Disease 384 396	Bell's palsy
+T12	Disease 470 478	insomnia
+T3	Disease 195 209	hypothyroidism
+T4	Disease 567 581	hypothyroidism
+T5	Disease 233 253	rheumatoid arthritis
+T6	Disease 257 269	fibromyalgia
+T7	Disease 384 404	rheumatoid arthritis
+T8	Disease 345 350	tumor
+T6	Disease 135 143	sciatica
+T20	Disease 735 741	stroke
+T7	Disease 275 278	flu
+T9	Disease 436 439	flu
+T3	Disease 120 128	high ldl
+T8	Disease 348 351	flu
+T4	Disease 161 174	thinning hair
+T5	Disease 268 281	lipid problem
+T9	Disease 621 630	blockages
+T1	Disease 156 176	Hypercholesterolemia
+T10	Disease 830 846	bipolar disorder
+T6	Disease 236 239	flu
+T6	Disease 192 204	polymyositis
+T10	Disease 556 568	Polymyositis
+T8	Disease 279 287	headache
+T5	Disease 266 281	vision problems
+T2	Disease 34 53	cholesterol climbed
+T15	Disease 1140 1143	ALS
+T5	Disease 445 461	severe arthritis
+T15	Disease 893 904	over weight
+T4	Disease 172 191	rotator cuff injury
+T6	Disease 417 426	Parkinson
+T2	Disease 59 69	hammer toe
+T3	Disease 48 54	bunion
+T1	Disease 55 66	parkinson's
+T7	Disease 286 297	parkinson's
+T9	Disease 550 579	Amyotrophic lateral sclerosis
+T16	Disease 461 471	Neuropathy
+T17	Disease 477 491	Athlete's foot
+T1	Disease 42 55	heart disease
+T5	Disease 277 296	parkinson's disease
+T6	Disease 355 366	parkinson's
+T9	Disease 435 446	Parkinson's
+T10	Disease 563 574	Parkinson's
+T10	Disease 546 559	heart desease
+T4	Disease 297 309	bulging disc
+T9	Disease 298 303	Lupus
+T6	Disease 370 378	diabetes
+T1	Disease 13 25	heart attack
+T1	Disease 10 29	parkinson's disease
+T6	Disease 305 321	coronary disease
+T2	Disease 32 41	Arthritis
+T5	Disease 195 199	gout
+T8	Disease 328 332	gout
+T6	Disease 111 114	ALS
+T10	Disease 355 372	torn rotator cuff
+T2	Disease 158 167	arthritis
+T2	Disease 118 128	Neuropathy
+T4	Disease 188 196	Diabetes
+T10	Disease 696 708	heart attack
+T11	Disease 29 41	heart attack
+T5	Disease 47 55	diabetic
+T7	Disease 149 161	heart attack
+T8	Disease 442 452	alzheimers
+T12	Disease 271 279	insomnia
+T17	Disease 393 404	fatty liver
+T27	Disease 1433 1441	insomnia
+T12	Disease 413 425	nerve damage
+T16	Disease 247 255	diabetes
+T17	Disease 257 270	heart disease
+T18	Disease 272 291	high blood pressure
+T19	Disease 296 325	high cholestrol/triglycerides
+T26	Disease 573 587	heart problems
+T29	Disease 751 771	trigeminal neuralgia
+T30	Disease 801 803	MS
+T4	Disease 265 278	heart disease
+T5	Disease 390 407	coronary problems
+T4	Disease 279 307	partial blockage to my heart
+T8	Disease 415 419	pain
+T2	Disease 109 121	heart attack
+T1	Disease 67 79	Colin cancer
+T16	Disease 898 920	statin induced myalgia
+T8	Disease 546 552	eczema
+T4	Disease 92 100	bi-polar
+T7	Disease 425 433	bi-polar
+T6	Disease 622 626	GERD
+T3	Disease 241 251	tendonitis
+T4	Disease 256 273	plantar fasciitis
+T4	Disease 128 131	IBS
+T3	Disease 313 322	arthritis
+T3	Disease 401 420	High blood pressure
+T4	Disease 422 425	IBS
+T5	Disease 440 455	stomache ulcers
+T6	Disease 466 472	reflux
+T8	Disease 495 504	asthmatic
+T7	Disease 403 418	acute gastritis
+T4	Disease 108 122	diverticulitis
+T3	Disease 134 143	gastritis
+T5	Disease 319 323	gout
+T6	Disease 337 346	arthritis
+T1	Disease 9 26	slipped vertabrae
+T2	Disease 33 50	degenerative disk
+T12	Disease 325 334	arthritis
+T9	Disease 412 429	strained meniscus
+T11	Disease 112 127	sinus infection
+T3	Disease 64 69	Lupus
+T4	Disease 85 100	herniated discs

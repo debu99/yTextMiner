@@ -1,0 +1,118 @@
+dictIndex=1359 dictItem=blister
+dictIndex=1361 dictItem=blister
+dictIndex=1362 dictItem=blister
+dictIndex=5931 dictItem=itchy
+dictIndex=5935 dictItem=itchy scalp
+1|46|blisters
+1|68|itchy
+1|74|scalp
+-------------------
+dictIndex=3058 dictItem=discomfort
+2|16|discomfort
+dictIndex=8269 dictItem=pain
+2|165|pain
+-------------------
+dictIndex=2998 dictItem=diarrhea
+3|207|diarrhea
+dictIndex=3058 dictItem=discomfort
+dictIndex=9308 dictItem=pressure
+3|407|discomfort
+3|438|pressure
+-------------------
+-------------------
+dictIndex=2359 dictItem=clot blood
+dictIndex=2362 dictItem=clot
+dictIndex=11171 dictItem=tired
+5|27|blood
+5|33|clots
+dictIndex=2359 dictItem=clot blood
+dictIndex=2362 dictItem=clot
+5|125|blood
+5|131|clots
+dictIndex=1186 dictItem=back pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8326 dictItem=pain back
+5|524|back
+5|529|pain
+-------------------
+-------------------
+-------------------
+dictIndex=8269 dictItem=pain
+8|62|Pain
+-------------------
+-------------------
+-------------------
+dictIndex=7263 dictItem=effective
+11|4|effective
+-------------------
+-------------------
+-------------------
+dictIndex=7263 dictItem=effective
+14|67|effective
+-------------------
+dictIndex=111 dictItem=ache
+dictIndex=1181 dictItem=back ache
+dictIndex=1186 dictItem=back pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8326 dictItem=pain back
+dictIndex=10287 dictItem=shoulder pain
+15|144|shoulder
+15|182|aches
+15|192|pains
+15|199|back
+-------------------
+dictIndex=3058 dictItem=discomfort
+16|27|discomfort
+dictIndex=7263 dictItem=effective
+16|265|effective
+-------------------
+dictIndex=7188 dictItem=adverse effect
+17|158|adverse
+17|171|effects
+-------------------
+dictIndex=8269 dictItem=pain
+18|153|pain
+-------------------
+dictIndex=7056 dictItem=neck rash
+dictIndex=9617 dictItem=rash
+dictIndex=9620 dictItem=rash
+dictIndex=9643 dictItem=rash arm
+19|65|rash
+19|101|arm
+dictIndex=12180 dictItem=weakness
+dictIndex=8269 dictItem=pain
+19|282|pain
+dictIndex=9617 dictItem=rash
+dictIndex=9620 dictItem=rash
+dictIndex=10408 dictItem=skin rash
+dictIndex=12180 dictItem=weakness
+19|462|weakness
+19|476|rash
+19|501|skin
+-------------------
+dictIndex=1186 dictItem=back pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8326 dictItem=pain back
+20|46|back
+20|51|pain
+dictIndex=8269 dictItem=pain
+20|82|pain
+20|223|pain
+dictIndex=2812 dictItem=death
+20|268|death
+dictIndex=11424 dictItem=ulcer
+20|364|ulcer
+-------------------
+dictIndex=10246 dictItem=shake
+21|26|shaking
+dictIndex=8269 dictItem=pain
+21|566|pain
+-------------------
+dictIndex=2359 dictItem=clot blood
+dictIndex=2362 dictItem=clot
+22|227|blood
+22|233|clots
+-------------------

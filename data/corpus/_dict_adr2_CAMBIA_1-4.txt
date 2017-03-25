@@ -1,0 +1,35 @@
+-------------------
+dictIndex=676 dictItem=bad nausea
+dictIndex=5717 dictItem=nausea
+dictIndex=7915 dictItem=stomach
+2|15|nausea
+2|51|stomach
+dictIndex=5418 dictItem=migraine
+2|97|migraine
+dictIndex=4078 dictItem=hypnotic
+2|284|hypnotic
+-------------------
+dictIndex=1085 dictItem=burn
+dictIndex=1098 dictItem=burn
+dictIndex=2322 dictItem=dry heave
+dictIndex=3146 dictItem=feel
+dictIndex=7915 dictItem=stomach
+3|52|burning
+3|100|heaves
+3|122|stomach
+dictIndex=9076 dictItem=vomit
+dictIndex=9077 dictItem=vomit
+dictIndex=5418 dictItem=migraine
+3|348|migraines
+-------------------
+dictIndex=2766 dictItem=experience
+dictIndex=5418 dictItem=migraine
+dictIndex=5425 dictItem=migraine worse
+dictIndex=5674 dictItem=migraine worse
+dictIndex=9026 dictItem=migraine worse
+4|33|experienced
+4|45|worse
+4|51|migraines
+dictIndex=5418 dictItem=migraine
+4|97|migraines
+-------------------

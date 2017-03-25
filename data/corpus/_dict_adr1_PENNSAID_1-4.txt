@@ -1,0 +1,19 @@
+dictIndex=8269 dictItem=pain
+1|214|pain
+dictIndex=8269 dictItem=pain
+1|275|pain
+dictIndex=8269 dictItem=pain
+1|349|pain
+-------------------
+-------------------
+dictIndex=8269 dictItem=pain
+3|39|pain
+-------------------
+dictIndex=8269 dictItem=pain
+4|79|pain
+dictIndex=7776 dictItem=oral pain
+dictIndex=8269 dictItem=pain
+dictIndex=8325 dictItem=pain oral
+4|442|oral
+4|447|pain
+-------------------

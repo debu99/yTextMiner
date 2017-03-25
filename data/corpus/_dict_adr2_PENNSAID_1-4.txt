@@ -1,0 +1,49 @@
+dictIndex=3146 dictItem=feel
+dictIndex=4786 dictItem=joint pain
+dictIndex=6128 dictItem=pain
+dictIndex=6147 dictItem=pain joint
+1|208|joint
+1|214|pain
+dictIndex=6128 dictItem=pain
+1|275|pain
+dictIndex=4822 dictItem=knee pain
+dictIndex=5152 dictItem=lot pain
+dictIndex=6128 dictItem=pain
+1|344|knee
+1|349|pain
+1|452|lot
+-------------------
+dictIndex=9312 dictItem=zombie
+-------------------
+dictIndex=4810 dictItem=kidney pain
+dictIndex=6128 dictItem=pain
+3|39|pain
+dictIndex=3755 dictItem=heart rate
+3|126|rate
+dictIndex=458 dictItem=anxiety
+dictIndex=2766 dictItem=experience
+dictIndex=3501 dictItem=anxiety
+dictIndex=3911 dictItem=horrible
+dictIndex=3913 dictItem=horrible anxiety
+3|168|experienced
+3|180|horrible
+3|189|anxiety
+dictIndex=3727 dictItem=heart attack
+dictIndex=7991 dictItem=stroke
+3|228|heart
+3|234|attack
+3|244|stroke
+-------------------
+dictIndex=2294 dictItem=drug dependence
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+dictIndex=6156 dictItem=pain reliever
+4|65|dependence
+4|79|pain
+4|84|relievers
+dictIndex=3797 dictItem=help pain
+dictIndex=6054 dictItem=oral pain
+dictIndex=6128 dictItem=pain
+4|442|oral
+4|447|pain
+-------------------

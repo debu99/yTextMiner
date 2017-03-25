@@ -1,0 +1,173 @@
+dictIndex=2286 dictItem=drowsy
+dictIndex=6128 dictItem=pain
+dictIndex=8508 dictItem=tired
+dictIndex=9028 dictItem=tired
+1|5|drowsy
+1|29|pain
+dictIndex=2315 dictItem=drug
+dictIndex=6128 dictItem=pain
+dictIndex=8253 dictItem=symptom
+1|131|pain
+1|136|symptoms
+dictIndex=2315 dictItem=drug
+dictIndex=6892 dictItem=read side effect
+dictIndex=7539 dictItem=side effect
+1|287|side
+1|292|effects
+dictIndex=2761 dictItem=expense
+1|542|expense
+-------------------
+dictIndex=3695 dictItem=headache
+2|0|HEADACHE
+dictIndex=871 dictItem=blood pressure
+dictIndex=3849 dictItem=high blood pressure
+dictIndex=6549 dictItem=pressure
+2|52|HIGH
+2|57|BLOOD
+2|63|PRESSURE
+dictIndex=799 dictItem=bladder infection
+dictIndex=4552 dictItem=infection
+2|81|INFECTION
+dictIndex=8175 dictItem=swell
+2|130|SWELLING
+dictIndex=799 dictItem=bladder infection
+dictIndex=4552 dictItem=infection
+2|196|INFECTION
+dictIndex=3797 dictItem=help pain
+dictIndex=6128 dictItem=pain
+2|296|PAIN
+-------------------
+dictIndex=645 dictItem=back pain
+dictIndex=1039 dictItem=breast pain
+dictIndex=1085 dictItem=burn
+dictIndex=1090 dictItem=burn hand
+dictIndex=1093 dictItem=burn pain
+dictIndex=1098 dictItem=burn
+dictIndex=1965 dictItem=diarrhea
+dictIndex=2337 dictItem=dry skin
+dictIndex=3629 dictItem=hand pain
+dictIndex=3639 dictItem=hand pain
+dictIndex=5152 dictItem=lot pain
+dictIndex=5359 dictItem=menopausal symptom
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+dictIndex=6657 dictItem=pruritus
+dictIndex=8253 dictItem=symptom
+dictIndex=8979 dictItem=vaginal bleeding
+dictIndex=8986 dictItem=vaginal pain
+3|7|vaginal
+3|15|bleeding
+3|31|vaginal
+3|39|skin
+3|44|burns
+3|353|diarrhea
+3|52|lot
+3|70|back
+3|80|menopausal
+3|94|breast
+3|101|pain
+3|112|symptoms
+3|142|skin
+3|182|hands
+3|205|lot
+3|228|pruritus
+dictIndex=8253 dictItem=symptom
+3|385|symptoms
+dictIndex=6128 dictItem=pain
+3|504|pain
+dictIndex=6657 dictItem=pruritus
+dictIndex=6926 dictItem=red
+dictIndex=6943 dictItem=red skin
+dictIndex=8979 dictItem=vaginal bleeding
+3|526|vaginal
+3|553|pruritus
+3|569|skin
+3|582|red
+dictIndex=4552 dictItem=infection
+dictIndex=8985 dictItem=vaginal infection
+3|673|vaginal
+3|697|infections
+dictIndex=7539 dictItem=side effect
+3|846|side
+3|851|effects
+-------------------
+dictIndex=7915 dictItem=stomach
+4|26|stomach
+dictIndex=2315 dictItem=drug
+-------------------
+dictIndex=1119 dictItem=sleep
+dictIndex=1120 dictItem=sleep
+dictIndex=2275 dictItem=drowsiness
+dictIndex=4929 dictItem=sleep
+dictIndex=5860 dictItem=sleep
+dictIndex=5909 dictItem=sleep
+dictIndex=6128 dictItem=pain
+dictIndex=6164 dictItem=pain stomach
+dictIndex=6191 dictItem=pain stomach
+dictIndex=6747 dictItem=sleep
+dictIndex=7626 dictItem=sleep
+dictIndex=7688 dictItem=sleep
+dictIndex=7915 dictItem=stomach
+dictIndex=7931 dictItem=stomach pain
+5|3|stomach
+5|11|pains
+5|32|drowsiness
+5|47|slept
+5|99|stomach
+dictIndex=1579 dictItem=walk
+dictIndex=3985 dictItem=hurt
+5|125|hurting
+5|162|walk
+dictIndex=645 dictItem=back pain
+dictIndex=6128 dictItem=pain
+dictIndex=6133 dictItem=pain back
+5|233|pain
+5|260|back
+-------------------
+dictIndex=7539 dictItem=side effect
+6|3|side
+6|8|effects
+dictIndex=1271 dictItem=chronic
+dictIndex=1290 dictItem=chronic pain
+dictIndex=6128 dictItem=pain
+6|87|chronic
+6|95|pain
+6|118|pain
+dictIndex=2275 dictItem=drowsiness
+dictIndex=3569 dictItem=grogginess
+dictIndex=5105 dictItem=loss memory
+dictIndex=5349 dictItem=memory loss
+6|173|drowsiness
+6|185|grogginess
+6|199|memory
+6|206|loss
+-------------------
+dictIndex=4816 dictItem=kill
+dictIndex=7874 dictItem=slight
+dictIndex=7915 dictItem=stomach
+dictIndex=7940 dictItem=stomach ulcer
+dictIndex=7942 dictItem=stomach upset
+dictIndex=8720 dictItem=ulcer
+dictIndex=8937 dictItem=upset stomach
+7|7|stomach
+7|15|upset
+7|63|ulcer
+dictIndex=2315 dictItem=drug
+dictIndex=3311 dictItem=fit
+dictIndex=5892 dictItem=eat
+7|190|fit
+dictIndex=556 dictItem=arthritis
+dictIndex=7539 dictItem=side effect
+7|240|arthritis
+7|288|side
+7|293|effects
+dictIndex=4816 dictItem=kill
+dictIndex=6352 dictItem=peritonitis
+dictIndex=7029 dictItem=renal failure
+7|386|peritonitis
+7|411|renal
+7|433|failure
+dictIndex=9153 dictItem=wear
+dictIndex=9250 dictItem=wear
+7|458|wearing
+-------------------
