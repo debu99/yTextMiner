@@ -1,6 +1,7 @@
 package edu.yonsei.test.main;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -35,78 +36,37 @@ import edu.yonsei.util.Document;
 import edu.yonsei.util.Sentence;
 import edu.yonsei.util.Token;
 
-public class DictSearch {
-	
-	//public static IRAMDictionary dict;
+public class ADR_DictSearch {
 
 	public static void main(String[] args) throws Exception {
 
         long start = Calendar.getInstance().getTimeInMillis();  
 
 		System.out.println("--- START initialize dict---");
-		ArrayList<String> dictList = Dict2Array();
-		int dictSize = dictList.size();
+		//ArrayList<String> dictList = Dict2Array();
+		//int dictSize = dictList.size();
+		HashMap dictHashMap = Dict2HashMap();
+		int dictSize = dictHashMap.size();
 		System.out.println("dictSize="+dictSize);		
 		System.out.println("--- END initialize dict---");
-
         long end = Calendar.getInstance().getTimeInMillis();
         System.out.println("Time: " + (end - start)/1000+"s"); 
         
         
         start = Calendar.getInstance().getTimeInMillis();  
-		System.out.println("--- START initialize wordnet---");
-		//initDict();
-		System.out.println("--- END initialize wordnet---");
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-		
+		searchDict("ZIPSOR",1,5,dictHashMap);
+		searchDict("VOLTAREN",1,46,dictHashMap);
+		searchDict("VOLTAREN-XR",1,22,dictHashMap);
+        searchDict("SOLARAZE",1,3,dictHashMap);
+        searchDict("PENNSAID",1,4,dictHashMap);
+        searchDict("FLECTOR",1,1,dictHashMap);
+        searchDict("CAMBIA",1,4,dictHashMap);
+        searchDict("CATAFLAM",1,10,dictHashMap);
+        searchDict("DICLOFENAC-POTASSIUM",1,3,dictHashMap);
+        searchDict("DICLOFENAC-SODIUM",1,7,dictHashMap);
         
-        
-        start = Calendar.getInstance().getTimeInMillis();  
-		searchDict("ZIPSOR",1,5,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-
-        start = Calendar.getInstance().getTimeInMillis();  
-		searchDict("VOLTAREN",1,46,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-
-        start = Calendar.getInstance().getTimeInMillis();  
-		searchDict("VOLTAREN-XR",1,22,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-
-        start = Calendar.getInstance().getTimeInMillis();  
-		searchDict("ARTHROTEC",1,145,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-
-        start = Calendar.getInstance().getTimeInMillis();  
-        searchDict("SOLARAZE",1,3,dictList);
-        searchDict("PENNSAID",1,4,dictList);
-        searchDict("FLECTOR",1,1,dictList);
-        searchDict("CAMBIA",1,4,dictList);
-        searchDict("CATAFLAM",1,10,dictList);
-        searchDict("DICLOFENAC-POTASSIUM",1,3,dictList);
-        searchDict("DICLOFENAC-SODIUM",1,7,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-
-        start = Calendar.getInstance().getTimeInMillis();  
-        searchDict("LIPITOR",1,545,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-        start = Calendar.getInstance().getTimeInMillis();  
-        searchDict("LIPITOR",547,779,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-        start = Calendar.getInstance().getTimeInMillis();  
-        searchDict("LIPITOR",781,1000,dictList);
+		searchDict("ARTHROTEC",1,145,dictHashMap);
+        searchDict("LIPITOR",1,1000,dictHashMap);
         end = Calendar.getInstance().getTimeInMillis();
         System.out.println("Time: " + (end - start)/1000+"s"); 
         
@@ -126,97 +86,6 @@ public class DictSearch {
 			}
 	}
 	
-	/*private static void initDict () throws InterruptedException {
-		try {
-			String path = "c:/WordNet3.0/dict";
-			URL url = new URL("file",  null, path);  
-		    dict = new  RAMDictionary(url,ILoadPolicy.NO_LOAD); 
-		    dict.open();
-		    dict.load(true);		    
-		    
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}*/
-
-	/*public static ArrayList<String> wordsFromWordNet(String str) throws Exception{
-		ArrayList<String> wordNetRes=new ArrayList<String>();
-		
-		if(!dict.isLoaded()||!dict.isOpen()){
-			System.out.println("dict is not loaded or not open!!!!");
-			return null;
-		}
-		if(str==null||str.isEmpty()||str.equals("")){
-			return null;
-		}
-		
-		IIndexWord idxWord = null;
-
-		//System.out.println("str="+str);
-		Token token = new Token(str);
-		String posTag = token.getPOS();
-		//System.out.println("posTag="+posTag);
-		switch(posTag.substring(0, 2)){
-			case "NN":
-				//do somehting;'
-				idxWord = dict.getIndexWord(str, POS.NOUN);
-				break;
-			case "JJ":
-				//do somehting;
-				idxWord = dict.getIndexWord(str, POS.ADJECTIVE);
-				break;
-			case "RB":
-				idxWord = dict.getIndexWord(str, POS.ADVERB);
-				//do somehting;
-				break;
-			case "VB":
-				idxWord = dict.getIndexWord(str, POS.VERB);
-				//do somehting;
-				break;
-			default:
-				return null;						
-		}
-		if(idxWord==null){
-			//System.out.println("idxWord is null!!!");
-			return null;
-		}
-		//System.out.println("size="+idxWord.getWordIDs().size());
-	    IWordID wordID = idxWord.getWordIDs().get(0);
-	    IWord word = dict.getWord(wordID);
-	    //Adding Related Words to List of Realted Words
-	    ISynset synset = word.getSynset();
-	    //System.out.println("synset size="+synset.getWords().size());
-	    //for (IWord w : synset.getWords()) {
-	    if(synset.getWords().size()==1)
-	    {
-	    	return null;
-	    }else{		    
-		    for(int i=0;i<synset.getWords().size();i++){
-		    	if(i>3){break;}
-		    	if(synset.getWords().get(i).getLemma().equals(str)){continue;}
-		    	
-		        //System.out.println(synset.getWords().get(i).getLemma());
-		        wordNetRes.add(synset.getWords().get(i).getLemma().replace("_", " "));
-		    }
-	    }
-		
-		
-		return wordNetRes;		
-	}*/
-	
-	public static ArrayList<Integer> getIndexOf( String[] strings, String str  ){
-	     ArrayList<Integer> res = new ArrayList<Integer>();
-	     for(int i=0;i<strings.length;i++){
-	    	 if(strings[i]!=null&&str.equals(strings[i])){
-	    		 res.add(i);
-	    	 }
-	     }
-	     
-	     /*if(res!=null&&res.size()>0){
-	    	 System.out.println("res="+res.toString()+" str="+str);
-	     }*/
-	     return res;
-     }
 	
 	
      /*
@@ -297,14 +166,50 @@ public class DictSearch {
 	}
 	*/
 
-	public static ArrayList<String> Dict2Array() throws Exception{
-		Scanner dict = new Scanner(new FileReader("data/corpus/dict_full.txt"));
+
+	public static HashMap<Integer, String> Dict2HashMap() throws Exception{
+		Scanner dict = new Scanner(new FileReader("data/corpus/_dict_adr.txt"));
+				
+		HashMap dictList = new HashMap();
+		//HashMap dictMap = new HashMap();
+
+		int lineId=1;
+		while(dict.hasNext()){
+			String text = dict.nextLine();
+			//System.out.println("text:"+text);
+			Sentence sent = new Sentence(text);
+			sent.preprocess();
+			String dictItem = "";
+			for(Token token : sent){
+				//System.out.print(token.getToken() + "|");
+				//if(!isAlpha(token.getToken())||token.isStopword()){
+				if(token.isStopword()){
+					//System.out.println("***removed bcos not alphabet or stopword***");					
+					continue;
+				}else{
+					dictItem=dictItem+" "+token.getLemma().toLowerCase();
+				}
+			}
+
+			//System.out.println("item="+dictItem.trim()+"\n");	
+			dictList.put(lineId, dictItem.trim());
+			//dictList.add(dictItem.trim());
+			//dictMap.put(lineId, dictItem.trim())
+			lineId+=1;
+		}	
+
+		dict.close();
+		return dictList;
 		
-		
+	}
+	
+	
+	/*public static ArrayList<String> Dict2Array() throws Exception{
+		Scanner dict = new Scanner(new FileReader("data/corpus/_dict_adr.txt"));
+				
 		ArrayList<String> dictList = new ArrayList<String>();
 		//HashMap dictMap = new HashMap();
 
-		
 		//int lineId=1;
 		while(dict.hasNext()){
 			String text = dict.nextLine();
@@ -314,7 +219,8 @@ public class DictSearch {
 			String dictItem = "";
 			for(Token token : sent){
 				//System.out.print(token.getToken() + "|");
-				if(!isAlpha(token.getToken())||token.isStopword()){
+				//if(!isAlpha(token.getToken())||token.isStopword()){
+				if(token.isStopword()){
 					//System.out.println("***removed bcos not alphabet or stopword***");					
 					continue;
 				}else{
@@ -330,10 +236,25 @@ public class DictSearch {
 		dict.close();
 		return dictList;
 		
-	}
+	}*/
+	
+
+	public static ArrayList<Integer> getIndexOf( String[] strings, String str  ){
+	     ArrayList<Integer> res = new ArrayList<Integer>();
+	     for(int i=0;i<strings.length;i++){
+	    	 if(strings[i]!=null&&str.equals(strings[i])){
+	    		 res.add(i);
+	    	 }
+	     }
+	     
+	     /*if(res!=null&&res.size()>0){
+	    	 System.out.println("res="+res.toString()+" str="+str);
+	     }*/
+	     return res;
+     }
 	
 	
-	private static void searchDict(String drugName,int startNumber, int endNumber,ArrayList<String> dictList) throws FileNotFoundException, Exception {
+	private static void searchDict(String drugName,int startNumber, int endNumber,HashMap<Integer, String> dictList) throws FileNotFoundException, Exception {
 		//Scanner s = new Scanner(new FileReader("data/corpus/twitter_stream.txt"));
 		//Scanner s = new Scanner(new FileReader("data/corpus/all_cataflam_original.txt"));
 
@@ -345,11 +266,8 @@ public class DictSearch {
 			
 			Scanner src = new Scanner(new FileReader("data/corpus/"+drugName+"."+z+".txt"));
 			
-			String fileName="data/corpus/_dict_"+drugName+"_"+startNumber+"-"+endNumber+".txt";
+			String fileName="data/corpus/_dict_adr_"+drugName+"_"+startNumber+"-"+endNumber+".txt";
 			BufferedWriter out=new BufferedWriter(new FileWriter(fileName,true));
-
-			
-			
 			
 			
 			while(src.hasNext()){
@@ -376,17 +294,19 @@ public class DictSearch {
 						break;
 					}
 
-					int tokenLength=0;
 
 					//all words in one sentence
 					//HashSet<Object> wordSets = new HashSet<Object>();  	
 					//word and index in every file
+					
 					LinkedHashMap<Integer,String> wordSetIndex = new LinkedHashMap<Integer, String>();
 					String[] lemmaArray=new String[sent_splitter.size()];
 					
 					String lemmaText="";
 					//for every sentence, get all meaningful words in it
 					int indexNumber=0;
+					int tokenLength=0;
+					
 					for(Token token : sent_splitter){
 						//String[] wordSet = new String[2];
 						String wordToken = token.getToken();			
@@ -396,12 +316,16 @@ public class DictSearch {
 
 						System.out.print(m+"|");			
 						
-						System.out.print(wordToken + "|");	
+						System.out.print(wordToken + "|");						
 						
-						
-						if(!isAlpha(wordToken)){
+						/*if(!isAlpha(wordToken)){
 							System.out.print("!!NOT alphabets word, goto Next...");		
 							continue;								
+						}*/
+						
+						if(token.getStem().equals("")){
+							System.out.print("Puntuction, goto Next...");		
+							continue;				
 						}
 
 						if(token.isStopword()){
@@ -426,6 +350,7 @@ public class DictSearch {
 						wordSetIndex.put(m,wordToken);
 						indexNumber+=1;
 						
+						
 					}
 					//lemmaText=lemmaText.trim();
 					//String[] firstArray = {"test1","","test2","test4",""};
@@ -434,11 +359,9 @@ public class DictSearch {
 					    if (s!=null){
 					        list.add(s);
 					    }
-					lemmaArray = list.toArray(new String[list.size()]);
 					
-					
-					
-					
+					System.out.println("\nlemmaArray before="+Arrays.toString(lemmaArray));
+					lemmaArray = list.toArray(new String[list.size()]);			
 					
 			        System.out.println("\nlemmaArray="+Arrays.toString(lemmaArray));
 					System.out.println("");
@@ -446,8 +369,8 @@ public class DictSearch {
 
 					
 
-					ArrayList<Integer> resList = new ArrayList<Integer>();
-					ArrayList<String> wordnetResList = new ArrayList<String>();
+					ArrayList<Integer> resList = new ArrayList<Integer>();		//all index of words
+					//ArrayList<String> wordnetResList = new ArrayList<String>();
 					HashMap<String,ArrayList<Integer>> wordFound = new HashMap<String,ArrayList<Integer>>();
 					
 
@@ -455,15 +378,18 @@ public class DictSearch {
 					
 					
 					
-					for (String dictItem : dictList) {	
-						ArrayList tempList = new ArrayList();
-						ArrayList tempList2 = new ArrayList();
+					//for (String dictItem : dictList) {	
+					for(Map.Entry<Integer, String> entry : dictList.entrySet()){ 	
+						ArrayList tempList = new ArrayList();	//results for all dict words found in text
+						ArrayList tempList2 = new ArrayList();	//split dict item(>=2words)
 						/*System.out.println("dictItem="+dictItem);
 						System.out.println("wordFound="+wordFound.toString());*/
 						
+						String dictItem=entry.getValue();
+						
 						if(dictItem.contains(" ")){
 							int foundFlag=0;
-							int wordnetFlag=0;
+							//int wordnetFlag=0;
 							String[] dictItemSplit = dictItem.split(" ");
 							
 							for(int jjj=0;jjj<dictItemSplit.length;jjj++){						
@@ -475,16 +401,13 @@ public class DictSearch {
 								}
 								
 								tempList2 = getIndexOf(lemmaArray, dictItemSplit[jjj]);
-								if(tempList2.size()>0){
+								if(tempList2.size()>0){		
 									tempList.addAll(tempList2);
 									//wordFound.add(dictItemSplit[jjj]);
 									wordFound.put(dictItemSplit[jjj], tempList2);
 									foundFlag+=1;
-								}else{
-
-									
-									
-									break;
+								}else{									
+									break;			//one part of dict item not found then quit this item
 								}
 								/*System.out.println("wordFound="+wordFound.toString());
 								System.out.println("foundFlag="+foundFlag);*/
@@ -518,21 +441,23 @@ public class DictSearch {
 								/*System.out.println("dictItemSplit.length="+dictItemSplit.length);
 								System.out.println("dictItem="+dictItem.toString());
 								System.out.println("tempList="+tempList.toString());*/
-								if(tempList.size()>0){
+								if(tempList.size()>0){	
 									resList.addAll(tempList);	
-								}else{
+								}else{					//all words are already found in history, this time not find yet
 									//List<Integer> foundIndexes = new ArrayList<Integer>(); 
 									//wordSetIndex.values().toArray();"
 									for(String word : dictItemSplit){	
 										resList.addAll((ArrayList<Integer>) wordFound.get(word));
 									}						
-								}															
+								}		
+								out.write("dictIndex="+entry.getKey()+" dictItem="+dictItem+"\r\n");
+								System.out.println("dictIndex="+entry.getKey()+" dictItem="+dictItem);
 							}
 							
-							if(wordnetFlag>0&&dictItemSplit.length==wordnetFlag){
-								/*System.out.println("dictItemSplit.length="+dictItemSplit.length);
+							/*if(wordnetFlag>0&&dictItemSplit.length==wordnetFlag){
+								System.out.println("dictItemSplit.length="+dictItemSplit.length);
 								System.out.println("dictItem="+dictItem.toString());
-								System.out.println("tempList="+tempList.toString());*/
+								System.out.println("tempList="+tempList.toString());
 								if(tempList.size()>0){
 									resList.addAll(tempList);	
 								}else{
@@ -542,7 +467,7 @@ public class DictSearch {
 										resList.addAll((ArrayList<Integer>) wordFound.get(word));
 									}						
 								}															
-							}
+							}*/
 
 							/*System.out.println("dictItem="+dictItem);
 							System.out.println("tempList="+tempList.toString());
@@ -550,33 +475,22 @@ public class DictSearch {
 							
 						}else{
 							if(wordFound.containsKey(dictItem)){
+								out.write("dictIndex="+entry.getKey()+" dictItem="+dictItem+"\r\n");
+								System.out.println("dictIndex="+entry.getKey()+" dictItem="+dictItem);
 								continue;
 							}
 							tempList = getIndexOf(lemmaArray, dictItem);
 							/*if(tempList.size()>0){
 								System.out.println("-----tempList="+tempList.toString());
 							}*/
-							if(tempList.size()>0){
+							if(tempList.size()>0){		//same word could find more than 1 time
 
 								/*System.out.println("tempList.size()="+tempList.size());
 								System.out.println("add to wordFound="+dictItem);*/
 								wordFound.put(dictItem, tempList);
 								resList.addAll(tempList);
-							}else{
-								
-								
-								/*ArrayList<String> wordNetGrps=wordsFromWordNet(dictItem);
-								if(wordNetGrps!=null){
-									//System.out.println("wordNetGrps="+wordNetGrps.toString());
-									for(String word:wordNetGrps){
-										tempList = getIndexOf(lemmaArray, word);
-										if(tempList.size()>0){
-											wordnetResList.addAll(tempList);
-											break;
-										}
-									}
-								}*/
-								
+								out.write("dictIndex="+entry.getKey()+" dictItem="+dictItem+"\r\n");
+								System.out.println("dictIndex="+entry.getKey()+" dictItem="+dictItem);
 							}
 						}
 					}					
@@ -700,9 +614,17 @@ public class DictSearch {
 			}
 
 			System.out.println("--- END from file: "+z+" ---");
+			out.write("-------------------\r\n");	
 			//end of all files
 			src.close();
 			out.close();
+
+			File file = new File(fileName);
+			if (file.length() == 0) {
+			    // file empty
+				file.delete();
+			}
+			
 		}
 		System.out.println("--- "+drugName+" END ---");
 		//end of searchDict

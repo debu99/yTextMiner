@@ -1,0 +1,10 @@
+3|401|chest discomfort|dict_row=5641
+3|612|distress|dict_row=9044
+3|622|GERD|dict_row=12062
+3|664|high|dict_row=13627
+5|110|stroke|dict_row=28397
+16|248|gout|dict_row=12309
+16|303|gout|dict_row=12309
+18|53|high|dict_row=13627
+18|23|sleepy|dict_row=27509
+19|231|muscle weakness|dict_row=20093

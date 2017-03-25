@@ -1,0 +1,409 @@
+dictIndex=8269 dictItem=pain
+1|78|pain
+-------------------
+dictIndex=8269 dictItem=pain
+2|64|pain
+dictIndex=5297 dictItem=idiot
+2|148|idiot
+-------------------
+dictIndex=8269 dictItem=pain
+3|82|pain
+-------------------
+dictIndex=3176 dictItem=dry mouth
+dictIndex=3183 dictItem=dry
+dictIndex=6758 dictItem=mouth dry
+4|0|dry
+4|4|mouth
+dictIndex=8269 dictItem=pain
+4|148|pain
+dictIndex=8269 dictItem=pain
+4|247|pain
+-------------------
+dictIndex=7263 dictItem=effective
+5|189|effective
+dictIndex=111 dictItem=ache
+dictIndex=1181 dictItem=back ache
+5|295|back
+5|300|ache
+dictIndex=8269 dictItem=pain
+5|398|pain
+-------------------
+dictIndex=5496 dictItem=inflammation
+6|367|inflammation
+-------------------
+dictIndex=2998 dictItem=diarrhea
+dictIndex=8269 dictItem=pain
+7|9|diarrhea
+7|30|pain
+7|151|diarrhea
+dictIndex=8269 dictItem=pain
+7|311|pain
+dictIndex=8269 dictItem=pain
+7|384|pain
+7|475|pain
+-------------------
+dictIndex=2812 dictItem=death
+8|107|death
+dictIndex=1186 dictItem=back pain
+dictIndex=6357 dictItem=low back pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8323 dictItem=pain skin
+dictIndex=8326 dictItem=pain back
+dictIndex=10398 dictItem=skin loss
+dictIndex=12252 dictItem=yellow fever
+8|281|skin
+8|204|low
+8|348|pain
+8|215|fever
+8|366|back
+8|246|loss
+dictIndex=488 dictItem=adverse reaction
+dictIndex=7187 dictItem=adverse drug reaction
+dictIndex=7190 dictItem=adverse reaction
+dictIndex=7191 dictItem=drug reaction
+8|619|drugs
+8|690|adverse
+8|698|reactions
+8|716|drug
+-------------------
+dictIndex=8269 dictItem=pain
+9|127|pain
+-------------------
+-------------------
+dictIndex=4727 dictItem=hand pain
+dictIndex=8269 dictItem=pain
+dictIndex=8290 dictItem=pain arm
+dictIndex=8296 dictItem=pain hand
+11|127|pain
+11|135|hand
+11|142|arm
+-------------------
+dictIndex=111 dictItem=ache
+dictIndex=956 dictItem=arthritis
+dictIndex=3058 dictItem=discomfort
+dictIndex=9597 dictItem=arthritis
+12|161|aches
+12|171|discomfort
+12|191|arthritis
+dictIndex=3768 dictItem=fasciitis
+dictIndex=3770 dictItem=fasciitis plantar
+dictIndex=4013 dictItem=foot pain
+dictIndex=8269 dictItem=pain
+dictIndex=8280 dictItem=pain foot
+dictIndex=8295 dictItem=pain foot
+dictIndex=9043 dictItem=plantar fasciitis
+12|220|pain
+12|231|foot
+12|256|plantar
+12|264|fasciitis
+-------------------
+dictIndex=560 dictItem=allergic reaction
+13|18|reaction
+dictIndex=5931 dictItem=itchy
+dictIndex=5936 dictItem=itchy skin
+dictIndex=7274 dictItem=numbness
+dictIndex=10420 dictItem=skin sore
+dictIndex=10512 dictItem=sore gum
+13|50|skin
+13|62|itchy
+13|69|sore
+13|100|numbness
+13|123|gums
+-------------------
+dictIndex=6353 dictItem=loss vision
+dictIndex=12096 dictItem=vision loss
+14|36|vision
+14|237|loss
+-------------------
+dictIndex=8269 dictItem=pain
+15|129|pain
+-------------------
+dictIndex=6194 dictItem=leg pain
+dictIndex=8269 dictItem=pain
+dictIndex=8298 dictItem=pain leg
+dictIndex=8307 dictItem=pain leg
+dictIndex=8344 dictItem=pain leg
+dictIndex=10270 dictItem=shooting pain
+16|36|shooting
+16|45|pains
+16|81|legs
+dictIndex=8269 dictItem=pain
+16|149|pain
+dictIndex=3827 dictItem=feel sick
+16|304|sick
+-------------------
+dictIndex=4746 dictItem=headache
+17|34|Headache
+dictIndex=3802 dictItem=feel bad
+dictIndex=3835 dictItem=feel bad
+17|153|bad
+17|164|felt
+-------------------
+dictIndex=2998 dictItem=diarrhea
+dictIndex=8269 dictItem=pain
+dictIndex=8765 dictItem=period pain
+18|39|period
+18|50|pain
+18|118|diarrhea
+-------------------
+dictIndex=8269 dictItem=pain
+19|123|pain
+dictIndex=956 dictItem=arthritis
+dictIndex=8269 dictItem=pain
+dictIndex=9597 dictItem=arthritis
+19|313|arthritis
+19|323|pain
+-------------------
+dictIndex=8269 dictItem=pain
+20|110|pain
+20|129|pain
+dictIndex=1068 dictItem=asthmatic
+dictIndex=9308 dictItem=pressure
+dictIndex=9312 dictItem=pressure ulcer
+dictIndex=11424 dictItem=ulcer
+20|412|pressure
+20|449|ulcers
+20|495|asthmatic
+dictIndex=8269 dictItem=pain
+20|557|pain
+dictIndex=8269 dictItem=pain
+dictIndex=12224 dictItem=wear
+20|799|pain
+20|820|wear
+-------------------
+dictIndex=8269 dictItem=pain
+21|152|pain
+dictIndex=8269 dictItem=pain
+dictIndex=10287 dictItem=shoulder pain
+21|238|pain
+21|249|shoulder
+dictIndex=8269 dictItem=pain
+21|331|pain
+dictIndex=275 dictItem=acute gastritis
+dictIndex=4400 dictItem=gastritis
+dictIndex=4401 dictItem=gastritis acute
+21|403|acute
+21|409|gastritis
+dictIndex=488 dictItem=adverse reaction
+dictIndex=7190 dictItem=adverse reaction
+21|426|adverse
+21|434|reaction
+-------------------
+dictIndex=2998 dictItem=diarrhea
+22|26|diarrhea
+-------------------
+dictIndex=1961 dictItem=chronic pain
+dictIndex=8269 dictItem=pain
+23|25|pain
+23|63|pain
+dictIndex=1370 dictItem=blood stool
+dictIndex=1371 dictItem=blood stool
+dictIndex=3125 dictItem=diverticulitis
+dictIndex=8269 dictItem=pain
+23|108|diverticulitis
+23|124|blood
+23|133|stool
+23|140|pain
+dictIndex=8269 dictItem=pain
+23|221|pain
+-------------------
+dictIndex=9308 dictItem=pressure
+24|93|pressure
+dictIndex=4400 dictItem=gastritis
+24|134|gastritis
+dictIndex=9308 dictItem=pressure
+24|196|pressure
+-------------------
+dictIndex=560 dictItem=allergic reaction
+25|54|reaction
+dictIndex=5923 dictItem=itch
+dictIndex=5925 dictItem=itch
+dictIndex=5927 dictItem=itch
+25|105|itch
+dictIndex=6287 dictItem=lip swell
+dictIndex=10894 dictItem=swell lip
+25|135|lips
+25|177|swell
+dictIndex=956 dictItem=arthritis
+dictIndex=9597 dictItem=arthritis
+25|337|arthritis
+-------------------
+dictIndex=5496 dictItem=inflammation
+26|104|inflammation
+-------------------
+dictIndex=11171 dictItem=tired
+dictIndex=4727 dictItem=hand pain
+dictIndex=8269 dictItem=pain
+dictIndex=8296 dictItem=pain hand
+27|148|hands
+27|162|pain
+-------------------
+dictIndex=2998 dictItem=diarrhea
+dictIndex=3790 dictItem=fatigue
+28|16|diarrhea
+28|26|fatigue
+-------------------
+dictIndex=6885 dictItem=muscle pain
+dictIndex=8269 dictItem=pain
+dictIndex=8315 dictItem=pain muscle
+29|8|pain
+29|17|muscle
+-------------------
+dictIndex=1186 dictItem=back pain
+dictIndex=2998 dictItem=diarrhea
+dictIndex=3181 dictItem=dry skin
+dictIndex=3183 dictItem=dry
+dictIndex=4727 dictItem=hand pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8296 dictItem=pain hand
+dictIndex=8323 dictItem=pain skin
+dictIndex=8326 dictItem=pain back
+dictIndex=9397 dictItem=pruritus
+dictIndex=9401 dictItem=pruritus breast
+dictIndex=9407 dictItem=pruritus hand
+dictIndex=10366 dictItem=skin dry
+30|142|skin
+30|153|dry
+30|39|skin
+30|182|hands
+30|353|diarrhea
+30|70|back
+30|228|pruritus
+30|94|breast
+30|101|pain
+dictIndex=8269 dictItem=pain
+30|504|pain
+dictIndex=9397 dictItem=pruritus
+dictIndex=10411 dictItem=skin red
+30|553|pruritus
+30|569|skin
+30|582|red
+-------------------
+dictIndex=2883 dictItem=dehydration
+31|26|dehydration
+-------------------
+-------------------
+-------------------
+dictIndex=8269 dictItem=pain
+34|176|pains
+dictIndex=8269 dictItem=pain
+34|215|pain
+dictIndex=5899 dictItem=irritation skin
+dictIndex=10393 dictItem=skin irritation
+34|318|skin
+34|323|irritation
+-------------------
+dictIndex=12196 dictItem=wheeze
+dictIndex=12198 dictItem=wheeze
+dictIndex=12199 dictItem=wheeze
+35|19|wheezing
+dictIndex=12196 dictItem=wheeze
+dictIndex=12198 dictItem=wheeze
+dictIndex=12199 dictItem=wheeze
+35|65|wheezing
+dictIndex=12196 dictItem=wheeze
+dictIndex=12198 dictItem=wheeze
+dictIndex=12199 dictItem=wheeze
+35|179|wheezing
+dictIndex=4728 dictItem=hand rash
+dictIndex=7056 dictItem=neck rash
+dictIndex=9617 dictItem=rash
+dictIndex=9620 dictItem=rash
+dictIndex=10408 dictItem=skin rash
+35|246|skin
+35|251|rash
+35|274|neck
+dictIndex=560 dictItem=allergic reaction
+dictIndex=7191 dictItem=drug reaction
+35|382|reaction
+35|399|drug
+-------------------
+dictIndex=8269 dictItem=pain
+36|228|pain
+-------------------
+dictIndex=2998 dictItem=diarrhea
+37|128|diarrhea
+dictIndex=1474 dictItem=broken elbow
+dictIndex=1961 dictItem=chronic pain
+dictIndex=7263 dictItem=effective
+dictIndex=8269 dictItem=pain
+37|254|effective
+37|264|pain
+37|302|pain
+37|321|elbow
+dictIndex=7263 dictItem=effective
+dictIndex=8269 dictItem=pain
+37|331|effective
+37|404|pain
+-------------------
+-------------------
+dictIndex=11157 dictItem=tingle
+39|73|tingling
+-------------------
+dictIndex=2812 dictItem=death
+40|36|death
+dictIndex=11171 dictItem=tired
+dictIndex=956 dictItem=arthritis
+dictIndex=9597 dictItem=arthritis
+40|325|arthritis
+dictIndex=956 dictItem=arthritis
+dictIndex=8269 dictItem=pain
+dictIndex=9597 dictItem=arthritis
+40|417|arthritis
+40|427|pain
+-------------------
+-------------------
+dictIndex=8269 dictItem=pain
+42|219|pain
+dictIndex=8269 dictItem=pain
+42|341|Pain
+dictIndex=8269 dictItem=pain
+42|441|pain
+-------------------
+-------------------
+dictIndex=8269 dictItem=pain
+44|85|pain
+dictIndex=4746 dictItem=headache
+44|133|headache
+dictIndex=2998 dictItem=diarrhea
+44|244|diarrhea
+dictIndex=4746 dictItem=headache
+44|364|headache
+dictIndex=8269 dictItem=pain
+44|569|pain
+-------------------
+dictIndex=2998 dictItem=diarrhea
+45|8|diarrhea
+-------------------
+dictIndex=3286 dictItem=edema
+dictIndex=3293 dictItem=edema face
+dictIndex=3299 dictItem=edema
+dictIndex=3732 dictItem=face edema
+46|26|edema
+46|47|face
+dictIndex=1463 dictItem=breath shortness
+dictIndex=10275 dictItem=shortness breath
+46|98|shortness
+46|111|breath
+dictIndex=10609 dictItem=spot menstrual
+46|160|menstrual
+46|175|spotting
+dictIndex=6885 dictItem=muscle pain
+dictIndex=8269 dictItem=pain
+dictIndex=8315 dictItem=pain muscle
+dictIndex=10287 dictItem=shoulder pain
+46|332|pain
+46|342|muscle
+46|358|shoulder
+dictIndex=8269 dictItem=pain
+dictIndex=8293 dictItem=pain face
+dictIndex=8294 dictItem=pain finger
+dictIndex=10272 dictItem=short breath
+46|449|pain
+46|486|face
+46|495|fingers
+46|524|short
+46|533|breath
+-------------------

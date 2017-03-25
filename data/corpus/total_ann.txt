@@ -5557,71 +5557,6 @@ T9	ADR 842 852	back aches
 T10	Drug 954 961	Lipitor
 T11	Drug 980 987	Lipitor
 #1	AnnotatorNotes T1	It is a suspected ADR, as it becomes clear later in the post.
-T2	ADR 100 111	muscle pain
-T3	ADR 116 126	leg cramps
-T8	ADR 503 507	pain
-T10	ADR 1093 1101	Insomina
-T11	ADR 1102 1117	abnoraml dreams
-T12	ADR 1119 1129	depression
-T13	ADR 1131 1142	memory loss
-T14	ADR 1144 1160	photosensitivity
-T15	ADR 1162 1173	muscle pain
-T16	ADR 1175 1185	leg cramps
-T17	ADR 1187 1195	rhinitis
-T18	ADR 1197 1207	bronchitis
-T19	ADR 1209 1215	asthma
-T20	ADR 1217 1225	dry skin
-T21	ADR 1227 1246	tinnitus (left ear)
-T22	ADR 1247 1257	taste loss
-T23	ADR 1259 1267	dry eyes
-T24	ADR 1269 1280	weight gain
-T25	ADR 1293 1305	hypertension
-T27	ADR 1404 1412	tinnitus
-T30	ADR 1642 1651	neck hurt
-T31	ADR 1656 1665	hips hurt
-T32	ADR 1721 1725	pain
-T33	ADR 1747 1754	Insomia
-T35	ADR 1799 1821	gained a lot of weight
-T42	ADR 2298 2312	sinus problems
-T45	ADR 2509 2528	high blood pressure
-T48	ADR 2576 2586	nightmares
-T50	ADR 3180 3212	left shoulder is almost immobile
-T51	ADR 3226 3249	tinnitus in my left ear
-T53	ADR 3316 3338	lost my sense of taste
-T2	ADR 100 111	muscle pain
-T3	ADR 116 126	leg cramps
-T8	ADR 503 507	pain
-T10	ADR 1093 1101	Insomina
-T11	ADR 1102 1117	abnoraml dreams
-T12	ADR 1119 1129	depression
-T13	ADR 1131 1142	memory loss
-T14	ADR 1144 1160	photosensitivity
-T15	ADR 1162 1173	muscle pain
-T16	ADR 1175 1185	leg cramps
-T17	ADR 1187 1195	rhinitis
-T18	ADR 1197 1207	bronchitis
-T19	ADR 1209 1215	asthma
-T20	ADR 1217 1225	dry skin
-T21	ADR 1227 1246	tinnitus (left ear)
-T22	ADR 1247 1257	taste loss
-T23	ADR 1259 1267	dry eyes
-T24	ADR 1269 1280	weight gain
-T25	ADR 1293 1305	hypertension
-T27	ADR 1404 1412	tinnitus
-
-
-
-T30	ADR 1642 1651	neck hurt
-T31	ADR 1656 1665	hips hurt
-T32	ADR 1721 1725	pain
-T33	ADR 1747 1754	Insomia
-T35	ADR 1799 1821	gained a lot of weight
-T42	ADR 2298 2312	sinus problems
-T45	ADR 2509 2528	high blood pressure
-T48	ADR 2576 2586	nightmares
-T50	ADR 3180 3212	left shoulder is almost immobile
-T51	ADR 3226 3249	tinnitus in my left ear
-T53	ADR 3316 3338	lost my sense of taste
 T1	Drug 18 25	Lipitor
 T2	ADR 100 111	muscle pain
 T3	ADR 116 126	leg cramps
@@ -5675,18 +5610,58 @@ T50	ADR 3180 3212	left shoulder is almost immobile
 T51	ADR 3226 3249	tinnitus in my left ear
 T52	Drug 3273 3280	Lipitor
 T53	ADR 3316 3338	lost my sense of taste
-T30	ADR 105 114	neck hurt			
-T31	ADR 119 128	hips hurt			
-T32	ADR 184 188	pain				
-T33	ADR 210 217	Insomia				
+T1	Drug 18 25	Lipitor
+T2	ADR 100 111	muscle pain
+T3	ADR 116 126	leg cramps
+T4	Drug 143 152	Pravachol
+T5	Drug 401 404	Q10
+T6	Drug 461 468	Lipitor
+T7	Drug 478 481	Q10
+T8	ADR 503 507	pain
+T9	Drug 884 889	Aleve
+T10	ADR 1093 1101	Insomina
+T11	ADR 1102 1117	abnoraml dreams
+T12	ADR 1119 1129	depression
+T13	ADR 1131 1142	memory loss
+T14	ADR 1144 1160	photosensitivity
+T15	ADR 1162 1173	muscle pain
+T16	ADR 1175 1185	leg cramps
+T17	ADR 1187 1195	rhinitis
+T18	ADR 1197 1207	bronchitis
+T19	ADR 1209 1215	asthma
+T20	ADR 1217 1225	dry skin
+T21	ADR 1227 1246	tinnitus (left ear)
+T22	ADR 1247 1257	taste loss
+T23	ADR 1259 1267	dry eyes
+T24	ADR 1269 1280	weight gain
+T25	ADR 1293 1305	hypertension
+T26	Drug 1342 1349	Lipitor
+T27	ADR 1404 1412	tinnitus
+T28	Drug 1529 1535	Zoloft
+T29	Drug 1580 1589	RhinocortT30	ADR 105 114	neck hurt
+T31	ADR 119 128	hips hurt
+T32	ADR 184 188	pain
+T33	ADR 210 217	Insomia
+T34	Drug 248 258	Tylenol PM
 T35	ADR 262 284	gained a lot of weight
-T42	ADR 761 775	sinus problems			
+T36	Drug 341 348	Lipitor
+T37	Drug 382 389	Lipitor
+T38	Drug 486 493	Lipitor
+T39	Finding 657 666	bronhitis
+T40	Finding 672 678	asthma
+T41	Finding 687 693	asthma
+T42	ADR 761 775	sinus problems
+T43	Finding 805 814	pneumonia
+T44	Finding 819 834	sinus infection
 T45	ADR 972 991	high blood pressure
-T48	ADR 1039 1049	nightmares			
+T46	Drug 1006 1013	Norvasc
+T48	ADR 1039 1049	nightmares
+T47	Drug 1114 1121	Lipitor
+T49	Drug 1212 1219	Lipitor
 T50	ADR 1643 1675	left shoulder is almost immobile
 T51	ADR 1689 1712	tinnitus in my left ear
+T52	Drug 1736 1743	Lipitor
 T53	ADR 1779 1801	lost my sense of taste
-
 T1	Finding 76 88	leg problems
 T2	Drug 186 193	Lipitor
 T3	Drug 240 246	asprin

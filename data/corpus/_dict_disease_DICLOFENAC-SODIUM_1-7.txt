@@ -1,0 +1,7 @@
+3|194|sweating|dict_row=28690
+3|7|vaginal bleeding|dict_row=31534
+3|526|vaginal bleeding|dict_row=31534
+5|32|drowsiness|dict_row=9144
+6|173|drowsiness|dict_row=9144
+7|190|fit|dict_row=11208
+7|421|respiratory failure|dict_row=26297

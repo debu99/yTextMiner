@@ -1,0 +1,9 @@
+dictIndex=8269 dictItem=pain
+1|21|pain
+-------------------
+dictIndex=8269 dictItem=pain
+2|12|pain
+-------------------
+dictIndex=8269 dictItem=pain
+3|56|pain
+-------------------

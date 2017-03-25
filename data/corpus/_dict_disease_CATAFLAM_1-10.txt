@@ -1,0 +1,5 @@
+3|35|drowsiness|dict_row=9144
+4|22|drowsiness|dict_row=9144
+4|106|drowsiness|dict_row=9144
+6|6|gut pain|dict_row=12409
+10|44|distress|dict_row=9044

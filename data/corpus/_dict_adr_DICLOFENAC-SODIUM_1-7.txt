@@ -1,0 +1,82 @@
+dictIndex=8269 dictItem=pain
+dictIndex=11171 dictItem=tired
+1|29|pain
+dictIndex=8269 dictItem=pain
+1|131|pain
+-------------------
+dictIndex=4746 dictItem=headache
+2|0|HEADACHE
+dictIndex=9308 dictItem=pressure
+2|63|PRESSURE
+dictIndex=8269 dictItem=pain
+2|296|PAIN
+-------------------
+dictIndex=1186 dictItem=back pain
+dictIndex=2998 dictItem=diarrhea
+dictIndex=3181 dictItem=dry skin
+dictIndex=3183 dictItem=dry
+dictIndex=4727 dictItem=hand pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8296 dictItem=pain hand
+dictIndex=8323 dictItem=pain skin
+dictIndex=8326 dictItem=pain back
+dictIndex=9397 dictItem=pruritus
+dictIndex=9401 dictItem=pruritus breast
+dictIndex=9407 dictItem=pruritus hand
+dictIndex=10366 dictItem=skin dry
+3|142|skin
+3|153|dry
+3|39|skin
+3|182|hands
+3|353|diarrhea
+3|70|back
+3|228|pruritus
+3|94|breast
+3|101|pain
+dictIndex=8269 dictItem=pain
+3|504|pain
+dictIndex=9397 dictItem=pruritus
+dictIndex=10411 dictItem=skin red
+3|553|pruritus
+3|569|skin
+3|582|red
+-------------------
+dictIndex=7263 dictItem=effective
+4|4|effective
+-------------------
+dictIndex=8269 dictItem=pain
+dictIndex=10450 dictItem=sleep excessive
+5|11|pains
+5|22|excessive
+5|47|slept
+dictIndex=1186 dictItem=back pain
+dictIndex=8269 dictItem=pain
+dictIndex=8274 dictItem=pain back
+dictIndex=8326 dictItem=pain back
+5|233|pain
+5|260|back
+-------------------
+dictIndex=1961 dictItem=chronic pain
+dictIndex=8269 dictItem=pain
+dictIndex=11368 dictItem=trigger point pain
+6|95|pain
+6|104|trigger
+6|118|pain
+-------------------
+dictIndex=8693 dictItem=perforated stomach ulcer
+dictIndex=8694 dictItem=perforated ulcer
+dictIndex=10680 dictItem=stomach ulcer
+dictIndex=11424 dictItem=ulcer
+dictIndex=11458 dictItem=ulcer stomach
+7|7|stomach
+7|52|perforated
+7|63|ulcer
+dictIndex=956 dictItem=arthritis
+dictIndex=9597 dictItem=arthritis
+7|240|arthritis
+dictIndex=8837 dictItem=peritonitis
+7|386|peritonitis
+dictIndex=12224 dictItem=wear
+7|458|wearing
+-------------------

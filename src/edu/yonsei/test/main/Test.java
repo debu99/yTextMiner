@@ -2,6 +2,7 @@ package edu.yonsei.test.main;
 
 
 import java.util.*;
+import java.util.regex.Pattern;
 
 public class Test
 {
@@ -11,10 +12,27 @@ public class Test
         int size = 100000;
         //String[] strings = new String[size];
         //Random random = new Random();
-        
+        /*
         String[] strings = {"abc","ccc","who","lose"};
         
-        System.out.println(Arrays.asList(strings).indexOf("who"));
+        System.out.println(Arrays.asList(strings).indexOf("who"));*/
+        
+        ArrayList<Integer> list =new ArrayList();
+        
+        System.out.println(list.size());
+        
+        
+       /* String str="burn of unspecified degree of single digit \\(finger \\(nail\\) other";
+        Pattern HEYPATTERN = Pattern.compile(".*\\b"+str+"\\b.*");
+        String text = "nausea. some pain relief. ";
+        
+        if (HEYPATTERN.matcher(text).matches()) {
+            System.out.println("OUTPUT: SUCCESS!");
+        } else {
+        	System.out.println("OUTPUT: FAIL!");  
+        }*/
+        
+        
         
 /*
 
