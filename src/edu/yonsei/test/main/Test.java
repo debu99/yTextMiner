@@ -10,6 +10,35 @@ public class Test
     {
         long start = 0;
         int size = 100000;
+        
+        int n = 1;
+        int length = (int)(Math.log10(n)+1);
+        
+        System.out.println("len="+length);
+        
+        /*
+            Map<String, String> map1 = new HashMap<String, String>();
+            map1.put("key1", "value1");
+            map1.put("key2", "value2");
+            map1.put("key3", "value3");
+            map1.put(null, null);
+
+            Map<String, String> map2 = new HashMap<String, String>();
+            map2.put("key4", "value4");
+            map2.put("key5", "value5");
+            map2.put("key6", "value6");
+            map2.put("key3", "replaced-value-of-key3-in-map2");
+            // used only if map1 can be changes/updates with the same keys present in map2.
+            map1.putAll(map2);*/
+
+            // use below if you are not supposed to modify the map1.
+           /* for (Map.Entry e : map2.entrySet())
+                if (!map1.containsKey(e.getKey()))
+                    map1.put(e.getKey().toString(), e.getValue().toString());*/
+          /*  System.out.println(map1);
+            
+            map1.values().remove(null);
+            System.out.println(map1);*/
         //String[] strings = new String[size];
         //Random random = new Random();
         /*
@@ -17,9 +46,9 @@ public class Test
         
         System.out.println(Arrays.asList(strings).indexOf("who"));*/
         
-        ArrayList<Integer> list =new ArrayList();
+        /*ArrayList<Integer> list =new ArrayList();
         
-        System.out.println(list.size());
+        System.out.println(list.size());*/
         
         
        /* String str="burn of unspecified degree of single digit \\(finger \\(nail\\) other";

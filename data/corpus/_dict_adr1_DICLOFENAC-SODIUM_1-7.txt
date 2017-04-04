@@ -25,15 +25,15 @@ dictIndex=9397 dictItem=pruritus
 dictIndex=9401 dictItem=pruritus breast
 dictIndex=9407 dictItem=pruritus hand
 dictIndex=10366 dictItem=skin dry
-3|142|skin
-3|153|dry
 3|39|skin
-3|182|hands
-3|353|diarrhea
 3|70|back
-3|228|pruritus
 3|94|breast
 3|101|pain
+3|142|skin
+3|153|dry
+3|182|hands
+3|228|pruritus
+3|353|diarrhea
 dictIndex=8269 dictItem=pain
 3|504|pain
 dictIndex=9397 dictItem=pruritus

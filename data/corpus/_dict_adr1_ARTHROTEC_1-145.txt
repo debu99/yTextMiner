@@ -105,10 +105,10 @@ dictIndex=1186 dictItem=back pain
 dictIndex=8269 dictItem=pain
 dictIndex=8274 dictItem=pain back
 dictIndex=8326 dictItem=pain back
-16|138|pain
 16|90|pain
 16|102|back
 16|107|pain
+16|138|pain
 dictIndex=8269 dictItem=pain
 16|200|pain
 16|294|pain
@@ -292,10 +292,10 @@ dictIndex=3058 dictItem=discomfort
 dictIndex=4955 dictItem=hot
 dictIndex=6331 dictItem=loose bowels
 dictIndex=8269 dictItem=pain
-38|155|discomfort
 38|43|pain
 38|71|bowels
 38|89|hot
+38|155|discomfort
 dictIndex=8269 dictItem=pain
 38|295|pain
 -------------------
@@ -322,9 +322,9 @@ dictIndex=8269 dictItem=pain
 dictIndex=8274 dictItem=pain back
 dictIndex=8278 dictItem=pain injection
 dictIndex=8326 dictItem=pain back
-41|576|injections
 41|414|pain
 41|480|back
+41|576|injections
 dictIndex=3827 dictItem=feel sick
 41|760|sick
 dictIndex=4730 dictItem=hangover
@@ -411,10 +411,10 @@ dictIndex=4727 dictItem=hand pain
 dictIndex=8269 dictItem=pain
 dictIndex=8296 dictItem=pain hand
 dictIndex=8765 dictItem=period pain
-53|263|period
 53|79|pain
 53|121|hands
 53|178|hand
+53|263|period
 -------------------
 -------------------
 dictIndex=1186 dictItem=back pain
@@ -432,10 +432,10 @@ dictIndex=3827 dictItem=feel sick
 dictIndex=3835 dictItem=feel bad
 dictIndex=4790 dictItem=heavy period
 56|36|bad
-56|229|sick
 56|47|diarrhea
 56|91|period
 56|172|feeling
+56|229|sick
 -------------------
 -------------------
 dictIndex=4955 dictItem=hot
@@ -465,14 +465,14 @@ dictIndex=9397 dictItem=pruritus
 dictIndex=9401 dictItem=pruritus breast
 dictIndex=9407 dictItem=pruritus hand
 dictIndex=10366 dictItem=skin dry
-59|150|hands
-59|321|diarrhea
 59|38|back
-59|196|pruritus
 59|62|breast
 59|69|pain
 59|110|skin
 59|121|dry
+59|150|hands
+59|196|pruritus
+59|321|diarrhea
 dictIndex=8269 dictItem=pain
 59|472|pain
 dictIndex=9397 dictItem=pruritus
@@ -509,14 +509,14 @@ dictIndex=9397 dictItem=pruritus
 dictIndex=9401 dictItem=pruritus breast
 dictIndex=9407 dictItem=pruritus hand
 dictIndex=10366 dictItem=skin dry
-63|151|hands
-63|322|diarrhea
 63|38|back
-63|197|pruritus
 63|62|breast
 63|69|pain
 63|111|skin
 63|122|dry
+63|151|hands
+63|197|pruritus
+63|322|diarrhea
 dictIndex=8269 dictItem=pain
 63|473|pain
 dictIndex=9397 dictItem=pruritus
@@ -792,8 +792,8 @@ dictIndex=10275 dictItem=shortness breath
 -------------------
 -------------------
 dictIndex=8269 dictItem=pain
-103|211|pain
 103|146|pain
+103|211|pain
 -------------------
 dictIndex=2998 dictItem=diarrhea
 dictIndex=3790 dictItem=fatigue
@@ -859,17 +859,17 @@ dictIndex=8269 dictItem=pain
 -------------------
 dictIndex=8269 dictItem=pain
 dictIndex=9308 dictItem=pressure
-112|198|pain
 112|38|pain
 112|78|pain
 112|124|pressure
+112|198|pain
 -------------------
 dictIndex=8269 dictItem=pain
 113|132|pain
 dictIndex=8269 dictItem=pain
-113|313|pain
 113|192|pain
 113|249|pain
+113|313|pain
 dictIndex=8269 dictItem=pain
 113|370|pain
 dictIndex=1186 dictItem=back pain
@@ -1173,10 +1173,10 @@ dictIndex=4727 dictItem=hand pain
 dictIndex=8269 dictItem=pain
 dictIndex=8296 dictItem=pain hand
 dictIndex=10287 dictItem=shoulder pain
+141|108|pain
 141|157|pain
 141|192|shoulders
 141|211|hands
-141|108|pain
 dictIndex=9308 dictItem=pressure
 141|234|pressure
 dictIndex=3827 dictItem=feel sick

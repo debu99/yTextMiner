@@ -266,12 +266,12 @@ dictIndex=3353 dictItem=focus eye
 dictIndex=6612 dictItem=problem vision
 dictIndex=9044 dictItem=vision problem
 14|0|Eye
-14|321|eye
 14|4|problem
 14|36|vision
-14|217|eye
 14|82|focus
+14|217|eye
 14|304|focus
+14|321|eye
 -------------------
 dictIndex=6926 dictItem=red
 dictIndex=7539 dictItem=side effect
@@ -571,7 +571,6 @@ dictIndex=8986 dictItem=vaginal pain
 30|31|vaginal
 30|39|skin
 30|44|burns
-30|353|diarrhea
 30|52|lot
 30|70|back
 30|80|menopausal
@@ -582,6 +581,7 @@ dictIndex=8986 dictItem=vaginal pain
 30|182|hands
 30|205|lot
 30|228|pruritus
+30|353|diarrhea
 dictIndex=8253 dictItem=symptom
 30|385|symptoms
 dictIndex=6128 dictItem=pain

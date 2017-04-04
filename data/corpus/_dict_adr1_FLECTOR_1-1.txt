@@ -4,10 +4,10 @@ dictIndex=8269 dictItem=pain
 dictIndex=8297 dictItem=pain heel
 dictIndex=9043 dictItem=plantar fasciitis
 dictIndex=12224 dictItem=wear
-1|164|plantar
-1|172|fasciitis
 1|21|pain
 1|38|heel
+1|164|plantar
+1|172|fasciitis
 1|269|wear
 dictIndex=8269 dictItem=pain
 1|334|pain

@@ -28,6 +28,8 @@ public class CRFFormatMain2 {
         long start = Calendar.getInstance().getTimeInMillis();  
         long end = Calendar.getInstance().getTimeInMillis();
         
+	
+        
 		scanFile("ZIPSOR",1,5);
 		scanFile("SOLARAZE",1,3);
 		scanFile("PENNSAID",1,4);
@@ -59,19 +61,38 @@ public class CRFFormatMain2 {
 
         List<Integer> integerDictList = new ArrayList<>();
         
-		String filename = "data/corpus/_dict_"+type+"_"+drugName+"_"+startNumber+"-"+endNumber+".txt";
-		File f = new File(filename);
+		
+        String filename = "data/corpus/_dict_"+type+"_"+drugName+"_"+startNumber+"-"+endNumber+".txt";
+        //String filename = "data/corpus/_dict_"+type+"_"+drugName+"_1-1000.txt";
+		
+        
+        File f = new File(filename);
 		if(!f.exists()) { 
+			System.out.println("_dict_"+type+"_"+drugName+"_"+startNumber+"-"+endNumber+".txt is not exist!!!");
 			return integerDictList;
 		}
 		
 		Scanner ann_dict = new Scanner(new FileReader(filename));		
         int z = index;
+		System.out.println("z="+z);
+		int z_len=1;
+		if(z>0){
+			z_len = (int)(Math.log10(z)+1);			
+		}
 		
 		while(ann_dict.hasNext()){
 			String text = ann_dict.nextLine();
-			//System.out.println(text+"\n"+text.substring(0,2));
-			if(z<10){
+			if(!Character.isDigit(text.charAt(0))){
+				continue;
+			}else if(text.substring(0,z_len+1).equals(z+"|")){
+				System.out.println("text="+text+"\n"+text.substring(0,4));
+				String[] a = text.split("\\|");
+				integerDictList.add(Integer.parseInt(a[1]));
+			}else{
+				continue;
+			}
+		}	
+			/*if(z<10){
 				if(text.substring(0,2).equals(z+"|")){
 					//System.out.println(text);
 					String[] a = text.split("\\|");
@@ -87,7 +108,7 @@ public class CRFFormatMain2 {
 				}else{
 					break;
 				}			
-			}else if(z<1000){
+			}else if(z<1000){		
 				if(text.substring(0,4).equals(z+"|")){
 					String[] a = text.split("\\|");
 					integerDictList.add(Integer.parseInt(a[1]));
@@ -103,17 +124,80 @@ public class CRFFormatMain2 {
 					break;
 				}
 				
-			}
+			}*/
 			
-		}
 
-        System.out.println("ADR_Dict="+integerDictList+"\n");
+		Collections.sort(integerDictList);
+        System.out.println(type+"_Dict="+integerDictList+"\n");
+        
         ann_dict.close();
         
 		return integerDictList;
 
 		
 	}
+	
+
+	private static List dict2Extract(String drugName, int startNumber, int endNumber, int index, String type) throws FileNotFoundException {
+		
+
+        List integerDictList = new ArrayList<>();
+        
+		
+        String filename = "data/corpus/_dict_"+type+"_"+drugName+"_"+startNumber+"-"+endNumber+".txt";
+        //String filename = "data/corpus/_dict_"+type+"_"+drugName+"_1-1000.txt";
+		
+        
+        File f = new File(filename);
+		if(!f.exists()) { 
+			System.out.println("_dict_"+type+"_"+drugName+"_"+startNumber+"-"+endNumber+".txt is not exist!!!");
+			return integerDictList;
+		}
+		
+		Scanner ann_dict = new Scanner(new FileReader(filename));		
+        int z = index;
+		System.out.println("z="+z);
+		int z_len=1;
+		if(z>0){
+			z_len = (int)(Math.log10(z)+1);			
+		}
+		
+		while(ann_dict.hasNext()){
+			String text = ann_dict.nextLine();
+			if(!Character.isDigit(text.charAt(0))){
+				continue;
+			}else if(text.substring(0,z_len+1).equals(z+"|")){
+				System.out.println("text="+text+"\n"+text.substring(0,4));
+				String[] a = text.split("\\|");
+				//integerDictList.add(Integer.parseInt(a[1]));
+				int len=Integer.parseInt(a[1])+a[2].length();
+				
+				integerDictList.add(new ArrayList<Integer>(Arrays.asList(Integer.parseInt(a[1]),len)));
+				
+				
+			}else{
+				continue;
+			}
+		}				
+
+
+
+        Collections.sort(integerDictList, new Comparator<ArrayList<Integer>>() {    
+				@Override
+				public int compare(ArrayList<Integer> o1, ArrayList<Integer> o2) {
+					// TODO Auto-generated method stub
+                    return o1.get(0).compareTo(o2.get(0));
+				}               
+        });
+        System.out.println(type+"_Dict="+integerDictList+"\n");
+        
+        ann_dict.close();
+        
+		return integerDictList;
+
+		
+	}
+	
 	
 	private static List annExtract(String drugName, int index, String keyWord) throws FileNotFoundException {
         int z = index;
@@ -187,9 +271,9 @@ public class CRFFormatMain2 {
 
 			List<Integer> integerADR1DictList = dictExtract(drugName, startNumber, endNumber, z, "adr1");
 			List<Integer> integerADR2DictList = dictExtract(drugName, startNumber, endNumber, z, "adr2");
-			List<Integer> integerDiseaseDictList = dictExtract(drugName, startNumber, endNumber, z, "disease");
 			List<Integer> integerSymptomDictList = dictExtract(drugName, startNumber, endNumber, z, "symptom");
-			//System.out.println("integerADRDictList="+integerADRDictList.toString());
+			//List<Integer> integerDiseaseDictList = dictExtract(drugName, startNumber, endNumber, z, "disease");
+			List integerDiseaseDictList = dict2Extract(drugName, startNumber, endNumber, z, "disease");
 	        
 		    List integerADRList = annExtract(drugName, z, "ADR");
 		    List integerDiseaseList = annExtract(drugName, z, "Disease");
@@ -502,8 +586,8 @@ public class CRFFormatMain2 {
 						if(integerADR1DictList.size()>0){
 					        for(int dict_i : integerADR1DictList){
 					        	if(m==dict_i){
-									System.out.print("I-ADR_DICT1|");		
-									out.write("I-ADR_DICT1|");
+									System.out.print("1|");		
+									out.write("1|");
 									writeFlag=1;
 									break;
 					        	}else{
@@ -511,12 +595,12 @@ public class CRFFormatMain2 {
 					        	}
 					        }
 					        if(writeFlag==0){
-								System.out.print("O-ADR_DICT1|");		
-								out.write("O-ADR_DICT1|");
+								System.out.print("0|");		
+								out.write("0|");
 					        }
 						}else{
-							System.out.print("O-ADR_DICT1|");		
-							out.write("O-ADR_DICT1|");	
+							System.out.print("0|");		
+							out.write("0|");	
 						}
 						
 
@@ -524,8 +608,8 @@ public class CRFFormatMain2 {
 						if(integerADR2DictList.size()>0){
 					        for(int dict_i : integerADR2DictList){
 					        	if(m==dict_i){
-									System.out.print("I-ADR_DICT2|");		
-									out.write("I-ADR_DICT2|");
+									System.out.print("1|");		
+									out.write("1|");
 									writeFlag=1;
 									break;
 					        	}else{
@@ -533,21 +617,21 @@ public class CRFFormatMain2 {
 					        	}
 					        }
 					        if(writeFlag==0){
-								System.out.print("O-ADR_DICT2|");		
-								out.write("O-ADR_DICT2|");
+								System.out.print("0|");		
+								out.write("0|");
 					        }
 						}else{
-							System.out.print("O-ADR_DICT2|");		
-							out.write("O-ADR_DICT2|");	
+							System.out.print("0|");		
+							out.write("0|");
 						}
 						
 
-						writeFlag=0;
+						/*writeFlag=0;
 						if(integerDiseaseDictList.size()>0){
 					        for(int dict_i : integerDiseaseDictList){
 					        	if(m==dict_i){
-									System.out.print("I-DIZ_DICT|");		
-									out.write("I-DIZ_DICT|");
+									System.out.print("1|");		
+									out.write("1|");
 									writeFlag=1;
 									break;
 					        	}else{
@@ -555,21 +639,64 @@ public class CRFFormatMain2 {
 					        	}
 					        }
 					        if(writeFlag==0){
-								System.out.print("O-DIZ_DICT|");		
-								out.write("O-DIZ_DICT|");
+								System.out.print("0|");		
+								out.write("0|");
 					        }
 						}else{
-							System.out.print("O-DIZ_DICT|");		
-							out.write("O-DIZ_DICT|");	
+							System.out.print("0|");		
+							out.write("0|");
+						}*/
+						
+						//integerDiseaseList=null;
+						if(integerDiseaseDictList.size()>0){
+					        for(int p=0;p<integerDiseaseDictList.size();p++){
+					        	//if(m<(integerList.get(p))[0]){
+					        	if(m<((int)((ArrayList)integerDiseaseDictList.get(p)).get(0))){
+									System.out.print("0|");		
+									out.write("0|");
+									break;
+					        	//}else if(m==(integerList.get(p))[0]){
+					        	}else if(m==((int)((ArrayList)integerDiseaseDictList.get(p)).get(0))){
+									System.out.print("1|");		
+									out.write("1|");
+									//indexFound+=1;
+									break;
+					        	//}else if((m>(integerList.get(p))[0])&&(m<(integerList.get(p))[1])){
+					        	}else if(m>((int)((ArrayList)integerDiseaseDictList.get(p)).get(0))&&(m<((int)((ArrayList)integerDiseaseDictList.get(p)).get(1)))){
+									//change Intermediate to B bcos useless to determinate the boundary of side-effect in unstructural text
+					        		if(tokenLength<((int)((ArrayList)integerDiseaseDictList.get(p)).get(1))){
+										System.out.print("1|");		
+										out.write("1|");
+										break;	
+					        		}else{
+										System.out.print("1|");		
+										out.write("1|");
+										break;	
+					        		}
+					        	//}else if(m>=(integerList.get(p))[1]){
+					        	}else if(m>=((int)((ArrayList)integerDiseaseDictList.get(p)).get(1))){
+					        		continue;
+					        	}
+					        }
+					        if(m>=((int)((ArrayList)integerDiseaseDictList.get(integerDiseaseDictList.size()-1)).get(1))){
+								System.out.print("0|");		
+								out.write("0|"); 	
+					        }		        
+						}else{
+							System.out.print("0|");		
+							out.write("0|");
 						}
 						
 
+						
+						
+						
 						writeFlag=0;
 						if(integerSymptomDictList.size()>0){
 					        for(int dict_i : integerSymptomDictList){
 					        	if(m==dict_i){
-									System.out.print("I-SYMP_DICT|");		
-									out.write("I-SYMP_DICT|");
+									System.out.print("1|");		
+									out.write("1|");
 									writeFlag=1;
 									break;
 					        	}else{
@@ -577,15 +704,17 @@ public class CRFFormatMain2 {
 					        	}
 					        }
 					        if(writeFlag==0){
-								System.out.print("O-SYMP_DICT|");		
-								out.write("O-SYMP_DICT|");
+								System.out.print("0|");		
+								out.write("0|");;
 					        }
 						}else{
-							System.out.print("O-SYMP_DICT|");		
-							out.write("O-SYMP_DICT|");	
+							System.out.print("0|");		
+							out.write("0|");
 						}
 						
-						
+
+						System.out.print(drugName+"."+z+".txt|");	
+						out.write(drugName+"."+z+".txt|");
 						
 						
 						System.out.println();
@@ -606,7 +735,7 @@ public class CRFFormatMain2 {
 				System.out.println();
 				out.newLine();
 				i+=1;
-			}
+			}	
 			s.close();
 			out.close();
 

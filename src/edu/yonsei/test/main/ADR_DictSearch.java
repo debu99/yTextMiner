@@ -21,6 +21,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeMap;
 
 /*import edu.mit.jwi.Dictionary;
 import edu.mit.jwi.IDictionary;
@@ -44,12 +45,12 @@ public class ADR_DictSearch {
 
 		System.out.println("--- START initialize dict---");
 		
-		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr1.txt");
-		//String outFileNamePrefix="data/corpus/_dict_adr1_";
+		HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr1.txt");
+		String outFileNamePrefix="data/corpus/_dict_adr1_";
 		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr2.txt");
 		//String outFileNamePrefix="data/corpus/_dict_adr2_";
-		HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_symptom.txt");
-		String outFileNamePrefix="data/corpus/_dict_symptom_";
+		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_symptom.txt");
+		//String outFileNamePrefix="data/corpus/_dict_symptom_";
 		
 		int dictSize = dictHashMap.size();
 		System.out.println("dictSize="+dictSize);		
@@ -438,6 +439,18 @@ public class ADR_DictSearch {
 										resList.addAll((ArrayList<Integer>) wordFound.get(word));
 									}						
 								}		
+
+								
+								System.out.println("wordFound="+wordFound.toString());
+								/*System.out.println("wordFound="+wordFound.get(0).toString());
+								System.out.println("wordFound="+wordFound.get(wordFound.size()-1).toString());
+								*/
+								
+								//ArrayList<Integer> firstWordIndexList = (ArrayList<Integer>) wordFound.get(dictItemSplit[0]);
+								//ArrayList<Integer> lastWordIndexList = (ArrayList<Integer>) wordFound.get(dictItemSplit[dictItemSplit.length-1]);
+									
+								
+								
 								out.write("dictIndex="+entry.getKey()+" dictItem="+dictItem+"\r\n");
 								System.out.println("dictIndex="+entry.getKey()+" dictItem="+dictItem);
 							}
@@ -493,17 +506,36 @@ public class ADR_DictSearch {
 						//resList.addAll(hs);
 						System.out.println("hs="+hs.toString());
 						
+						
+						
+						
 				        List<Integer> indexes = new ArrayList<Integer>(wordSetIndex.keySet());
 						List<String> values = new ArrayList<String>(wordSetIndex.values()); 
 						System.out.println("indexes="+indexes.toString());
 						System.out.println("values="+values.toString());
 						
+
+						HashMap<Integer, String> tempHM = new HashMap<Integer, String>(); 
 						for(int indexNum : hs){	
 							System.out.println("INDEX: "+indexes.get(indexNum));	// ==> index of Text
 							System.out.println("WORD: "+values.get(indexNum));	// ==> original Word
-							out.write(z+"|"+indexes.get(indexNum)+"|"+values.get(indexNum)+"\r\n");
+							
+							tempHM.put(indexes.get(indexNum),values.get(indexNum));							
 						}
-						
+
+						Map<Integer, String> map = new TreeMap<Integer, String>(tempHM); 
+				        System.out.println("After Sorting:");
+				        
+				        Iterator iterator2 = map.entrySet().iterator();
+				        while(iterator2.hasNext()) {
+				              Map.Entry me2 = (Map.Entry)iterator2.next();
+				              System.out.print(me2.getKey() + ": ");
+				              System.out.println(me2.getValue());
+
+				              System.out.println(z+ "|" + me2.getKey() + "|" + me2.getValue());  
+				              out.write(z+ "|" + me2.getKey() + "|" + me2.getValue()+"\r\n");								
+				        }
+
 					}
 					System.out.println("-------------------");	
 					

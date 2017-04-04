@@ -25,6 +25,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.regex.Pattern;
 
 /*import edu.mit.jwi.Dictionary;
@@ -220,6 +221,28 @@ public class DictSearch {
 	}
 	
 	
+	private static HashMap<Integer,String> returnMatch(String text, String dictStr){
+		String regStr=dictStr.replace("(", "\\(").replace(")", "\\)");
+		Pattern HEYPATTERN1 = Pattern.compile(".*\\b"+regStr+"\\b.*");
+		
+		HashMap<Integer,String> ret = new HashMap<Integer,String>();
+		
+		if(HEYPATTERN1.matcher(text).matches()) {
+			ArrayList<Integer> res = getIndexOf(text,dictStr);
+			if(!res.isEmpty()){
+				for(int i : res){
+					ret.put(i,dictStr);
+					//System.out.println(z+ "|" + i + "|" + dictStr+"|i="+j);  
+					//out.write(z+ "|" + i + "|" + dictStr+"|dict_row="+j+"\r\n"); 					
+				}
+			}					
+			return ret;
+		}else{
+			return null;
+		}
+		
+		
+	}
 	
 	private static void searchDict(String drugName,int startNumber, int endNumber,ArrayList<String> dictList) throws FileNotFoundException, Exception {
 		//Scanner s = new Scanner(new FileReader("data/corpus/twitter_stream.txt"));
@@ -244,7 +267,8 @@ public class DictSearch {
 			
 			
 			
-			int j=0;
+			//int j=0;
+			HashMap<Integer,String> matchedHM = new HashMap<Integer,String>();
 			for (String dictItem : dictList) {
 				String dictStr = null;
 				if(dictItem.toUpperCase().equals(dictItem)){
@@ -258,7 +282,13 @@ public class DictSearch {
 					continue;
 				}
 				
-				String regStr=dictStr.replace("(", "\\(").replace(")", "\\)");
+				HashMap<Integer,String> tempHM = returnMatch(text,dictStr);
+				
+				if(tempHM!=null){
+					matchedHM.putAll(tempHM);
+				}
+				
+				/*String regStr=dictStr.replace("(", "\\(").replace(")", "\\)");
 				Pattern HEYPATTERN1 = Pattern.compile(".*\\b"+regStr+"\\b.*");
 
 				if(HEYPATTERN1.matcher(text).matches()) {
@@ -270,10 +300,30 @@ public class DictSearch {
 							//out.write("\r\n");
 						}
 					}					
-				}
-				j++;			
+				}*/
 				
+				
+				
+				//j++;
 			}
+			
+
+
+			matchedHM.values().remove(null);
+			Map<Integer, String> map = new TreeMap<Integer, String>(matchedHM); 
+	        System.out.println("After Sorting:");
+	        
+	        Iterator iterator2 = map.entrySet().iterator();
+	        while(iterator2.hasNext()) {
+	              Map.Entry me2 = (Map.Entry)iterator2.next();
+	              System.out.print(me2.getKey() + ": ");
+	              System.out.println(me2.getValue());
+
+	              System.out.println(z+ "|" + me2.getKey() + "|" + me2.getValue());  
+	              out.write(z+ "|" + me2.getKey() + "|" + me2.getValue()+"\r\n");
+					
+	        }
+			
 			
 			System.out.println("--- END from file: "+z+" ---");
 			//end of all files

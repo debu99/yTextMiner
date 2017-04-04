@@ -59,14 +59,14 @@ dictIndex=3008 dictItem=nausea
 dictIndex=4310 dictItem=skin color yellow
 dictIndex=4994 dictItem=urination pain
 dictIndex=5219 dictItem=yellow skin
+8|246|loss
+8|262|yellow
+8|269|color
 8|281|skin
 8|340|nausea
 8|348|pain
 8|372|urination
-8|246|loss
-8|262|yellow
 8|419|racing
-8|269|color
 -------------------
 -------------------
 -------------------
@@ -164,7 +164,6 @@ dictIndex=3335 dictItem=symptom
 dictIndex=3399 dictItem=pain breast
 dictIndex=4313 dictItem=skin symptom
 dictIndex=5037 dictItem=vaginal pain
-30|142|skin
 30|7|vaginal
 30|15|bleeding
 30|31|vaginal
@@ -172,6 +171,7 @@ dictIndex=5037 dictItem=vaginal pain
 30|94|breast
 30|101|pain
 30|112|symptoms
+30|142|skin
 dictIndex=3335 dictItem=symptom
 30|385|symptoms
 dictIndex=4033 dictItem=red

@@ -61,9 +61,9 @@ dictIndex=8298 dictItem=pain leg
 dictIndex=8307 dictItem=pain leg
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8344 dictItem=pain leg
-6|184|muscles
 6|109|pain
 6|127|legs
+6|184|muscles
 dictIndex=8269 dictItem=pain
 6|285|pain
 6|333|pain
@@ -79,8 +79,6 @@ dictIndex=8316 dictItem=pain neck
 dictIndex=8326 dictItem=pain back
 dictIndex=10287 dictItem=shoulder pain
 dictIndex=11658 dictItem=upper back pain
-6|539|neck
-6|594|head
 6|447|pain
 6|459|muscles
 6|474|shoulder
@@ -88,6 +86,8 @@ dictIndex=11658 dictItem=upper back pain
 6|495|back
 6|504|neck
 6|514|pain
+6|539|neck
+6|594|head
 dictIndex=8269 dictItem=pain
 dictIndex=9799 dictItem=relax
 6|730|relax
@@ -240,8 +240,8 @@ dictIndex=8269 dictItem=pain
 dictIndex=121 dictItem=acidosis lactic
 dictIndex=2812 dictItem=death
 dictIndex=6117 dictItem=lactic acidosis
-17|212|Lactic
 17|31|Death
+17|212|Lactic
 17|219|Acidosis
 -------------------
 dictIndex=8269 dictItem=pain
@@ -332,7 +332,6 @@ dictIndex=8307 dictItem=pain leg
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=8344 dictItem=pain leg
-27|129|leg
 27|7|headache
 27|17|muscle
 27|24|ache
@@ -341,6 +340,7 @@ dictIndex=8344 dictItem=pain leg
 27|69|back
 27|74|pain
 27|123|pain
+27|129|leg
 dictIndex=3901 dictItem=fibromyalgia
 dictIndex=8269 dictItem=pain
 27|148|fibromyalgia
@@ -370,11 +370,11 @@ dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
 31|15|PAIN
-31|194|PAIN
-31|229|FIBROMYALGIA
 31|84|MUSCLE
 31|91|PAIN
 31|103|MUSCLES
+31|194|PAIN
+31|229|FIBROMYALGIA
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
@@ -413,8 +413,6 @@ dictIndex=8307 dictItem=pain leg
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=8344 dictItem=pain leg
-35|218|pain
-35|224|leg
 35|102|headache
 35|112|muscle
 35|119|ache
@@ -422,6 +420,8 @@ dictIndex=8344 dictItem=pain leg
 35|158|pain
 35|164|back
 35|169|pain
+35|218|pain
+35|224|leg
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
@@ -517,13 +517,13 @@ dictIndex=4818 dictItem=hematoma
 dictIndex=6920 dictItem=myalgia
 dictIndex=7127 dictItem=neuralgia
 dictIndex=8269 dictItem=pain
-47|176|pain
-47|182|pain
-47|187|pain
 47|75|myalgia
 47|84|neuralgia
 47|105|dementia
 47|156|hematoma
+47|176|pain
+47|182|pain
+47|187|pain
 -------------------
 dictIndex=1541 dictItem=burning sensation
 dictIndex=6877 dictItem=muscle burning sensation
@@ -642,14 +642,14 @@ dictIndex=8333 dictItem=painful arm
 dictIndex=8336 dictItem=painful arm
 dictIndex=8339 dictItem=painful arm
 dictIndex=10287 dictItem=shoulder pain
-56|789|shoulder
-56|798|pain
 56|394|Shoulder
 56|414|arm
 56|432|pain
 56|461|shoulder
 56|480|painful
 56|521|arms
+56|789|shoulder
+56|798|pain
 -------------------
 dictIndex=3790 dictItem=fatigue
 57|0|Fatigue
@@ -662,9 +662,9 @@ dictIndex=8280 dictItem=pain foot
 dictIndex=8295 dictItem=pain foot
 dictIndex=8300 dictItem=pain thigh
 58|31|thighs
+58|96|pain
 58|210|foot
 58|215|collapsing
-58|96|pain
 -------------------
 dictIndex=572 dictItem=allergy
 dictIndex=1186 dictItem=back pain
@@ -683,14 +683,14 @@ dictIndex=8326 dictItem=pain back
 dictIndex=11658 dictItem=upper back pain
 dictIndex=12180 dictItem=weakness
 59|7|pain
-59|160|hands
-59|657|allergy
 59|34|feet
 59|48|back
-59|196|fatigue
 59|54|Muscle
-59|709|upper
+59|160|hands
+59|196|fatigue
 59|423|breathlessness
+59|657|allergy
+59|709|upper
 dictIndex=572 dictItem=allergy
 59|1023|allergies
 dictIndex=1186 dictItem=back pain
@@ -719,14 +719,14 @@ dictIndex=8298 dictItem=pain leg
 dictIndex=8307 dictItem=pain leg
 dictIndex=8344 dictItem=pain leg
 dictIndex=10699 dictItem=strain
-63|263|pain
-63|288|pain
-63|304|arm
 63|92|pain
-63|320|strained
 63|108|leg
 63|116|foot
 63|133|pain
+63|263|pain
+63|288|pain
+63|304|arm
+63|320|strained
 dictIndex=4013 dictItem=foot pain
 dictIndex=8269 dictItem=pain
 dictIndex=8280 dictItem=pain foot
@@ -810,9 +810,9 @@ dictIndex=7817 dictItem=osteoarthritis
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
 71|5|Pains
-71|151|osteoarthritis
 71|36|muscle
 71|68|pains
+71|151|osteoarthritis
 -------------------
 dictIndex=11157 dictItem=tingle
 72|191|tingling
@@ -989,14 +989,14 @@ dictIndex=8300 dictItem=pain thigh
 dictIndex=8307 dictItem=pain leg
 dictIndex=8344 dictItem=pain leg
 dictIndex=11157 dictItem=tingle
-81|149|tingling
 81|9|pain
-81|161|feet
 81|23|thigh
 81|40|pain
 81|59|pain
 81|132|pain
 81|144|leg
+81|149|tingling
+81|161|feet
 -------------------
 dictIndex=6885 dictItem=muscle pain
 dictIndex=7180 dictItem=nightmare
@@ -1495,8 +1495,8 @@ dictIndex=3802 dictItem=feel bad
 dictIndex=3815 dictItem=feel miserable
 dictIndex=3835 dictItem=feel bad
 130|478|feel
-130|676|bad
 130|640|miserable
+130|676|bad
 -------------------
 -------------------
 dictIndex=6194 dictItem=leg pain
@@ -1661,10 +1661,10 @@ dictIndex=3018 dictItem=difficulty breathing
 dictIndex=9617 dictItem=rash
 dictIndex=9620 dictItem=rash
 152|186|rash
-152|381|difficulty
-152|392|breathing
 152|249|difficulty
 152|260|breathing
+152|381|difficulty
+152|392|breathing
 dictIndex=9617 dictItem=rash
 dictIndex=9620 dictItem=rash
 dictIndex=9622 dictItem=rash leg
@@ -1904,9 +1904,9 @@ dictIndex=1186 dictItem=back pain
 dictIndex=8269 dictItem=pain
 dictIndex=8274 dictItem=pain back
 dictIndex=8326 dictItem=pain back
-171|818|pain
 171|712|back
 171|717|pain
+171|818|pain
 dictIndex=8269 dictItem=pain
 171|971|pain
 -------------------
@@ -2136,9 +2136,9 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=12180 dictItem=weakness
 199|11|loss
 199|19|dreaming
-199|185|loss
 199|53|muscle
 199|60|pain
+199|185|loss
 199|221|loss
 -------------------
 dictIndex=12180 dictItem=weakness
@@ -2195,13 +2195,13 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=8448 dictItem=paralysis
 205|0|Alopecia
-205|147|paralysis
 205|35|back
 205|48|pain
 205|94|exhaustion
 205|109|muscle
 205|116|fatigue
 205|140|facial
+205|147|paralysis
 dictIndex=600 dictItem=alopecia
 dictIndex=7997 dictItem=alopecia
 205|257|alopecia
@@ -2338,11 +2338,11 @@ dictIndex=8291 dictItem=pain calf
 dictIndex=11171 dictItem=tired
 dictIndex=12094 dictItem=vision decrease
 dictIndex=12096 dictItem=vision loss
-215|142|decrease
 215|41|pain
 215|49|calves
 215|62|loss
 215|121|vision
+215|142|decrease
 -------------------
 dictIndex=1186 dictItem=back pain
 dictIndex=4013 dictItem=foot pain
@@ -2355,18 +2355,18 @@ dictIndex=8316 dictItem=pain neck
 dictIndex=8326 dictItem=pain back
 dictIndex=9308 dictItem=pressure
 dictIndex=9309 dictItem=pressure foot
-216|436|pain
 216|287|pain
-216|453|pressure
 216|298|back
 216|304|neck
 216|331|foot
 216|344|pain
 216|355|neck
+216|436|pain
+216|453|pressure
 dictIndex=8269 dictItem=pain
 dictIndex=9308 dictItem=pressure
-216|938|pressure
 216|921|pain
+216|938|pressure
 -------------------
 dictIndex=6194 dictItem=leg pain
 dictIndex=8269 dictItem=pain
@@ -2428,13 +2428,13 @@ dictIndex=8334 dictItem=painful foot
 dictIndex=8336 dictItem=painful arm
 dictIndex=8339 dictItem=painful arm
 dictIndex=11157 dictItem=tingle
-220|147|face
 220|25|painful
 220|54|painful
 220|86|numbness
 220|99|tingling
 220|111|feet
 220|116|arm
+220|147|face
 -------------------
 dictIndex=12180 dictItem=weakness
 dictIndex=3176 dictItem=dry mouth
@@ -2503,10 +2503,10 @@ dictIndex=3790 dictItem=fatigue
 dictIndex=4708 dictItem=hair loss
 dictIndex=5929 dictItem=itching eye
 dictIndex=10398 dictItem=skin loss
-226|155|itching
 226|8|hair
 226|13|loss
 226|129|skin
+226|155|itching
 -------------------
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
@@ -2737,13 +2737,13 @@ dictIndex=8344 dictItem=pain leg
 dictIndex=9012 dictItem=pin needle
 251|7|MUSCLE
 251|14|SORENESS
-251|113|HEEL
-251|243|HAND
 251|34|LEG
 251|51|PINS
 251|79|NECK
-251|182|HAND
 251|84|PAIN
+251|113|HEEL
+251|182|HAND
+251|243|HAND
 dictIndex=11172 dictItem=tiredness
 251|267|TIREDNESS
 -------------------
@@ -2851,9 +2851,7 @@ dictIndex=8326 dictItem=pain back
 dictIndex=8331 dictItem=pain movement
 dictIndex=8344 dictItem=pain leg
 dictIndex=12180 dictItem=weakness
-260|142|back
 260|12|movements
-260|147|pain
 260|22|muscles
 260|30|aches
 260|49|back
@@ -2863,6 +2861,8 @@ dictIndex=12180 dictItem=weakness
 260|92|neck
 260|97|pain
 260|102|headaches
+260|142|back
+260|147|pain
 -------------------
 dictIndex=1577 dictItem=calf pain
 dictIndex=3790 dictItem=fatigue
@@ -2873,23 +2873,23 @@ dictIndex=10448 dictItem=sleep drive
 dictIndex=10454 dictItem=sleep sex
 dictIndex=10457 dictItem=sleep walk
 261|0|fatigue
-261|158|sex
-261|162|drive
 261|27|sleep
 261|45|pain
 261|73|calf
 261|97|walk
 261|115|attacks
+261|158|sex
+261|162|drive
 dictIndex=3417 dictItem=energy decrease
 dictIndex=10447 dictItem=sleep attack
 dictIndex=10457 dictItem=sleep walk
 dictIndex=12180 dictItem=weakness
+261|283|sleep
 261|372|walk
 261|392|weakness
-261|283|sleep
-261|604|attack
 261|453|attacks
 261|519|energy
+261|604|attack
 -------------------
 dictIndex=6344 dictItem=loss energy
 262|58|ENERGY
@@ -2900,8 +2900,8 @@ dictIndex=8269 dictItem=pain
 dictIndex=8298 dictItem=pain leg
 dictIndex=8307 dictItem=pain leg
 dictIndex=8344 dictItem=pain leg
-262|306|PAIN
 262|302|LEG
+262|306|PAIN
 -------------------
 dictIndex=111 dictItem=ache
 dictIndex=8269 dictItem=pain
@@ -2967,12 +2967,12 @@ dictIndex=11157 dictItem=tingle
 dictIndex=12180 dictItem=weakness
 269|23|fatigue
 269|32|muscle
-269|188|kidney
 269|39|pain
-269|195|stone
 269|61|neck
 269|66|numbness
 269|79|tingling
+269|188|kidney
+269|195|stone
 269|240|hematoma
 269|296|rupturing
 dictIndex=1186 dictItem=back pain
@@ -2983,14 +2983,14 @@ dictIndex=8326 dictItem=pain back
 dictIndex=8765 dictItem=period pain
 dictIndex=10275 dictItem=shortness breath
 dictIndex=11211 dictItem=tooth decay
-269|583|pain
-269|470|periods
 269|400|pain
 269|405|shortness
-269|551|tooth
 269|418|breath
+269|470|periods
+269|551|tooth
 269|557|decay
 269|578|back
+269|583|pain
 dictIndex=1186 dictItem=back pain
 dictIndex=6194 dictItem=leg pain
 dictIndex=6885 dictItem=muscle pain
@@ -3002,11 +3002,11 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=8344 dictItem=pain leg
 dictIndex=9817 dictItem=residual pain
-269|939|back
 269|832|residual
 269|885|leg
 269|890|muscle
 269|907|pain
+269|939|back
 dictIndex=2487 dictItem=confusion
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
@@ -3109,13 +3109,13 @@ dictIndex=8290 dictItem=pain arm
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8316 dictItem=pain neck
 dictIndex=8326 dictItem=pain back
-273|1038|back
-273|1050|head
 273|909|arms
 273|924|neck
 273|933|muscle
 273|940|pain
 273|955|pain
+273|1038|back
+273|1050|head
 -------------------
 dictIndex=111 dictItem=ache
 274|91|aching
@@ -3156,9 +3156,9 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=1463 dictItem=breath shortness
 dictIndex=10272 dictItem=short breath
 dictIndex=10275 dictItem=shortness breath
+279|513|short
 279|540|shortness
 279|553|breath
-279|513|short
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
@@ -3174,10 +3174,10 @@ dictIndex=111 dictItem=ache
 dictIndex=1463 dictItem=breath shortness
 dictIndex=10272 dictItem=short breath
 dictIndex=10275 dictItem=shortness breath
+279|880|short
 279|904|aches
 279|914|shortness
 279|927|breath
-279|880|short
 -------------------
 -------------------
 dictIndex=1186 dictItem=back pain
@@ -3229,12 +3229,12 @@ dictIndex=8291 dictItem=pain calf
 dictIndex=8300 dictItem=pain thigh
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
-286|353|muscle
-286|368|pain
 286|182|calf
 286|197|thigh
 286|208|back
 286|216|thigh
+286|353|muscle
+286|368|pain
 -------------------
 dictIndex=111 dictItem=ache
 dictIndex=6876 dictItem=muscle ache
@@ -3345,28 +3345,28 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=8344 dictItem=pain leg
 dictIndex=10448 dictItem=sleep drive
 dictIndex=10457 dictItem=sleep walk
-295|333|loss
 295|37|lack
-295|358|legs
-295|367|arms
-295|649|muscle
-295|377|muscle
-295|667|legs
 295|93|walked
-295|711|loss
 295|130|footed
-295|719|muscle
 295|142|walked
-295|462|bad
-295|466|dreams
-295|744|arms
-295|482|foot
-295|491|leg
 295|183|driving
 295|198|muscle
+295|333|loss
+295|358|legs
+295|367|arms
+295|377|muscle
+295|462|bad
+295|466|dreams
+295|482|foot
+295|491|leg
 295|558|pain
 295|564|muscular
 295|573|aches
+295|649|muscle
+295|667|legs
+295|711|loss
+295|719|muscle
+295|744|arms
 -------------------
 -------------------
 dictIndex=1577 dictItem=calf pain
@@ -3383,11 +3383,7 @@ dictIndex=8575 dictItem=partial sight
 dictIndex=10448 dictItem=sleep drive
 dictIndex=10454 dictItem=sleep sex
 297|0|extreme
-297|261|loss
-297|269|sight
 297|26|loss
-297|294|legs
-297|299|calfs
 297|71|calf
 297|80|leg
 297|96|pain
@@ -3399,6 +3395,10 @@ dictIndex=10454 dictItem=sleep sex
 297|202|extreme
 297|210|fatigue
 297|238|slept
+297|261|loss
+297|269|sight
+297|294|legs
+297|299|calfs
 dictIndex=3790 dictItem=fatigue
 dictIndex=8269 dictItem=pain
 297|657|pain
@@ -3553,10 +3553,10 @@ dictIndex=8307 dictItem=pain leg
 dictIndex=8344 dictItem=pain leg
 dictIndex=9308 dictItem=pressure
 dictIndex=12180 dictItem=weakness
-312|139|pressure
 312|36|weakness
 312|57|legs
 312|72|pains
+312|139|pressure
 -------------------
 -------------------
 dictIndex=3790 dictItem=fatigue
@@ -3648,16 +3648,16 @@ dictIndex=8932 dictItem=phlebitis leg superficial
 dictIndex=8935 dictItem=phlebitis superficial
 dictIndex=10838 dictItem=superficial phlebitis leg
 318|0|headache
-318|169|leg
 318|32|diarrhea
-318|207|leg
 318|67|confusion
-318|219|numbness
 318|78|back
 318|83|pain
-318|242|toes
 318|126|phlebitis
 318|142|superficial
+318|169|leg
+318|207|leg
+318|219|numbness
+318|242|toes
 dictIndex=8909 dictItem=phlebitis
 dictIndex=8911 dictItem=phlebitis
 dictIndex=4746 dictItem=headache
@@ -3679,11 +3679,11 @@ dictIndex=6876 dictItem=muscle ache
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
+319|141|muscle
+319|216|pain
 319|222|muscle
 319|229|aching
 319|237|fatigue
-319|141|muscle
-319|216|pain
 dictIndex=488 dictItem=adverse reaction
 dictIndex=7190 dictItem=adverse reaction
 319|769|adverse
@@ -3843,13 +3843,13 @@ dictIndex=8290 dictItem=pain arm
 dictIndex=8296 dictItem=pain hand
 dictIndex=8765 dictItem=period pain
 dictIndex=10287 dictItem=shoulder pain
-331|468|arms
 331|315|period
-331|481|shoulder
-331|496|hands
 331|401|aching
 331|408|pain
 331|419|arms
+331|468|arms
+331|481|shoulder
+331|496|hands
 dictIndex=3790 dictItem=fatigue
 331|583|fatigued
 dictIndex=956 dictItem=arthritis
@@ -3949,10 +3949,10 @@ dictIndex=3067 dictItem=dislocate joint
 dictIndex=3075 dictItem=dislocate thumb
 dictIndex=7274 dictItem=numbness
 dictIndex=7284 dictItem=numbness hand
-342|523|thumb
 342|417|numbness
 342|432|hands
 342|507|joint
+342|523|thumb
 -------------------
 dictIndex=3790 dictItem=fatigue
 343|15|fatigued
@@ -4237,8 +4237,8 @@ dictIndex=6876 dictItem=muscle ache
 dictIndex=3635 dictItem=exhaustion
 366|303|EXHAUSTION
 dictIndex=2381 dictItem=cold
-366|500|cold
 366|437|cold
+366|500|cold
 dictIndex=111 dictItem=ache
 366|856|aches
 -------------------
@@ -4308,11 +4308,11 @@ dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
 dictIndex=9840 dictItem=respiratory fatigue
 375|0|Deafness
-375|151|discomfort
 375|10|muscle
 375|17|pain
 375|47|respiratory
 375|122|fatigue
+375|151|discomfort
 -------------------
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
@@ -4406,11 +4406,11 @@ dictIndex=8269 dictItem=pain
 dictIndex=8290 dictItem=pain arm
 dictIndex=8296 dictItem=pain hand
 dictIndex=8315 dictItem=pain muscle
+384|636|arms
+384|645|hands
 384|760|pain
 384|768|muscles
 384|788|fatigue
-384|636|arms
-384|645|hands
 dictIndex=3790 dictItem=fatigue
 dictIndex=8269 dictItem=pain
 384|910|pains
@@ -5179,9 +5179,9 @@ dictIndex=12180 dictItem=weakness
 -------------------
 dictIndex=8269 dictItem=pain
 dictIndex=8273 dictItem=pain rest
+465|341|pain
 465|397|rested
 465|437|pain
-465|341|pain
 dictIndex=8269 dictItem=pain
 dictIndex=8302 dictItem=pain toe
 465|507|toes
@@ -5471,8 +5471,8 @@ dictIndex=8269 dictItem=pain
 -------------------
 dictIndex=10271 dictItem=short neck
 dictIndex=10816 dictItem=suicide
-488|190|suicide
 488|72|short
+488|190|suicide
 dictIndex=11172 dictItem=tiredness
 488|496|tiredness
 dictIndex=6353 dictItem=loss vision
@@ -5706,11 +5706,11 @@ dictIndex=8326 dictItem=pain back
 dictIndex=12096 dictItem=vision loss
 504|8|back
 504|13|pain
-504|157|hair
 504|19|nerve
+504|109|muscle
+504|157|hair
 504|162|loss
 504|179|vision
-504|109|muscle
 dictIndex=12224 dictItem=wear
 504|299|Wore
 504|401|wore
@@ -5879,11 +5879,11 @@ dictIndex=8298 dictItem=pain leg
 dictIndex=8307 dictItem=pain leg
 dictIndex=8344 dictItem=pain leg
 dictIndex=12096 dictItem=vision loss
-526|140|loss
-526|146|Vision
 526|57|leg
 526|61|pain
 526|73|calves
+526|140|loss
+526|146|Vision
 -------------------
 -------------------
 -------------------
@@ -5960,16 +5960,16 @@ dictIndex=9157 dictItem=poor vision
 dictIndex=10457 dictItem=sleep walk
 dictIndex=12096 dictItem=vision loss
 dictIndex=12180 dictItem=weakness
-537|149|walking
 537|7|edema
 537|30|limbs
 537|37|vision
 537|64|muscle
 537|71|pain
-537|246|frequent
-537|255|headaches
 537|99|loss
 537|125|poor
+537|149|walking
+537|246|frequent
+537|255|headaches
 dictIndex=111 dictItem=ache
 dictIndex=3790 dictItem=fatigue
 537|284|aching
@@ -6105,18 +6105,18 @@ dictIndex=8957 dictItem=photosensitivity
 dictIndex=9912 dictItem=rhinitis
 dictIndex=10366 dictItem=skin dry
 dictIndex=10398 dictItem=skin loss
+546|1111|dreams
+546|1138|loss
+546|1144|photosensitivity
+546|1162|muscle
+546|1169|pain
 546|1175|leg
 546|1187|rhinitis
 546|1209|asthma
 546|1217|dry
 546|1221|skin
-546|1111|dreams
 546|1253|loss
 546|1259|dry
-546|1138|loss
-546|1144|photosensitivity
-546|1162|muscle
-546|1169|pain
 dictIndex=8269 dictItem=pain
 546|1721|pain
 dictIndex=111 dictItem=ache
@@ -6160,13 +6160,13 @@ dictIndex=3901 dictItem=fibromyalgia
 dictIndex=6876 dictItem=muscle ache
 dictIndex=10246 dictItem=shake
 dictIndex=10275 dictItem=shortness breath
-548|189|shortness
-548|202|breath
 548|12|muscle
 548|19|aches
 548|26|confusion
-548|239|fibromyalgia
 548|180|shaking
+548|189|shortness
+548|202|breath
+548|239|fibromyalgia
 dictIndex=3125 dictItem=diverticulitis
 548|393|diverticulitis
 -------------------
@@ -6308,15 +6308,15 @@ dictIndex=10454 dictItem=sleep sex
 dictIndex=10511 dictItem=sore foot
 dictIndex=11171 dictItem=tired
 563|213|loss
-563|338|energy
 563|225|pain
-563|368|headaches
 563|239|feet
 563|248|hands
 563|255|sore
 563|279|sleep
 563|294|sex
 563|298|drive
+563|338|energy
+563|368|headaches
 -------------------
 dictIndex=1191 dictItem=backache
 dictIndex=1577 dictItem=calf pain
@@ -6337,12 +6337,12 @@ dictIndex=8344 dictItem=pain leg
 564|15|legs
 564|20|calf
 564|25|feet
-564|176|confusion
 564|42|legs
 564|51|feet
 564|61|toes
 564|105|limbs
 564|111|backache
+564|176|confusion
 dictIndex=11157 dictItem=tingle
 564|187|tingling
 dictIndex=4589 dictItem=good effect
@@ -6372,13 +6372,13 @@ dictIndex=6758 dictItem=mouth dry
 dictIndex=6766 dictItem=mouth swell
 dictIndex=6876 dictItem=muscle ache
 dictIndex=11171 dictItem=tired
-568|123|breathing
 568|10|dry
 568|14|mouth
 568|34|aches
 568|41|muscle
 568|76|swelling
 568|112|difficulty
+568|123|breathing
 dictIndex=111 dictItem=ache
 dictIndex=1181 dictItem=back ache
 dictIndex=1186 dictItem=back pain
@@ -6389,11 +6389,11 @@ dictIndex=8274 dictItem=pain back
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=10614 dictItem=stamina decrease
-568|651|stamina
-568|662|back
 568|559|muscle
 568|566|aches
 568|582|pain
+568|651|stamina
+568|662|back
 -------------------
 dictIndex=1186 dictItem=back pain
 dictIndex=4727 dictItem=hand pain
@@ -6558,10 +6558,10 @@ dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8323 dictItem=pain skin
-579|343|skin
 579|216|pain
 579|222|muscle
 579|229|aches
+579|343|skin
 -------------------
 -------------------
 dictIndex=3959 dictItem=flu
@@ -6569,9 +6569,9 @@ dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
 581|245|muscle
-581|432|muscle
 581|252|pain
 581|387|flu
+581|432|muscle
 -------------------
 dictIndex=4013 dictItem=foot pain
 dictIndex=6194 dictItem=leg pain
@@ -6659,15 +6659,15 @@ dictIndex=8300 dictItem=pain thigh
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8316 dictItem=pain neck
 dictIndex=10287 dictItem=shoulder pain
-591|143|arms
-591|149|shoulders
-591|176|hands
 591|62|muscle
-591|193|muscles
-591|204|neck
 591|87|pain
 591|105|feet
 591|125|thigh
+591|143|arms
+591|149|shoulders
+591|176|hands
+591|193|muscles
+591|204|neck
 dictIndex=325 dictItem=acute pain
 dictIndex=8269 dictItem=pain
 591|310|pain
@@ -6893,16 +6893,16 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=8344 dictItem=pain leg
 616|20|malaise
+616|43|loss
+616|59|hair
+616|64|loss
+616|88|flu
 616|153|pain
 616|159|muscle
-616|43|loss
 616|177|legs
-616|59|hair
 616|191|arm
-616|64|loss
 616|196|back
 616|201|pain
-616|88|flu
 dictIndex=7180 dictItem=nightmare
 dictIndex=7181 dictItem=nightmare
 616|288|nightmare
@@ -7168,13 +7168,13 @@ dictIndex=8274 dictItem=pain back
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=10699 dictItem=strain
-646|197|muscles
 646|63|chronic
 646|75|acute
 646|81|back
 646|86|pain
 646|182|strain
 646|192|back
+646|197|muscles
 dictIndex=12224 dictItem=wear
 646|526|wore
 dictIndex=3768 dictItem=fasciitis
@@ -7221,9 +7221,9 @@ dictIndex=1577 dictItem=calf pain
 dictIndex=8269 dictItem=pain
 dictIndex=8291 dictItem=pain calf
 dictIndex=8765 dictItem=period pain
-650|190|periods
 650|101|calf
 650|147|pain
+650|190|periods
 dictIndex=8269 dictItem=pain
 650|401|pain
 -------------------
@@ -7340,11 +7340,11 @@ dictIndex=8273 dictItem=pain rest
 dictIndex=8274 dictItem=pain back
 dictIndex=8326 dictItem=pain back
 dictIndex=11172 dictItem=tiredness
-663|601|boils
-663|635|rest
 663|419|back
 663|424|pain
 663|433|tiredness
+663|601|boils
+663|635|rest
 -------------------
 -------------------
 dictIndex=1186 dictItem=back pain
@@ -7358,8 +7358,8 @@ dictIndex=2812 dictItem=death
 dictIndex=8269 dictItem=pain
 dictIndex=10448 dictItem=sleep drive
 665|523|pain
-665|812|pain
 665|622|driving
+665|812|pain
 -------------------
 dictIndex=1186 dictItem=back pain
 dictIndex=6487 dictItem=malaise
@@ -7590,11 +7590,11 @@ dictIndex=8282 dictItem=pain head
 dictIndex=10039 dictItem=scalp pain
 dictIndex=11157 dictItem=tingle
 dictIndex=11166 dictItem=tingle sensation
-686|271|tingling
 686|123|pain
 686|182|sensation
 686|244|head
 686|257|scalp
+686|271|tingling
 dictIndex=3833 dictItem=feeling weakness
 dictIndex=12180 dictItem=weakness
 686|395|feeling
@@ -7690,10 +7690,10 @@ dictIndex=8298 dictItem=pain leg
 dictIndex=8307 dictItem=pain leg
 dictIndex=8344 dictItem=pain leg
 dictIndex=9597 dictItem=arthritis
-694|449|arthritis
 694|322|arthritis
 694|370|leg
 694|374|pain
+694|449|arthritis
 dictIndex=3790 dictItem=fatigue
 dictIndex=3813 dictItem=feel lack
 694|742|fatigue
@@ -7830,14 +7830,14 @@ dictIndex=10411 dictItem=skin red
 dictIndex=10420 dictItem=skin sore
 dictIndex=10510 dictItem=sore back
 705|13|pains
-705|223|arm
-705|234|sore
-705|240|red
 705|104|neck
-705|252|skin
 705|109|pain
 705|124|back
 705|136|head
+705|223|arm
+705|234|sore
+705|240|red
+705|252|skin
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
@@ -7877,18 +7877,18 @@ dictIndex=8307 dictItem=pain leg
 dictIndex=8315 dictItem=pain muscle
 dictIndex=8326 dictItem=pain back
 dictIndex=8344 dictItem=pain leg
+708|1088|muscles
+708|1102|legs
+708|1166|back
+708|1171|pain
+708|1214|extreme
 708|1222|muscle
 708|1229|fatigue
 708|1241|pain
-708|1088|muscles
-708|1102|legs
 708|1252|thighs
 708|1260|calves
 708|1271|buttocks
 708|1309|malaise
-708|1166|back
-708|1171|pain
-708|1214|extreme
 -------------------
 dictIndex=3790 dictItem=fatigue
 dictIndex=6885 dictItem=muscle pain
@@ -8391,13 +8391,13 @@ dictIndex=10287 dictItem=shoulder pain
 dictIndex=10420 dictItem=skin sore
 dictIndex=11172 dictItem=tiredness
 753|0|tiredness
-753|135|skin
 753|24|sore
 753|45|shoulder
 753|60|arm
 753|64|pain
 753|81|neck
 753|86|pain
+753|135|skin
 dictIndex=4589 dictItem=good effect
 753|190|good
 753|219|effects
@@ -8628,13 +8628,13 @@ dictIndex=8290 dictItem=pain arm
 dictIndex=8296 dictItem=pain hand
 dictIndex=10173 dictItem=sensation cold
 dictIndex=10287 dictItem=shoulder pain
-773|284|sensations
 773|168|pains
 773|177|hands
 773|183|arms
 773|192|shoulders
 773|228|cold
 773|238|arms
+773|284|sensations
 dictIndex=8269 dictItem=pain
 773|576|pain
 dictIndex=8269 dictItem=pain
@@ -8694,9 +8694,9 @@ dictIndex=7054 dictItem=neck pain
 dictIndex=7191 dictItem=drug reaction
 dictIndex=8269 dictItem=pain
 dictIndex=8316 dictItem=pain neck
-780|2840|pains
 780|2739|reaction
 780|2835|neck
+780|2840|pains
 -------------------
 dictIndex=111 dictItem=ache
 dictIndex=6876 dictItem=muscle ache
@@ -8746,16 +8746,16 @@ dictIndex=12180 dictItem=weakness
 dictIndex=12183 dictItem=weakness side
 787|619|side
 787|624|effect
+787|682|rhabdomyolysis
+787|707|muscle
+787|755|toxic
 787|810|rhabdomyolysis
 787|833|muscle
 787|840|pain
-787|682|rhabdomyolysis
 787|846|tenderness
-787|707|muscle
 787|861|weakness
 787|892|calves
 787|909|back
-787|755|toxic
 dictIndex=6487 dictItem=malaise
 787|915|Malaise
 dictIndex=9900 dictItem=rhabdomyolysis
@@ -8837,10 +8837,10 @@ dictIndex=956 dictItem=arthritis
 dictIndex=8269 dictItem=pain
 dictIndex=9308 dictItem=pressure
 dictIndex=9597 dictItem=arthritis
-793|486|pressure
 793|366|pain
 793|415|pressure
 793|436|arthritis
+793|486|pressure
 793|598|arthritis
 -------------------
 dictIndex=12180 dictItem=weakness
@@ -9142,15 +9142,15 @@ dictIndex=8326 dictItem=pain back
 dictIndex=9308 dictItem=pressure
 dictIndex=10278 dictItem=shoulder blade pain
 dictIndex=10287 dictItem=shoulder pain
-821|702|muscle
+821|80|pressure
 821|481|muscular
+821|598|muscle
+821|702|muscle
 821|709|pain
 821|717|back
-821|80|pressure
 821|737|shoulder
 821|746|blades
 821|783|headaches
-821|598|muscle
 -------------------
 dictIndex=3829 dictItem=feel strange
 dictIndex=7054 dictItem=neck pain
@@ -9205,17 +9205,17 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=8344 dictItem=pain leg
 dictIndex=9597 dictItem=arthritis
 dictIndex=12180 dictItem=weakness
-826|146|pain
 826|22|foot
 826|27|pain
-826|162|fatigue
-826|185|leg
 826|51|arm
 826|55|muscles
 826|71|knee
 826|76|pain
 826|87|arthritis
 826|114|hands
+826|146|pain
+826|162|fatigue
+826|185|leg
 -------------------
 dictIndex=11337 dictItem=tremor
 dictIndex=11347 dictItem=tremor hand
@@ -9267,18 +9267,18 @@ dictIndex=11157 dictItem=tingle
 dictIndex=12096 dictItem=vision loss
 dictIndex=12180 dictItem=weakness
 dictIndex=12183 dictItem=weakness side
-834|152|loss
-834|160|strength
 834|35|vision
 834|52|tingling
 834|65|numbness
-834|219|hot
 834|75|hands
-834|241|hot
 834|82|legs
 834|88|face
 834|104|weakness
 834|126|side
+834|152|loss
+834|160|strength
+834|219|hot
+834|241|hot
 -------------------
 dictIndex=1186 dictItem=back pain
 dictIndex=6898 dictItem=muscular pain
@@ -9470,22 +9470,22 @@ dictIndex=10448 dictItem=sleep drive
 dictIndex=10457 dictItem=sleep walk
 dictIndex=12180 dictItem=weakness
 dictIndex=12183 dictItem=weakness side
-847|327|walking
 847|7|edema
 847|16|lower
 847|22|extremities
-847|397|head
-847|416|head
 847|91|vision
-847|426|side
 847|108|muscle
-847|434|side
-847|453|driving
 847|115|weakness
 847|186|shoulder
 847|195|pain
 847|249|numbness
 847|266|side
+847|327|walking
+847|397|head
+847|416|head
+847|426|side
+847|434|side
+847|453|driving
 dictIndex=3286 dictItem=edema
 dictIndex=3299 dictItem=edema
 847|585|edema
@@ -9551,6 +9551,8 @@ dictIndex=10450 dictItem=sleep excessive
 dictIndex=10454 dictItem=sleep sex
 dictIndex=10457 dictItem=sleep walk
 dictIndex=12180 dictItem=weakness
+853|101|weakness
+853|121|walk
 853|153|excessive
 853|163|sleep
 853|175|hair
@@ -9558,8 +9560,6 @@ dictIndex=12180 dictItem=weakness
 853|202|loss
 853|207|loss
 853|215|sex
-853|101|weakness
-853|121|walk
 -------------------
 dictIndex=7157 dictItem=neuropathy
 854|35|neuropathy
@@ -9585,8 +9585,8 @@ dictIndex=11064 dictItem=throb pain
 856|743|throbbing
 dictIndex=8269 dictItem=pain
 dictIndex=8278 dictItem=pain injection
-856|981|pain
 856|941|injections
+856|981|pain
 -------------------
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
@@ -9613,8 +9613,8 @@ dictIndex=11064 dictItem=throb pain
 859|664|throbbing
 dictIndex=8269 dictItem=pain
 dictIndex=8278 dictItem=pain injection
-859|902|pain
 859|862|injections
+859|902|pain
 -------------------
 dictIndex=4955 dictItem=hot
 860|81|hot
@@ -9627,8 +9627,8 @@ dictIndex=4955 dictItem=hot
 dictIndex=3833 dictItem=feeling weakness
 dictIndex=12180 dictItem=weakness
 861|0|feeling
-861|199|weakness
 861|42|weakness
+861|199|weakness
 -------------------
 -------------------
 dictIndex=6194 dictItem=leg pain
@@ -9660,7 +9660,6 @@ dictIndex=8280 dictItem=pain foot
 dictIndex=8295 dictItem=pain foot
 dictIndex=8297 dictItem=pain heel
 dictIndex=8302 dictItem=pain toe
-865|164|pain
 865|77|foot
 865|82|pain
 865|103|neuroma
@@ -9668,6 +9667,7 @@ dictIndex=8302 dictItem=pain toe
 865|137|hammer
 865|144|toe
 865|159|heel
+865|164|pain
 dictIndex=4013 dictItem=foot pain
 dictIndex=8269 dictItem=pain
 dictIndex=8280 dictItem=pain foot
@@ -9780,12 +9780,12 @@ dictIndex=11337 dictItem=tremor
 dictIndex=11344 dictItem=tremor muscle
 dictIndex=11347 dictItem=tremor hand
 872|7|pain
-872|143|tremor
-872|158|hand
 872|37|movement
 872|55|arm
 872|59|muscles
 872|106|worsening
+872|143|tremor
+872|158|hand
 dictIndex=6885 dictItem=muscle pain
 dictIndex=8269 dictItem=pain
 dictIndex=8315 dictItem=pain muscle
@@ -9802,14 +9802,14 @@ dictIndex=10450 dictItem=sleep excessive
 dictIndex=10457 dictItem=sleep walk
 dictIndex=10705 dictItem=strength loss
 873|0|loss
-873|246|excessive
-873|256|sleep
 873|15|strength
-873|170|walk
 873|64|loss
 873|79|drive
 873|85|hair
 873|90|short
+873|170|walk
+873|246|excessive
+873|256|sleep
 -------------------
 dictIndex=111 dictItem=ache
 dictIndex=6876 dictItem=muscle ache
@@ -9915,14 +9915,14 @@ dictIndex=8269 dictItem=pain
 dictIndex=8280 dictItem=pain foot
 dictIndex=8295 dictItem=pain foot
 dictIndex=8334 dictItem=painful foot
-887|299|loss
-887|140|feet
 887|12|pain
-887|199|pain
 887|54|pain
+887|108|painful
+887|140|feet
+887|199|pain
 887|252|energy
 887|260|confusion
-887|108|painful
+887|299|loss
 dictIndex=8269 dictItem=pain
 dictIndex=10287 dictItem=shoulder pain
 887|498|pain
@@ -10195,11 +10195,11 @@ dictIndex=8315 dictItem=pain muscle
 dictIndex=8316 dictItem=pain neck
 dictIndex=10287 dictItem=shoulder pain
 917|0|muscle
-917|166|shoulder
 917|7|pain
-917|175|pain
 917|31|hands
 917|156|neck
+917|166|shoulder
+917|175|pain
 -------------------
 -------------------
 -------------------
@@ -10369,23 +10369,23 @@ dictIndex=8344 dictItem=pain leg
 dictIndex=12180 dictItem=weakness
 934|39|leg
 934|43|pain
-934|217|fatigue
 934|56|leg
 934|60|muscle
 934|77|hand
+934|217|fatigue
 -------------------
 dictIndex=2812 dictItem=death
 dictIndex=9308 dictItem=pressure
-935|231|death
 935|110|pressure
+935|231|death
 dictIndex=2812 dictItem=death
 dictIndex=12180 dictItem=weakness
 935|522|death
 935|723|death
 dictIndex=3802 dictItem=feel bad
 dictIndex=3835 dictItem=feel bad
-935|990|bad
 935|758|feel
+935|990|bad
 -------------------
 dictIndex=8334 dictItem=painful foot
 dictIndex=9012 dictItem=pin needle
@@ -10453,15 +10453,15 @@ dictIndex=8269 dictItem=pain
 dictIndex=8291 dictItem=pain calf
 dictIndex=8302 dictItem=pain toe
 dictIndex=12096 dictItem=vision loss
-947|139|headache
 947|0|Toe
-947|149|vision
 947|18|numbness
 947|30|toes
-947|166|calf
-947|171|pain
 947|94|hair
 947|99|loss
+947|139|headache
+947|149|vision
+947|166|calf
+947|171|pain
 -------------------
 dictIndex=9012 dictItem=pin needle
 948|22|pins
@@ -10504,11 +10504,11 @@ dictIndex=8274 dictItem=pain back
 dictIndex=8326 dictItem=pain back
 dictIndex=10287 dictItem=shoulder pain
 dictIndex=11172 dictItem=tiredness
-951|150|back
-951|155|pain
 951|39|shoulder
 951|57|pain
 951|81|tiredness
+951|150|back
+951|155|pain
 dictIndex=7180 dictItem=nightmare
 dictIndex=7181 dictItem=nightmare
 951|351|nightmare
@@ -10844,12 +10844,12 @@ dictIndex=4501 dictItem=unwell
 dictIndex=6341 dictItem=loss affect
 dictIndex=11656 dictItem=unwell
 dictIndex=12180 dictItem=weakness
-990|138|Zombie
-990|151|Weakness
 990|18|affected
 990|28|loss
 990|107|unwell
 990|132|daze
+990|138|Zombie
+990|151|Weakness
 -------------------
 -------------------
 dictIndex=2381 dictItem=cold
@@ -10883,10 +10883,10 @@ dictIndex=8269 dictItem=pain
 dictIndex=8296 dictItem=pain hand
 dictIndex=11157 dictItem=tingle
 995|0|Aches
-995|165|aches
 995|10|pains
 995|108|tingling
 995|124|hand
+995|165|aches
 dictIndex=7180 dictItem=nightmare
 dictIndex=7181 dictItem=nightmare
 995|562|nightmare

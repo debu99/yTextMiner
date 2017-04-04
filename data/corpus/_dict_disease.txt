@@ -11206,7 +11206,6 @@ Fistula of small intestine
 Fistulae involving female genital tract
 Fistulising Crohn's disease
 Fistulizing Crohn's disease
-Fit
 Fit (in known epileptic)
 Fit (non-epileptic)
 Fits NOS
@@ -13625,7 +13624,6 @@ Hidradenocarcinoma
 Hidradenoma papilliferum
 Hidrocystoma
 Hidrotic ectodermal dysplasia
-High
 High arched palate
 High cardiac output state
 High feeling

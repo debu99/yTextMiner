@@ -1,24 +1,22 @@
-2|58|chest pain|dict_row=5650
-7|118|infection|dict_row=15023
-7|112|sinus infection|dict_row=27389
-8|215|fever|dict_row=11087
-8|392|hoarseness|dict_row=13780
-8|319|infection|dict_row=15023
-8|310|prostate infection|dict_row=25352
-8|330|sweating|dict_row=28690
-9|5|sedation|dict_row=27102
-11|32|insomnia|dict_row=15430
-12|241|tendonitis|dict_row=28975
-17|47|drowsiness|dict_row=9144
-21|57|infection|dict_row=15023
-25|319|gout|dict_row=12309
-30|194|sweating|dict_row=28690
-30|7|vaginal bleeding|dict_row=31534
-30|526|vaginal bleeding|dict_row=31534
-33|7|vaginal bleeding|dict_row=31534
-39|241|heart attack|dict_row=12781
-40|171|high|dict_row=13627
-40|283|hypertension|dict_row=14319
-42|303|high|dict_row=13627
-45|91|fever|dict_row=11087
-45|36|sweating|dict_row=28690
+2|58|chest pain
+7|112|sinus infection
+7|118|infection
+8|215|fever
+8|310|prostate infection
+8|319|infection
+8|330|sweating
+8|392|hoarseness
+9|5|sedation
+11|32|insomnia
+12|241|tendonitis
+17|47|drowsiness
+21|57|infection
+25|319|gout
+30|7|vaginal bleeding
+30|194|sweating
+30|526|vaginal bleeding
+33|7|vaginal bleeding
+39|241|heart attack
+40|283|hypertension
+45|36|sweating
+45|91|fever

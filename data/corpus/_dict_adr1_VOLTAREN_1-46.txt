@@ -52,12 +52,12 @@ dictIndex=8323 dictItem=pain skin
 dictIndex=8326 dictItem=pain back
 dictIndex=10398 dictItem=skin loss
 dictIndex=12252 dictItem=yellow fever
-8|281|skin
 8|204|low
-8|348|pain
 8|215|fever
-8|366|back
 8|246|loss
+8|281|skin
+8|348|pain
+8|366|back
 dictIndex=488 dictItem=adverse reaction
 dictIndex=7187 dictItem=adverse drug reaction
 dictIndex=7190 dictItem=adverse reaction
@@ -264,15 +264,15 @@ dictIndex=9397 dictItem=pruritus
 dictIndex=9401 dictItem=pruritus breast
 dictIndex=9407 dictItem=pruritus hand
 dictIndex=10366 dictItem=skin dry
-30|142|skin
-30|153|dry
 30|39|skin
-30|182|hands
-30|353|diarrhea
 30|70|back
-30|228|pruritus
 30|94|breast
 30|101|pain
+30|142|skin
+30|153|dry
+30|182|hands
+30|228|pruritus
+30|353|diarrhea
 dictIndex=8269 dictItem=pain
 30|504|pain
 dictIndex=9397 dictItem=pruritus

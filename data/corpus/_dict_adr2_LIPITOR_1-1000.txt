@@ -101,14 +101,14 @@ dictIndex=6190 dictItem=pain side
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
 dictIndex=7900 dictItem=stiff muscle
-6|184|muscles
-6|202|stiff
 6|35|side
 6|40|effects
 6|97|experienced
 6|109|pain
 6|127|legs
 6|160|walk
+6|184|muscles
+6|202|stiff
 dictIndex=6128 dictItem=pain
 6|285|pain
 6|333|pain
@@ -132,9 +132,6 @@ dictIndex=7392 dictItem=severe pain neck
 dictIndex=7525 dictItem=shoulder pain
 dictIndex=7906 dictItem=stiffness
 dictIndex=8697 dictItem=turn head
-6|539|neck
-6|586|turn
-6|594|head
 6|440|severe
 6|447|pain
 6|459|muscles
@@ -143,6 +140,9 @@ dictIndex=8697 dictItem=turn head
 6|504|neck
 6|514|pain
 6|523|stiffness
+6|539|neck
+6|586|turn
+6|594|head
 dictIndex=7976 dictItem=stress
 6|662|stress
 dictIndex=6128 dictItem=pain
@@ -234,12 +234,12 @@ dictIndex=5595 dictItem=muscle ache
 dictIndex=5612 dictItem=muscle fatigue
 dictIndex=7539 dictItem=side effect
 dictIndex=9021 dictItem=fatigue
-8|424|cholesterol
 8|279|side
 8|284|effects
 8|326|fatigue
 8|335|muscle
 8|342|aches
+8|424|cholesterol
 dictIndex=2908 dictItem=extremely uncomfortable
 dictIndex=8761 dictItem=uncomfortable
 8|472|uncomfortable
@@ -354,7 +354,6 @@ dictIndex=6147 dictItem=pain joint
 dictIndex=8480 dictItem=tingle
 dictIndex=8488 dictItem=tingle hand
 12|0|Body
-12|154|decrease
 12|5|aches
 12|12|joint
 12|18|pain
@@ -364,6 +363,7 @@ dictIndex=8488 dictItem=tingle hand
 12|71|libido
 12|125|tingling
 12|144|hands
+12|154|decrease
 dictIndex=2315 dictItem=drug
 dictIndex=1716 dictItem=decrease
 dictIndex=8326 dictItem=tear
@@ -409,10 +409,10 @@ dictIndex=434 dictItem=ankle pain
 dictIndex=547 dictItem=arm pain
 dictIndex=6128 dictItem=pain
 dictIndex=7525 dictItem=shoulder pain
-14|170|ankles
 14|48|pain
 14|67|arms
 14|156|shoulders
+14|170|ankles
 dictIndex=434 dictItem=ankle pain
 dictIndex=3238 dictItem=foot pain
 dictIndex=3373 dictItem=foot pain
@@ -747,13 +747,13 @@ dictIndex=8253 dictItem=symptom
 31|0|HORRIBLE
 31|9|JOINT
 31|15|PAIN
-31|194|PAIN
 31|33|JOINTS
-31|229|FIBROMYALGIA
-31|251|SYMPTOMS
 31|84|MUSCLE
 31|91|PAIN
 31|103|MUSCLES
+31|194|PAIN
+31|229|FIBROMYALGIA
+31|251|SYMPTOMS
 dictIndex=8253 dictItem=symptom
 31|288|SYMPTOMS
 dictIndex=1954 dictItem=diagnosis
@@ -789,10 +789,10 @@ dictIndex=131 dictItem=ache
 32|91|ache
 dictIndex=5003 dictItem=liver damage
 dictIndex=7955 dictItem=stop heart
-32|298|heart
 32|178|stop
 32|265|damage
 32|280|liver
+32|298|heart
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=3675 dictItem=head ache
@@ -892,11 +892,11 @@ dictIndex=9104 dictItem=walk sleep
 35|265|pain
 35|285|muscle
 35|296|joints
-35|455|night
 35|316|hurt
-35|481|sleep
 35|336|walk
 35|393|person
+35|455|night
+35|481|sleep
 dictIndex=7539 dictItem=side effect
 35|654|side
 35|659|effect
@@ -1129,10 +1129,7 @@ dictIndex=6190 dictItem=pain side
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
 dictIndex=8015 dictItem=subdural hematoma
-47|176|pain
 47|21|side
-47|182|pain
-47|187|pain
 47|26|effects
 47|75|myalgia
 47|84|neuralgia
@@ -1141,6 +1138,9 @@ dictIndex=8015 dictItem=subdural hematoma
 47|147|subdural
 47|156|hematoma
 47|166|coma
+47|176|pain
+47|182|pain
+47|187|pain
 -------------------
 dictIndex=1164 dictItem=cause pain chest
 dictIndex=1247 dictItem=chest pain
@@ -1163,7 +1163,6 @@ dictIndex=7525 dictItem=shoulder pain
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
 dictIndex=8355 dictItem=terrible burning pain
-48|223|chest
 48|123|side
 48|128|effects
 48|144|Terrible
@@ -1172,6 +1171,7 @@ dictIndex=8355 dictItem=terrible burning pain
 48|170|pain
 48|198|neck
 48|203|shoulders
+48|223|chest
 dictIndex=1119 dictItem=sleep
 dictIndex=1120 dictItem=sleep
 dictIndex=4590 dictItem=insomnia
@@ -1347,10 +1347,10 @@ dictIndex=6128 dictItem=pain
 dictIndex=6133 dictItem=pain back
 dictIndex=7525 dictItem=shoulder pain
 54|527|back
-54|675|feel
 54|585|drug
 54|632|shoulder
 54|641|pain
+54|675|feel
 dictIndex=2315 dictItem=drug
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
@@ -1363,18 +1363,18 @@ dictIndex=3323 dictItem=flatulence
 -------------------
 dictIndex=1942 dictItem=diabetes
 dictIndex=5814 dictItem=neuropathy
-56|188|Diabetes
 56|118|Neuropathy
+56|188|Diabetes
 dictIndex=547 dictItem=arm pain
 dictIndex=6128 dictItem=pain
 dictIndex=7525 dictItem=shoulder pain
 dictIndex=8757 dictItem=unbelievable pain
-56|789|shoulder
-56|798|pain
 56|394|Shoulder
 56|419|unbelievable
 56|432|pain
 56|461|shoulder
+56|789|shoulder
+56|798|pain
 dictIndex=2315 dictItem=drug
 dictIndex=5105 dictItem=loss memory
 dictIndex=5349 dictItem=memory loss
@@ -1408,12 +1408,12 @@ dictIndex=6128 dictItem=pain
 dictIndex=6613 dictItem=problem walk
 dictIndex=8393 dictItem=thigh pain
 58|31|thighs
-58|201|bones
-58|210|foot
-58|237|problem
 58|96|pain
 58|104|ankle
 58|129|walk
+58|201|bones
+58|210|foot
+58|237|problem
 dictIndex=1578 dictItem=talk
 dictIndex=7881 dictItem=start talk
 dictIndex=8282 dictItem=talk
@@ -1507,17 +1507,12 @@ dictIndex=9143 dictItem=weakness foot
 dictIndex=9144 dictItem=weakness hand
 dictIndex=9145 dictItem=weakness fatigue
 dictIndex=9146 dictItem=weakness hand foot
-59|625|ear
 59|0|Severe
 59|7|pain
-59|630|nose
 59|14|cramping
-59|638|throat
 59|26|ankles
-59|657|allergy
 59|34|feet
 59|48|back
-59|674|swallowing
 59|54|Muscle
 59|61|weakness
 59|100|Weak
@@ -1527,11 +1522,9 @@ dictIndex=9146 dictItem=weakness hand foot
 59|160|hands
 59|176|tightness
 59|187|Constant
-59|812|Swollen
 59|196|fatigue
 59|205|Insomnia
 59|226|sleep
-59|845|sinus
 59|271|insomnia
 59|301|forgetfulness
 59|316|Pancreatitis
@@ -1545,6 +1538,13 @@ dictIndex=9146 dictItem=weakness hand foot
 59|543|swallowing
 59|556|swelling
 59|568|throat
+59|625|ear
+59|630|nose
+59|638|throat
+59|657|allergy
+59|674|swallowing
+59|812|Swollen
+59|845|sinus
 dictIndex=336 dictItem=allergy
 dictIndex=1119 dictItem=sleep
 dictIndex=1120 dictItem=sleep
@@ -1558,11 +1558,11 @@ dictIndex=6888 dictItem=reaction allergy
 dictIndex=7564 dictItem=sinus
 dictIndex=7626 dictItem=sleep
 dictIndex=7688 dictItem=sleep
-59|1087|sleeping
-59|1138|reaction
 59|1023|allergies
 59|1043|cough
 59|1059|sinus
+59|1087|sleeping
+59|1138|reaction
 dictIndex=8253 dictItem=symptom
 59|1190|symptoms
 dictIndex=2315 dictItem=drug
@@ -1946,13 +1946,13 @@ dictIndex=7934 dictItem=stomach pain cramp
 dictIndex=7937 dictItem=stomach pain cramp
 dictIndex=7939 dictItem=stomach problem
 71|5|Pains
-71|151|osteoarthritis
 71|36|muscle
 71|43|cramps
 71|60|stomach
 71|68|pains
 71|75|nervous
 71|90|problems
+71|151|osteoarthritis
 dictIndex=1117 dictItem=control
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
@@ -1980,12 +1980,12 @@ dictIndex=8488 dictItem=tingle hand
 dictIndex=8489 dictItem=tingle hand foot
 dictIndex=9299 dictItem=depression
 72|12|bursitis
+72|81|hurt
+72|126|dizzyness
 72|157|feet
 72|162|hurt
 72|191|tingling
-72|81|hurt
 72|221|hand
-72|126|dizzyness
 dictIndex=8480 dictItem=tingle
 72|383|tingle
 dictIndex=8253 dictItem=symptom
@@ -2163,9 +2163,9 @@ dictIndex=8253 dictItem=symptom
 dictIndex=8694 dictItem=tumor
 76|660|Symptoms
 76|762|neuralgia
-76|957|symptoms
 76|792|tumor
 76|811|reading
+76|957|symptoms
 dictIndex=6997 dictItem=reduction
 dictIndex=8253 dictItem=symptom
 76|1082|symptoms
@@ -2188,21 +2188,21 @@ dictIndex=6597 dictItem=problem memory problem
 dictIndex=7371 dictItem=severe liver damage
 dictIndex=7400 dictItem=severe problem
 dictIndex=8253 dictItem=symptom
-77|806|forget
-77|843|forgot
 77|35|severe
+77|140|liver
+77|202|symptoms
+77|366|bleed
 77|472|problems
-77|893|forget
 77|508|memory
 77|515|loss
 77|538|kidney
-77|983|problems
-77|140|liver
 77|575|body
-77|202|symptoms
 77|679|severe
 77|746|damage
-77|366|bleed
+77|806|forget
+77|843|forgot
+77|893|forget
+77|983|problems
 -------------------
 dictIndex=4722 dictItem=itchiness
 78|23|itchiness
@@ -2344,9 +2344,7 @@ dictIndex=8480 dictItem=tingle
 dictIndex=8490 dictItem=tingle leg
 dictIndex=8752 dictItem=unable walk
 81|0|constant
-81|149|tingling
 81|9|pain
-81|161|feet
 81|23|thigh
 81|40|pain
 81|59|pain
@@ -2355,6 +2353,8 @@ dictIndex=8752 dictItem=unable walk
 81|91|walk
 81|132|pain
 81|144|leg
+81|149|tingling
+81|161|feet
 dictIndex=2315 dictItem=drug
 dictIndex=2315 dictItem=drug
 -------------------
@@ -3029,12 +3029,12 @@ dictIndex=6191 dictItem=pain stomach
 dictIndex=7915 dictItem=stomach
 dictIndex=7931 dictItem=stomach pain
 dictIndex=8665 dictItem=trouble memory
-107|205|TROUBLES
 107|71|STOMACH
 107|91|PAIN
 107|97|MEMORY
 107|104|TROUBLE
 107|164|TROUBLES
+107|205|TROUBLES
 dictIndex=1113 dictItem=cancer
 dictIndex=7915 dictItem=stomach
 dictIndex=7940 dictItem=stomach ulcer
@@ -3391,9 +3391,9 @@ dictIndex=3727 dictItem=heart attack
 dictIndex=4267 dictItem=cholesterol
 dictIndex=4816 dictItem=kill
 dictIndex=5892 dictItem=eat
+117|1057|Cholesterol
 117|1228|Heart
 117|1234|attacks
-117|1057|Cholesterol
 dictIndex=2315 dictItem=drug
 dictIndex=5901 dictItem=lie
 117|1307|Lies
@@ -3723,16 +3723,16 @@ dictIndex=3179 dictItem=feel bad
 dictIndex=3254 dictItem=feel miserable
 dictIndex=5495 dictItem=miserable
 130|478|feel
-130|676|bad
 130|530|drug
 130|640|miserable
+130|676|bad
 dictIndex=2315 dictItem=drug
 dictIndex=3067 dictItem=feel drug
 dictIndex=3146 dictItem=feel
-130|809|feel
 130|720|feeling
-130|843|drug
 130|791|feel
+130|809|feel
+130|843|drug
 dictIndex=8253 dictItem=symptom
 130|864|symptoms
 -------------------
@@ -3995,8 +3995,8 @@ dictIndex=9141 dictItem=weakness
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 142|519|Cholesterol
-142|717|cholesterol
 142|574|cholesterol
+142|717|cholesterol
 dictIndex=8253 dictItem=symptom
 142|857|symptoms
 dictIndex=8253 dictItem=symptom
@@ -4207,14 +4207,14 @@ dictIndex=7915 dictItem=stomach
 dictIndex=8146 dictItem=sweat
 dictIndex=9173 dictItem=weight increase
 152|186|rash
-152|381|difficulty
 152|208|insomnia
-152|392|breathing
 152|229|sweats
 152|249|difficulty
 152|260|breathing
 152|333|weight
 152|340|increased
+152|381|difficulty
+152|392|breathing
 dictIndex=6849 dictItem=rash
 152|403|Rashes
 dictIndex=8430 dictItem=throat tightness
@@ -4229,11 +4229,11 @@ dictIndex=2766 dictItem=experience
 dictIndex=3467 dictItem=gas
 dictIndex=4975 dictItem=lightheadedness
 dictIndex=7906 dictItem=stiffness
-153|180|gas
-153|193|stiffness
 153|123|experiencing
 153|136|dizziness
 153|147|lightheadedness
+153|180|gas
+153|193|stiffness
 dictIndex=8500 dictItem=tire
 dictIndex=8514 dictItem=tire
 153|241|tired
@@ -4390,7 +4390,6 @@ dictIndex=7354 dictItem=severe fatigue
 dictIndex=7369 dictItem=severe joint pain
 dictIndex=8393 dictItem=thigh pain
 dictIndex=9021 dictItem=fatigue
-160|142|walk
 160|5|experiencing
 160|18|severe
 160|29|joint
@@ -4400,6 +4399,7 @@ dictIndex=9021 dictItem=fatigue
 160|53|severe
 160|60|thigh
 160|66|fatigue
+160|142|walk
 dictIndex=3146 dictItem=feel
 dictIndex=6128 dictItem=pain
 -------------------
@@ -4489,8 +4489,8 @@ dictIndex=4267 dictItem=cholesterol
 dictIndex=871 dictItem=blood pressure
 dictIndex=1942 dictItem=diabetes
 dictIndex=6549 dictItem=pressure
-165|323|diabetes
 165|235|pressure
+165|323|diabetes
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 165|342|cholesterol
@@ -4543,7 +4543,6 @@ dictIndex=7287 dictItem=sensitivity sun
 dictIndex=7290 dictItem=sensitivity sun
 dictIndex=8129 dictItem=sun sensitivity
 dictIndex=9299 dictItem=depression
-167|258|bad
 167|109|rashes
 167|119|forearms
 167|133|sun
@@ -4553,6 +4552,7 @@ dictIndex=9299 dictItem=depression
 167|212|depression
 167|241|sun
 167|245|sensitivity
+167|258|bad
 dictIndex=2315 dictItem=drug
 dictIndex=7539 dictItem=side effect
 167|334|side
@@ -4659,7 +4659,6 @@ dictIndex=5649 dictItem=muscle cramp
 dictIndex=5698 dictItem=myopathy
 dictIndex=6128 dictItem=pain
 dictIndex=6377 dictItem=person
-170|161|enzymes
 170|32|myopathy
 170|42|muscle
 170|49|pain
@@ -4669,6 +4668,7 @@ dictIndex=6377 dictItem=person
 170|135|heart
 170|141|attack
 170|155|liver
+170|161|enzymes
 -------------------
 dictIndex=645 dictItem=back pain
 dictIndex=3683 dictItem=head pain
@@ -4717,9 +4717,9 @@ dictIndex=6747 dictItem=sleep
 dictIndex=7626 dictItem=sleep
 dictIndex=7688 dictItem=sleep
 dictIndex=9093 dictItem=wake
-171|589|SLEEP
 171|507|BACK
 171|512|PAIN
+171|589|SLEEP
 dictIndex=6128 dictItem=pain
 171|631|pain
 dictIndex=645 dictItem=back pain
@@ -4736,12 +4736,12 @@ dictIndex=7626 dictItem=sleep
 dictIndex=7654 dictItem=sleep night
 dictIndex=7688 dictItem=sleep
 dictIndex=9093 dictItem=wake
-171|818|pain
 171|712|back
 171|717|pain
 171|727|wakes
 171|762|sleep
 171|771|night
+171|818|pain
 dictIndex=6128 dictItem=pain
 171|971|pain
 -------------------
@@ -5461,12 +5461,12 @@ dictIndex=7416 dictItem=severe stomach pain
 dictIndex=7915 dictItem=stomach
 dictIndex=7931 dictItem=stomach pain
 dictIndex=8608 dictItem=treat aggressively
-194|430|walk
 194|312|aggressively
 194|345|sugar
 194|384|severe
 194|391|stomach
 194|399|pain
+194|430|walk
 dictIndex=6128 dictItem=pain
 dictIndex=8757 dictItem=unbelievable pain
 194|490|Unbelievable
@@ -5497,9 +5497,9 @@ dictIndex=4267 dictItem=cholesterol
 dictIndex=4786 dictItem=joint pain
 dictIndex=6128 dictItem=pain
 dictIndex=6147 dictItem=pain joint
+195|361|CHOLESTEROL
 195|457|JOINT
 195|463|PAIN
-195|361|CHOLESTEROL
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 195|504|CHOLESTEROL
@@ -5540,9 +5540,7 @@ dictIndex=8217 dictItem=swell lower leg
 dictIndex=8220 dictItem=swell pain leg
 dictIndex=8253 dictItem=symptom
 dictIndex=8833 dictItem=unexplained pain
-196|637|sweating
 196|471|symptoms
-196|657|unexplained
 196|547|leg
 196|551|muscle
 196|558|pain
@@ -5551,6 +5549,8 @@ dictIndex=8833 dictItem=unexplained pain
 196|586|legs
 196|595|feet
 196|615|sudden
+196|637|sweating
+196|657|unexplained
 dictIndex=6416 dictItem=physical
 196|679|physical
 dictIndex=2300 dictItem=drug hypersensitivity
@@ -5603,12 +5603,7 @@ dictIndex=8340 dictItem=tendinitis
 dictIndex=8341 dictItem=tendon damage
 dictIndex=9141 dictItem=weakness
 199|11|loss
-199|308|pancreatitis
-199|322|acid
-199|327|reflux
 199|29|inability
-199|335|inability
-199|348|walk
 199|53|muscle
 199|60|pain
 199|66|weakness
@@ -5620,6 +5615,11 @@ dictIndex=9141 dictItem=weakness
 199|221|loss
 199|236|spoken
 199|267|inability
+199|308|pancreatitis
+199|322|acid
+199|327|reflux
+199|335|inability
+199|348|walk
 dictIndex=2315 dictItem=drug
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
@@ -6101,18 +6101,18 @@ dictIndex=9018 dictItem=vertigo
 dictIndex=9028 dictItem=tired
 dictIndex=9106 dictItem=walk zombie
 dictIndex=9312 dictItem=zombie
-215|132|sex
 215|0|zombie
-215|136|drive
 215|12|tired
-215|142|decrease
-215|154|balance
 215|41|pain
 215|62|loss
 215|78|unable
 215|88|walk
 215|93|vertigo
 215|121|vision
+215|132|sex
+215|136|drive
+215|142|decrease
+215|154|balance
 dictIndex=2315 dictItem=drug
 dictIndex=7874 dictItem=slight
 -------------------
@@ -6165,14 +6165,14 @@ dictIndex=5105 dictItem=loss memory
 dictIndex=5349 dictItem=memory loss
 dictIndex=6128 dictItem=pain
 dictIndex=6549 dictItem=pressure
-216|932|blood
-216|938|pressure
 216|797|cholesterol
-216|948|memory
 216|824|high
-216|955|loss
 216|863|feel
 216|927|high
+216|932|blood
+216|938|pressure
+216|948|memory
+216|955|loss
 -------------------
 dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
@@ -6293,12 +6293,12 @@ dictIndex=2512 dictItem=elevated liver enzyme
 dictIndex=3289 dictItem=fibromyalgia
 dictIndex=3290 dictItem=fibromyalgia symptom
 dictIndex=8253 dictItem=symptom
-218|519|enzymes
 218|348|symptoms
-218|578|liver
 218|441|arthritis
 218|452|fibromyalgia
 218|513|liver
+218|519|enzymes
+218|578|liver
 -------------------
 dictIndex=1579 dictItem=walk
 dictIndex=6128 dictItem=pain
@@ -6340,8 +6340,6 @@ dictIndex=6182 dictItem=painful muscle
 dictIndex=8480 dictItem=tingle
 dictIndex=8481 dictItem=tingle arm
 dictIndex=8483 dictItem=tingle face
-220|147|face
-220|156|neck
 220|25|painful
 220|54|painful
 220|65|walk
@@ -6351,6 +6349,8 @@ dictIndex=8483 dictItem=tingle face
 220|99|tingling
 220|111|feet
 220|116|arm
+220|147|face
+220|156|neck
 dictIndex=2315 dictItem=drug
 -------------------
 dictIndex=1588 dictItem=cramp
@@ -6994,17 +6994,17 @@ dictIndex=6128 dictItem=pain
 dictIndex=6132 dictItem=pain arm leg
 dictIndex=6133 dictItem=pain back
 dictIndex=6149 dictItem=pain leg
-246|297|knees
 246|218|chronic
 246|226|pain
 246|237|arms
 246|243|hands
 246|257|back
 246|274|legs
+246|297|knees
 dictIndex=892 dictItem=blood urine
 dictIndex=8253 dictItem=symptom
-246|492|symptoms
 246|343|urine
+246|492|symptoms
 dictIndex=8253 dictItem=symptom
 246|722|symptoms
 dictIndex=1271 dictItem=chronic
@@ -7110,9 +7110,7 @@ dictIndex=7824 dictItem=soreness
 dictIndex=9164 dictItem=weight gain
 251|7|MUSCLE
 251|14|SORENESS
-251|243|HAND
 251|34|LEG
-251|249|ODD
 251|51|PINS
 251|60|NEEDLES
 251|69|INSOMNIA
@@ -7121,6 +7119,8 @@ dictIndex=9164 dictItem=weight gain
 251|123|WEIGHT
 251|130|GAIN
 251|182|HAND
+251|243|HAND
+251|249|ODD
 dictIndex=5273 dictItem=depressed
 dictIndex=8521 dictItem=tiredness
 dictIndex=9166 dictItem=tiredness
@@ -7295,7 +7295,6 @@ dictIndex=6926 dictItem=red
 dictIndex=9141 dictItem=weakness
 258|6|muscle
 258|13|weakness
-258|144|muscles
 258|33|damage
 258|40|memory
 258|47|loss
@@ -7304,6 +7303,7 @@ dictIndex=9141 dictItem=weakness
 258|84|loss
 258|89|slowed
 258|111|brain
+258|144|muscles
 dictIndex=645 dictItem=back pain
 dictIndex=1579 dictItem=walk
 dictIndex=2409 dictItem=ear pain
@@ -7315,6 +7315,7 @@ dictIndex=6613 dictItem=problem walk
 dictIndex=7127 dictItem=ring ear
 dictIndex=7129 dictItem=ring ear
 dictIndex=7564 dictItem=sinus
+258|347|walk
 258|379|hand
 258|399|ringing
 258|413|ears
@@ -7322,16 +7323,15 @@ dictIndex=7564 dictItem=sinus
 258|425|problems
 258|449|pain
 258|460|back
-258|347|walk
 dictIndex=1579 dictItem=walk
 dictIndex=2315 dictItem=drug
 dictIndex=5063 dictItem=lose
 dictIndex=9141 dictItem=weakness
 dictIndex=9148 dictItem=weakness side body
-258|835|weakness
-258|866|side
 258|562|body
 258|611|walk
+258|835|weakness
+258|866|side
 dictIndex=2315 dictItem=drug
 dictIndex=7539 dictItem=side effect
 258|1113|side
@@ -7443,10 +7443,7 @@ dictIndex=9018 dictItem=vertigo
 dictIndex=9021 dictItem=fatigue
 dictIndex=9104 dictItem=walk sleep
 261|0|fatigue
-261|146|loss
-261|158|sex
 261|12|extremely
-261|162|drive
 261|27|sleep
 261|45|pain
 261|54|loss
@@ -7454,6 +7451,9 @@ dictIndex=9104 dictItem=walk sleep
 261|97|walk
 261|102|vertigo
 261|126|night
+261|146|loss
+261|158|sex
+261|162|drive
 dictIndex=1119 dictItem=sleep
 dictIndex=1120 dictItem=sleep
 dictIndex=1579 dictItem=walk
@@ -7474,15 +7474,15 @@ dictIndex=9104 dictItem=walk sleep
 dictIndex=9129 dictItem=weak
 dictIndex=9141 dictItem=weakness
 dictIndex=9147 dictItem=weakness leg
+261|283|sleep
+261|343|leg
+261|355|weak
 261|372|walk
 261|392|weakness
-261|283|sleep
 261|432|vertigo
 261|440|decreased
-261|620|levels
-261|343|leg
 261|519|energy
-261|355|weak
+261|620|levels
 -------------------
 dictIndex=1119 dictItem=sleep
 dictIndex=1120 dictItem=sleep
@@ -7515,12 +7515,12 @@ dictIndex=6747 dictItem=sleep
 dictIndex=7626 dictItem=sleep
 dictIndex=7688 dictItem=sleep
 dictIndex=9018 dictItem=vertigo
-262|306|PAIN
 262|230|SLEEP
-262|345|VERTIGO
 262|265|ENERGY
 262|272|LEVEL
 262|302|LEG
+262|306|PAIN
+262|345|VERTIGO
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=6128 dictItem=pain
@@ -7728,7 +7728,6 @@ dictIndex=7274 dictItem=sense smell
 dictIndex=7523 dictItem=shortness breath
 dictIndex=8681 dictItem=trouble swallow
 dictIndex=8975 dictItem=uterine bleeding
-269|583|pain
 269|322|decreased
 269|356|wbc
 269|362|trouble
@@ -7746,6 +7745,7 @@ dictIndex=8975 dictItem=uterine bleeding
 269|563|anxiety
 269|571|anemia
 269|578|back
+269|583|pain
 dictIndex=3146 dictItem=feel
 dictIndex=645 dictItem=back pain
 dictIndex=1492 dictItem=constant pain
@@ -7766,7 +7766,6 @@ dictIndex=6159 dictItem=pain side
 dictIndex=6190 dictItem=pain side
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
-269|939|back
 269|841|side
 269|846|effects
 269|856|constant
@@ -7774,6 +7773,7 @@ dictIndex=7541 dictItem=side pain
 269|890|muscle
 269|901|joint
 269|907|pain
+269|939|back
 dictIndex=2315 dictItem=drug
 dictIndex=1439 dictItem=confusion
 dictIndex=1448 dictItem=confusion muscle
@@ -7988,10 +7988,7 @@ dictIndex=5760 dictItem=neck pain
 dictIndex=6128 dictItem=pain
 dictIndex=6133 dictItem=pain back
 dictIndex=6152 dictItem=pain neck
-273|982|body
 273|835|Lipitor
-273|1038|back
-273|1050|head
 273|871|mess
 273|886|walk
 273|915|horrible
@@ -8000,6 +7997,9 @@ dictIndex=6152 dictItem=pain neck
 273|940|pain
 273|946|horrible
 273|955|pain
+273|982|body
+273|1038|back
+273|1050|head
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=3879 dictItem=hip knee
@@ -8071,11 +8071,11 @@ dictIndex=5886 dictItem=breath
 dictIndex=7517 dictItem=short breath
 dictIndex=7522 dictItem=short term memory
 dictIndex=7523 dictItem=shortness breath
-279|531|loss
-279|540|shortness
 279|513|short
 279|519|term
 279|524|memory
+279|531|loss
+279|540|shortness
 dictIndex=3057 dictItem=feel depressed
 dictIndex=3122 dictItem=feel depressed
 dictIndex=3146 dictItem=feel
@@ -8101,11 +8101,7 @@ dictIndex=7522 dictItem=short term memory
 dictIndex=7523 dictItem=shortness breath
 dictIndex=7963 dictItem=strange
 dictIndex=7967 dictItem=strange feeling
-279|891|memory
-279|899|head
-279|904|aches
 279|765|concerned
-279|914|shortness
 279|787|feeling
 279|795|strange
 279|833|strange
@@ -8113,6 +8109,10 @@ dictIndex=7967 dictItem=strange feeling
 279|872|loss
 279|880|short
 279|886|term
+279|891|memory
+279|899|head
+279|904|aches
+279|914|shortness
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 279|1040|cholesterol
@@ -8124,11 +8124,11 @@ dictIndex=1589 dictItem=cramp
 dictIndex=2315 dictItem=drug
 dictIndex=4913 dictItem=leg cramp
 dictIndex=8282 dictItem=talk
-280|175|leg
-280|179|cramps
 280|22|cramps
 280|85|walk
 280|100|talking
+280|175|leg
+280|179|cramps
 dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
 dictIndex=4913 dictItem=leg cramp
@@ -8151,15 +8151,15 @@ dictIndex=5605 dictItem=muscle cramp
 dictIndex=5607 dictItem=muscle cramp leg
 dictIndex=5649 dictItem=muscle cramp
 dictIndex=7539 dictItem=side effect
-280|597|felt
-280|612|cramps
 280|427|drug
-280|636|muscle
 280|452|leg
 280|456|cramps
 280|547|side
 280|552|effect
 280|571|cramps
+280|597|felt
+280|612|cramps
+280|636|muscle
 dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
 dictIndex=4824 dictItem=knee swell
@@ -8168,13 +8168,13 @@ dictIndex=4926 dictItem=leg swell
 dictIndex=7539 dictItem=side effect
 dictIndex=8175 dictItem=swell
 dictIndex=8203 dictItem=swell leg
-280|833|side
-280|838|effects
 280|717|leg
 280|721|cramps
 280|742|swelled
 280|810|leg
 280|814|cramps
+280|833|side
+280|838|effects
 dictIndex=7539 dictItem=side effect
 280|894|side
 280|899|effects
@@ -8324,13 +8324,13 @@ dictIndex=8393 dictItem=thigh pain
 dictIndex=8468 dictItem=tightness
 dictIndex=8473 dictItem=tightness muscle
 286|132|cramps
-286|353|muscle
 286|143|tightness
 286|171|ankles
-286|368|pain
 286|197|thigh
 286|208|back
 286|216|thigh
+286|353|muscle
+286|368|pain
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=2315 dictItem=drug
@@ -8777,11 +8777,8 @@ dictIndex=7688 dictItem=sleep
 dictIndex=8749 dictItem=unable sleep
 dictIndex=9018 dictItem=vertigo
 dictIndex=9021 dictItem=fatigue
-297|261|loss
-297|279|eye
 297|18|vertigo
 297|26|loss
-297|294|legs
 297|80|leg
 297|96|pain
 297|151|unable
@@ -8793,6 +8790,9 @@ dictIndex=9021 dictItem=fatigue
 297|197|loss
 297|210|fatigue
 297|238|slept
+297|261|loss
+297|279|eye
+297|294|legs
 dictIndex=2315 dictItem=drug
 dictIndex=2315 dictItem=drug
 dictIndex=3021 dictItem=fatigue
@@ -9197,7 +9197,6 @@ dictIndex=6149 dictItem=pain leg
 dictIndex=6549 dictItem=pressure
 dictIndex=9141 dictItem=weakness
 dictIndex=9147 dictItem=weakness leg
-312|139|pressure
 312|0|dizzyness
 312|25|increasing
 312|36|weakness
@@ -9208,6 +9207,7 @@ dictIndex=9147 dictItem=weakness leg
 312|105|memory
 312|112|loss
 312|133|blood
+312|139|pressure
 dictIndex=2315 dictItem=drug
 dictIndex=3067 dictItem=feel drug
 dictIndex=3146 dictItem=feel
@@ -9437,12 +9437,12 @@ dictIndex=6147 dictItem=pain joint
 dictIndex=6148 dictItem=pain joint muscle
 dictIndex=6151 dictItem=pain muscle joint
 dictIndex=9021 dictItem=fatigue
-319|222|muscle
-319|229|aching
-319|237|fatigue
 319|141|muscle
 319|210|joint
 319|216|pain
+319|222|muscle
+319|229|aching
+319|237|fatigue
 dictIndex=8253 dictItem=symptom
 319|302|symptoms
 dictIndex=8253 dictItem=symptom
@@ -9850,12 +9850,12 @@ dictIndex=7525 dictItem=shoulder pain
 dictIndex=7626 dictItem=sleep
 dictIndex=7688 dictItem=sleep
 dictIndex=8368 dictItem=terrible sleep
-331|481|shoulder
-331|496|hands
-331|518|sleep
 331|392|terrible
 331|401|aching
 331|408|pain
+331|481|shoulder
+331|496|hands
+331|518|sleep
 dictIndex=3021 dictItem=fatigue
 dictIndex=5063 dictItem=lose
 dictIndex=5612 dictItem=muscle fatigue
@@ -9967,9 +9967,9 @@ dictIndex=6116 dictItem=overweight
 dictIndex=6533 dictItem=pregnant
 dictIndex=7963 dictItem=strange
 336|138|Strange
+336|231|hot
 336|275|overweight
 336|289|pregnant
-336|231|hot
 dictIndex=3467 dictItem=gas
 dictIndex=7824 dictItem=soreness
 336|364|gas
@@ -10433,18 +10433,18 @@ dictIndex=6190 dictItem=pain side
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
 dictIndex=8253 dictItem=symptom
+357|270|drug
+357|319|side
+357|324|effects
+357|348|feel
+357|703|symptoms
+357|816|symptoms
 357|858|symptoms
 357|877|memory
-357|703|symptoms
-357|270|drug
 357|900|muscle
 357|907|aches
 357|917|pain
 357|923|loss
-357|319|side
-357|324|effects
-357|348|feel
-357|816|symptoms
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=434 dictItem=ankle pain
@@ -10491,9 +10491,9 @@ dictIndex=1266 dictItem=cholesterol
 dictIndex=1579 dictItem=walk
 dictIndex=4267 dictItem=cholesterol
 dictIndex=6997 dictItem=reduction
-358|566|cholesterol
 358|427|change
 358|529|walk
+358|566|cholesterol
 dictIndex=1266 dictItem=cholesterol
 dictIndex=2315 dictItem=drug
 dictIndex=4267 dictItem=cholesterol
@@ -10695,9 +10695,9 @@ dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
 dictIndex=6128 dictItem=pain
 dictIndex=9018 dictItem=vertigo
+362|317|PAIN
 362|441|VERTIGO
 362|449|CRAMPS
-362|317|PAIN
 -------------------
 dictIndex=547 dictItem=arm pain
 dictIndex=1492 dictItem=constant pain
@@ -10851,10 +10851,10 @@ dictIndex=3749 dictItem=heart problem
 365|906|heart
 dictIndex=1012 dictItem=break
 dictIndex=5003 dictItem=liver damage
-365|1377|breaking
-365|1395|damaging
 365|1257|liver
 365|1301|broken
+365|1377|breaking
+365|1395|damaging
 dictIndex=556 dictItem=arthritis
 dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
@@ -10907,13 +10907,13 @@ dictIndex=8078 dictItem=suffer withdrawal
 dictIndex=8253 dictItem=symptom
 dictIndex=9214 dictItem=withdrawal effect
 dictIndex=9222 dictItem=withdrawal symptom
-366|500|cold
-366|512|withdrawal
-366|523|symptoms
 366|384|suffer
 366|397|side
 366|402|effects
 366|437|cold
+366|500|cold
+366|512|withdrawal
+366|523|symptoms
 dictIndex=131 dictItem=ache
 dictIndex=3146 dictItem=feel
 366|856|aches
@@ -11292,7 +11292,6 @@ dictIndex=8480 dictItem=tingle
 dictIndex=8481 dictItem=tingle arm
 dictIndex=8488 dictItem=tingle hand
 dictIndex=9021 dictItem=fatigue
-384|178|symtoms
 384|33|muscle
 384|40|aches
 384|57|tingling
@@ -11302,9 +11301,10 @@ dictIndex=9021 dictItem=fatigue
 384|97|fatigue
 384|110|sleep
 384|141|cholesterol
+384|178|symtoms
 dictIndex=8253 dictItem=symptom
-384|421|symptoms
 384|351|symptoms
+384|421|symptoms
 dictIndex=547 dictItem=arm pain
 dictIndex=3021 dictItem=fatigue
 dictIndex=3146 dictItem=feel
@@ -11316,11 +11316,11 @@ dictIndex=6128 dictItem=pain
 dictIndex=7354 dictItem=severe fatigue
 dictIndex=7400 dictItem=severe problem
 dictIndex=9021 dictItem=fatigue
+384|645|hands
 384|760|pain
 384|768|muscles
 384|781|severe
 384|788|fatigue
-384|645|hands
 384|805|Problem
 dictIndex=3021 dictItem=fatigue
 dictIndex=5025 dictItem=live pain
@@ -11456,10 +11456,7 @@ dictIndex=9170 dictItem=weight gain loss
 dictIndex=9173 dictItem=weight increase
 dictIndex=9175 dictItem=weight loss
 dictIndex=9179 dictItem=weird dream
-388|272|lapses
-388|289|weight
 388|28|muscle
-388|296|gain
 388|35|pains
 388|50|tiredness
 388|61|irritability
@@ -11478,6 +11475,9 @@ dictIndex=9179 dictItem=weird dream
 388|241|blood
 388|247|glucose
 388|265|memory
+388|272|lapses
+388|289|weight
+388|296|gain
 dictIndex=1359 dictItem=cold
 dictIndex=2315 dictItem=drug
 dictIndex=3067 dictItem=feel drug
@@ -11524,7 +11524,6 @@ dictIndex=7835 dictItem=spasm
 dictIndex=8521 dictItem=tiredness
 dictIndex=9044 dictItem=vision problem
 dictIndex=9166 dictItem=tiredness
-389|261|appetite
 389|24|memory
 389|31|loss
 389|37|hair
@@ -11546,6 +11545,7 @@ dictIndex=9166 dictItem=tiredness
 389|234|extreme
 389|242|tiredness
 389|253|lack
+389|261|appetite
 dictIndex=2766 dictItem=experience
 389|356|experienced
 dictIndex=1588 dictItem=cramp
@@ -11830,10 +11830,10 @@ dictIndex=3146 dictItem=feel
 dictIndex=7774 dictItem=slur
 dictIndex=8282 dictItem=talk
 dictIndex=9129 dictItem=weak
-401|260|weak
 401|147|talk
 401|190|concentrate
 401|215|walk
+401|260|weak
 dictIndex=9129 dictItem=weak
 401|330|weak
 dictIndex=1266 dictItem=cholesterol
@@ -12229,18 +12229,18 @@ dictIndex=8500 dictItem=tire
 dictIndex=8514 dictItem=tire
 dictIndex=9129 dictItem=weak
 dictIndex=9133 dictItem=weak feeling
-422|280|term
-422|285|memory
-422|292|loss
 422|165|side
-422|319|temper
 422|170|effects
-422|334|hair
 422|207|feeling
-422|339|loss
 422|215|tired
 422|235|sore
 422|240|weak
+422|280|term
+422|285|memory
+422|292|loss
+422|319|temper
+422|334|hair
+422|339|loss
 dictIndex=5152 dictItem=lot pain
 dictIndex=5760 dictItem=neck pain
 dictIndex=6128 dictItem=pain
@@ -12619,7 +12619,6 @@ dictIndex=7976 dictItem=stress
 dictIndex=8505 dictItem=tired drive
 dictIndex=8508 dictItem=tired
 dictIndex=9028 dictItem=tired
-445|134|driving
 445|0|Tired
 445|34|hair
 445|39|loss
@@ -12628,6 +12627,7 @@ dictIndex=9028 dictItem=tired
 445|93|loss
 445|116|fell
 445|121|asleep
+445|134|driving
 dictIndex=3021 dictItem=fatigue
 dictIndex=9021 dictItem=fatigue
 445|234|fatigue
@@ -12684,7 +12684,6 @@ dictIndex=8511 dictItem=tired lot
 dictIndex=8517 dictItem=tired time
 dictIndex=8518 dictItem=tired time sleep
 dictIndex=9028 dictItem=tired
-448|377|low
 448|241|tired
 448|260|sleep
 448|281|lot
@@ -12692,6 +12691,7 @@ dictIndex=9028 dictItem=tired
 448|293|driving
 448|326|sex
 448|330|drive
+448|377|low
 dictIndex=131 dictItem=ache
 dictIndex=6007 dictItem=odd
 448|437|odd
@@ -13151,10 +13151,10 @@ dictIndex=6190 dictItem=pain side
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
 465|275|side
-465|437|pain
 465|280|effects
 465|324|experience
 465|341|pain
+465|437|pain
 dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
 dictIndex=6128 dictItem=pain
@@ -13719,11 +13719,7 @@ dictIndex=8127 dictItem=suicide
 dictIndex=8415 dictItem=thought suicide
 dictIndex=8468 dictItem=tightness
 dictIndex=9299 dictItem=depression
-488|178|thoughts
-488|190|suicide
 488|21|loss
-488|198|tightness
-488|237|feeling
 488|78|term
 488|83|memory
 488|90|loss
@@ -13731,6 +13727,10 @@ dictIndex=9299 dictItem=depression
 488|101|headedness
 488|117|daze
 488|148|depression
+488|178|thoughts
+488|190|suicide
+488|198|tightness
+488|237|feeling
 dictIndex=3507 dictItem=feeling tiredness
 dictIndex=6603 dictItem=problem read
 dictIndex=8500 dictItem=tire
@@ -13865,9 +13865,9 @@ dictIndex=6265 dictItem=parkinson
 dictIndex=6596 dictItem=problem memory
 dictIndex=6597 dictItem=problem memory problem
 dictIndex=8629 dictItem=tremor
+493|55|parkinson
 493|191|memory
 493|198|problem
-493|55|parkinson
 493|223|tremor
 dictIndex=6265 dictItem=parkinson
 dictIndex=8253 dictItem=symptom
@@ -14041,9 +14041,9 @@ dictIndex=8713 dictItem=twitch muscle
 498|66|muscle
 498|82|memory
 498|89|problems
-498|267|symptoms
 498|99|peripheral
 498|110|neuropathy
+498|267|symptoms
 dictIndex=2315 dictItem=drug
 -------------------
 dictIndex=3021 dictItem=fatigue
@@ -14194,11 +14194,9 @@ dictIndex=6612 dictItem=problem vision
 dictIndex=7564 dictItem=sinus
 dictIndex=7906 dictItem=stiffness
 dictIndex=9044 dictItem=vision problem
-504|274|problems
 504|0|Extreme
 504|8|back
 504|13|pain
-504|294|gas
 504|19|nerve
 504|43|problems
 504|84|stiffness
@@ -14215,6 +14213,8 @@ dictIndex=9044 dictItem=vision problem
 504|222|problems
 504|244|heart
 504|250|palputations
+504|274|problems
+504|294|gas
 dictIndex=9153 dictItem=wear
 dictIndex=9250 dictItem=wear
 504|299|Wore
@@ -14252,10 +14252,10 @@ dictIndex=6265 dictItem=parkinson
 dictIndex=2766 dictItem=experience
 dictIndex=6265 dictItem=parkinson
 dictIndex=8253 dictItem=symptom
-506|563|Parkinson
 506|435|Parkinson
 506|485|experiencing
 506|507|symptoms
+506|563|Parkinson
 dictIndex=2315 dictItem=drug
 dictIndex=1117 dictItem=control
 dictIndex=1266 dictItem=cholesterol
@@ -14647,14 +14647,14 @@ dictIndex=6597 dictItem=problem memory problem
 dictIndex=6612 dictItem=problem vision
 dictIndex=6613 dictItem=problem walk
 dictIndex=9044 dictItem=vision problem
-526|140|loss
-526|146|Vision
-526|166|problems
 526|57|leg
 526|61|pain
 526|91|walking
 526|124|fog
 526|133|memory
+526|140|loss
+526|146|Vision
+526|166|problems
 dictIndex=2315 dictItem=drug
 dictIndex=2315 dictItem=drug
 dictIndex=2315 dictItem=drug
@@ -15240,7 +15240,6 @@ dictIndex=9164 dictItem=weight gain
 dictIndex=9170 dictItem=weight gain loss
 dictIndex=9175 dictItem=weight loss
 dictIndex=9299 dictItem=depression
-546|1293|hypertension
 546|1119|depression
 546|1131|memory
 546|1138|loss
@@ -15259,6 +15258,7 @@ dictIndex=9299 dictItem=depression
 546|1263|eyes
 546|1269|weight
 546|1276|gain
+546|1293|hypertension
 dictIndex=8497 dictItem=tinnitus
 546|1404|tinnitus
 dictIndex=1887 dictItem=depression
@@ -15744,16 +15744,16 @@ dictIndex=8214 dictItem=swell foot
 dictIndex=8220 dictItem=swell pain leg
 564|7|pain
 564|15|legs
-564|152|term
 564|20|calf
 564|25|feet
 564|30|cramping
-564|176|confusion
 564|42|legs
 564|51|feet
 564|75|swelling
 564|105|limbs
 564|111|backache
+564|152|term
+564|176|confusion
 dictIndex=1102 dictItem=buzz
 dictIndex=1887 dictItem=depression
 dictIndex=4895 dictItem=depression
@@ -15919,8 +15919,6 @@ dictIndex=7369 dictItem=severe joint pain
 dictIndex=7421 dictItem=severe swell
 dictIndex=7555 dictItem=significantly decrease
 dictIndex=8175 dictItem=swell
-568|622|severe
-568|662|back
 568|525|swelling
 568|544|significantly
 568|559|muscle
@@ -15929,6 +15927,8 @@ dictIndex=8175 dictItem=swell
 568|582|pain
 568|600|memory
 568|607|loss
+568|622|severe
+568|662|back
 -------------------
 dictIndex=547 dictItem=arm pain
 dictIndex=645 dictItem=back pain
@@ -16037,12 +16037,12 @@ dictIndex=6159 dictItem=pain side
 dictIndex=6190 dictItem=pain side
 dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
-570|580|side
-570|585|effects
 570|444|hair
 570|449|loss
 570|465|pain
 570|503|pain
+570|580|side
+570|585|effects
 dictIndex=2766 dictItem=experience
 dictIndex=3602 dictItem=hair loss
 dictIndex=5096 dictItem=loss hair
@@ -16247,7 +16247,6 @@ dictIndex=7130 dictItem=ringing ear
 dictIndex=7410 dictItem=severe short term memory loss
 dictIndex=7522 dictItem=short term memory
 dictIndex=9018 dictItem=vertigo
-578|148|ringing
 578|41|vertigo
 578|50|short
 578|56|term
@@ -16257,6 +16256,7 @@ dictIndex=9018 dictItem=vertigo
 578|106|cramps
 578|114|muscle
 578|121|loss
+578|148|ringing
 dictIndex=1064 dictItem=bruise
 dictIndex=1065 dictItem=bruise
 dictIndex=1716 dictItem=decrease
@@ -16313,13 +16313,13 @@ dictIndex=7916 dictItem=stomach ache
 dictIndex=7931 dictItem=stomach pain
 dictIndex=7939 dictItem=stomach problem
 579|182|indigestion
-579|349|eyes
 579|208|stomach
 579|216|pain
 579|222|muscle
 579|229|aches
 579|271|problems
 579|282|suddenly
+579|349|eyes
 dictIndex=2315 dictItem=drug
 dictIndex=2766 dictItem=experience
 579|501|experience
@@ -16351,12 +16351,12 @@ dictIndex=6128 dictItem=pain
 dictIndex=2315 dictItem=drug
 dictIndex=7400 dictItem=severe problem
 dictIndex=7539 dictItem=side effect
-581|657|side
 581|493|severe
-581|662|effect
 581|500|side
 581|547|side
 581|602|problem
+581|657|side
+581|662|effect
 -------------------
 dictIndex=434 dictItem=ankle pain
 dictIndex=3238 dictItem=foot pain
@@ -16538,14 +16538,14 @@ dictIndex=3706 dictItem=headache dizziness
 dictIndex=4267 dictItem=cholesterol
 dictIndex=7539 dictItem=side effect
 dictIndex=8253 dictItem=symptom
-590|532|cholesterol
 590|395|glossitis
-590|580|glossitis
-590|590|headaches
 590|415|symptoms
-590|604|dizziness
 590|447|side
 590|452|effects
+590|532|cholesterol
+590|580|glossitis
+590|590|headaches
+590|604|dizziness
 dictIndex=3146 dictItem=feel
 dictIndex=1117 dictItem=control
 dictIndex=1266 dictItem=cholesterol
@@ -17726,13 +17726,13 @@ dictIndex=6128 dictItem=pain
 dictIndex=6133 dictItem=pain back
 dictIndex=6746 dictItem=strain
 dictIndex=7963 dictItem=strange
-646|197|muscles
 646|63|chronic
 646|81|back
 646|86|pain
 646|127|strange
 646|182|strain
 646|192|back
+646|197|muscles
 dictIndex=1588 dictItem=cramp
 dictIndex=1589 dictItem=cramp
 dictIndex=4913 dictItem=leg cramp
@@ -18200,17 +18200,17 @@ dictIndex=6128 dictItem=pain
 dictIndex=6133 dictItem=pain back
 dictIndex=8521 dictItem=tiredness
 dictIndex=9166 dictItem=tiredness
-663|532|hurt
-663|572|heart
 663|357|heart
-663|578|attack
 663|363|attack
-663|601|boils
 663|401|felt
 663|419|back
 663|424|pain
 663|433|tiredness
 663|451|high
+663|532|hurt
+663|572|heart
+663|578|attack
+663|601|boils
 -------------------
 dictIndex=7539 dictItem=side effect
 664|48|side
@@ -18245,13 +18245,13 @@ dictIndex=7915 dictItem=stomach
 dictIndex=7931 dictItem=stomach pain
 dictIndex=9093 dictItem=wake
 665|523|pain
-665|717|night
 665|538|sleep
 665|547|woke
+665|622|driving
+665|717|night
 665|787|constipation
 665|804|stomach
 665|812|pain
-665|622|driving
 665|825|hungry
 -------------------
 dictIndex=645 dictItem=back pain
@@ -18454,11 +18454,11 @@ dictIndex=5643 dictItem=muscle twitching
 dictIndex=7775 dictItem=slurred speech
 dictIndex=8253 dictItem=symptom
 dictIndex=8265 dictItem=symptom worse
-672|403|slurred
 672|253|symptoms
-672|411|speech
 672|275|worse
 672|330|twitching
+672|403|slurred
+672|411|speech
 dictIndex=4786 dictItem=joint pain
 dictIndex=6128 dictItem=pain
 dictIndex=6147 dictItem=pain joint
@@ -18683,12 +18683,12 @@ dictIndex=6128 dictItem=pain
 dictIndex=6137 dictItem=pain chest
 dictIndex=8480 dictItem=tingle
 dictIndex=8493 dictItem=tingle sensation
-686|271|tingling
-686|284|burning
 686|123|pain
 686|141|chest
 686|182|sensation
 686|244|head
+686|271|tingling
+686|284|burning
 dictIndex=2766 dictItem=experience
 dictIndex=7203 dictItem=scary feeling
 686|324|experienced
@@ -18902,12 +18902,12 @@ dictIndex=4916 dictItem=leg pain
 dictIndex=6128 dictItem=pain
 dictIndex=6149 dictItem=pain leg
 dictIndex=7976 dictItem=stress
-694|449|arthritis
 694|291|stress
 694|322|arthritis
 694|370|leg
 694|374|pain
 694|388|cramps
+694|449|arthritis
 dictIndex=1868 dictItem=depression fatigue
 dictIndex=1887 dictItem=depression
 dictIndex=2577 dictItem=energy
@@ -18933,10 +18933,10 @@ dictIndex=8253 dictItem=symptom
 694|1032|symptoms
 dictIndex=1117 dictItem=control
 dictIndex=5216 dictItem=lower weight
-694|1341|control
 694|1195|lower
 694|1227|lowered
 694|1308|weight
+694|1341|control
 dictIndex=8253 dictItem=symptom
 694|1428|symptoms
 -------------------
@@ -19199,7 +19199,6 @@ dictIndex=7539 dictItem=side effect
 dictIndex=7541 dictItem=side pain
 dictIndex=7815 dictItem=sore arm
 705|0|severe
-705|331|effects
 705|7|joint
 705|13|pains
 705|27|help
@@ -19217,6 +19216,7 @@ dictIndex=7815 dictItem=sore arm
 705|252|skin
 705|266|body
 705|326|side
+705|331|effects
 dictIndex=7539 dictItem=side effect
 705|364|side
 705|369|effects
@@ -19270,18 +19270,18 @@ dictIndex=3723 dictItem=hear
 dictIndex=1579 dictItem=walk
 dictIndex=3911 dictItem=horrible
 dictIndex=3922 dictItem=horrible medication
-708|252|horrible
 708|63|walking
+708|252|horrible
 708|269|medication
 dictIndex=801 dictItem=bladder problem
 dictIndex=881 dictItem=blood problem
 dictIndex=892 dictItem=blood urine
 dictIndex=6582 dictItem=problem bladder
-708|558|problem
 708|388|bladder
 708|418|blood
-708|617|problems
 708|447|urine
+708|558|problem
+708|617|problems
 dictIndex=1119 dictItem=sleep
 dictIndex=1120 dictItem=sleep
 dictIndex=1579 dictItem=walk
@@ -20084,12 +20084,12 @@ dictIndex=8960 dictItem=urinate
 dictIndex=9028 dictItem=tired
 dictIndex=9039 dictItem=vision blur
 dictIndex=9141 dictItem=weakness
-738|147|spells
 738|8|weakness
 738|105|sleeping
 738|125|blurred
 738|133|vision
 738|141|Dizzy
+738|147|spells
 -------------------
 dictIndex=1271 dictItem=chronic
 dictIndex=1290 dictItem=chronic pain
@@ -20126,9 +20126,9 @@ dictIndex=6151 dictItem=pain muscle joint
 dictIndex=3733 dictItem=heart disease
 dictIndex=5025 dictItem=live pain
 dictIndex=6128 dictItem=pain
-739|536|live
 739|399|disease
 739|487|pain
+739|536|live
 dictIndex=3146 dictItem=feel
 dictIndex=7539 dictItem=side effect
 739|634|side
@@ -20789,7 +20789,6 @@ dictIndex=3629 dictItem=hand pain
 dictIndex=3639 dictItem=hand pain
 dictIndex=6128 dictItem=pain
 dictIndex=7525 dictItem=shoulder pain
-773|284|sensations
 773|168|pains
 773|177|hands
 773|183|arms
@@ -20797,6 +20796,7 @@ dictIndex=7525 dictItem=shoulder pain
 773|228|cold
 773|238|arms
 773|276|burning
+773|284|sensations
 dictIndex=7539 dictItem=side effect
 773|393|side
 773|398|effects
@@ -21064,8 +21064,8 @@ dictIndex=2315 dictItem=drug
 dictIndex=5760 dictItem=neck pain
 dictIndex=6128 dictItem=pain
 dictIndex=6152 dictItem=pain neck
-780|2840|pains
 780|2835|neck
+780|2840|pains
 dictIndex=2315 dictItem=drug
 -------------------
 dictIndex=131 dictItem=ache
@@ -21178,16 +21178,16 @@ dictIndex=8572 dictItem=toxic
 dictIndex=9141 dictItem=weakness
 787|619|side
 787|624|effect
+787|682|rhabdomyolysis
+787|707|muscle
+787|720|break
+787|755|toxic
 787|798|Symptoms
 787|810|rhabdomyolysis
 787|833|muscle
 787|840|pain
-787|682|rhabdomyolysis
-787|707|muscle
 787|861|weakness
-787|720|break
 787|909|back
-787|755|toxic
 dictIndex=3282 dictItem=fever
 dictIndex=3510 dictItem=malaise
 dictIndex=5282 dictItem=malaise
@@ -21378,16 +21378,16 @@ dictIndex=872 dictItem=blood pressure change
 dictIndex=6128 dictItem=pain
 dictIndex=6549 dictItem=pressure
 dictIndex=6553 dictItem=pressure go
-793|480|blood
-793|486|pressure
 793|366|pain
-793|542|change
-793|562|blood
 793|409|blood
 793|415|pressure
 793|436|arthritis
-793|598|arthritis
 793|462|going
+793|480|blood
+793|486|pressure
+793|542|change
+793|562|blood
+793|598|arthritis
 dictIndex=1266 dictItem=cholesterol
 dictIndex=2315 dictItem=drug
 dictIndex=4267 dictItem=cholesterol
@@ -21801,9 +21801,9 @@ dictIndex=9147 dictItem=weakness leg
 814|27|weakness
 814|39|legs
 814|45|pain
-814|175|control
 814|53|legs
 814|71|Rashes
+814|175|control
 dictIndex=645 dictItem=back pain
 dictIndex=1085 dictItem=burn
 dictIndex=1093 dictItem=burn pain
@@ -21824,6 +21824,8 @@ dictIndex=6747 dictItem=sleep
 dictIndex=7626 dictItem=sleep
 dictIndex=7688 dictItem=sleep
 dictIndex=8961 dictItem=urination
+814|515|burning
+814|523|sensations
 814|535|pains
 814|548|back
 814|554|frequent
@@ -21831,8 +21833,6 @@ dictIndex=8961 dictItem=urination
 814|591|hard
 814|596|time
 814|601|sleeping
-814|515|burning
-814|523|sensations
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=570 dictItem=asthma
@@ -22075,18 +22075,13 @@ dictIndex=8067 dictItem=suffer libido
 dictIndex=8280 dictItem=take headache
 dictIndex=8500 dictItem=tire
 dictIndex=8514 dictItem=tire
-821|820|night
 821|24|taking
-821|843|tired
-821|851|lot
 821|63|takes
 821|69|high
 821|74|blood
 821|80|pressure
-821|972|taking
 821|136|side
 821|141|effects
-821|1005|weeks
 821|186|decreased
 821|196|libido
 821|319|suffering
@@ -22106,6 +22101,11 @@ dictIndex=8514 dictItem=tire
 821|770|suffers
 821|783|headaches
 821|801|sleep
+821|820|night
+821|843|tired
+821|851|lot
+821|972|taking
+821|1005|weeks
 -------------------
 dictIndex=3146 dictItem=feel
 dictIndex=3189 dictItem=feel strange
@@ -22740,10 +22740,10 @@ dictIndex=9263 dictItem=worse weight
 dictIndex=1266 dictItem=cholesterol
 dictIndex=2438 dictItem=edema
 dictIndex=4267 dictItem=cholesterol
-847|741|cholesterol
 847|585|edema
 847|598|cholesterol
 847|672|edema
+847|741|cholesterol
 -------------------
 dictIndex=567 dictItem=aspiration
 848|98|aspirations
@@ -22966,9 +22966,9 @@ dictIndex=1100 dictItem=bursitis
 dictIndex=1579 dictItem=walk
 dictIndex=3146 dictItem=feel
 dictIndex=6128 dictItem=pain
+856|904|bursitis
 856|981|pain
 856|997|walk
-856|904|bursitis
 dictIndex=1266 dictItem=cholesterol
 dictIndex=2315 dictItem=drug
 dictIndex=4267 dictItem=cholesterol
@@ -23047,9 +23047,9 @@ dictIndex=1100 dictItem=bursitis
 dictIndex=1579 dictItem=walk
 dictIndex=3146 dictItem=feel
 dictIndex=6128 dictItem=pain
+859|825|bursitis
 859|902|pain
 859|918|walk
-859|825|bursitis
 dictIndex=1266 dictItem=cholesterol
 dictIndex=2315 dictItem=drug
 dictIndex=4267 dictItem=cholesterol
@@ -23182,10 +23182,10 @@ dictIndex=4267 dictItem=cholesterol
 dictIndex=3238 dictItem=foot pain
 dictIndex=3373 dictItem=foot pain
 dictIndex=6128 dictItem=pain
-865|164|pain
 865|77|foot
 865|82|pain
 865|124|foot
+865|164|pain
 dictIndex=3238 dictItem=foot pain
 dictIndex=3373 dictItem=foot pain
 dictIndex=6128 dictItem=pain
@@ -23379,13 +23379,13 @@ dictIndex=8634 dictItem=tremor hand
 dictIndex=8637 dictItem=tremor hand
 872|0|severe
 872|7|pain
-872|143|tremor
-872|158|hand
 872|16|severe
 872|37|movement
 872|59|muscles
 872|116|cataract
 872|126|parkinson
+872|143|tremor
+872|158|hand
 dictIndex=1150 dictItem=cataract
 dictIndex=2921 dictItem=eye pain
 dictIndex=2940 dictItem=eye pain
@@ -23396,12 +23396,12 @@ dictIndex=7426 dictItem=severe tremor
 dictIndex=8629 dictItem=tremor
 872|207|muscle
 872|214|pain
-872|383|eye
-872|426|cataracts
 872|289|tremor
-872|446|severe
 872|319|eye
 872|332|cataract
+872|383|eye
+872|426|cataracts
+872|446|severe
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 872|736|cholesterol
@@ -23452,9 +23452,7 @@ dictIndex=9106 dictItem=walk zombie
 dictIndex=9299 dictItem=depression
 dictIndex=9312 dictItem=zombie
 873|0|loss
-873|256|sleep
 873|15|strength
-873|299|remember
 873|24|vertigo
 873|42|cramping
 873|64|loss
@@ -23469,6 +23467,8 @@ dictIndex=9312 dictItem=zombie
 873|160|unable
 873|170|walk
 873|208|reduced
+873|256|sleep
+873|299|remember
 dictIndex=2315 dictItem=drug
 dictIndex=3067 dictItem=feel drug
 dictIndex=3146 dictItem=feel
@@ -23624,8 +23624,8 @@ dictIndex=5063 dictItem=lose
 dictIndex=871 dictItem=blood pressure
 dictIndex=6549 dictItem=pressure
 dictIndex=6553 dictItem=pressure go
-878|807|go
 878|798|pressure
+878|807|go
 dictIndex=8253 dictItem=symptom
 878|983|symptoms
 -------------------
@@ -23753,7 +23753,6 @@ dictIndex=8194 dictItem=swell foot
 dictIndex=8211 dictItem=swell ankle
 dictIndex=8214 dictItem=swell foot
 dictIndex=9018 dictItem=vertigo
-887|299|loss
 887|7|knee
 887|12|pain
 887|54|pain
@@ -23771,6 +23770,7 @@ dictIndex=9018 dictItem=vertigo
 887|260|confusion
 887|283|vertigo
 887|292|memory
+887|299|loss
 dictIndex=4786 dictItem=joint pain
 dictIndex=6128 dictItem=pain
 dictIndex=6147 dictItem=pain joint
@@ -23871,14 +23871,14 @@ dictIndex=6849 dictItem=rash
 dictIndex=7539 dictItem=side effect
 dictIndex=7626 dictItem=sleep
 dictIndex=7688 dictItem=sleep
-891|561|side
-891|566|effects
 891|432|flu
 891|442|cramps
 891|459|legs
 891|465|rashes
 891|480|sleep
 891|500|sleep
+891|561|side
+891|566|effects
 dictIndex=5336 dictItem=membrane
 dictIndex=5578 dictItem=mucous membrane
 dictIndex=5939 dictItem=numbness
@@ -24046,6 +24046,7 @@ dictIndex=6149 dictItem=pain leg
 dictIndex=6151 dictItem=pain muscle joint
 dictIndex=9129 dictItem=weak
 dictIndex=9131 dictItem=weak body
+899|336|experience
 899|401|loss
 899|406|body
 899|411|balance
@@ -24056,7 +24057,6 @@ dictIndex=9131 dictItem=weak body
 899|446|weak
 899|451|legs
 899|466|memory
-899|336|experience
 899|473|loss
 dictIndex=5063 dictItem=lose
 dictIndex=7539 dictItem=side effect
@@ -24206,8 +24206,8 @@ dictIndex=4533 dictItem=indigestion
 905|35|indigestion
 dictIndex=886 dictItem=blood sugar
 dictIndex=887 dictItem=blood sugar level
-905|255|sugar
 905|148|levels
+905|255|sugar
 dictIndex=2315 dictItem=drug
 -------------------
 dictIndex=131 dictItem=ache
@@ -24422,15 +24422,15 @@ dictIndex=6171 dictItem=pain trouble
 dictIndex=7525 dictItem=shoulder pain
 dictIndex=8667 dictItem=trouble perform routine task
 917|0|muscle
-917|166|shoulder
 917|7|pain
-917|175|pain
 917|31|hands
 917|91|perform
 917|99|routine
 917|107|tasks
 917|127|trouble
 917|156|neck
+917|166|shoulder
+917|175|pain
 -------------------
 dictIndex=1119 dictItem=sleep
 dictIndex=1120 dictItem=sleep
@@ -24499,12 +24499,12 @@ dictIndex=7577 dictItem=sit
 dictIndex=7578 dictItem=sit
 dictIndex=8235 dictItem=swollen
 dictIndex=8236 dictItem=swollen face
-923|169|walk
-923|262|walk
 923|60|face
 923|69|swollen
-923|293|standing
 923|127|sitting
+923|169|walk
+923|262|walk
+923|293|standing
 923|329|problem
 923|342|sitting
 dictIndex=645 dictItem=back pain
@@ -24921,7 +24921,6 @@ dictIndex=9175 dictItem=weight loss
 935|305|body
 935|311|loss
 935|319|balance
-935|715|painful
 935|357|loss
 935|365|weight
 935|379|weakness
@@ -24931,15 +24930,16 @@ dictIndex=9175 dictItem=weight loss
 935|477|urination
 935|546|loss
 935|604|body
+935|715|painful
 dictIndex=3111 dictItem=feel bad
 dictIndex=3146 dictItem=feel
 dictIndex=3179 dictItem=feel bad
 dictIndex=7539 dictItem=side effect
-935|990|bad
-935|994|effect
 935|758|feel
 935|791|side
 935|796|effect
+935|990|bad
+935|994|effect
 -------------------
 dictIndex=1085 dictItem=burn
 dictIndex=1089 dictItem=burn foot
@@ -25154,14 +25154,14 @@ dictIndex=5349 dictItem=memory loss
 dictIndex=5939 dictItem=numbness
 dictIndex=6128 dictItem=pain
 dictIndex=8253 dictItem=symptom
-947|139|headache
-947|149|vision
 947|18|numbness
-947|171|pain
 947|77|memory
 947|94|hair
 947|99|loss
 947|112|symptom
+947|139|headache
+947|149|vision
+947|171|pain
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 dictIndex=7302 dictItem=serum cholesterol
@@ -25171,8 +25171,8 @@ dictIndex=7539 dictItem=side effect
 947|265|side
 947|270|effects
 dictIndex=7539 dictItem=side effect
-947|539|effects
 947|534|side
+947|539|effects
 -------------------
 dictIndex=6444 dictItem=pin needle
 948|22|pins
@@ -25715,9 +25715,9 @@ dictIndex=1113 dictItem=cancer
 dictIndex=1114 dictItem=cancer brain
 dictIndex=2315 dictItem=drug
 dictIndex=4131 dictItem=illness
-972|359|cancer
 972|326|brain
 972|332|cancer
+972|359|cancer
 dictIndex=1113 dictItem=cancer
 dictIndex=1954 dictItem=diagnosis
 972|373|cancer
@@ -25728,8 +25728,8 @@ dictIndex=4267 dictItem=cholesterol
 972|737|cholesterol
 dictIndex=1113 dictItem=cancer
 dictIndex=2766 dictItem=experience
-972|1222|experience
 972|1082|cancer
+972|1222|experience
 972|1328|experiences
 dictIndex=266 dictItem=aggressive
 dictIndex=984 dictItem=brain damage
@@ -25738,16 +25738,16 @@ dictIndex=1114 dictItem=cancer brain
 dictIndex=1579 dictItem=walk
 dictIndex=8746 dictItem=unable speak
 dictIndex=8752 dictItem=unable walk
-972|1583|brain
 972|1410|speak
-972|1589|cancer
 972|1443|brain
 972|1449|cancer
-972|1610|unable
 972|1463|aggressive
-972|1620|speak
 972|1513|walking
 972|1559|damage
+972|1583|brain
+972|1589|cancer
+972|1610|unable
+972|1620|speak
 dictIndex=2766 dictItem=experience
 972|1865|experiencing
 -------------------
@@ -25888,10 +25888,10 @@ dictIndex=7906 dictItem=stiffness
 dictIndex=7539 dictItem=side effect
 dictIndex=8235 dictItem=swollen
 dictIndex=8241 dictItem=swollen joint
-979|1288|side
-979|1293|effects
 979|1243|swollen
 979|1251|joints
+979|1288|side
+979|1293|effects
 dictIndex=7900 dictItem=stiff muscle
 dictIndex=8235 dictItem=swollen
 dictIndex=8241 dictItem=swollen joint
@@ -26034,11 +26034,11 @@ dictIndex=4267 dictItem=cholesterol
 dictIndex=4895 dictItem=depression
 dictIndex=6332 dictItem=period depression
 dictIndex=9299 dictItem=depression
-985|314|depression
 985|212|cholesterol
 985|269|anxiety
 985|277|attacks
 985|295|periods
+985|314|depression
 -------------------
 dictIndex=131 dictItem=ache
 dictIndex=5595 dictItem=muscle ache
@@ -26170,17 +26170,17 @@ dictIndex=9106 dictItem=walk zombie
 dictIndex=9141 dictItem=weakness
 dictIndex=9147 dictItem=weakness leg
 dictIndex=9312 dictItem=zombie
-990|138|Zombie
-990|151|Weakness
 990|6|term
 990|11|memory
-990|163|Leg
 990|28|loss
 990|58|Dizzy
 990|75|Anxiety
 990|99|feeling
 990|107|unwell
 990|119|walking
+990|138|Zombie
+990|151|Weakness
+990|163|Leg
 dictIndex=1266 dictItem=cholesterol
 dictIndex=4267 dictItem=cholesterol
 990|448|cholesterol
@@ -26264,7 +26264,6 @@ dictIndex=6211 dictItem=panic attack
 dictIndex=8480 dictItem=tingle
 dictIndex=8488 dictItem=tingle hand
 995|0|Aches
-995|165|aches
 995|10|pains
 995|17|breathing
 995|27|difficulties
@@ -26272,6 +26271,7 @@ dictIndex=8488 dictItem=tingle hand
 995|47|attacks
 995|108|tingling
 995|124|hand
+995|165|aches
 dictIndex=458 dictItem=anxiety
 dictIndex=462 dictItem=anxiety depression
 dictIndex=497 dictItem=anxiety symptom

@@ -31,11 +31,11 @@ dictIndex=4264 dictItem=shoulder muscle stiffness
 dictIndex=4454 dictItem=stiffness
 dictIndex=4458 dictItem=stiffness muscle
 dictIndex=4470 dictItem=stiffness shoulder
-6|539|neck
 6|459|muscles
 6|474|shoulder
 6|504|neck
 6|523|stiffness
+6|539|neck
 dictIndex=4486 dictItem=stress
 6|662|stress
 dictIndex=442 dictItem=back stiffness
@@ -133,9 +133,9 @@ dictIndex=3398 dictItem=pain bone
 dictIndex=3396 dictItem=pain ankle
 dictIndex=3410 dictItem=pain ankle
 dictIndex=3413 dictItem=pain elbow
-14|170|ankles
 14|48|pain
 14|79|elbows
+14|170|ankles
 dictIndex=3396 dictItem=pain ankle
 dictIndex=3410 dictItem=pain ankle
 14|189|pain
@@ -154,11 +154,11 @@ dictIndex=3335 dictItem=symptom
 -------------------
 -------------------
 dictIndex=2832 dictItem=mitochondrial encephalomyopathy lactic acidosis stroke-like episode
+17|120|Mitochondrial
 17|175|Mitochondrial
 17|189|Encephalomyopathy
 17|232|Stroke-like
 17|244|episodes
-17|120|Mitochondrial
 -------------------
 -------------------
 dictIndex=2383 dictItem=joint pain
@@ -221,8 +221,6 @@ dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
 dictIndex=4295 dictItem=sinus headache
 dictIndex=4297 dictItem=sinus pain
-27|129|leg
-27|133|cramps
 27|7|headache
 27|17|muscle
 27|40|indigestion
@@ -231,6 +229,8 @@ dictIndex=4297 dictItem=sinus pain
 27|101|sinus
 27|117|joint
 27|123|pain
+27|129|leg
+27|133|cramps
 -------------------
 -------------------
 -------------------
@@ -241,10 +241,10 @@ dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
 31|9|JOINT
 31|15|PAIN
-31|194|PAIN
 31|33|JOINTS
-31|251|SYMPTOMS
 31|91|PAIN
+31|194|PAIN
+31|251|SYMPTOMS
 dictIndex=3335 dictItem=symptom
 31|288|SYMPTOMS
 dictIndex=2383 dictItem=joint pain
@@ -274,9 +274,6 @@ dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
 dictIndex=4295 dictItem=sinus headache
 dictIndex=4297 dictItem=sinus pain
-35|218|pain
-35|224|leg
-35|228|cramps
 35|102|headache
 35|112|muscle
 35|135|indigestion
@@ -284,6 +281,9 @@ dictIndex=4297 dictItem=sinus pain
 35|169|pain
 35|196|sinus
 35|212|joint
+35|218|pain
+35|224|leg
+35|228|cramps
 dictIndex=2383 dictItem=joint pain
 dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
@@ -350,10 +350,10 @@ dictIndex=3331 dictItem=chest pain
 dictIndex=3400 dictItem=pain chest
 dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
-48|223|chest
 48|164|joint
 48|170|pain
 48|176|Burning
+48|223|chest
 -------------------
 -------------------
 -------------------
@@ -410,9 +410,9 @@ dictIndex=3398 dictItem=pain bone
 dictIndex=3410 dictItem=pain ankle
 dictIndex=4899 dictItem=twitch
 dictIndex=4900 dictItem=twitch
-58|201|bones
 58|96|pain
 58|104|ankle
+58|201|bones
 -------------------
 dictIndex=270 dictItem=ankle swell
 dictIndex=271 dictItem=ankle swell
@@ -455,7 +455,6 @@ dictIndex=4775 dictItem=tightness chest
 dictIndex=4777 dictItem=tightness back muscle
 dictIndex=5202 dictItem=wrist pain
 59|7|pain
-59|638|throat
 59|26|ankles
 59|34|feet
 59|48|back
@@ -466,12 +465,8 @@ dictIndex=5202 dictItem=wrist pain
 59|139|Cramping
 59|151|wrists
 59|160|hands
-59|775|larynx
 59|176|tightness
-59|812|Swollen
 59|196|fatigue
-59|820|nasal
-59|845|sinus
 59|301|forgetfulness
 59|365|liver
 59|399|liver
@@ -480,6 +475,11 @@ dictIndex=5202 dictItem=wrist pain
 59|482|stress
 59|556|swelling
 59|568|throat
+59|638|throat
+59|775|larynx
+59|812|Swollen
+59|820|nasal
+59|845|sinus
 dictIndex=1026 dictItem=cough
 dictIndex=1037 dictItem=cough
 59|1043|cough
@@ -530,11 +530,11 @@ dictIndex=4449 dictItem=stiff joint
 -------------------
 dictIndex=3396 dictItem=pain ankle
 dictIndex=3410 dictItem=pain ankle
-63|263|pain
-63|288|pain
 63|92|pain
 63|133|pain
 63|144|ankle
+63|263|pain
+63|288|pain
 -------------------
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
@@ -671,12 +671,12 @@ dictIndex=4780 dictItem=tinnitus
 dictIndex=4814 dictItem=tongue pain
 dictIndex=4899 dictItem=twitch
 dictIndex=4900 dictItem=twitch
+76|74|tinnitus
 76|155|swollen
 76|163|tongue
 76|170|memory
 76|177|loss
 76|201|pain
-76|74|tinnitus
 76|217|pain
 dictIndex=3335 dictItem=symptom
 76|378|symptoms
@@ -1210,9 +1210,9 @@ dictIndex=1244 dictItem=dizziness
 dictIndex=1249 dictItem=dizziness
 dictIndex=2551 dictItem=lightheadedness
 dictIndex=4454 dictItem=stiffness
-153|193|stiffness
 153|136|dizziness
 153|147|lightheadedness
+153|193|stiffness
 -------------------
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
@@ -1589,17 +1589,17 @@ dictIndex=2899 dictItem=muscle atrophy
 dictIndex=2902 dictItem=muscle contracture
 dictIndex=3397 dictItem=pain bladder
 dictIndex=4261 dictItem=short-term memory loss
-199|156|memory
 199|11|loss
+199|53|muscle
+199|60|pain
+199|76|atrophy
+199|118|contracture
+199|156|memory
 199|167|short-term
 199|178|memory
 199|185|loss
-199|53|muscle
-199|60|pain
 199|213|ability
 199|221|loss
-199|76|atrophy
-199|118|contracture
 199|291|bladder
 -------------------
 dictIndex=1048 dictItem=cramp
@@ -1643,12 +1643,12 @@ dictIndex=3009 dictItem=nausea vomit
 dictIndex=3016 dictItem=nausea vomit
 dictIndex=3414 dictItem=pain hip
 dictIndex=5103 dictItem=vomit
-205|158|loss
 205|10|nausea
 205|18|vomiting
 205|44|hip
 205|48|pain
 205|116|fatigue
+205|158|loss
 dictIndex=4486 dictItem=stress
 205|311|stress
 dictIndex=3005 dictItem=nausea
@@ -1744,11 +1744,11 @@ dictIndex=5067 dictItem=vertigo
 -------------------
 dictIndex=4297 dictItem=sinus pain
 dictIndex=4298 dictItem=sinus pressure
+216|287|pain
+216|344|pain
 216|430|sinus
 216|436|pain
-216|287|pain
 216|453|pressure
-216|344|pain
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
 dictIndex=2619 dictItem=loss memory
@@ -1789,13 +1789,13 @@ dictIndex=2903 dictItem=muscle cramp
 dictIndex=2904 dictItem=muscle cramp
 dictIndex=3026 dictItem=neck cramp
 dictIndex=3454 dictItem=painful joint
-220|156|neck
 220|25|painful
 220|43|joints
 220|54|painful
 220|71|muscle
 220|78|cramps
 220|111|feet
+220|156|neck
 -------------------
 dictIndex=412 dictItem=atrophy muscle
 dictIndex=1048 dictItem=cramp
@@ -2015,8 +2015,8 @@ dictIndex=3335 dictItem=symptom
 dictIndex=2430 dictItem=knee pain
 dictIndex=3427 dictItem=pain knee
 dictIndex=3434 dictItem=pain knee
-246|297|knees
 246|226|pain
+246|297|knees
 dictIndex=3335 dictItem=symptom
 246|492|symptoms
 dictIndex=3335 dictItem=symptom
@@ -2132,19 +2132,19 @@ dictIndex=47 dictItem=ache knee
 dictIndex=2430 dictItem=knee pain
 dictIndex=3427 dictItem=pain knee
 dictIndex=3434 dictItem=pain knee
-260|147|pain
 260|81|knee
 260|86|pain
 260|97|pain
+260|147|pain
 -------------------
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
 dictIndex=4914 dictItem=unable walk
 dictIndex=5067 dictItem=vertigo
-261|146|loss
 261|54|loss
 261|97|walk
 261|102|vertigo
+261|146|loss
 dictIndex=1134 dictItem=decrease
 dictIndex=5067 dictItem=vertigo
 261|432|vertigo
@@ -2187,9 +2187,9 @@ dictIndex=4458 dictItem=stiffness muscle
 269|23|fatigue
 269|32|muscle
 269|39|pain
-269|188|kidney
 269|48|stiffness
 269|61|neck
+269|188|kidney
 269|213|increased
 269|223|cough
 269|240|hematoma
@@ -2201,12 +2201,12 @@ dictIndex=1134 dictItem=decrease
 dictIndex=2047 dictItem=hoarse voice
 dictIndex=3331 dictItem=chest pain
 dictIndex=3400 dictItem=pain chest
-269|583|pain
 269|381|hoarse
 269|388|voice
 269|394|chest
 269|400|pain
 269|563|anxiety
+269|583|pain
 dictIndex=1594 dictItem=feel down
 dictIndex=2383 dictItem=joint pain
 dictIndex=3416 dictItem=pain joint
@@ -2219,8 +2219,8 @@ dictIndex=2416 dictItem=kidney pain
 dictIndex=2900 dictItem=muscle bleeding
 dictIndex=3433 dictItem=pain kidney
 269|1153|kidney
-269|1356|bleeding
 269|1312|pain
+269|1356|bleeding
 -------------------
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
@@ -2257,10 +2257,10 @@ dictIndex=4458 dictItem=stiffness muscle
 273|8|muscle
 273|19|joint
 273|25|pain
-273|190|pain
 273|39|fatigue
 273|48|muscle
 273|55|stiffness
+273|190|pain
 dictIndex=2383 dictItem=joint pain
 dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
@@ -2289,15 +2289,15 @@ dictIndex=2618 dictItem=loss
 dictIndex=2619 dictItem=loss memory
 dictIndex=2760 dictItem=memory loss
 dictIndex=2761 dictItem=memory loss
-279|531|loss
 279|524|memory
+279|531|loss
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
 dictIndex=2619 dictItem=loss memory
 dictIndex=2760 dictItem=memory loss
 dictIndex=2761 dictItem=memory loss
-279|891|memory
 279|872|loss
+279|891|memory
 -------------------
 dictIndex=1048 dictItem=cramp
 dictIndex=1051 dictItem=cramp leg
@@ -2308,10 +2308,10 @@ dictIndex=1057 dictItem=cramp calf
 dictIndex=1058 dictItem=cramp leg
 dictIndex=1059 dictItem=cramp leg
 dictIndex=2507 dictItem=leg cramp
-280|175|leg
-280|179|cramps
 280|17|calf
 280|22|cramps
+280|175|leg
+280|179|cramps
 dictIndex=1048 dictItem=cramp
 dictIndex=1051 dictItem=cramp leg
 dictIndex=1054 dictItem=cramp
@@ -2340,11 +2340,11 @@ dictIndex=1059 dictItem=cramp leg
 dictIndex=2507 dictItem=leg cramp
 dictIndex=2903 dictItem=muscle cramp
 dictIndex=2904 dictItem=muscle cramp
-280|612|cramps
-280|636|muscle
 280|452|leg
 280|456|cramps
 280|571|cramps
+280|612|cramps
+280|636|muscle
 dictIndex=1048 dictItem=cramp
 dictIndex=1051 dictItem=cramp leg
 dictIndex=1054 dictItem=cramp
@@ -2418,12 +2418,12 @@ dictIndex=3396 dictItem=pain ankle
 dictIndex=3410 dictItem=pain ankle
 dictIndex=4777 dictItem=tightness back muscle
 286|132|cramps
-286|353|muscle
 286|143|tightness
-286|368|pain
 286|171|ankles
 286|182|calf
 286|208|back
+286|353|muscle
+286|368|pain
 -------------------
 -------------------
 dictIndex=4914 dictItem=unable walk
@@ -2543,17 +2543,8 @@ dictIndex=4760 dictItem=throat pain
 dictIndex=4763 dictItem=throat tightness
 dictIndex=4775 dictItem=tightness chest
 dictIndex=5067 dictItem=vertigo
-295|580|swallowing
 295|20|memory
-295|649|muscle
-295|656|tension
-295|667|legs
-295|703|swings
 295|130|footed
-295|711|loss
-295|719|muscle
-295|726|mass
-295|734|chest
 295|198|muscle
 295|230|tightness
 295|243|throat
@@ -2573,6 +2564,15 @@ dictIndex=5067 dictItem=vertigo
 295|558|pain
 295|564|muscular
 295|573|aches
+295|580|swallowing
+295|649|muscle
+295|656|tension
+295|667|legs
+295|703|swings
+295|711|loss
+295|719|muscle
+295|726|mass
+295|734|chest
 dictIndex=3335 dictItem=symptom
 295|921|symptoms
 dictIndex=3335 dictItem=symptom
@@ -2586,13 +2586,13 @@ dictIndex=2760 dictItem=memory loss
 dictIndex=2761 dictItem=memory loss
 dictIndex=3525 dictItem=partial loss memory
 dictIndex=5067 dictItem=vertigo
-297|261|loss
 297|18|vertigo
 297|26|loss
 297|167|loss
 297|190|memory
 297|197|loss
 297|244|partial
+297|261|loss
 dictIndex=5067 dictItem=vertigo
 297|729|vertigo
 -------------------
@@ -2699,9 +2699,6 @@ dictIndex=3427 dictItem=pain knee
 dictIndex=3432 dictItem=pain joint
 dictIndex=3434 dictItem=pain knee
 dictIndex=4545 dictItem=swell
-310|216|swelling
-310|234|knee
-310|240|irritable
 310|114|neck
 310|119|pain
 310|125|fatigue
@@ -2710,6 +2707,9 @@ dictIndex=4545 dictItem=swell
 310|167|chills
 310|197|flu
 310|206|symptoms
+310|216|swelling
+310|234|knee
+310|240|irritable
 dictIndex=3335 dictItem=symptom
 310|328|symptoms
 dictIndex=4368 dictItem=sore throat
@@ -2779,11 +2779,11 @@ dictIndex=1721 dictItem=forgetfulness
 dictIndex=2507 dictItem=leg cramp
 dictIndex=3396 dictItem=pain ankle
 dictIndex=3410 dictItem=pain ankle
+318|52|forgetfulness
+318|83|pain
 318|169|leg
 318|207|leg
-318|52|forgetfulness
 318|211|cramps
-318|83|pain
 318|231|ankles
 dictIndex=1676 dictItem=flush
 dictIndex=1680 dictItem=flush
@@ -2808,9 +2808,9 @@ dictIndex=2909 dictItem=muscle fatigue
 dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
 319|63|liver
-319|237|fatigue
 319|210|joint
 319|216|pain
+319|237|fatigue
 dictIndex=3335 dictItem=symptom
 319|302|symptoms
 dictIndex=3335 dictItem=symptom
@@ -3072,11 +3072,11 @@ dictIndex=2619 dictItem=loss memory
 dictIndex=2760 dictItem=memory loss
 dictIndex=2761 dictItem=memory loss
 dictIndex=3335 dictItem=symptom
+357|703|symptoms
+357|816|symptoms
 357|858|symptoms
 357|877|memory
-357|703|symptoms
 357|923|loss
-357|816|symptoms
 -------------------
 dictIndex=2377 dictItem=joint ache
 dictIndex=2383 dictItem=joint pain
@@ -3258,15 +3258,15 @@ dictIndex=2909 dictItem=muscle fatigue
 dictIndex=4134 dictItem=upper abdominal discomfort
 dictIndex=4476 dictItem=stomach discomfort
 dictIndex=4939 dictItem=upper abdominal discomfort
-375|143|stomach
-375|151|discomfort
 375|10|muscle
-375|163|abdominal
-375|173|cramps
 375|41|upper
 375|82|memory
 375|89|loss
 375|122|fatigue
+375|143|stomach
+375|151|discomfort
+375|163|abdominal
+375|173|cramps
 -------------------
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
@@ -3340,8 +3340,8 @@ dictIndex=4385 dictItem=spasm
 dictIndex=2909 dictItem=muscle fatigue
 384|97|fatigue
 dictIndex=3335 dictItem=symptom
-384|421|symptoms
 384|351|symptoms
+384|421|symptoms
 dictIndex=2909 dictItem=muscle fatigue
 384|788|fatigue
 -------------------
@@ -3411,16 +3411,16 @@ dictIndex=3414 dictItem=pain hip
 dictIndex=4379 dictItem=spasm muscle
 dictIndex=4381 dictItem=spasm muscle
 dictIndex=4385 dictItem=spasm
-389|117|pain
-389|154|back
 389|24|memory
 389|31|loss
-389|163|hip
-389|167|pain
 389|42|loss
 389|48|muscle
-389|181|loss
 389|55|spasms
+389|117|pain
+389|154|back
+389|163|hip
+389|167|pain
+389|181|loss
 389|206|dizziness
 dictIndex=1048 dictItem=cramp
 dictIndex=1052 dictItem=cramp muscle
@@ -3877,11 +3877,11 @@ dictIndex=2761 dictItem=memory loss
 dictIndex=2853 dictItem=mood depression
 dictIndex=2854 dictItem=mood depression
 dictIndex=2855 dictItem=mood swing
-460|210|memory
-460|217|loss
 460|74|depression
 460|91|mood
 460|96|swings
+460|210|memory
+460|217|loss
 dictIndex=1433 dictItem=energy increase
 460|588|energy
 460|605|increased
@@ -3904,9 +3904,9 @@ dictIndex=3335 dictItem=symptom
 464|296|symptoms
 -------------------
 dictIndex=5202 dictItem=wrist pain
-465|437|pain
 465|335|wrist
 465|341|pain
+465|437|pain
 dictIndex=1048 dictItem=cramp
 dictIndex=1054 dictItem=cramp
 465|494|cramps
@@ -4070,11 +4070,11 @@ dictIndex=2760 dictItem=memory loss
 dictIndex=2761 dictItem=memory loss
 dictIndex=3035 dictItem=neck tightness
 488|21|loss
-488|198|tightness
 488|83|memory
 488|90|loss
 488|95|light
 488|101|headedness
+488|198|tightness
 dictIndex=2535 dictItem=light headedness
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
@@ -4195,12 +4195,12 @@ dictIndex=2924 dictItem=muscle stiffness
 dictIndex=4297 dictItem=sinus pain
 dictIndex=4454 dictItem=stiffness
 dictIndex=4458 dictItem=stiffness muscle
-504|284|bleeding
 504|13|pain
-504|162|loss
 504|84|stiffness
-504|216|sinus
 504|109|muscle
+504|162|loss
+504|216|sinus
+504|284|bleeding
 -------------------
 -------------------
 dictIndex=2615 dictItem=loss
@@ -4333,8 +4333,8 @@ dictIndex=2618 dictItem=loss
 dictIndex=2619 dictItem=loss memory
 dictIndex=2760 dictItem=memory loss
 dictIndex=2761 dictItem=memory loss
-526|140|loss
 526|133|memory
+526|140|loss
 -------------------
 dictIndex=1244 dictItem=dizziness
 dictIndex=1249 dictItem=dizziness
@@ -4413,15 +4413,15 @@ dictIndex=2925 dictItem=muscle swell
 dictIndex=3005 dictItem=nausea
 dictIndex=3008 dictItem=nausea
 dictIndex=4545 dictItem=swell
-537|158|dizziness
 537|7|edema
 537|18|swelling
 537|30|limbs
-537|190|increased
 537|64|muscle
-537|238|nausea
 537|99|loss
 537|118|cough
+537|158|dizziness
+537|190|increased
+537|238|nausea
 dictIndex=4545 dictItem=swell
 537|342|swelling
 dictIndex=1134 dictItem=decrease
@@ -4501,8 +4501,8 @@ dictIndex=1048 dictItem=cramp
 dictIndex=1054 dictItem=cramp
 dictIndex=3112 dictItem=night cramp
 dictIndex=4385 dictItem=spasm
-545|933|night
 545|790|cramp
+545|933|night
 -------------------
 dictIndex=1048 dictItem=cramp
 dictIndex=1051 dictItem=cramp leg
@@ -4533,13 +4533,13 @@ dictIndex=2761 dictItem=memory loss
 dictIndex=2903 dictItem=muscle cramp
 dictIndex=2904 dictItem=muscle cramp
 dictIndex=4780 dictItem=tinnitus
+546|1131|memory
+546|1138|loss
+546|1162|muscle
 546|1175|leg
 546|1179|cramps
 546|1227|tinnitus
 546|1253|loss
-546|1131|memory
-546|1138|loss
-546|1162|muscle
 dictIndex=4780 dictItem=tinnitus
 546|1404|tinnitus
 dictIndex=2615 dictItem=loss
@@ -4567,11 +4567,11 @@ dictIndex=4899 dictItem=twitch
 dictIndex=4900 dictItem=twitch
 dictIndex=4952 dictItem=upset stomach
 548|0|heavy
-548|210|twitching
 548|132|stomach
 548|140|upset
 548|147|indigestion
 548|170|sweating
+548|210|twitching
 -------------------
 -------------------
 -------------------
@@ -4669,12 +4669,12 @@ dictIndex=3432 dictItem=pain joint
 dictIndex=4568 dictItem=swollen joint
 dictIndex=4569 dictItem=swollen joint
 563|206|Memory
-563|338|energy
 563|213|loss
-563|346|increased
 563|219|joint
 563|225|pain
 563|231|swollen
+563|338|energy
+563|346|increased
 563|397|joints
 -------------------
 dictIndex=1048 dictItem=cramp
@@ -4726,8 +4726,6 @@ dictIndex=2903 dictItem=muscle cramp
 dictIndex=2904 dictItem=muscle cramp
 dictIndex=2925 dictItem=muscle swell
 dictIndex=4545 dictItem=swell
-568|141|memory
-568|148|loss
 568|28|joint
 568|41|muscle
 568|48|cramps
@@ -4736,6 +4734,8 @@ dictIndex=4545 dictItem=swell
 568|88|feet
 568|94|hands
 568|104|ankles
+568|141|memory
+568|148|loss
 dictIndex=3335 dictItem=symptom
 568|204|symptoms
 dictIndex=1721 dictItem=forgetfulness
@@ -4862,8 +4862,6 @@ dictIndex=2903 dictItem=muscle cramp
 dictIndex=2904 dictItem=muscle cramp
 dictIndex=4145 dictItem=ringing ear
 dictIndex=5067 dictItem=vertigo
-578|148|ringing
-578|159|ears
 578|41|vertigo
 578|61|memory
 578|68|loss
@@ -4872,6 +4870,8 @@ dictIndex=5067 dictItem=vertigo
 578|106|cramps
 578|114|muscle
 578|121|loss
+578|148|ringing
+578|159|ears
 dictIndex=618 dictItem=bruise
 dictIndex=1134 dictItem=decrease
 dictIndex=2615 dictItem=loss
@@ -4887,9 +4887,9 @@ dictIndex=2262 dictItem=indigestion
 dictIndex=2578 dictItem=liver pain
 dictIndex=5219 dictItem=yellow skin
 579|182|indigestion
-579|343|skin
 579|216|pain
 579|336|yellow
+579|343|skin
 -------------------
 -------------------
 -------------------
@@ -4975,18 +4975,18 @@ dictIndex=3427 dictItem=pain knee
 dictIndex=3434 dictItem=pain knee
 dictIndex=4395 dictItem=spinal pain
 dictIndex=5202 dictItem=wrist pain
-591|160|elbows
-591|168|wrists
-591|176|hands
 591|62|muscle
 591|69|cramps
-591|193|muscles
-591|204|neck
 591|87|pain
-591|225|spinal
 591|105|feet
 591|111|knees
 591|131|hips
+591|160|elbows
+591|168|wrists
+591|176|hands
+591|193|muscles
+591|204|neck
+591|225|spinal
 dictIndex=3335 dictItem=symptom
 591|379|symptoms
 dictIndex=1048 dictItem=cramp
@@ -5274,11 +5274,11 @@ dictIndex=4914 dictItem=unable walk
 643|38|leg
 643|42|cramps
 643|50|muscle
-643|236|pain
-643|257|muscle
 643|90|walk
 643|118|legs
 643|127|ankles
+643|236|pain
+643|257|muscle
 dictIndex=3335 dictItem=symptom
 643|375|symptoms
 dictIndex=2909 dictItem=muscle fatigue
@@ -5727,15 +5727,15 @@ dictIndex=3432 dictItem=pain joint
 dictIndex=3434 dictItem=pain knee
 dictIndex=4033 dictItem=red
 dictIndex=5202 dictItem=wrist pain
-705|191|knee
 705|7|joint
 705|13|pains
-705|213|wrist
-705|227|joints
 705|109|pain
-705|272|liver
 705|148|knee
 705|171|joint
+705|191|knee
+705|213|wrist
+705|227|joints
+705|272|liver
 dictIndex=2383 dictItem=joint pain
 dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
@@ -5791,7 +5791,6 @@ dictIndex=3331 dictItem=chest pain
 dictIndex=3400 dictItem=pain chest
 dictIndex=4454 dictItem=stiffness
 dictIndex=4458 dictItem=stiffness muscle
-715|243|loss
 715|113|neck
 715|118|pain
 715|127|stiffness
@@ -5801,6 +5800,7 @@ dictIndex=4458 dictItem=stiffness muscle
 715|160|muscles
 715|168|pain
 715|196|chest
+715|243|loss
 -------------------
 -------------------
 -------------------
@@ -5920,8 +5920,8 @@ dictIndex=155 dictItem=agitation mental
 -------------------
 dictIndex=1252 dictItem=dizzy
 dictIndex=1254 dictItem=dizzy spell
-738|147|spells
 738|141|Dizzy
+738|147|spells
 -------------------
 dictIndex=2383 dictItem=joint pain
 dictIndex=3416 dictItem=pain joint
@@ -6187,8 +6187,8 @@ dictIndex=3455 dictItem=painful knee
 -------------------
 dictIndex=3335 dictItem=symptom
 dictIndex=4848 dictItem=toxic symptom
-787|798|Symptoms
 787|755|toxic
+787|798|Symptoms
 dictIndex=3005 dictItem=nausea
 dictIndex=3008 dictItem=nausea
 dictIndex=3009 dictItem=nausea vomit
@@ -6490,14 +6490,14 @@ dictIndex=2069 dictItem=hot flush leg
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss
 dictIndex=5067 dictItem=vertigo
-834|152|loss
 834|43|vertigo
+834|82|legs
+834|88|face
+834|152|loss
 834|203|flushes
 834|219|hot
 834|223|flash
 834|241|hot
-834|82|legs
-834|88|face
 dictIndex=1676 dictItem=flush
 dictIndex=1680 dictItem=flush
 -------------------
@@ -6644,11 +6644,11 @@ dictIndex=5067 dictItem=vertigo
 853|18|cramping
 853|27|neck
 853|48|leg
+853|88|total
 853|180|loss
 853|185|memory
 853|202|loss
 853|207|loss
-853|88|total
 -------------------
 -------------------
 -------------------
@@ -6675,9 +6675,9 @@ dictIndex=3414 dictItem=pain hip
 856|728|hip
 856|732|pain
 dictIndex=3414 dictItem=pain hip
+856|920|hips
 856|977|hip
 856|981|pain
-856|920|hips
 -------------------
 -------------------
 dictIndex=4454 dictItem=stiffness
@@ -6708,9 +6708,9 @@ dictIndex=3414 dictItem=pain hip
 859|649|hip
 859|653|pain
 dictIndex=3414 dictItem=pain hip
+859|841|hips
 859|898|hip
 859|902|pain
-859|841|hips
 -------------------
 dictIndex=782 dictItem=chest pain
 dictIndex=1048 dictItem=cramp
@@ -6782,10 +6782,10 @@ dictIndex=5067 dictItem=vertigo
 873|0|loss
 873|24|vertigo
 873|42|cramping
-873|170|walk
 873|51|neck
 873|64|loss
 873|101|memory
+873|170|walk
 dictIndex=1570 dictItem=fear
 873|864|fear
 -------------------
@@ -6864,7 +6864,6 @@ dictIndex=3447 dictItem=painful ankle
 dictIndex=3455 dictItem=painful knee
 dictIndex=4545 dictItem=swell
 dictIndex=5067 dictItem=vertigo
-887|299|loss
 887|7|knee
 887|12|pain
 887|54|pain
@@ -6877,6 +6876,7 @@ dictIndex=5067 dictItem=vertigo
 887|236|acid
 887|283|vertigo
 887|292|memory
+887|299|loss
 dictIndex=2383 dictItem=joint pain
 dictIndex=3416 dictItem=pain joint
 dictIndex=3432 dictItem=pain joint
@@ -7177,11 +7177,11 @@ dictIndex=3478 dictItem=palpitation
 dictIndex=3479 dictItem=palpitation
 dictIndex=4760 dictItem=throat pain
 dictIndex=4763 dictItem=throat tightness
+934|43|pain
+934|121|palpitations
 934|169|throat
 934|176|tightness
-934|43|pain
 934|217|fatigue
-934|121|palpitations
 -------------------
 dictIndex=812 dictItem=choke
 dictIndex=2615 dictItem=loss
@@ -7193,11 +7193,11 @@ dictIndex=4454 dictItem=stiffness
 dictIndex=4458 dictItem=stiffness muscle
 935|272|symptoms
 935|286|stiffness
-935|477|urination
 935|311|loss
-935|546|loss
 935|357|loss
 935|395|muscles
+935|477|urination
+935|546|loss
 -------------------
 dictIndex=272 dictItem=ankle swollen
 dictIndex=4565 dictItem=swollen ankle
@@ -7278,10 +7278,10 @@ dictIndex=3434 dictItem=pain knee
 951|7|loss
 951|13|transient
 951|23|amnesia
-951|155|pain
-951|173|loss
 951|52|knee
 951|57|pain
+951|155|pain
+951|173|loss
 -------------------
 dictIndex=2615 dictItem=loss
 dictIndex=2618 dictItem=loss

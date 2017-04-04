@@ -269,10 +269,10 @@ dictIndex=1570 dictItem=fear
 dictIndex=1576 dictItem=fear fall
 dictIndex=3005 dictItem=nausea
 dictIndex=3008 dictItem=nausea
-41|842|clammy
 41|731|fear
 41|739|falling
 41|807|nausea
+41|842|clammy
 dictIndex=3414 dictItem=pain hip
 41|1033|pain
 41|1044|hips
@@ -369,12 +369,12 @@ dictIndex=1057 dictItem=cramp calf
 dictIndex=2903 dictItem=muscle cramp
 dictIndex=2904 dictItem=muscle cramp
 dictIndex=3112 dictItem=night cramp
-47|207|cramps
 47|96|night
 47|111|muscle
 47|118|cramps
 47|131|calf
 47|136|muscles
+47|207|cramps
 -------------------
 -------------------
 dictIndex=3435 dictItem=pain pelvic
@@ -400,8 +400,8 @@ dictIndex=1054 dictItem=cramp
 dictIndex=1244 dictItem=dizziness
 dictIndex=1249 dictItem=dizziness
 dictIndex=4454 dictItem=stiffness
-53|243|dizziness
 53|105|stiffness
+53|243|dizziness
 -------------------
 -------------------
 -------------------
@@ -619,10 +619,10 @@ dictIndex=1570 dictItem=fear
 dictIndex=3478 dictItem=palpitation
 dictIndex=3479 dictItem=palpitation
 dictIndex=5037 dictItem=vaginal pain
-94|157|palpitations
-94|174|vaginal
 94|44|pain
 94|81|pain
+94|157|palpitations
+94|174|vaginal
 -------------------
 dictIndex=270 dictItem=ankle swell
 dictIndex=271 dictItem=ankle swell
@@ -933,14 +933,14 @@ dictIndex=3416 dictItem=pain joint
 dictIndex=3427 dictItem=pain knee
 dictIndex=3432 dictItem=pain joint
 dictIndex=3434 dictItem=pain knee
+141|77|dizziness
+141|88|nausea
+141|108|pain
 141|157|pain
 141|171|joints
 141|179|knees
 141|186|hips
 141|203|elbows
-141|77|dizziness
-141|88|nausea
-141|108|pain
 dictIndex=3478 dictItem=palpitation
 dictIndex=3479 dictItem=palpitation
 141|253|palpitations

@@ -60,7 +60,6 @@ dictIndex=8986 dictItem=vaginal pain
 3|31|vaginal
 3|39|skin
 3|44|burns
-3|353|diarrhea
 3|52|lot
 3|70|back
 3|80|menopausal
@@ -71,6 +70,7 @@ dictIndex=8986 dictItem=vaginal pain
 3|182|hands
 3|205|lot
 3|228|pruritus
+3|353|diarrhea
 dictIndex=8253 dictItem=symptom
 3|385|symptoms
 dictIndex=6128 dictItem=pain
