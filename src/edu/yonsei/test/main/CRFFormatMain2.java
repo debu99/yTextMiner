@@ -1,11 +1,16 @@
 package edu.yonsei.test.main;
 
 import java.lang.*;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -14,6 +19,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 import edu.yonsei.util.Document;
 import edu.yonsei.util.Sentence;
@@ -252,7 +258,12 @@ public class CRFFormatMain2 {
 		System.out.println("--- "+drugName+" START ---");
 		
 		for(int z=startNumber;z<=endNumber;z++){
-			Scanner s = new Scanner(new FileReader("data/corpus/"+drugName+"."+z+".txt"));
+
+			System.out.println("--- START from file: "+drugName+"-"+z+" ---");
+			
+			String inFileName = "data/corpus/"+drugName+"."+z+".txt";
+			Scanner s = new Scanner(new FileReader(inFileName));
+			Scanner s_number = new Scanner(new FileReader(inFileName));
 			String outFileName="data/corpus/_crf_"+drugName+"_"+startNumber+"-"+endNumber+"_sent";
 			
 			String fileNameStr = drugName+"."+z;
@@ -271,6 +282,7 @@ public class CRFFormatMain2 {
 
 			List<Integer> integerADR1DictList = dictExtract(drugName, startNumber, endNumber, z, "adr1");
 			List<Integer> integerADR2DictList = dictExtract(drugName, startNumber, endNumber, z, "adr2");
+			//List<Integer> integerADR3DictList = dictExtract(drugName, startNumber, endNumber, z, "adr3");
 			List<Integer> integerSymptomDictList = dictExtract(drugName, startNumber, endNumber, z, "symptom");
 			//List<Integer> integerDiseaseDictList = dictExtract(drugName, startNumber, endNumber, z, "disease");
 			List integerDiseaseDictList = dict2Extract(drugName, startNumber, endNumber, z, "disease");
@@ -281,15 +293,29 @@ public class CRFFormatMain2 {
 		    //List integerFindingList = new ArrayList<>();
 		    List integerSymptomList = annExtract(drugName, z, "Symptom");
 
+		    
 
-			
-			int i=0;
+		    int totalSents = 0;
+			while(s_number.hasNext()){
+				String text = s_number.nextLine();
+				if(text==null||text.isEmpty()){
+					continue;
+				}
+				totalSents++;
+			}			
+
+			String src = readFile("data/corpus/"+drugName+"."+z+".txt", Charset.defaultCharset());	
+			int si=0;
+			int tokenLength=0;
 			while(s.hasNext()){
 				String text = s.nextLine();
-				Document doc = new Document(text);
-				doc.preprocess();
+				if(text==null||text.isEmpty()){
+					continue;
+				}
+				//Document doc = new Document(text);
+				//doc.preprocess();
 				//Sentence count in review
-				int totalSents=doc.size();
+				//int totalSents=;
 
 				Sentence sent = new Sentence(text);
 				sent.preprocess();
@@ -302,27 +328,25 @@ public class CRFFormatMain2 {
 					}
 				}*/
 				
-				Sentence lastSent = doc.get(totalSents-1);
+				/*Sentence lastSent = doc.get(totalSents-1);
 				//Token lastToken = lastSent.get(lastSent.size()-1);
 				if(lastSent.size()==1){
 					totalSents-=1;
 				}
-				if(totalSents<=0){totalSents=1;}
+				if(totalSents<=0){totalSents=1;}*/
 				
-
-				int tokenLength=0;				
-				for(int ss=0; ss<doc.size(); ss++) {
-					Sentence sent_splitter = doc.get(ss);
-					System.out.println("Sentence # " + (ss+1));
-					System.out.println(sent_splitter.getSentence());	
+				//for(int ss=0; ss<doc.size(); ss++) {
+					//Sentence sent_splitter = doc.get(ss);
+					System.out.println("Sentence # " + (si+1));
+					System.out.println(sent.getSentence());	
 					
-					if(ss==(doc.size()-1)&&sent_splitter.size()==1){
+					/*if(ss==(doc.size()-1)&&sent_splitter.size()==1){
 						System.out.println("---Sentence only punctuation!!---");
 						break;
-					}
+					}*/
 					
 					int totalWordCount=0;
-					for(Token token : sent_splitter){				
+					for(Token token : sent){				
 						if(!token.getStem().equals("")){
 							totalWordCount++;
 						}
@@ -330,17 +354,17 @@ public class CRFFormatMain2 {
 					}
 
 
-					for(Token token : sent_splitter){						
-						int m = text.indexOf(token.getToken(),tokenLength);
+					for(Token token : sent){						
+						int m = src.indexOf(token.getToken(),tokenLength);
 						
 						tokenLength=m+token.getToken().length();
 
 						//Sentence counts in review
 						System.out.print(totalSents+"|");
 						//Sentence position
-						System.out.print((ss+1)+"|");
+						System.out.print((si+1)+"|");
 						//Normalized sentence position
-						System.out.print(String.format("%.4f",(ss+1.0)/totalSents)+"|");						
+						System.out.print(String.format("%.4f",(si+1.0)/totalSents)+"|");						
 						//Word count in sentence						
 						System.out.println(totalWordCount+"|");
 						//token index
@@ -355,9 +379,9 @@ public class CRFFormatMain2 {
 						//Sentence count in review
 						out.write(totalSents+"|");
 						//Sentence position
-						out.write((ss+1)+"|");
+						out.write((si+1)+"|");
 						//Normalized sentence position
-						out.write(String.format("%.4f",(ss+1.0)/totalSents)+"|");						
+						out.write(String.format("%.4f",(si+1.0)/totalSents)+"|");						
 						//Word count in sentence
 						//out.write(sent_splitter.size()+"|");				
 						out.write(totalWordCount+"|");
@@ -716,12 +740,36 @@ public class CRFFormatMain2 {
 						System.out.print(drugName+"."+z+".txt|");	
 						out.write(drugName+"."+z+".txt|");
 						
+						//************
+						//dict3 if need
+						//************
+						/*writeFlag=0;
+						if(integerADR3DictList.size()>0){
+					        for(int dict_i : integerADR3DictList){
+					        	if(m==dict_i){
+									System.out.print("1|");		
+									out.write("1|");
+									writeFlag=1;
+									break;
+					        	}else{
+					        		continue;
+					        	}
+					        }
+					        if(writeFlag==0){
+								System.out.print("0|");		
+								out.write("0|");
+					        }
+						}else{
+							System.out.print("0|");		
+							out.write("0|");
+						}*/
+						
 						
 						System.out.println();
 						out.newLine();
 					}
 					
-				}
+				//}
 				
 				
 	
@@ -733,18 +781,23 @@ public class CRFFormatMain2 {
 				
 				System.out.println();
 				System.out.println();
-				out.newLine();
-				i+=1;
+				si+=1;
 			}	
+			out.newLine();
 			s.close();
 			out.close();
 
 			
-			System.out.println("Total Sentence:"+i);
+			System.out.println("Total Sentence-totalSents=:"+totalSents+", si="+si);
 			System.out.println("-----End of File: "+drugName+"-"+z+" ---------");
 		}
 		System.out.println("--- "+drugName+" END ---");
 	}
 
+	private static String readFile(String path, Charset encoding) throws IOException {
+
+		  byte[] encoded = Files.readAllBytes(Paths.get(path));
+		  return new String(encoded, encoding);
+	}
 
 }

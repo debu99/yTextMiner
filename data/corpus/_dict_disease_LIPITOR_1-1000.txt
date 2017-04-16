@@ -1,155 +1,108 @@
-1|34|irritable
 7|144|irritable
 7|215|obstipation
 7|231|constipation
+10|429|myocardial infarction
 12|888|suffering
 15|183|MS
 15|549|MS
+17|9|apoptosis
+17|219|acidosis
 17|814|ALL
-18|46|tendonitis
 20|74|flushing
-23|41|kidney failure
-29|157|seizure
 31|23|ALL
 31|99|ALL
 31|154|ALL
-34|533|diabetic
 42|33|chest pain
-46|103|chest pain
-47|95|insomnia
-47|147|subdural hematoma
-47|166|coma
 47|226|nerve damage
-52|10|parkinson's disease
+48|245|insomnia
 53|11|tendonitis
-53|195|gout
-53|328|gout
-57|36|OCD
+56|188|diabetes
+56|387|frozen shoulder
 57|47|diabetic
-59|72|atrophy
+59|54|muscle weakness
+59|205|insomnia
 59|271|insomnia
 59|393|fatty liver
+59|405|chest tightness
 59|1433|insomnia
 59|2132|hot flashes
 59|2146|night sweats
-66|71|depression
-66|83|insomnia
+67|24|muscle weakness
 68|73|unable to walk
+72|0|depression
 72|12|bursitis
-72|413|nerve damage
+72|597|depression
+72|691|depression
 72|1371|ALL
 73|194|tinnitus
 74|324|nerve damage
-76|74|tinnitus
-76|101|insomnia
-76|247|diabetes
 76|751|trigeminal neuralgia
-76|801|MS
 81|81|unable to walk
 82|88|depression
-83|109|heart attack
 83|615|fear
 84|73|cancer
-85|24|muscle weakness
-85|85|depression
-86|82|depression
-88|29|chest discomfort
-91|46|depression
-97|53|insomnia
 97|128|unable to walk
 97|368|crying
-103|75|depression
 104|229|diabetes
-105|96|crying
+105|104|depression
 106|18|paranoia
 106|343|paranoia
 107|0|ALL
+109|24|tight chest
 109|87|shivers
-110|412|lethargy
+110|86|difficulty thinking
 110|587|fear
 110|623|fear
-110|630|heart attack
-111|82|insomnia
-111|92|tinnitus
-111|143|MS
 111|283|coma
-112|9|paranoia
-113|44|frozen shoulder
 113|113|chest pain
 114|286|coronary disease
 114|382|sweating
 114|449|coronary disease
 114|595|low bp
-114|634|fever
 114|856|low bp
-116|286|depression
 116|636|fear
-118|9|paranoia
-119|13|sciatica
+120|318|tinnitus
 121|508|laziness
 122|5|bad mood
-122|23|rage
-124|152|wasting
 125|58|lethargy
-125|67|depression
 125|79|insomnia
 125|131|blurred vision
-126|113|suffering
-129|9|depression
-130|81|insomnia
+130|25|depression
 130|142|syncope
 130|853|ALL
-133|258|fear
-134|321|chest ache
-136|7|lethargy
 136|66|limping
 137|195|diastolic dysfunction
 137|389|diastolic dysfunction
-137|459|low blood pressure
-137|493|coronary artery disease
-137|529|diabetic
 138|24|nerve damage
 138|179|nerve damage
-141|292|frozen shoulder
-142|290|GERD
 142|446|muscle weakness
 143|29|depression
 143|82|depression
 145|14|depression
 145|105|depression
 146|583|suffering
-151|43|blurred vision
 152|208|insomnia
-154|39|paranoia
-154|305|hallucinations
 155|43|dry eyes
-157|17|constipation
 159|425|constipation
 163|54|achilles tendonitis
 163|63|tendonitis
-165|9|chest pain
 165|323|diabetes
 165|513|diabetes
-166|0|tinnitus
 167|212|depression
 167|528|fever
 168|1225|MS
 170|135|heart attack
-175|59|blurred vision
 176|590|infection
-178|16|blurred vision
-179|21|hyper
 179|326|hyperactive
-180|171|fever
-180|213|fever
-180|229|sleepiness
 180|690|suffering
+183|0|heart attack
+184|201|blurred vision
 186|109|lethargic
-186|237|diabetic
+186|135|blurred vision
 186|437|diabetes
+187|7|chest pain
 187|37|depression
 187|76|insomnia
-187|454|MS
 187|785|chest pain
 187|920|insomnia
 187|1137|depression
@@ -157,319 +110,200 @@
 193|172|toothache
 193|253|toothache
 193|463|heart attack
-194|8|distress
 196|162|sweating
 196|637|sweating
-199|76|atrophy
-199|85|tendinitis
 199|255|aphasia
 200|51|muscle weakness
 201|46|stroke
 201|153|stroke
-205|54|depression
-205|125|sleeplessness
 205|140|facial paralysis
 205|482|facial paralysis
-205|573|depression
-205|609|paranoia
 205|1060|facial paralysis
-206|125|blurred vision
 209|121|angina
-211|0|insomnia
-212|0|sleeplessness
-215|18|depressed state
-215|78|unable to walk
 217|539|infection
 218|572|fatty liver
-221|90|atrophy
 221|132|clumsiness
-221|304|ALS
 221|444|nerve damage
-222|336|sleeplessness
-225|362|diabetes
-226|117|depression
+222|556|tendonitis
+222|567|sciatica
 226|138|eyes swollen
 228|52|loss of taste
-229|25|depression
+228|128|taste perversion
 229|178|irritable
 233|0|lethargy
 234|80|brain tumor
 237|210|eye pain
+239|208|depression
 241|35|tennis elbow
+244|7|cancer
 244|18|ALS
-244|143|muscle weakness
 244|183|ALS
-247|89|hives
+247|141|muscle atrophy
 247|148|atrophy
 253|147|hoarseness
-253|159|slurred speech
-253|615|slurred speech
+257|124|irritable
 258|6|muscle weakness
-258|27|nerve damage
 258|103|aphasia
 258|904|aphasia
 259|646|stroke
-260|63|muscle weakness
-260|127|blurred vision
-261|87|unable to walk
 262|221|TEN
-266|20|taste perversion
 266|48|suicidal depression
-266|57|depression
-266|81|paranoia
-268|249|sleeplessness
 269|381|hoarse voice
-269|394|chest pain
-269|460|irregular periods
 269|487|uterine bleeding
 269|571|anemia
 269|1153|kidney failure
-271|35|lack of motivation
+270|0|muscle weakness
 272|118|muscle weakness
 282|85|tennis elbow
 282|167|hypotension
 282|237|fainting
-284|58|lethargy
-284|104|irritability
-284|132|depression
-289|107|chest pain
-295|37|lack of motivation
-295|324|stupor
-297|919|depression
-300|140|high temperature
-301|15|chest pain
+291|0|muscle weakness
+292|657|heart attack
 301|27|muscle weakness
 302|456|heart attack
-304|31|depression
 306|475|MS
-310|175|sweating
-310|240|irritable
 311|7|achilles tendonitis
 311|16|tendonitis
 314|190|constipation
-316|26|blurry vision
-318|1048|chest tightness
-319|141|muscle wasting
-319|148|wasting
+315|109|blurred vision
+321|117|unable to walk
 322|0|muscle weakness
+323|0|depression
 323|64|insomnia
 323|92|major depression
 323|98|depression
+323|213|depression
 323|277|insomnia
 323|343|major depression
 323|349|depression
 323|451|depression
 323|724|depression
+327|594|diabetes
 327|780|HAV
 327|1041|HAV
 327|1089|HAV
-328|184|heart attack
 328|267|chest pain
-330|75|dry eyes
 334|23|night sweats
-334|190|ALS
-334|195|MS
 335|381|heart attack
 336|25|sleepy
 336|275|overweight
 341|722|heart attack
 346|12|constipation
 346|173|constipation
+351|139|heart attack
 351|248|bypass surgery
-352|260|brain tumor
-356|452|frequent bowel movements
 358|254|depression
-358|1170|diabetes
 359|972|tendonitis
-361|190|depression
-364|0|muscle weakness
 365|850|heart attack
 365|1853|heart attack
 367|91|shivers
 372|59|heart attack
 372|76|stroke
-375|110|tendonitis
+374|78|bell's palsy
+374|384|bell's palsy
 377|69|depression
-377|119|insomnia
-377|470|insomnia
 379|32|insomnia
-381|125|unable to walk
-382|195|hypothyroidism
-382|567|hypothyroidism
-384|105|poor sleep
 387|107|double vision
-388|61|irritability
-389|135|sciatica
 389|735|stroke
-390|0|depression
-390|34|muscle weakness
-391|44|hunger
 394|90|ALL
 396|10|constipation
-399|583|gout
-400|103|screaming
 400|251|tendonitis
-406|24|fatty liver
 411|50|lack of motivation
 412|11|depression
 412|68|crying
-412|830|bipolar disorder
 413|65|depression
 413|419|depression
-415|19|muscle weakness
 415|192|polymyositis
 415|466|ALL
-418|259|crawling
-419|15|chest pain
+415|556|polymyositis
 419|89|panic attack
-423|24|loss of libido
-426|22|depression
-429|9|depression
-429|21|panic attacks
-429|51|arrhythmia
 435|102|migraine
 436|165|cold sweat
-445|45|pale
-447|19|constipation
 447|47|anger
 457|591|constipation
-460|74|depression
-460|131|sinus congestion
+457|796|cancer
 460|166|lack of motivation
 465|1140|ALS
 467|154|suffering
 473|186|tendonitis
-476|14|sedation
-476|24|bed wetting
 479|236|crying
 481|269|insomnia
-485|24|insomnia
 488|148|depression
-490|0|blurred vision
+493|550|amyotrophic lateral sclerosis
 495|356|suffering
-498|66|muscle atrophy
-498|73|atrophy
 500|704|fear
 501|7|depression
-504|19|nerve damage
+501|181|depression
 505|5|constipation
-506|82|parkinson's disease
-506|277|parkinson's disease
+507|0|depression
 507|62|irritable
-507|92|insomnia
-511|68|insomnia
-511|116|depression
+507|1279|depression
 515|370|diabetes
-518|266|bladder infection
-518|274|infection
 519|13|heart attack
-521|305|coronary disease
 530|0|muscle weakness
 530|24|nerve damage
-531|229|upper respiratory infection
-531|235|respiratory infection
-531|247|infection
-533|0|tendonitis
 536|120|muscle weakness
-536|140|depression
-537|169|difficulty sleeping
-537|228|sweating
 538|30|chest tightness
-539|111|ALS
+539|35|slurred speech
 541|110|depression
 544|55|muscle atrophy
-544|62|atrophy
-546|1119|depression
 546|1227|tinnitus
-546|1247|taste loss
-546|1259|dry eyes
-546|1293|hypertension
 546|1404|tinnitus
-546|1504|depression
-546|2356|sinus infection
-546|2362|infection
 546|3226|tinnitus
-548|160|insomnia
-548|170|sweating
 548|221|depression
+548|347|constipation
 548|513|MS
 551|256|sweating
-551|288|diabetes
-564|222|depression
 564|760|suffering
 566|29|heart attack
-566|146|muscle weakness
 566|696|heart attack
-568|159|depression
-569|1060|heart attack
+570|40|hair dryness
 570|158|hair dryness
 571|13|depression
-571|36|fainting
 571|65|panic attacks
 571|323|depression
 571|365|depression
 571|392|panic attacks
 574|352|panic attack
-575|149|heart attack
+575|0|stroke
 575|240|stroke
 575|384|stroke
-576|15|insomnia
-576|265|insomnia
 576|304|tinnitus
 578|148|ringing in ears
-583|24|depression
-588|139|muscle weakness
+582|82|muscle weakness
+590|129|glossitis
 590|395|glossitis
 590|580|glossitis
 591|80|tendon pain
 592|166|clumsiness
-592|301|depression
+592|396|multiple sclerosis
 596|235|ALL
 597|8|depression
-597|30|insomnia
-598|41|muscle weakness
+597|40|irrational
 603|581|clumsiness
 604|0|depression
+604|59|depression
 604|164|depression
 604|262|heart attack
 605|48|depression
 614|706|wasting
-616|0|depression
-616|37|taste loss
-616|49|insomnia
-617|134|gout
-617|186|gout
 619|423|tendonitis
 619|437|avascular necrosis
 619|881|heart attack
-620|104|chest pain
 620|524|heart attack
-622|122|muscle weakness
-622|139|depression
-623|57|chest pain
-623|88|depression
+621|95|insomnia
+621|105|constipation
 631|77|sexual dysfunction
-641|157|fatty liver
-641|190|goiter
 643|50|muscle weakness
 643|532|muscle weakness
-646|1590|overweight
+646|886|depression
 652|220|feverish
-654|7|wasting
-654|45|anorexic
-654|189|wasting
 654|252|muscle weakness
 656|323|ALS
 663|357|heart attack
 663|572|heart attack
 665|599|irrational
 665|787|constipation
-666|46|irritability
-668|165|diabetes
-669|165|diabetes
-672|31|muscle weakness
-672|48|depression
-672|403|slurred speech
 672|515|ALS
 672|527|ALS
 672|586|ALS
@@ -484,172 +318,113 @@
 687|361|muscle weakness
 690|63|ALL
 690|137|ALL
-691|163|depression
 692|17|muscle weakness
 694|778|depression
-695|78|depression
+695|129|constipation
 703|72|depression
+703|138|fever
+703|161|insomnia
 703|769|overweight
 703|1027|suffering
 707|133|diabetic
 709|42|insomnia
 710|465|heart attack
-715|203|depression
-718|269|constipation
+712|40|muscle weakness
+718|168|insomnia
 720|5|blurred vision
 720|195|blurry vision
 723|0|depression
 723|282|depression
-726|43|depression
-730|570|irritable
-730|687|migraine
+727|299|constipation
 730|946|prostate cancer
 730|955|cancer
-734|29|blurry vision
-735|10|blurry vision
 736|138|chest pain
-737|88|constipation
 737|147|stroke
 737|247|stroke
-738|125|blurred vision
-739|281|diabetic
 739|683|MS
 747|8|muscle weakness
 750|83|gout
 750|192|gout
 759|328|ALL
-762|92|insomnia
+761|85|difficulty sleeping
 762|115|unable to focus
 762|355|alarm
 766|45|syncope
-766|57|hypertension
-766|253|periorbital edema
-766|281|lack of libido
-775|326|bone cancer
-775|331|cancer
 776|52|depression
 776|116|depression
-777|332|night sweats
 778|59|muscle weakness
-785|158|diabetic
-785|663|parvovirus infection
-785|674|infection
-787|924|fever
-787|1034|acute kidney failure
-787|1040|kidney failure
+785|639|lyme disease
 787|1119|liver failure
-788|217|overweight
 789|75|depression
 792|69|irritability
 792|311|suffering
 793|297|suffering
-795|73|lethargic
 796|63|diabetes
 796|371|falling out
-798|90|depression
-798|274|MS
-800|100|insomnia
+800|110|poor concentration
 803|17|tennis elbow
-810|37|depression
-811|86|depression
 812|92|bad taste
 815|59|constipation
-815|118|insomnia
-818|8|diabetic
-818|100|bypass surgery
 818|481|limping
-819|175|blurred vision
 820|48|gout
 821|319|suffering
 822|158|ALL
 822|219|ALL
 824|974|heart attack
-825|0|depression
-825|12|sleeplessness
-825|27|muscle weakness
 827|539|suffering
 827|611|amyotrophic lateral sclerosis
 830|25|ALL
-834|28|tunnel vision
-834|286|stroke
 837|14|epilepsy
 843|0|sleepy
 845|206|hyper
 847|108|muscle weakness
 853|142|depression
-856|414|pain in spine
 856|904|bursitis
 856|960|suffering
-859|335|pain in spine
 859|825|bursitis
 859|881|suffering
-860|794|irritable
 861|35|muscle weakness
 861|192|muscle weakness
 866|825|cancer
-868|40|anorexia
-870|689|stroke
-873|160|unable to walk
-873|235|depression
 873|864|fear
-874|17|depression
 878|43|suffering
-878|105|blurred vision
 878|203|ALL
 883|30|heart attack
 885|372|angina
+886|37|sciatica
 887|629|tendonitis
 887|718|suffering
 894|102|CHF
 898|356|heart attack
 902|0|depression
 902|124|depression
-903|0|muscle weakness
-904|150|insomnia
 909|457|ALL
 909|926|ALL
 911|154|depression
+914|110|depression
+914|122|difficulty sleeping
 918|61|screaming
 922|134|fatty liver
-925|16|aphasia
+922|218|diabetes
 925|33|violent
-925|41|anger
 925|61|insomnia
-925|71|muscle weakness
-926|37|sleep disturbances
+925|200|insomnia
 926|1198|heart attack
-927|120|constipation
-927|134|sleep disturbance
-927|153|mood change
-927|166|rage
+927|0|kidney failure
 927|289|kidney failure
 927|485|kidney failure
 927|863|kidney failure
 931|24|depression
-931|39|irritable
-933|109|depression
-934|60|muscle weakness
-934|135|tachycardia
 935|185|ALS
 935|846|ALS
-939|51|fever
-939|75|fever
-939|236|diabetic
-941|5|depression
-941|17|insomnia
 943|31|groggy
 944|73|dry eyes
 944|354|constipation
 944|401|dry eyes
 946|370|crying
-951|63|insomnia
-951|161|depression
-954|180|falling out
 956|145|seizure
 959|37|insomnia
-963|27|insomnia
-966|180|suffering
-968|95|difficulty sleeping
+965|102|tinnitus
 972|114|cancer
 972|332|cancer
 972|359|cancer
@@ -658,23 +433,13 @@
 972|1082|cancer
 972|1449|cancer
 972|1589|cancer
-973|36|sleep loss
 974|26|loss of libido
-976|21|insomnia
-977|36|insomnia
 977|68|frozen shoulder
-979|36|mental distress
-979|43|distress
-982|10|insomnia
-982|43|depression
 984|190|stroke
 984|201|heart attack
 985|20|depression
 985|314|depression
 992|0|muscle wasting
 992|7|wasting
-992|452|gout
-995|41|panic attacks
 995|260|depression
-998|0|impotence
 999|26|chest pain

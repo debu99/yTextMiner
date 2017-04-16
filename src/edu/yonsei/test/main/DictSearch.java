@@ -1,5 +1,9 @@
 package edu.yonsei.test.main;
 
+
+import java.util.*;
+import java.util.regex.Pattern;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -69,9 +73,6 @@ public class DictSearch {
 		
 		System.out.println("dictSize="+dictSize);		
 		
-		/*for (String[] dictItem : dictList){
-			System.out.println("dictItem.toString()="+String.join(" ", dictItem));			
-		}*/
 			
 		
 		
@@ -81,60 +82,26 @@ public class DictSearch {
         System.out.println("Time: " + (end - start)/1000+"s"); 
         
         
-        /*start = Calendar.getInstance().getTimeInMillis();  
-		System.out.println("--- START initialize wordnet---");
-		//initDict();
-		System.out.println("--- END initialize wordnet---");
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); */
-		
         
         
         start = Calendar.getInstance().getTimeInMillis();  
+        searchDict("CATAFLAM",1,10,dictList);
 		searchDict("ZIPSOR",1,5,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-        
-        start = Calendar.getInstance().getTimeInMillis();  
 		searchDict("VOLTAREN",1,46,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-
-        start = Calendar.getInstance().getTimeInMillis();  
 		searchDict("VOLTAREN-XR",1,22,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-
-        start = Calendar.getInstance().getTimeInMillis();  
-		searchDict("ARTHROTEC",1,145,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-
-        start = Calendar.getInstance().getTimeInMillis();  
+		searchDict("ARTHROTEC",1,145,dictList);        
         searchDict("SOLARAZE",1,3,dictList);
         searchDict("PENNSAID",1,4,dictList);
         searchDict("FLECTOR",1,1,dictList);
         searchDict("CAMBIA",1,4,dictList);
         searchDict("CATAFLAM",1,10,dictList);
         searchDict("DICLOFENAC-POTASSIUM",1,3,dictList);
-        searchDict("DICLOFENAC-SODIUM",1,7,dictList);
-        end = Calendar.getInstance().getTimeInMillis();
-        System.out.println("Time: " + (end - start)/1000+"s"); 
-        
-
-        start = Calendar.getInstance().getTimeInMillis();  
+        searchDict("DICLOFENAC-SODIUM",1,7,dictList); 
         searchDict("LIPITOR",1,1000,dictList);
         end = Calendar.getInstance().getTimeInMillis();
         System.out.println("Time: " + (end - start)/1000+"s"); 
         
         
-		//ArrayList dictList = new ArrayList();
-		//dictList = Dict2Array();
-		
-		//System.out.println(dictList.toString());
-		
 	}
 	
 	public static boolean isAlpha(String str) {
@@ -147,16 +114,6 @@ public class DictSearch {
 	}
 	
 
-	public static ArrayList<Integer> getIndexOf( String text, String str  ){
-		ArrayList<Integer> res = new ArrayList<Integer>();
-		int index = text.indexOf(str);
-		while(index >= 0) {
-			res.add(index);
-			index = text.indexOf(str, index+1); 
-		}
-		
-	     return res;
-    }
 	
 	/*public static ArrayList<Integer> getIndexOf( String[] strings, String str  ){
 	     ArrayList<Integer> res = new ArrayList<Integer>();
@@ -219,29 +176,45 @@ public class DictSearch {
 		return dictItemIndex;
 		
 	}
+
+	public static ArrayList<Integer> getIndexOf( String text, String str  ){
+		ArrayList<Integer> res = new ArrayList<Integer>();
+		int index = text.indexOf(str);
+		while(index >= 0) {
+			res.add(index);
+			index = text.indexOf(str, index+1); 
+		}
+		
+	     return res;
+    }
 	
 	
 	private static HashMap<Integer,String> returnMatch(String text, String dictStr){
-		String regStr=dictStr.replace("(", "\\(").replace(")", "\\)");
-		Pattern HEYPATTERN1 = Pattern.compile(".*\\b"+regStr+"\\b.*");
+		String regStr=dictStr.replaceAll("([^a-zA-Z0-9 ])", "\\\\$1");
+
+		Pattern HEYPATTERN1 = Pattern.compile(".*\\s"+regStr+"\\s.*", Pattern.DOTALL);
+		Pattern HEYPATTERN2 = Pattern.compile("[^a-zA-Z0-9 ]*"+regStr+"\\s.*", Pattern.DOTALL);
+		Pattern HEYPATTERN3 = Pattern.compile(".*\\s"+regStr+"[^a-zA-Z0-9 ]*", Pattern.DOTALL);
+		Pattern HEYPATTERN4 = Pattern.compile(".*[^a-zA-Z0-9 ]"+regStr+"[^a-zA-Z0-9 ].*", Pattern.DOTALL);
 		
+		//System.out.println("text="+text);
 		HashMap<Integer,String> ret = new HashMap<Integer,String>();
-		
-		if(HEYPATTERN1.matcher(text).matches()) {
-			ArrayList<Integer> res = getIndexOf(text,dictStr);
-			if(!res.isEmpty()){
-				for(int i : res){
-					ret.put(i,dictStr);
-					//System.out.println(z+ "|" + i + "|" + dictStr+"|i="+j);  
-					//out.write(z+ "|" + i + "|" + dictStr+"|dict_row="+j+"\r\n"); 					
-				}
-			}					
-			return ret;
-		}else{
-			return null;
+
+		//System.out.println("dictStr="+dictStr);
+		if(HEYPATTERN1.matcher(text).matches()||HEYPATTERN2.matcher(text).matches()||HEYPATTERN3.matcher(text).matches()||HEYPATTERN4.matcher(text).matches()) {
+			System.out.println("Found="+dictStr);
+			//ArrayList<Integer> res = getIndexOf(text,dictStr);
+
+			int index = text.indexOf(dictStr);
+			while(index >= 0) {
+				//res.add(index);
+				ret.put(index,dictStr);
+				index = text.indexOf(dictStr, index+1); 
+			}
 		}
+
 		
-		
+		return ret;
 	}
 	
 	private static void searchDict(String drugName,int startNumber, int endNumber,ArrayList<String> dictList) throws FileNotFoundException, Exception {
@@ -262,30 +235,39 @@ public class DictSearch {
 
 			
 			String src = readFile("data/corpus/"+drugName+"."+z+".txt", Charset.defaultCharset());	
-			String text = src.toLowerCase();
+			
 			//System.out.println("text="+text);
 			
 			
 			
 			//int j=0;
+			String text;
 			HashMap<Integer,String> matchedHM = new HashMap<Integer,String>();
+			
 			for (String dictItem : dictList) {
-				String dictStr = null;
+				String dictStr=null;
 				if(dictItem.toUpperCase().equals(dictItem)){
-					dictStr = dictItem;
-					text = src;
+					dictStr = dictItem.trim();
+					text = src.trim();
 				}else{
-					dictStr = dictItem.toLowerCase();
+					dictStr = dictItem.trim().toLowerCase();
+					text = src.trim().toLowerCase();
 				}
 
-				if(dictStr.length()>text.length()) {
+				if(dictStr.isEmpty()||dictStr.equals("")||dictStr.length()>text.length()) {
 					continue;
 				}
 				
+
+					
+					
 				HashMap<Integer,String> tempHM = returnMatch(text,dictStr);
-				
+
 				if(tempHM!=null){
 					matchedHM.putAll(tempHM);
+				}else{
+					continue;
+					//System.out.println("tempHM is null");
 				}
 				
 				/*String regStr=dictStr.replace("(", "\\(").replace(")", "\\)");
@@ -307,11 +289,11 @@ public class DictSearch {
 				//j++;
 			}
 			
-
+			//System.out.println("matchedHM="+matchedHM.toString());
 
 			matchedHM.values().remove(null);
 			Map<Integer, String> map = new TreeMap<Integer, String>(matchedHM); 
-	        System.out.println("After Sorting:");
+	        //System.out.println("After Sorting:");
 	        
 	        Iterator iterator2 = map.entrySet().iterator();
 	        while(iterator2.hasNext()) {

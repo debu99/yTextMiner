@@ -45,12 +45,14 @@ public class ADR_DictSearch {
 
 		System.out.println("--- START initialize dict---");
 		
-		HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr1.txt");
-		String outFileNamePrefix="data/corpus/_dict_adr1_";
+		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr1.txt");
+		//String outFileNamePrefix="data/corpus/_dict_adr1_";
 		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr2.txt");
 		//String outFileNamePrefix="data/corpus/_dict_adr2_";
 		//HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_symptom.txt");
 		//String outFileNamePrefix="data/corpus/_dict_symptom_";
+		HashMap<Integer, String> dictHashMap = Dict2HashMap("data/corpus/_dict_adr3.txt");
+		String outFileNamePrefix="data/corpus/_dict_adr3_";
 		
 		int dictSize = dictHashMap.size();
 		System.out.println("dictSize="+dictSize);		
@@ -130,7 +132,7 @@ public class ADR_DictSearch {
 		
 		int tokenLength=0;		
 		
-		for(Token token : sent){			
+		for(Token token : sent){				
 			String wordToken = token.getToken();
 			
 			int m = text.indexOf(wordToken,tokenLength);

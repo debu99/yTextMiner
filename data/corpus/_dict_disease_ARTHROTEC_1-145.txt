@@ -1,18 +1,12 @@
-1|36|blurred vision
 2|50|hunger
+3|0|constipation
 3|344|constipation
-4|227|endometriosis
 7|548|tachycardia
-13|209|vaginal bleeding
+10|0|hunger
 15|128|tendon pain
 16|671|vaginal bleeding
 17|576|anemia
-21|105|vaginal bleeding
-22|27|sweating
-22|52|vaginal bleeding
 22|130|migraine
-25|15|hunger
-25|52|vaginal bleeding
 25|180|suffering
 29|0|vaginal bleeding
 29|183|endometriosis
@@ -20,59 +14,31 @@
 30|173|vaginal bleeding
 30|628|vaginal bleeding
 31|65|hunger
-31|133|irritable
 31|341|GERD
 38|49|constipation
 38|89|hot flashes
-38|105|night sweats
-38|119|blurred vision
-38|135|irritability
-38|149|chest discomfort
 41|145|hunger
 41|731|fear of falling
-41|842|clammy
 41|916|hunger
-42|146|blurred vision
-42|1133|hot flashes
-43|124|urinary incontinence
-43|132|incontinence
-46|26|dry eyes
 47|32|hunger
-59|7|vaginal bleeding
 59|162|sweating
-59|494|vaginal bleeding
 62|614|infection
-63|7|vaginal bleeding
 63|163|sweating
-63|495|vaginal bleeding
 64|136|drowsiness
-65|65|hot flashes
-65|78|vaginal bleeding
-65|104|constipation
-67|48|irritability
-67|85|visual disturbances
-68|472|spinal pain
-71|90|fainting
-76|20|increased appetite
+71|78|cold sweat
+75|0|vaginal bleeding
 85|328|heart attack
 85|344|stroke
 89|50|vaginal bleeding
-90|122|vaginal bleeding
 93|327|fear
 94|174|vaginal bleeding
-97|62|fluid retention
 99|52|faint
 99|94|faint
 100|48|vaginal bleeding
-101|90|depression
-104|20|constipation
 110|36|uterine cramps
-112|44|constipation
-120|128|cold sweat
 120|373|vaginal bleeding
-124|43|constipation
 125|82|vaginal bleeding
 126|687|suffering
+134|9|constipation
 137|306|hot flashes
 140|230|tendonitis
-144|53|hunger

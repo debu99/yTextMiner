@@ -14,7 +14,34 @@ public class Test
         int n = 1;
         int length = (int)(Math.log10(n)+1);
         
-        System.out.println("len="+length);
+        String dictstr="GERD";
+        String text="adfas\n asf (GERD) asfsad\nbb";
+        //dictstr = dictstr.replaceAll("([^a-zA-Z0-9 ])", "\\\\$1");
+        //System.out.println("new str="+dictstr);
+        //text = text.replaceAll("([^a-zA-Z0-9 ])", "\\\\$1");
+        //System.out.println("new text="+text);
+        //dictstr=dictstr.replace("(", "\\(").replace(")", "\\)");
+        dictstr = dictstr.replaceAll("([^a-zA-Z0-9 ])", "\\\\$1");
+        System.out.println("new str="+dictstr);
+		Pattern HEYPATTERN1 = Pattern.compile(".*\\s"+dictstr+"\\s.*", Pattern.DOTALL);
+		Pattern HEYPATTERN2 = Pattern.compile("[^a-zA-Z0-9 ]*"+dictstr+"\\s.*", Pattern.DOTALL);
+		Pattern HEYPATTERN3 = Pattern.compile(".*\\s"+dictstr+"[^a-zA-Z0-9 ]*", Pattern.DOTALL);
+		Pattern HEYPATTERN4 = Pattern.compile(".*[^a-zA-Z0-9 ]"+dictstr+"[^a-zA-Z0-9 ].*", Pattern.DOTALL);
+        
+        /*
+        String pattern1 = "(.*\\w*)("+dictstr+")(\\w*.*)";
+        String pattern2 = "(.*\\w*)("+dictstr+")\\$";
+		Pattern HEYPATTERN1 = Pattern.compile(pattern1);
+		Pattern HEYPATTERN2 = Pattern.compile(pattern2);*/
+		
+		System.out.println("1="+HEYPATTERN1.matcher(text).matches());
+		System.out.println("2="+HEYPATTERN2.matcher(text).matches());
+		System.out.println("3="+HEYPATTERN3.matcher(text).matches());
+		System.out.println("4="+HEYPATTERN4.matcher(text).matches());
+		//System.out.println("2="+HEYPATTERN2.matcher(text).matches());
+		
+        
+        //System.out.println("len="+length);
         
         /*
             Map<String, String> map1 = new HashMap<String, String>();

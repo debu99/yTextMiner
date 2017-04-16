@@ -1,5 +1,4 @@
-3|35|drowsiness
 4|22|drowsiness
 4|106|drowsiness
-6|6|gut pain
+9|201|endometriosis
 10|44|distress

@@ -1,6 +1,8 @@
+2|73|bladder infection
+2|81|infection
+2|188|bladder infection
+2|196|infection
 3|7|vaginal bleeding
 3|194|sweating
 3|526|vaginal bleeding
 5|32|drowsiness
-6|173|drowsiness
-7|421|respiratory failure

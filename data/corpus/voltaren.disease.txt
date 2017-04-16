@@ -1,0 +1,16 @@
+acute gastritis     
+arthritis      
+asthmatic      
+degenerative disk     
+diverticulitis      
+gastritis      
+gout      		yes
+High blood pressure    
+IBS      
+plantar fasciitis     
+reflux      
+sinus infection  	yes   
+slipped vertabrae     
+stomache ulcers     
+strained meniscus     
+tendonitis      	yes
